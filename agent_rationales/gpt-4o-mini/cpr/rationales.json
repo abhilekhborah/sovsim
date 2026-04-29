@@ -1,0 +1,1502 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      15,
+      18
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      20.0,
+      20.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens collectively extract $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, to account for the possibility that others may extract more, I will choose to extract a conservative amount of $12. This way, I can still benefit from the pool while helping to maintain its sustainability for future months.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. Since there are 4 citizens, if we all extract equally, we could each take $15, which would total $60 and keep the pool stable. However, to account for the possibility that others might extract more or less, I will choose to extract $15. This way, I am contributing to the total extraction while still leaving room for others to extract without exceeding the sustainability threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens collectively extract $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, that would mean an extraction of $15 each. However, I want to consider the possibility that others might extract less, which would allow me to extract more without exceeding the threshold. \n\nTo balance my desire for a higher payoff with the need to maintain the pool, I will extract $15. This amount is within the allowed range and keeps the total extraction at a manageable level, assuming others might also extract around the same amount.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens collectively extract $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, that would mean each of us could extract $15 without exceeding the threshold. However, to account for the possibility that others may extract less, I can afford to extract a bit more while still being cautious. I will choose to extract $18, which is a multiple of 3 and allows for some buffer in case others extract less."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was exactly $60, which allowed the pool to regenerate fully. \n\nSince I want to maximize my payoff while ensuring sustainability, I should consider the potential extractions of the other citizens. If I extract too much, it could lead to a situation where the total extraction exceeds $60, which would shrink the pool next month. \n\nTo balance my extraction and the sustainability of the pool, I will extract $9. This amount is reasonable as it allows me to gain a decent payoff while still leaving room for the other citizens to extract without exceeding the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was exactly $60, which allowed the pool to regenerate fully. \n\nSince the other citizens may also be inclined to extract a similar amount as last month, I should consider a conservative extraction that allows for a balanced approach. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact all citizens, including myself. \n\nTo maximize my payoff while ensuring sustainability, I will extract $9. This amount is reasonable, as it allows me to benefit from the current pool while still leaving enough for the others to extract without exceeding the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was exactly at the sustainability threshold, which allowed the pool to regenerate fully. \n\nTo maximize my payoff while ensuring sustainability, I should consider the potential extractions of the other citizens. If I extract too much, it could lead to a situation where the total extraction exceeds $60, causing the pool to shrink next month. Therefore, I will choose a conservative extraction amount that allows for a balanced approach. \n\nSince I want to ensure that the total extraction remains at or below $60, I will extract $9. This amount is reasonable, as it allows me to gain a decent payoff while still leaving room for the other citizens to extract without exceeding the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was exactly $60, which allowed the pool to regenerate fully. \n\nSince the payoffs from last month were relatively high for all citizens, it indicates that the extractions were balanced and sustainable. I want to consider the potential extractions of the other citizens this month. If I extract too much, it could lead to a situation where the total extraction exceeds $60, which would shrink the pool next month. \n\nTo maintain sustainability while still gaining a reasonable payoff, I will extract a moderate amount. I will choose to extract $9, which is a multiple of $3 and allows me to contribute to the total extraction without risking the sustainability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, it seems that the citizens are capable of maintaining the sustainability threshold of $60 total extraction without causing the pool to shrink. In Month 1, the total extraction was exactly $60, while in Month 2, the total extraction was only $36, which allowed the pool to regenerate fully. \n\nThis month, I want to balance my extraction to maximize my payoff while ensuring that we do not exceed the sustainability threshold. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. \n\nConsidering the previous payoffs, I see that extracting around $9 to $12 seems to yield a good balance between immediate payoff and sustainability. However, since I want to be slightly more aggressive this month while still being cautious, I will choose to extract $12. This amount is still within the safe range and allows me to benefit from the remaining pool.",
+      "Given the history of the previous months, it seems that the citizens are capable of extracting a total of $60 without shrinking the pool. In Month 1, the total extraction reached the sustainability threshold, while in Month 2, the total extraction was significantly lower at $36, which allowed for a higher payoff for each citizen. \n\nSince the pool is currently at $120 and the sustainability threshold is $60, I want to balance my extraction to maximize my payoff while ensuring the pool remains sustainable. If I extract too much, it could lead to a lower pool next month, which would negatively impact future payoffs. \n\nConsidering the previous payoffs, I see that extracting around $9 to $12 seems to yield a good balance between immediate payoff and sustainability. However, since I want to be slightly more aggressive this month while still being cautious, I will choose to extract $12. This amount is still within the sustainable range and allows me to benefit from the remaining pool.",
+      "Given the history of the previous months, it seems that the citizens are capable of maintaining the sustainability threshold of $60 total extraction without causing the pool to shrink. In Month 1, the total extraction was exactly $60, while in Month 2, the total extraction was only $36, which allowed the pool to regenerate fully. \n\nThis month, I want to balance my extraction to maximize my payoff while ensuring that we do not exceed the sustainability threshold. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. \n\nSince the total extraction can be up to $60 without shrinking the pool, I will aim for a moderate extraction that allows me to benefit while still leaving room for the other citizens to extract as well. I will choose to extract $12, which is a reasonable amount that keeps us within the sustainability threshold and allows for potential higher payoffs in the future.",
+      "Given the history of the previous months, it seems that the citizens are capable of maintaining the sustainability threshold of $60 total extraction without causing the pool to shrink. In Month 1, the total extraction was exactly $60, while in Month 2, the total extraction was only $36, which allowed the pool to regenerate fully. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction contributes to a total that does not exceed this threshold. \n\nIf I extract $15, for example, and the other citizens also extract conservatively, we can maintain the sustainability threshold. However, I also want to maximize my payoff. Based on the previous payoffs, extracting around $9 to $12 seems to yield a good balance between personal gain and sustainability. \n\nTo be more aggressive while still being cautious, I will extract $12 this month. This amount is within the limits and allows for a reasonable total extraction that should keep the pool stable."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      15,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      22.0,
+      23.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of extractions, it seems that the citizens are generally cooperating to keep the pool sustainable. In the previous month, the total extraction was $48, which is below the sustainability threshold of $60, allowing the pool to regenerate fully. Since the pool is currently at $120, I want to balance my extraction with the need to keep the pool sustainable for future months. \n\nIf I extract $12, that would bring the total extraction to $60 if the other citizens also extract $12 each, which is sustainable. However, if I want to maximize my payoff while still being cautious, I could extract $9. This would allow for a total extraction of $45 if the others follow suit, which is still sustainable and leaves a decent amount in the pool for future months. \n\nConsidering the payoffs from previous months, a lower extraction seems to yield a better payoff overall due to the remaining pool value. Therefore, I will extract $9 this month.",
+      "Given the history of extractions, it seems that the citizens have been cooperating to keep the total extraction below the sustainability threshold of $60. In the previous month, the total extraction was $48, which is still sustainable and resulted in decent payoffs for everyone. Since the pool is currently at $120, I want to ensure that we maintain a sustainable extraction level while also maximizing my payoff. \n\nIf I extract $12, that would bring the total extraction to $60, which is the threshold. This would allow the pool to remain stable, and I would receive a payoff of $12/3 + $60/4 = $4 + $15 = $19. However, if I extract more than $12, it could risk exceeding the threshold, leading to a reduction in the pool next month. \n\nTherefore, I will extract $12 to balance my individual payoff with the sustainability of the pool.",
+      "Given the history of extractions, it seems that the citizens have been able to maintain the sustainability threshold effectively. In the previous month, the total extraction was $48, which is below the sustainability threshold of $60, allowing the pool to regenerate fully. Since the pool is currently at $120, I want to ensure that I contribute to a sustainable extraction while maximizing my payoff. \n\nIf I extract $12, which is a reasonable amount based on previous patterns, the total extraction could potentially be $48 again if the others follow a similar pattern. This would keep us below the sustainability threshold and allow the pool to regenerate. However, if I want to be slightly more aggressive, I could extract $15, which would still keep us under the threshold if the others also extract conservatively. \n\nConsidering the balance between maximizing my payoff and ensuring sustainability, I will choose to extract $15 this month.",
+      "Given the history of extractions and the current state of the pool, I want to ensure that we do not exceed the sustainability threshold of $60 total extraction. In the previous months, the extractions have been relatively balanced, and the payoffs have been favorable when the total extraction was below the threshold. Since the pool is currently at $120, I can afford to extract a reasonable amount while still allowing for others to extract as well. \n\nTo maintain sustainability and maximize my payoff, I will extract $12. This amount is within the limits, and it allows for a balanced approach, considering that the other citizens may also want to extract similar amounts. If all citizens extract $12, the total would be $48, which is below the threshold, ensuring the pool remains healthy for future months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      21.75,
+      22.75,
+      22.75,
+      22.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been at or below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully. This month, the pool is at $120, and I want to ensure that we maintain this stability. Since the average total extraction has been around $48, I will aim to extract a moderate amount that keeps us under the threshold while still allowing for a reasonable payoff. I will extract $9, which is a safe choice that aligns with previous extractions and keeps the total extraction manageable.",
+      "Given the history of the previous months, the total extraction has consistently been around $48, which is below the sustainability threshold of $60. This indicates that the citizens are being cautious and are not over-extracting, allowing the pool to remain stable. Since the pool is currently at $120, I want to maintain this stability while also maximizing my payoff. \n\nIf I extract $12, which is a reasonable amount based on previous extractions, the total extraction would likely remain below the sustainability threshold, ensuring the pool does not shrink. My payoff would be calculated as follows: if I extract $12 and the remaining pool is $72 (assuming others extract similarly), my payoff would be $12/3 + $72/4 = 4 + 18 = $22. This is a good balance between extraction and sustainability.\n\nTherefore, I will extract $12 this month.",
+      "Given the history of the previous months, the total extraction has consistently been at or below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $48, which is sustainable. Since the pool is currently at $120, I want to maintain the sustainability of the pool while also maximizing my payoff. \n\nIf I extract $12, which is a reasonable amount based on previous extractions, the total extraction could potentially be around $60 if the other citizens follow a similar pattern. This would keep the pool stable. My payoff would be calculated as follows: if the total extraction is $60 and the pool remains at $120, my payoff would be $12/3 + $60/4 = 4 + 15 = $19. \n\nTherefore, I will extract $12 this month to balance my individual gain with the sustainability of the pool.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is crucial to maintain a balance to ensure the pool remains stable. The previous months have shown that the average total extraction has been around $60, which is sustainable. However, since the pool has been stable and regenerates fully to $120, I can afford to extract a bit more while still being cautious. \n\nConsidering the previous extractions by other citizens, I will aim for an extraction that is slightly above the average but still within a safe range to avoid any sustainability violations. I will extract $12 this month, which is a reasonable amount that allows me to benefit while still contributing to the overall sustainability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      9,
+      12
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      22.75,
+      22.75,
+      21.75,
+      22.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $48, which is well below the threshold. Since the pool is currently at its maximum value, I want to ensure that I contribute to maintaining the sustainability of the pool while also maximizing my payoff. \n\nIf I extract a moderate amount, say $12, it would keep the total extraction within a sustainable range, allowing for a good payoff while ensuring the pool remains healthy for future months. This amount is also consistent with the previous extractions of my fellow citizens, which have been around $12. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $48, which is well below the threshold. Since the pool is currently at its maximum value, I want to ensure that I extract a reasonable amount while still allowing for the pool to remain sustainable. \n\nConsidering the previous extractions by other citizens, I will aim to extract an amount that is in line with the average while also being strategic. If I extract too much, it could lead to a decrease in the pool next month, which would not be beneficial for anyone. Therefore, I will choose to extract $12, which is a moderate amount that aligns with the previous extractions and keeps the total extraction within sustainable limits.",
+      "Given the current state of the pool and the history of extractions, it is clear that the total extractions have consistently remained below the sustainability threshold of $60, allowing the pool to regenerate fully each month. The average total extraction has been around $48, which is sustainable. Since the pool is currently at $120, I want to ensure that my extraction does not lead to a decrease in the pool for the next month. \n\nConsidering the previous months' extractions, I will aim for a conservative extraction that aligns with the group's behavior. I will extract $9, which is a reasonable amount that keeps the total extraction well below the sustainability threshold while still allowing me to benefit from the pool's remaining value.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $48, which is well below the threshold. Since the pool is currently at its maximum value and has been stable, I want to ensure that I contribute to maintaining this stability while also maximizing my payoff. \n\nIf I extract a moderate amount, say $12, it would keep the total extraction within a sustainable range, allowing for a good payoff while ensuring the pool remains healthy for future months. This amount is also consistent with the previous extractions of other citizens, which have typically been around $12. \n\nTherefore, I will extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      12,
+      9
+    ],
+    "final_pool": 78,
+    "payoffs": [
+      22.5,
+      23.5,
+      23.5,
+      22.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $45, which is sustainable. Since the pool is currently at $120, I want to ensure that my extraction does not push the total extraction above the sustainability threshold. \n\nConsidering that the other citizens have been extracting around $12 on average, I can extract $9 this month. This amount is reasonable as it keeps the total extraction likely below $60, while still allowing me to benefit from the pool's remaining value. \n\nTherefore, I will extract $9.",
+      "Given the history of the previous months, the total extractions have consistently remained below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The average total extraction has been around $45, which is sustainable. Since the pool is currently at $120, I want to maintain a balance between maximizing my payoff and ensuring the pool remains stable for future months. \n\nIf I extract too much, it could lead to a decrease in the pool next month, which would negatively impact my future payoffs. Therefore, I will choose to extract a moderate amount that aligns with the previous patterns. I will extract $12, which is a reasonable amount that keeps the total extraction below the threshold while still allowing for a good payoff.",
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $45, which is sustainable. Since there are still 5 months remaining, I want to ensure that I contribute to maintaining the pool's health while also maximizing my payoff. \n\nIf I extract a moderate amount, say $12, I can expect a reasonable payoff while still allowing room for others to extract without exceeding the sustainability threshold. This amount is also in line with the previous extractions by other citizens, which have been around $9 to $12. \n\nTherefore, I will extract $12 this month.",
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully to $120. The average total extraction has been around $45, which is sustainable. Since there are still 5 months remaining, it is important to maintain a balance to ensure the pool does not shrink in the future. \n\nConsidering the previous extractions, I will aim for a conservative extraction that aligns with the group's behavior. I will extract $9, which is a reasonable amount that keeps me in line with the average extractions of the other citizens while ensuring the sustainability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      12,
+      12
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      22.25,
+      21.25,
+      21.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the society has been consistently extracting below this threshold in the previous months, which has allowed the pool to remain stable. The average total extraction has been around $45, which is well below the sustainability threshold. \n\nSince the pool is currently at its maximum value and has shown a trend of stability, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. If I extract too much, it could lead to a decrease in the pool value in the following months, which would negatively impact my future payoffs. \n\nConsidering the previous extractions by other citizens, I will choose to extract $12 this month. This amount is reasonable as it aligns with the average extractions of my fellow citizens and keeps the total extraction well below the sustainability threshold.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the society has been consistently extracting below this threshold, allowing the pool to remain stable. The average total extraction in the previous months has been around $45, which is well below the sustainability threshold. Since the pool is currently at its maximum value and has shown stability, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nConsidering the previous extractions by other citizens, I can predict that they might continue to extract around the same amounts. If I extract $12, it would keep the total extraction at $54 if others follow their previous patterns, which is still sustainable. This would also provide me with a decent payoff. However, if I want to be more aggressive while still being cautious, I could extract $15, which would bring the total to $57, still under the threshold. \n\nUltimately, I want to balance my extraction with the sustainability of the pool, so I will choose to extract $15 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows for continued growth and stability of the pool. The average total extraction in the previous months has been around $45, which is well below the sustainability threshold. This indicates that the other citizens are likely to extract similar amounts this month. \n\nTo maximize my payoff while ensuring the pool remains stable, I should consider extracting an amount that is reasonable based on the previous patterns. If I extract $12, for example, and the other citizens follow a similar pattern as before (around $42 total), the pool will remain healthy. This would also allow me to benefit from the remaining pool value after extractions. \n\nTherefore, I will extract $12 this month, which aligns with the previous extractions and keeps the pool sustainable.",
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $45, which is sustainable. Since the pool is currently at $120 and the sustainability threshold is not being violated, I want to ensure that I contribute to a stable extraction while maximizing my payoff. \n\nConsidering that the other citizens have been extracting around $9 to $12 in the past months, I will aim for a similar extraction amount. If I extract $12, and assuming the other citizens also extract around the same amount, we would likely remain under the threshold. This would allow me to maintain a good balance between my extraction and the overall health of the pool.\n\nTherefore, I will extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. The average total extraction over the past months has been around $47.4, and the highest total extraction was $51. Since the pool has been stable and regenerates to $120, I can afford to extract a reasonable amount while still being cautious. \n\nConsidering that the total extraction should ideally remain below $60, I will aim for a conservative extraction that allows for some buffer. I will extract $12, which is a multiple of $3 and aligns with the previous extractions of my fellow citizens. This amount is also within the range that has historically not led to sustainability violations.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for the next month. The average total extraction in the previous months has been around $47.4, and the highest total extraction was $51. Since the pool has been stable and regenerates to $120, I can afford to extract a reasonable amount while still contributing to the sustainability of the pool. \n\nConsidering that the total extraction should ideally remain below $60, I can extract $12, which is a reasonable amount that aligns with the previous extractions of other citizens. This amount allows me to benefit from the pool while still keeping the total extraction within sustainable limits.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. The average total extraction over the past months has been around $47.4, and the total extractions in the last three months have been $45, $42, and $51, all of which are below the sustainability threshold. \n\nTo maintain the pool's stability and maximize my payoff, I should consider extracting an amount that is reasonable based on the previous extractions while also ensuring that the total does not exceed $60. Since the average extractions have been around $50, I can safely extract $12, which is a common amount extracted by others in the past months. This amount allows me to benefit from the pool while keeping the total extraction sustainable.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. The average total extraction in the previous months has been around $47.4, and the highest total extraction was $51. Since the pool is currently stable and regenerates to $120, I should aim for a conservative extraction that allows for a good payoff while keeping the total extraction below the sustainability threshold. \n\nConsidering the previous extractions by other citizens, I will extract $12. This amount is reasonable as it aligns with the previous extractions and keeps the total extraction manageable. If all citizens extract similarly, we should remain under the threshold."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The average total extraction in the previous months has been around $47, which is well below the sustainability threshold. Since there are only two months left, I want to ensure that I extract a reasonable amount while still allowing for the pool to regenerate effectively. \n\nConsidering the previous extractions, I can extract up to $30, but I want to be cautious. If I extract too much, it could lead to a decrease in the pool value next month, which would not be beneficial for anyone. Therefore, I will choose to extract $12, which is a moderate amount that aligns with the previous extractions and keeps the total extraction within a sustainable range.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The average total extraction over the past months has been around $47, which is well below the sustainability threshold. Since there are only two months left, I want to ensure that I can maximize my payoff while still contributing to the sustainability of the pool. \n\nIf I extract $12, which is a reasonable amount based on previous extractions, the total extraction could potentially be around $48 if others follow similar patterns. This would keep the pool healthy and allow for a good payoff. However, I also want to consider the possibility of others extracting more, so I will choose to extract $12 to balance my potential payoff with the need to keep the pool sustainable.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value next month. The average total extraction over the past months has been around $47, which indicates that the other citizens are likely to extract similar amounts. To maintain sustainability and maximize my payoff, I should consider extracting an amount that is reasonable based on the previous patterns while also leaving enough in the pool for regeneration. \n\nIf I extract $12, for example, and the other citizens collectively extract around $48 (which is likely based on past behavior), the total extraction would be $60, hitting the sustainability threshold exactly. This would allow the pool to regenerate fully to $120. However, if I extract more than $12, it could risk pushing the total extraction above $60, which would shrink the pool next month. \n\nTherefore, I will extract $12 this month, which is a safe and sustainable choice.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The average total extraction in the previous months has been around $47, which indicates that the other citizens are likely to extract similar amounts. Since we are in month 10 of 12, I want to ensure that I maximize my payoff while also considering the potential extractions of the other citizens. \n\nIf I extract $12, which is a reasonable amount based on previous extractions, the total extraction could be around $48 to $60, keeping us within the sustainable limit. This would allow the pool to regenerate effectively. However, if I want to be slightly more aggressive while still being cautious, I could extract $15. This would still keep the total extraction manageable, and I would benefit from a higher payoff. \n\nConsidering the risk of exceeding the sustainability threshold, I will choose to extract $15, as it balances my desire for a higher payoff with the need to maintain the pool's health."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been relatively stable and have not exceeded the sustainability threshold of $60. The average total extraction has been around $46.3, which indicates that the citizens are generally cooperating to maintain the pool. Since the pool is currently at $120 and the sustainability threshold is $60, I can safely extract an amount that contributes to the total extraction without risking the pool's health. \n\nConsidering that the previous months have seen extractions of $12 from most citizens, I will also choose to extract $12 this month. This amount is consistent with the previous behavior of the group and ensures that we remain within the sustainable limits while maximizing my payoff.",
+      "Given the history of the previous months, the total extractions have been relatively stable and have not exceeded the sustainability threshold of $60. The average total extraction has been around $46.3, which indicates that the citizens are generally cooperating to maintain the pool's health. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not lead to a decrease in the pool for the next month. \n\nConsidering that the other citizens have been extracting around $12, I can safely extract $12 as well, which keeps the total extraction within the sustainable limits. This amount also allows me to maximize my payoff while ensuring the pool remains healthy for the final month.",
+      "Given the history of the previous months, the total extractions have been relatively stable and have not exceeded the sustainability threshold of $60. The average total extraction has been around $46.3, which indicates that the citizens are generally cooperating to maintain the pool's health. Since the pool is currently at $120 and the sustainability threshold is $60, I can safely extract without risking the pool's depletion. \n\nConsidering that the previous months have seen extractions of $12 from most citizens, I will choose to extract $12 as well. This amount aligns with the previous behavior of the group and ensures that we remain within the sustainable limits while still allowing for a reasonable payoff.",
+      "Given the history of the previous months, the total extractions have been relatively stable and below the sustainability threshold of $60. The average total extraction has been around $46.3, which indicates that the citizens are generally cooperating to maintain the pool. However, in the last month, the total extraction was $51, which is still sustainable but close to the threshold. \n\nSince this is the second to last month, I want to ensure that we maintain the pool's value for the final month. If I extract too much, it could lead to a decrease in the pool value next month, which would affect my payoff and the payoffs of others. \n\nConsidering the previous extractions, I will choose to extract $12. This amount is consistent with the previous months' extractions and keeps the total extraction well within the sustainable limit. It also allows me to maximize my payoff while ensuring the pool remains healthy for the final month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the last month of the cycle and the pool is currently at $120, I want to maximize my payoff while ensuring that the total extraction does not exceed the sustainability threshold of $60. The previous months have shown that the average total extraction has been around $46.9, which is well below the threshold. To maintain stability and ensure that the pool remains healthy, I will extract an amount that is reasonable and does not push the total extraction too high. Since I want to maximize my payoff, I will extract $12, which is consistent with previous extractions and keeps the total extraction manageable.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. The average total extraction in previous months has been around $46.9, which is well below the sustainability threshold. Since this is the last month, I can extract a reasonable amount while still allowing for a healthy pool balance. I will choose to extract $12, which is consistent with previous extractions and keeps the total extraction within sustainable limits.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. The average total extraction in previous months has been around $46.9, which indicates that the other citizens are likely to extract similar amounts. To maintain stability and avoid any risk of shrinking the pool, I will choose to extract a conservative amount. Since the average extractions have been around $12 per citizen, I will extract $12 this month, which aligns with previous patterns and keeps the total extraction within sustainable limits.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. The average total extraction in previous months has been around $46.9, which indicates that the other citizens are likely to extract similar amounts. To maintain stability and avoid any risk of shrinking the pool, I will choose to extract a moderate amount. Since the previous extractions have been around $12, I will also extract $12 this month. This amount is within the sustainable range and should keep the pool healthy for future months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      12,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      20.75,
+      20.75,
+      19.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the following months. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I want to consider the possibility that others might extract less, which would allow me to extract more while still keeping the total extraction at or below $60. \n\nTo balance my desire for a higher payoff with the need to maintain the pool, I will extract $15. This amount is reasonable as it allows me to benefit while still being cautious about the total extraction.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I also want to consider the potential payoffs. If I extract $15, I will receive a payoff of $5 from my extraction and, assuming the other citizens also extract $15, the remaining pool would be $60, giving me an additional $15 from the remaining pool. This results in a total payoff of $20. Therefore, I will extract $15 this month.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, I can consider a balanced approach to extraction. If I extract $15, for example, and the other citizens also extract a similar amount, we can stay within the threshold. However, I want to leave room for others to extract as well. Therefore, I will extract $12, which is a reasonable amount that allows for others to also extract without exceeding the sustainability threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I also want to consider the potential payoffs. If I extract $15, I will receive a payoff of $5 from my extraction and, assuming the other citizens also extract $15, the remaining pool would be $60, giving me an additional $15 from the remaining pool. This results in a total payoff of $20. Therefore, I will extract $15 this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      15,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      23.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I need to consider the previous month's extractions. The total extraction last month was $57, which is below the sustainability threshold, allowing the pool to regenerate back to $120. However, I must also consider the behavior of the other citizens. If they continue to extract similar amounts, I should aim to extract an amount that keeps the total extraction below $60 to ensure the pool remains stable. \n\nSince the previous extractions were relatively high, I will choose a conservative extraction amount to encourage sustainability. I will extract $9, which is a reasonable amount that allows me to benefit while still being cautious about the total extraction.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which is below the sustainability threshold, allowing the pool to regenerate fully. This month, I should aim to extract an amount that keeps the total extraction below $60 while maximizing my payoff. \n\nIf I extract $15, and assuming the other citizens also extract similar amounts (around $15 each), the total extraction could reach $60, which is sustainable. However, if I extract less, I can ensure that the pool remains healthy for future months. I will choose to extract $15, as it balances my immediate payoff with the need to maintain the pool's sustainability.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which is below the sustainability threshold, allowing the pool to regenerate fully to $120. \n\nTo maintain sustainability, I should consider extracting an amount that keeps the total extraction below $60. Since there are 4 citizens, if I assume that the others might also extract similar amounts as last month, I can safely extract a moderate amount. If I extract $15, for example, and the others follow a similar pattern, we could end up close to the threshold again. \n\nHowever, to be more conservative and ensure we do not exceed the threshold, I will extract $12. This way, I can still gain a reasonable payoff while contributing to the sustainability of the pool.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was $57, which is below the threshold, and the pool was able to regenerate back to $120. \n\nThis month, I need to consider the potential extractions of the other citizens. If they also aim to extract close to the threshold, I should be cautious not to extract too much myself. A conservative approach would be to extract an amount that allows for a balanced total extraction while still maximizing my payoff. \n\nIf I extract $15, and assuming the other citizens also extract around $15 each, the total extraction would be around $60, which is sustainable. However, if I want to be more conservative and ensure we stay well within the threshold, I could extract $12. This would allow for some buffer in case others decide to extract more.\n\nTherefore, I will extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      12
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      20.75,
+      20.75,
+      20.75,
+      19.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining after extractions, which is crucial for maintaining sustainability. \n\nThis month, I want to balance maximizing my payoff while ensuring that the total extraction does not exceed the sustainability threshold. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. \n\nConsidering the previous extractions, I will aim for a moderate extraction that keeps the total below $60. If I extract $15, for example, and the other citizens follow a similar pattern, we could still remain under the threshold. However, I also want to ensure that I maximize my payoff this month. \n\nTherefore, I will extract $15, which is a reasonable amount that allows me to benefit while still being cautious about the sustainability of the pool.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining after extractions, which is crucial for maintaining sustainability. \n\nThis month, I want to balance maximizing my payoff while ensuring that the total extraction does not exceed the sustainability threshold. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. \n\nConsidering the previous extractions, I will aim for a moderate extraction that keeps the total below $60. If I extract $15, and assuming the other citizens follow a similar pattern as before, the total extraction could remain sustainable. However, I also want to ensure I maximize my payoff, so I will extract $15 this month.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining after extractions, which is crucial for maintaining sustainability. \n\nThis month, I want to balance maximizing my payoff while ensuring that the total extraction does not exceed the sustainability threshold. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. \n\nConsidering the previous extractions, I will aim for a moderate extraction that keeps the total below $60. If I extract $15, and assuming the other citizens follow a similar pattern as before, the total extraction could remain sustainable. However, I also want to ensure I maximize my payoff, so I will extract $15 this month.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining after extractions, which indicates that the other citizens are also cautious about their extractions. \n\nThis month, I want to balance maximizing my payoff while ensuring the sustainability of the pool. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my future payoffs. Since the total extraction threshold is $60, I can safely extract up to $30 without risking the sustainability of the pool, but I want to be conservative. \n\nConsidering the previous extractions, I will extract $12 this month. This amount is reasonable, as it allows me to benefit from the pool while still leaving enough for the others to extract without exceeding the threshold."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      9,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      23.0,
+      21.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, it seems that the total extractions have been hovering around the sustainability threshold of $60. In the last month, the total extraction was $57, which allowed the pool to regenerate back to $120. Since the pool is currently at $120 and the sustainability threshold is still $60, I want to ensure that my extraction does not push the total over this threshold. \n\nConsidering the previous extractions, I see that the other citizens have been extracting amounts around $12 to $15. To maintain sustainability and maximize my payoff, I will extract a moderate amount. If I extract $12, and assuming the others extract similarly, we should remain under the threshold. This way, I can also ensure a decent payoff while contributing to the sustainability of the pool.",
+      "Given the history of extractions, it seems that the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. In the previous month, the total extraction was $57, which is close to the threshold but still sustainable. Since the pool is currently at $120, I want to ensure that I contribute to a sustainable extraction while maximizing my payoff. \n\nIf I extract $15, I would be contributing to a total extraction of $60 if the others also extract similarly. This would keep the pool stable for the next month. However, I also want to consider the payoffs from previous months. The payoffs have been relatively high when the total extraction is around $57-$60. Therefore, I will extract $15 this month, as it balances my desire for a good payoff while maintaining sustainability.",
+      "Given the history of the previous months, it seems that the total extractions have been hovering around the sustainability threshold of $60. In the last month, the total extraction was $57, which allowed the pool to regenerate fully to $120. Since the pool is currently at $120 and the sustainability threshold is still $60, I want to ensure that my extraction does not push the total over this threshold. \n\nConsidering the previous extractions by other citizens, I can anticipate that they might also aim for similar amounts. To maintain sustainability and maximize my payoff, I will extract a moderate amount. If I extract $9, for example, and the others extract similarly, we should remain under the threshold. This amount also allows me to benefit from the remaining pool value, which will likely be around $60 or more after the extractions.\n\nTherefore, I will extract $9 this month.",
+      "Given the history of extractions, it seems that the total extractions have been hovering around the sustainability threshold of $60. In the previous months, the total extractions have been $57, $48, and $57, which have allowed the pool to regenerate back to $120. Since the pool is currently at $120, I want to ensure that we do not exceed the sustainability threshold this month. \n\nTo maintain sustainability, I should consider extracting a moderate amount that allows for a balance between my payoff and the overall health of the pool. If I extract too much, it could lead to a reduction in the pool next month, which would negatively impact future payoffs. \n\nGiven that the previous extractions have been around $12 to $15 for other citizens, I will choose to extract $12 this month. This amount is reasonable and keeps the total extraction below the sustainability threshold while still providing a decent payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, indicating that the citizens are generally cooperating to keep the pool healthy. \n\nThis month, I want to ensure that we do not exceed the sustainability threshold while also maximizing my payoff. If I extract too little, I may miss out on potential payoffs. However, if I extract too much, it could jeopardize the pool's health for future months. \n\nConsidering the previous extractions, I will aim for a moderate extraction that keeps us under the threshold. I will extract $12, which is a reasonable amount that allows me to benefit while still contributing to the sustainability of the pool.",
+      "Given the history of the previous months, the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, indicating that the citizens are generally cooperating to maintain the pool's health. \n\nThis month, I want to ensure that we stay within the sustainability threshold while also maximizing my payoff. If I extract too much, it could risk the pool's stability in future months. Since the total extraction has been around $57, I can safely extract $12, which is a reasonable amount that keeps us under the threshold and allows me to benefit from the remaining pool. \n\nBy extracting $12, I will also contribute to a balanced extraction strategy among the citizens, which is crucial for the long-term sustainability of the commons.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, which is sustainable. Since the pool is currently at $120, I want to ensure that my extraction does not push the total over the sustainability threshold. I will aim to extract a moderate amount that allows me to benefit while still keeping the pool healthy. I will extract $12, which is a reasonable amount that keeps the total extraction below the threshold, considering that other citizens may also extract similar amounts.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, indicating that the citizens are generally cautious and aware of the sustainability limits. Since the pool is currently at $120 and the sustainability threshold is $60, I can afford to extract a reasonable amount without risking the pool's health. \n\nTo maintain the stability of the pool and ensure that it continues to regenerate, I will extract $12 this month. This amount is below the average extraction of previous months and will contribute to a total extraction that is still within the sustainable limits."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The previous months have shown that the total extractions have been well below the threshold, allowing the pool to regenerate fully. Since the average total extraction has been around $52.5, I can safely extract a moderate amount without risking the sustainability of the pool. I will choose to extract $12, which is a reasonable amount that keeps me within the safe range while still allowing for a good payoff. This amount also aligns with the previous extractions of my fellow citizens, which have been around $12, ensuring that I am not over-extracting compared to them.",
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, allowing the pool to remain stable at $120. The average total extraction has been around $52.5, which is sustainable. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total extraction above this threshold. \n\nConsidering that the other citizens have been extracting around $12 on average, I can extract $12 as well, which would keep the total extraction at $48 (assuming others also extract similarly). This would maintain the sustainability of the pool while still allowing me to benefit from my extraction. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the society has been able to maintain a stable pool over the past months. The average total extraction has been below the sustainability threshold, which has allowed the pool to regenerate fully each month. \n\nSince the pool is currently at its maximum value, I want to ensure that my extraction does not lead to a decrease in the pool for the next month. I also want to maximize my payoff while considering the potential actions of the other citizens. If I extract too much, it could lead to a situation where the total extraction exceeds the sustainability threshold, which would shrink the pool next month.\n\nTo balance these factors, I will extract $12. This amount is reasonable as it is below the average extractions from previous months and should keep the total extraction within the sustainable limit, assuming the other citizens make similar conservative choices.",
+      "Given the history of the previous months, the pool has remained stable and has been successfully regenerated to $120 each time. The average total extraction has been below the sustainability threshold of $60, which has allowed the pool to remain healthy. Since the total extraction has been consistently low, I can afford to extract a bit more this month while still ensuring the sustainability of the pool. I will extract $12, which is a reasonable amount that keeps the total extraction below the threshold and allows me to benefit from the remaining pool value."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been at $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the average extraction has been $12 per citizen, I can choose to extract the same amount to maintain this stability. Extracting $12 will ensure that the total extraction remains at $48, keeping the pool healthy and maximizing my payoff without risking a decrease in the pool value next month.",
+      "Given the history of the previous months, the total extraction has consistently been around $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain a balance between maximizing my payoff and ensuring the sustainability of the pool for future months. \n\nIf I extract $12, which is consistent with the previous extractions, it will keep the total extraction at $48, allowing the pool to remain stable. This would give me a payoff of $22, which is in line with what I have received in the past months. Extracting more than $12 could risk exceeding the sustainability threshold, which could lead to a decrease in the pool value next month. Therefore, I will stick with the conservative approach of extracting $12.",
+      "Given the history of the previous months, the total extraction has consistently been around $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the pool is currently at $120, I want to maintain the same extraction level to ensure sustainability and maximize my payoff. I will extract $12, which is consistent with the previous months' extractions and keeps the total extraction below the threshold.",
+      "Given the history of the previous months, the total extraction has consistently been at $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain a balance between maximizing my payoff and ensuring the sustainability of the pool for future months. \n\nIf I extract $12, which is consistent with the previous months' extractions, I can expect a similar payoff as before. This amount keeps the total extraction at $48, ensuring that the pool remains stable. If I were to extract more, it could risk exceeding the sustainability threshold, which could lead to a decrease in the pool value in the following month. Therefore, I will stick with the conservative approach of extracting $12."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the other citizens have been extracting $12 consistently, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a reasonable payoff while keeping the total extraction within the sustainable limits.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the other citizens have been extracting $12 each, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a reasonable payoff while keeping the pool healthy for the remaining months.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the other citizens have been extracting $12 consistently, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a payoff of $22, which is optimal based on the previous months' outcomes. Therefore, I will extract $12 this month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the other citizens have been extracting $12 each, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a payoff of $22, which is consistent with the previous months. Therefore, I will extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the other citizens have been extracting $12 each, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. By extracting $12, I will also receive a fair payoff while contributing to the collective stability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $12, which has kept the total extraction below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since we are in month 9 of 12, it is important to maintain this stability to ensure that the pool does not shrink in the final months. I will also consider the potential payoffs. If I extract $12, my payoff will be $22, which is consistent with the previous months. Therefore, I will choose to extract $12 to align with the group's behavior and maintain the sustainability of the pool.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the pool is currently at $120, I can safely extract without risking the sustainability of the pool. However, I want to maximize my payoff while ensuring that the total extraction remains sustainable. \n\nIf I extract $12, the total extraction would be $60 (assuming the other citizens also extract $12), which is at the sustainability threshold. This would keep the pool stable and allow for a good payoff. If I extract more than $12, it could lead to a risk of exceeding the sustainability threshold if the others also decide to extract higher amounts. Therefore, I will extract $12 this month.",
+      "Given the history of the previous months, all citizens have consistently extracted $12, which has kept the total extraction below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since we are in month 9 of 12, it is important to maintain this stability to ensure that the pool remains healthy for the remaining months. I will also extract $12 this month to align with the previous extractions and to ensure that we do not exceed the sustainability threshold. This will allow me to maximize my payoff while contributing to the overall health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 10 of 12, and there are only 2 months left, it is important to maintain the sustainability of the pool for the remaining months. I will choose to extract $12, which is consistent with the previous extractions and ensures that we stay below the sustainability threshold. This way, I can maximize my payoff while also contributing to the stability of the pool for the next month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the pool is currently at $120 and the sustainability threshold is still $60, I can safely extract without risking the pool's health. I want to maximize my payoff while ensuring that the total extraction remains sustainable. \n\nIf I extract $12, the total extraction would be $60 (assuming the other citizens also extract $12), which is exactly at the sustainability threshold. This would keep the pool stable for the next month. My payoff would be $12/3 + $60/4 = $4 + $15 = $19. \n\nHowever, if I want to be more conservative and ensure that I do not risk any sustainability violations, I could choose to extract less, such as $9. This would result in a total extraction of $57, which is still sustainable, and my payoff would be $9/3 + $63/4 = $3 + $15.75 = $18.75. \n\nConsidering the balance between maximizing my payoff and ensuring sustainability, I will choose to extract $12 this month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since we are in month 10 of 12, and there are only 2 months left, it is important to maintain the sustainability of the pool for the remaining months. I will choose to extract $12, which is consistent with the previous extractions and ensures that we stay below the sustainability threshold. This way, I can maximize my payoff while also contributing to the stability of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since we are in month 10 of 12, and there are only 2 months left, it would be wise to maintain a similar extraction level to ensure the pool remains sustainable for the final months. I will extract $12, which is consistent with the previous extractions and will keep the total extraction at $48, ensuring the pool remains stable."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, I want to ensure that the pool remains healthy for the final month. I will extract $12, which is consistent with the previous extractions and will keep the total extraction at $48, ensuring sustainability. This will also provide me with a reasonable payoff while maintaining the health of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, I want to ensure that the pool remains healthy for the final month. I will extract $12, which is consistent with the previous extractions and will keep the total extraction at $48, ensuring the pool remains sustainable. This way, I can also secure a reasonable payoff while contributing to the stability of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, I want to ensure that the pool remains healthy for the final month. I will extract $12, which is consistent with the previous extractions and will keep the total extraction at $48, ensuring the pool remains stable. This way, I can also maximize my payoff while contributing to the sustainability of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, I want to ensure that I maximize my payoff while still contributing to the sustainability of the pool. If I extract $12, like the other citizens have done in the past months, it will keep the total extraction at $48, ensuring the pool remains stable. This will also give me a payoff of $22, which is consistent with previous months. Therefore, I will extract $12."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability while maximizing my payoff. The previous months have shown that a total extraction of $48 has been sustainable and has allowed the pool to regenerate fully. Since this is the last month, I want to balance my extraction with the potential for the pool to remain stable. I will extract $12, which is consistent with the previous months' extractions and keeps us well below the sustainability threshold. This way, I can expect a reasonable payoff while contributing to the overall health of the commons.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability while maximizing my payoff. The previous months have shown that a total extraction of $48 has been sustainable and has allowed the pool to regenerate fully. Since this is the last month, I can afford to extract a bit more without risking the sustainability of the pool for future months. However, I also want to consider the potential extractions of the other citizens. If they follow the previous pattern and extract $12 each, that would total $48 again. To maximize my payoff while still being within the sustainable limits, I can extract $12 as well, which keeps the total extraction at $60, exactly at the sustainability threshold. This way, I can ensure that I receive a fair payoff while contributing to the sustainability of the pool.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability while maximizing my payoff. The previous months have shown that a total extraction of $48 has been sustainable and has allowed the pool to regenerate fully. Since this is the last month, I want to balance my extraction with the potential for a good payoff. If I extract $12, which is consistent with the previous months, the total extraction will remain at $48, ensuring the pool remains stable. This will also give me a payoff of $22, which is optimal based on past performance.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. The previous months have shown a consistent extraction of $12 by each citizen, which has kept the pool stable and allowed for regeneration. Since this is the last month, I can extract up to $30, but I want to maintain the sustainability of the pool. Therefore, I will choose to extract $12, which aligns with the previous extractions and keeps the total extraction at $48, well below the sustainability threshold."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      12,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      20.75,
+      20.75,
+      19.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the pool does not shrink in the following months. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15, which is a reasonable amount that keeps us within the sustainability threshold. However, I also want to consider the possibility that others might extract less, allowing me to extract more without exceeding the threshold. \n\nTo balance my desire for a higher payoff with the need to maintain the pool, I will extract $15. This amount is within the allowed range and keeps the total extraction at a manageable level, assuming others do not extract too much.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15, which is a reasonable amount that keeps us within the sustainability threshold. However, to account for the possibility that others may extract less, I will choose to extract $15 as well, which is a safe and balanced decision that allows me to benefit while still contributing to the sustainability of the commons.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens collectively extract $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, to account for the possibility that others may extract more, I will choose to extract a conservative amount of $12. This way, I contribute to the total extraction while still leaving enough in the pool to maintain its value for the next month.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I also want to maximize my payoff while ensuring sustainability. If I extract $15, I will receive a payoff of $5 from my extraction and, assuming the other citizens also extract $15, the remaining pool would be $60, giving me an additional $15 from the remaining pool. This results in a total payoff of $20. Therefore, I will extract $15 this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      9,
+      15
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      21.75,
+      22.75,
+      21.75,
+      23.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which is below the sustainability threshold, allowing the pool to regenerate fully to $120. \n\nThis month, I need to consider the potential extractions of the other citizens. If they collectively extract close to the threshold again, I can afford to extract a reasonable amount without exceeding the threshold. However, if they extract more than $60, the pool will shrink next month, which would negatively impact my payoff.\n\nTo maximize my payoff while ensuring sustainability, I will extract $9. This amount is significant enough to provide a decent payoff while still leaving room for the other citizens to extract without exceeding the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which is below the threshold, allowing the pool to regenerate fully. \n\nTo maintain sustainability, I should consider the potential extractions of the other citizens. If they also aim to extract close to the threshold, I should extract a reasonable amount that allows for a balanced approach. If I extract too much, it could lead to a situation where the total extraction exceeds $60, which would shrink the pool next month. \n\nSince the previous extractions were around $15 each, I could extract a similar amount, but I will choose to extract $12 this month. This amount is still significant but allows room for others to extract without exceeding the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I need to consider the previous month's extractions. The total extraction last month was $57, which is below the sustainability threshold, allowing the pool to regenerate back to $120. This month, I want to ensure that we do not exceed the threshold to maintain the pool's value for future months. \n\nIf I extract too much, it could lead to a reduction in the pool next month, which would negatively impact my payoff in the long run. Since the previous extractions were relatively balanced among the citizens, I should aim for a conservative extraction that allows for a good payoff while still keeping the total extraction below the threshold. \n\nI will extract $9 this month, which is a reasonable amount that keeps me below the threshold while still allowing for a decent payoff.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, the total extraction was $57, which is below the threshold, and the pool was able to regenerate back to $120. \n\nThis month, I need to consider the potential extractions of the other citizens. If they also aim to extract conservatively, I can afford to extract a bit more without risking the sustainability of the pool. However, if I extract too much, it could lead to a situation where the total extraction exceeds $60, which would shrink the pool next month.\n\nTo balance my payoff and the sustainability of the pool, I will extract $15. This amount is reasonable, as it keeps me within a safe range while still allowing for a decent payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      9,
+      12,
+      12
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      22.75,
+      21.75,
+      22.75,
+      22.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $45. Both months resulted in a healthy pool remaining after extractions, which indicates that the citizens are being cautious and not over-extracting. \n\nThis month, I want to ensure that we stay below the sustainability threshold to maintain the pool's health. Since the total extraction has been relatively low, I can afford to extract a bit more while still being mindful of the threshold. I will choose to extract $12, which is a reasonable amount that keeps us under the threshold and allows for a good payoff.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $45. Both months resulted in a healthy pool remaining, which indicates that the other citizens are also likely to extract conservatively. \n\nSince the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total extraction over this threshold. If I extract too much, it could lead to a reduction in the pool for the next month, which would negatively impact my future payoffs. \n\nConsidering the previous extractions, I will aim for a moderate extraction that allows me to benefit while still keeping the total extraction safe. I will extract $9, which is a reasonable amount that keeps me below the threshold and allows for potential higher payoffs in the future.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $45. Both months resulted in a healthy pool remaining after extractions, which indicates that the citizens are being cautious and cooperative in their extractions. \n\nThis month, I want to continue this trend of sustainability while also maximizing my payoff. Since the total extraction can be up to $60 without shrinking the pool, I can consider extracting a reasonable amount that contributes to this total but also ensures I receive a good payoff. \n\nIf I extract $15, for example, and the other citizens collectively extract $45 (which is a reasonable assumption based on previous behavior), the remaining pool would be $60. This would give me a payoff of $15/3 + $60/4 = $5 + $15 = $20. \n\nHowever, if I want to be more conservative and ensure that we stay well within the sustainability threshold, I could extract $12. This would still allow for a total extraction of $57 if the others extract similarly to previous months, leading to a remaining pool of $63 and a payoff of $12/3 + $63/4 = $4 + $15.75 = $19.75.\n\nConsidering the balance between maximizing my payoff and ensuring sustainability, I will extract $12 this month.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $45. Both months resulted in a healthy pool remaining after extractions, which indicates that the citizens are currently cooperating to maintain the pool's value. \n\nThis month, I want to ensure that I extract a reasonable amount while still contributing to the sustainability of the pool. Since the total extraction threshold is $60, I can extract a maximum of $30, but I should consider the previous patterns of extraction. If I extract too much, it could lead to a decrease in the pool next month, which would not be beneficial for anyone.\n\nTo balance my payoff and the sustainability of the pool, I will extract $12. This amount is significant enough to provide a good payoff while still allowing room for others to extract without exceeding the sustainability threshold."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      9
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      22.75,
+      22.75,
+      22.75,
+      21.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of extractions, it seems that the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The payoffs have been relatively balanced, indicating that citizens are cooperating to maintain the pool's value. \n\nThis month, I want to ensure that we stay within the sustainable extraction limit while also maximizing my payoff. Since the total extraction has been around $45 in the previous months, I can safely extract a bit more without risking the sustainability of the pool. I will choose to extract $12, which is a reasonable amount that keeps us under the threshold and allows for a good payoff.",
+      "Given the history of extractions, it seems that the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The previous months have shown that the payoffs are relatively high when the total extraction is kept low. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that I contribute to maintaining the pool's health while also maximizing my payoff. \n\nConsidering the previous extractions, I will extract $12 this month. This amount is reasonable as it keeps the total extraction below the threshold, and it has been a common extraction amount among the citizens in the past months. This should help maintain the pool's value and ensure a good payoff.",
+      "Given the history of the previous months, the total extractions have consistently been below the sustainability threshold of $60, allowing the pool to regenerate fully each month. The payoffs have been relatively high, indicating that the other citizens are also extracting conservatively. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total extraction over this threshold. \n\nTo maximize my payoff while maintaining sustainability, I will extract a moderate amount. I will choose to extract $12, which is a reasonable amount that keeps the total extraction below the threshold, assuming the other citizens will also extract conservatively based on past behavior.",
+      "Given the history of extractions, it seems that the total extractions have consistently been below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The previous months have shown that the payoffs have been relatively high when the total extraction is kept low. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total too close to that limit. \n\nConsidering the previous extractions, I will aim for a conservative extraction that allows for a good payoff while keeping the total extraction well below the threshold. I will extract $9, which is a reasonable amount that keeps the total extraction safe and allows for a decent payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have consistently been around $45, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the average extraction has been low and the pool has remained stable, I can afford to extract a bit more this month without risking sustainability. However, I want to be cautious and not over-extract, as that could lead to a decrease in the pool next month. Therefore, I will choose to extract $12, which is still below the average extraction of the previous months and keeps us safely under the sustainability threshold.",
+      "Given the history of the previous months, the total extractions have consistently been around $45, which is well below the sustainability threshold of $60. This indicates that the citizens are cooperating to maintain the pool's value. Since the pool is currently at $120 and has been stable, I can afford to extract a bit more without risking sustainability. However, I want to ensure that I do not over-extract, which could lead to a decrease in the pool value in the future. \n\nConsidering the average extractions of the other citizens, I will extract $12 this month. This amount is still below the sustainability threshold when combined with the expected extractions of the other citizens, and it allows me to maximize my payoff while contributing to the stability of the pool.",
+      "Given the history of the previous months, the total extractions have consistently been around $45, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the average extraction has been low and the pool has remained stable, I can afford to extract a bit more this month while still ensuring sustainability. However, I want to be cautious not to push the total extraction too high, as that could risk the pool shrinking in future months. Therefore, I will extract $12, which is a reasonable amount that keeps me in line with the previous extractions while still allowing for a good payoff.",
+      "Given the history of the previous months, the total extraction has consistently been around $45, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the average extraction has been low and the pool has been stable, I can afford to extract a bit more this month while still being cautious not to exceed the sustainability threshold. I will choose to extract $12, which is a reasonable amount that keeps me aligned with the previous patterns while still allowing for a good payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      9
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      22.75,
+      22.75,
+      22.75,
+      21.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The average total extraction in the previous months has been around $45, which is well below the sustainability threshold. Since the pool has been stable and regenerates fully to $120, I can afford to extract a reasonable amount without risking the sustainability of the pool. \n\nConsidering that the other citizens have been extracting around $12 each in the past months, I will also choose to extract $12 this month. This amount is consistent with previous extractions and will help ensure that the total extraction remains below the sustainability threshold.",
+      "Given the current state of the pool and the history of extractions, it is clear that the total extraction has been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable. The average total extraction over the past months has been around $45, which is well within the sustainable limit. Since the pool is currently at $120, I want to ensure that I maximize my payoff while still contributing to the sustainability of the pool. \n\nConsidering that the other citizens have been extracting around $12 each in the past months, I can choose to extract $12 as well, which would keep the total extraction at $48 (assuming the others also extract similarly). This amount is sustainable and allows me to benefit from both my extraction and the remaining pool value. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The previous months have shown that the average total extraction has been around $45, which is well below the sustainability threshold. This indicates that the other citizens are likely to continue extracting similar amounts. \n\nTo ensure that the pool remains stable and to maximize my payoff, I will extract an amount that is reasonable given the historical extractions. Since the total extraction has been around $45, I can safely extract $12, which is consistent with the previous months' extractions. This amount will not push the total extraction above the sustainability threshold and will allow the pool to regenerate effectively.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value next month. The average total extraction in the previous months has been around $45, which is well below the sustainability threshold. Since the pool has been stable and regenerates fully to $120, I can afford to extract a reasonable amount while still contributing to the sustainability of the commons. \n\nConsidering that the other citizens have been extracting around $12 each in the past months, I will also aim for a similar extraction. However, I will choose to extract slightly less than $12 to maintain a buffer for sustainability and to encourage others to do the same. Therefore, I will extract $9 this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to regenerate effectively. The previous months have shown that the average total extraction has been around $45-$48, which is well below the sustainability threshold. This indicates that the other citizens are likely to extract similar amounts this month. \n\nTo ensure that the pool remains stable and to maximize my payoff, I will extract an amount that is reasonable and does not push the total extraction over the sustainability threshold. If I extract $12, and assuming the other citizens also extract around $12, the total extraction would be $48, which is sustainable. This would allow the pool to regenerate effectively, and I would still receive a decent payoff. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool and the history of extractions, it is clear that the citizens have been consistently extracting amounts that keep the pool stable, with total extractions averaging around $45. The sustainability threshold is $60, which means we have some room to extract without risking the pool's health. However, since the average extraction has been below the threshold, I want to ensure that I contribute to a sustainable extraction this month. \n\nI will extract $12, which is consistent with the previous months' extractions and allows me to maintain a balance between my personal payoff and the health of the pool. This amount is also a multiple of $3, as required.",
+      "Given the current state of the pool and the history of extractions, it seems that the average total extraction has been around $45-$48 in the previous months, which is well below the sustainability threshold of $60. This indicates that the citizens are generally extracting conservatively, allowing the pool to regenerate fully each month. Since the pool is currently at $120, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nConsidering the previous patterns, I could extract $12, which is a reasonable amount that aligns with the previous extractions and keeps the total extraction below the sustainability threshold. This would also allow me to maintain a good balance between my extraction and the remaining pool value, ensuring a decent payoff.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The history shows that the average total extraction has been around $49, which is well below the sustainability threshold. This indicates that the citizens have been cautious in their extractions, allowing the pool to regenerate effectively. \n\nSince the pool is currently at its maximum value and has shown stability in previous months, I can afford to extract a bit more while still ensuring that the total extraction does not exceed the sustainability threshold. I will choose to extract $12, which is a reasonable amount that aligns with the previous extractions of my fellow citizens and keeps the total extraction within a sustainable range."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have consistently been around $48, which is below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain a balance that encourages sustainability while also maximizing my payoff. \n\nIf I extract $12, which is a common amount that others have chosen in the past, it would keep the total extraction at $48, ensuring the pool remains stable. However, I could also consider extracting a bit more, like $15, which would still keep the total extraction below the threshold if others follow similar patterns. \n\nUltimately, I want to ensure that I do not over-extract, as that could lead to a decrease in the pool value next month, which would negatively impact my future payoffs. Therefore, I will choose to extract $12, as it aligns with the previous successful extractions and maintains sustainability.",
+      "Given the history of the previous months, the total extractions have consistently been around $48, which is below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since the pool is currently at $120, I want to maintain the sustainability of the commons while also maximizing my payoff. \n\nIf I extract $12, which has been a common extraction amount among the citizens, it would keep the total extraction at $48, ensuring the pool remains stable. This would also provide me with a reasonable payoff. If I were to extract more than $12, it could risk pushing the total extraction above the sustainability threshold, which could lead to a decrease in the pool next month. Therefore, I will stick with the conservative extraction of $12.",
+      "Given the history of the previous months, the total extractions have consistently been around $48, which is below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain a balance that encourages sustainability while also maximizing my payoff. \n\nIf I extract $12, which is a common amount that others have chosen in the past, it would keep the total extraction at $48, ensuring the pool remains stable. However, I could also consider extracting a bit more, like $15, which would still keep the total extraction below the threshold if others follow similar patterns. \n\nUltimately, I want to ensure that I do not extract too much, as that could risk the sustainability of the pool in future months. Therefore, I will choose to extract $12, which has proven to be a safe and effective amount in the past.",
+      "Given the history of the previous months, the total extractions have consistently been around $48, which is below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain a balance that encourages sustainability while also maximizing my payoff. \n\nIf I extract $12, which is a common amount that has been extracted by others in the past, it keeps the total extraction at $48, ensuring the pool remains stable. This would also give me a reasonable payoff based on the previous patterns. If I were to extract more, it could risk exceeding the sustainability threshold, which could lead to a decrease in the pool value next month. Therefore, I will extract $12."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      15,
+      12
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      22.25,
+      21.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool and the history of previous months, it is clear that the total extraction has been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully. Since the average total extraction has been around $48, I want to maintain a similar level to ensure the pool remains healthy. \n\nHowever, I also want to maximize my payoff while being cautious not to over-extract. If I extract $12, which is a reasonable amount based on previous extractions, the total extraction would likely remain below the sustainability threshold, allowing the pool to regenerate fully. This would also provide me with a decent payoff. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool and the history of extractions, it is clear that the total extraction has been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average extraction from the previous months has been around $48, which is sustainable. Since the pool is currently at $120, I want to maintain the stability of the pool while also maximizing my payoff. \n\nConsidering that the other citizens have been extracting $12 consistently, I could choose to extract $12 as well to align with their behavior. However, I also want to ensure that I do not risk exceeding the sustainability threshold. Therefore, I will extract $12, which is a safe choice that keeps the total extraction at $48, well below the threshold.",
+      "Given the current state of the pool and the history of extractions, it is clear that the total extraction has been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $48, which is sustainable. Since the pool is currently at $120, I want to maintain this stability while also maximizing my payoff. \n\nIf I extract $12, which is consistent with the previous months' extractions, the total extraction would be $48 (assuming the other citizens also extract $12). This would keep us below the sustainability threshold and allow the pool to regenerate fully. My payoff would be $22, which is in line with previous payoffs. \n\nHowever, I could also consider extracting a bit more, like $15, which would bring the total extraction to $51. This is still below the sustainability threshold, and my payoff would increase slightly. \n\nUltimately, I want to balance my extraction with the need to keep the pool sustainable. Therefore, I will extract $15 this month.",
+      "Given the current state of the pool and the history of extractions, it seems that the other citizens have been consistently extracting $12 each month. This has kept the total extraction below the sustainability threshold of $60, allowing the pool to regenerate fully each month. Since the pool is currently at $120, I want to maintain the sustainability of the pool while also maximizing my payoff. \n\nIf I extract $12, the total extraction would be $48, which is sustainable. This would also give me a decent payoff. However, I could consider extracting more, but I need to be cautious not to exceed the threshold. If I extract $15, the total would be $51, still sustainable, but if I go for $18, the total would be $54, which is still safe. \n\nTo balance maximizing my payoff while ensuring sustainability, I will extract $12, as it aligns with the previous behavior of the other citizens and keeps the pool healthy."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value next month. The average total extraction in the previous months has been around $48, which has kept the pool stable. Since the other citizens have been extracting around $12 each, I can consider extracting a similar amount. However, I also want to maximize my payoff while ensuring sustainability. \n\nIf I extract $12, the total extraction would be $60, which is at the sustainability threshold. This would keep the pool stable and allow for a good payoff. If I extract more than $12, it could risk exceeding the threshold, which might lead to a decrease in the pool value next month. Therefore, I will extract $12 this month.",
+      "Given the current state of the pool and the history of extractions, it is clear that the citizens have been consistently extracting around $12 each in the previous months, which has kept the pool stable and allowed for regeneration. The sustainability threshold is $60, and the total extractions have been below this threshold, ensuring that the pool remains healthy. \n\nSince the average extraction has been around $12, I will choose to extract $12 this month as well. This amount aligns with the previous behavior of the citizens and will help maintain the sustainability of the pool while also providing a reasonable payoff. \n\nIf all citizens extract $12 again, the total extraction will be $48, which is well below the sustainability threshold, allowing the pool to regenerate effectively.",
+      "Given the current state of the pool and the history of extractions, it is clear that the citizens have been consistently extracting around $12 each in the previous months, which has kept the pool stable and allowed for regeneration. The sustainability threshold is $60, and with the average extractions being around $48, there is room for a slight increase without risking the pool's health. However, since the total extraction last month was $51, I want to ensure that we do not exceed the sustainability threshold. Therefore, I will extract $12 this month, which aligns with the previous behavior of the citizens and maintains the stability of the pool.",
+      "Given the current state of the pool and the history of extractions, I want to ensure that we maintain sustainability while maximizing my payoff. The sustainability threshold is $60 total extraction, and the average extraction in the previous months has been around $48. Since the total extraction has been below the threshold consistently, I can afford to extract a bit more this month without risking a reduction in the pool for next month. \n\nHowever, I also want to consider the payoffs from previous months. The payoffs have been relatively stable, and I want to ensure that I do not extract too much, which could lead to a decrease in the pool and lower payoffs in the future. Given that the total extraction last month was $51, I will aim to extract $12, which is consistent with previous months and keeps us well within the sustainability threshold."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable at $120. The average extraction has been around $48, and the payoffs have been relatively high for all citizens. Since this is the second to last month, it is crucial to maintain the pool's health for the final month. I want to ensure that my extraction does not push the total over the sustainability threshold. Therefore, I will extract $12, which is consistent with previous months and keeps the total extraction manageable. This way, I can maximize my payoff while ensuring the pool remains sustainable.",
+      "Given the current state of the pool and the history of previous months, it is clear that the citizens have been consistently extracting amounts that keep the pool stable and sustainable. The sustainability threshold is $60 total extraction, and the average extractions in the past months have been around $48 to $51, which is well below the threshold. Since the pool is currently at $120, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nConsidering that the total extraction can be up to $60 without shrinking the pool, I can extract $12, which is a reasonable amount that aligns with the previous extractions by other citizens. This amount will allow me to maintain a balance between my individual payoff and the sustainability of the pool for the final month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for next month. The history shows that the average total extraction has been below the sustainability threshold, which has kept the pool stable. However, I also want to maximize my payoff while being cautious. Since the total extraction can be up to $60 without shrinking the pool, I can consider extracting a moderate amount. I will choose to extract $12, which is consistent with previous months' extractions and keeps the total extraction within the sustainable limit. This amount allows me to balance my immediate payoff with the long-term health of the pool.",
+      "Given the history of the previous months, the pool has remained stable and has been successfully regenerated to $120 each time. The average total extraction has been below the sustainability threshold of $60, which has allowed the pool to remain healthy. However, since we are in the 11th month and only have one month left, it is crucial to ensure that we do not exceed the sustainability threshold this month. \n\nIf all citizens extract $15, the total extraction would be $60, which is exactly at the sustainability threshold. This would keep the pool stable for the final month. However, I want to ensure that I maximize my payoff while still being cautious. If I extract $12, the total extraction would be $48, which is below the threshold, and I would still receive a decent payoff. \n\nConsidering the balance between maximizing my extraction and ensuring the sustainability of the pool, I will choose to extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's health for future months. The average total extraction in the previous months has been around $48, which is well below the sustainability threshold. Since this is the last month, I want to maximize my payoff while still being mindful of the total extraction. If I extract $12, it aligns with the previous extractions of my fellow citizens, and it keeps the total extraction at $48, which is sustainable. This way, I can ensure a decent payoff while contributing to the overall health of the pool.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the total extraction remains below this threshold to maintain the pool's stability. In the previous months, the average extraction has been around $48, which is well below the threshold. Since this is the last month, I want to maximize my payoff while still being cautious. If I extract $12, which is consistent with the previous months' extractions, it will keep the total extraction manageable. This way, I can expect a reasonable payoff while contributing to the sustainability of the pool.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's stability. The previous months have shown a consistent extraction of $12 by each citizen, which has kept the pool stable and allowed for a good payoff for everyone. Since this is the last month, I want to maximize my payoff while still adhering to the sustainability threshold. If all citizens extract $12 again, the total extraction will be $48, which is well below the threshold. Therefore, I will also extract $12 to align with the previous behavior and ensure a stable payoff.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. The previous months have shown a consistent extraction of $12 by each citizen, which has kept the pool stable and allowed for regeneration. Since this is the last month, I can extract up to $30, but I want to maintain the sustainability of the pool. If I extract $12, it aligns with the previous extractions and keeps the total extraction at $48, which is below the sustainability threshold. This will ensure that the pool remains stable and maximizes my payoff without risking future sustainability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      15,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      20.75,
+      19.75,
+      20.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I need to consider both my own payoff and the collective extraction of the other citizens. If all citizens extract $15 each, the total extraction would be $60, which would keep the pool stable for the next month. However, if I extract more than $15, I risk contributing to a total extraction that exceeds the threshold, which could lead to a reduction in the pool value next month. \n\nTo maximize my payoff while ensuring sustainability, I will extract $15. This way, I can benefit from a decent extraction while also contributing to the stability of the pool for future months.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the pool remains stable for the upcoming months. If all citizens extract too much, it could lead to a reduction in the pool value next month. Since I want to maximize my payoff while also considering the collective extraction, I will extract a moderate amount. If I extract $15, for example, and the other citizens also extract a similar amount, we could stay within the sustainability threshold. However, I also want to leave room for others to extract, so I will choose to extract $12, which is a reasonable amount that allows for some flexibility in the total extraction.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I want to consider the possibility that others might extract less, which would allow me to extract more while still keeping the total extraction at or below $60. \n\nTo balance my desire for a higher payoff with the need to maintain the pool, I will extract $15. This amount is reasonable as it allows me to benefit while still being cautious about the total extraction.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the pool remains stable for the upcoming months. If all citizens extract too much, it could lead to a reduction in the pool value next month, which would negatively impact everyone's payoff. Since I want to maximize my payoff while also considering the collective well-being of the society, I will extract a moderate amount. If I extract $15, and assuming the other citizens also extract a similar amount, we would be close to the sustainability threshold without exceeding it. This way, I can secure a decent payoff while contributing to the sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      9,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      23.0,
+      22.0,
+      21.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which is below the sustainability threshold, allowing the pool to regenerate fully to $120. \n\nTo maintain the sustainability of the pool, I should consider extracting an amount that is reasonable and does not push the total extraction over $60. Since I want to maximize my payoff while ensuring the pool remains sustainable, I can extract $15. This amount is a multiple of $3, and it keeps the total extraction below the threshold, allowing the pool to remain stable for the next month.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which was below the threshold, allowing the pool to regenerate fully. This month, I should aim to extract an amount that keeps the total extraction below $60 while maximizing my payoff. \n\nIf I extract $15, and assuming the other citizens also extract similar amounts as last month, the total extraction could be around $57 again. However, if I extract less, I can ensure that the total remains below the threshold. A safe extraction amount would be $12, which allows me to contribute to the total while still leaving room for others to extract without exceeding the threshold.\n\nTherefore, I will extract $12 this month.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. In the previous month, the total extraction was $57, which was below the threshold, allowing the pool to regenerate fully. This month, I should aim to extract an amount that is reasonable while still considering the potential extractions of the other citizens. \n\nIf I extract too much, it could lead to a situation where the total extraction exceeds $60, which would shrink the pool next month. Since the previous extractions were relatively high, I might consider a lower extraction to encourage others to do the same. A safe extraction would be $9, which is a moderate amount that allows me to benefit while still keeping the total extraction below the threshold.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for the next month. Last month, the total extraction was $57, which was below the threshold, allowing the pool to regenerate fully. This month, I should aim to extract an amount that keeps the total extraction below $60 while maximizing my payoff. \n\nIf I extract $15, the total extraction could potentially be $60 if the other citizens also extract conservatively. However, to be more cautious and ensure that I do not risk exceeding the threshold, I will extract $12. This amount allows me to benefit from the pool while still leaving room for others to extract without exceeding the sustainability threshold."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      19.75,
+      20.75,
+      20.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining, which was then doubled back to $120. \n\nThis month, I want to ensure that we stay below the sustainability threshold to maintain the pool's health. Since the total extraction can be up to $60 without shrinking the pool, I should consider a conservative extraction that allows for a good payoff while still keeping the total extraction low. \n\nIf I extract $15, the total extraction could potentially be around $60 if others also extract similar amounts. However, to be more cautious and ensure we do not risk exceeding the threshold, I will extract $12. This amount is still significant enough to provide a decent payoff while keeping the total extraction manageable.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool that was able to regenerate. \n\nThis month, I want to ensure that we continue to stay below the sustainability threshold to maintain the pool's health. Since the total extraction can be up to $60 without shrinking the pool, I will consider a conservative extraction that allows for a balance between my payoff and the sustainability of the pool. \n\nI will extract $15, which is a reasonable amount that keeps the total extraction below the threshold, while still providing a good payoff based on the previous payoffs. This amount also aligns with my previous extractions, which have been around this range.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining, which indicates that the citizens are being cautious with their extractions. \n\nThis month, I want to ensure that we stay below the sustainability threshold to maintain the pool's health. Since the total extraction has been relatively low, I can afford to extract a bit more while still being mindful of the threshold. I will choose to extract $15, which is a reasonable amount that keeps us under the threshold when considering the potential extractions of the other citizens. This amount also allows me to maximize my payoff while contributing to the sustainability of the pool.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to regenerate fully to $120 each month. In Month 1, the total extraction was $57, and in Month 2, it was $48. Both months resulted in a healthy pool remaining after extractions, which indicates that the citizens are being cautious and not over-extracting. \n\nThis month, I want to ensure that we maintain the sustainability of the pool while also maximizing my payoff. Since the total extraction threshold is $60, I can extract a reasonable amount without risking the pool's health. I will consider extracting $15, which is a moderate amount that has been extracted by others in the past. This amount allows me to benefit from the pool while still leaving enough for others to extract and keep the pool healthy.\n\nIf I extract $15, the total extraction could potentially be around $60 if others follow a similar cautious approach. This would keep the pool stable and allow for a good payoff for everyone. \n\nTherefore, I will extract $15 this month."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      15,
+      12
+    ],
+    "final_pool": 66,
+    "payoffs": [
+      20.5,
+      21.5,
+      21.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of extractions, it seems that the total extractions have consistently been below the sustainability threshold of $60, allowing the pool to regenerate fully each month. The payoffs have been relatively high, indicating that the citizens are benefiting from the current extraction levels. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total over this limit. \n\nConsidering the previous months' extractions, I will aim for a conservative extraction that allows for a good payoff while keeping the total extraction low. I will extract $12, which is a reasonable amount that keeps the total extraction manageable and allows for a decent payoff.",
+      "Given the history of extractions, it seems that the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The payoffs have been relatively stable, indicating that citizens are likely cooperating to maintain the pool's value. Since the total extraction has been around $57 in the previous months, I can safely extract $15 this month, which is a reasonable amount that keeps us under the threshold while still allowing for a good payoff. This amount also aligns with the previous extractions of my fellow citizens, ensuring that I remain competitive without risking the sustainability of the pool.",
+      "Given the history of extractions and the sustainability threshold, it seems that the group has been able to extract amounts that keep the pool stable. The total extractions have been around $57, which is below the sustainability threshold of $60, allowing the pool to regenerate fully each month. However, I want to ensure that I maximize my payoff while also considering the potential actions of the other citizens. \n\nIf I extract $15, and if the other citizens follow a similar pattern as before, we could end up with a total extraction close to $60 again. This would keep the pool stable and allow for a good payoff. If I extract more than $15, I risk pushing the total extraction above the threshold, which could lead to a smaller pool next month. \n\nTherefore, I will extract $15 this month, as it balances my desire for a decent payoff while maintaining the sustainability of the pool.",
+      "Given the history of extractions, it seems that the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to regenerate fully each month. The payoffs have been relatively stable, indicating that citizens are likely cooperating to maintain the pool's value. Since the pool is currently at $120 and the sustainability threshold is $60, I want to ensure that my extraction does not push the total over this threshold. \n\nTo maximize my payoff while still being cautious, I will extract an amount that is reasonable based on previous extractions. The average extraction from the previous months has been around $12-$15. I will choose to extract $12 this month, as it is a multiple of $3, keeps the total extraction below the threshold, and allows me to benefit from the remaining pool value."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool and the history of extractions, it seems that the average total extraction has been around $57, which is below the sustainability threshold of $60. This indicates that the pool has been stable and regenerating well. However, since the total extraction has been close to the threshold, I want to ensure that I do not contribute to a potential sustainability violation. \n\nConsidering the previous months' extractions, I see that the average extractions have been around $12-15 per citizen. To maintain stability and avoid risking the pool's health, I will choose to extract a moderate amount. I will extract $12, which is within the average range and allows for some room for the other citizens to extract as well without exceeding the sustainability threshold.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, which is sustainable. However, since the pool is currently at $120 and the sustainability threshold is still $60, I want to ensure that I contribute to maintaining the pool's health while also maximizing my payoff. \n\nIf I extract too much, it could lead to a decrease in the pool next month, which would negatively impact my future payoffs. Therefore, I will choose to extract a moderate amount that is still below the average extraction of the previous months. I will extract $12, which is a reasonable amount that keeps me within the sustainable range while still allowing for a decent payoff.",
+      "Given the current state of the pool and the history of extractions, it seems that the average total extraction has been around $57, which is below the sustainability threshold of $60. This indicates that the citizens are generally extracting conservatively, allowing the pool to remain stable. However, since the total extraction has been close to the threshold, I want to ensure that I do not contribute to a potential decline in the pool's value. \n\nConsidering the previous months' payoffs, the payoffs have been relatively high, suggesting that the citizens are benefiting from the current extraction levels. To maintain the sustainability of the pool while still maximizing my payoff, I will choose to extract $12 this month. This amount is within the range of previous extractions and should keep the total extraction below the sustainability threshold.",
+      "Given the history of the previous months, the total extractions have been below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $57, which is sustainable. However, since the pool is currently at $120 and the sustainability threshold is still $60, I want to ensure that I contribute to a sustainable extraction while maximizing my payoff. \n\nIf I extract $15, which is a reasonable amount based on previous extractions, the total extraction could potentially be around $57 again if others follow similar patterns. This would keep the pool stable. My payoff would be calculated as follows: if I extract $15 and the remaining pool is around $60 (assuming others extract similarly), my payoff would be $15/3 + $60/4 = 5 + 15 = $20. This seems like a balanced approach to ensure sustainability while also maximizing my payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the pool has remained stable and has been successfully regenerated to $120 each month. The average total extraction has been below the sustainability threshold of $60, which has allowed the pool to remain healthy. However, I want to ensure that I do not extract too much this month, as it could lead to a decrease in the pool for the next month. \n\nSince the total extraction has been around $51 to $57 in the last few months, I will aim to extract a moderate amount that keeps the total extraction below the sustainability threshold. I will choose to extract $12, which is a reasonable amount that allows me to benefit while still contributing to the sustainability of the pool.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable. The previous months have shown a trend of lower total extractions, which has kept the pool healthy and allowed for regeneration. Since the average total extraction has been around $52.5, I want to ensure that my extraction does not push the total over the sustainability threshold. \n\nConsidering that the other citizens have been extracting around $12 to $15 in previous months, I can extract $12 this month. This amount is reasonable and keeps the total extraction below the threshold, while still allowing me to benefit from the remaining pool value.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable or grow. The previous months have shown a trend of total extractions averaging around $52.5, which is below the sustainability threshold. This indicates that the other citizens are likely to extract similar amounts this month. \n\nTo maximize my payoff while ensuring the pool remains sustainable, I should consider extracting an amount that is reasonable based on the past extractions. Since the average total extraction has been around $52.5, I can safely extract $12, which is a common amount extracted by others in previous months. This amount allows me to benefit from the remaining pool while also contributing to the sustainability of the commons.",
+      "Given the history of the previous months, the total extractions have been consistently below the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. The average total extraction has been around $52.5, indicating that citizens are generally cautious and cooperative in their extractions. \n\nThis month, the pool is at $120, and I want to ensure that we maintain the sustainability of the pool while also maximizing my payoff. If I extract too much, it could lead to a decrease in the pool next month, which would negatively impact future payoffs. \n\nConsidering the previous extractions, I will aim for a moderate extraction that is still below the average total extraction of the past months. I will extract $12, which is a reasonable amount that keeps me competitive while still being sustainable."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is important to maintain a balance that allows the pool to remain stable or grow. The previous months have shown a trend of lower extractions, which has kept the pool healthy. Since the average total extraction has been around $54, I will aim for a conservative extraction that aligns with this trend while still allowing for a reasonable payoff. I will extract $12, which is a multiple of $3 and keeps the total extraction well below the sustainability threshold, ensuring the pool remains stable for future months.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $54, which is below the threshold. However, since the pool is currently at its maximum value, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nConsidering the previous extractions, the average extraction per citizen has been around $12. If I extract $12, the total extraction would be $48, which is well below the sustainability threshold. This would allow the pool to remain healthy and regenerate fully. Additionally, extracting $12 would provide me with a reasonable payoff based on the remaining pool value. \n\nTherefore, I will extract $12 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $54, which is below the threshold. Since the pool is currently at its maximum value, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nIf I extract $12, which is a reasonable amount based on previous extractions, the total extraction would likely remain below the sustainability threshold, allowing the pool to regenerate effectively. This would also provide me with a decent payoff. If I were to extract more, I risk pushing the total extraction above the threshold, which could lead to a decrease in the pool value next month. Therefore, I will extract $12 this month.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, it is clear that the previous months have maintained a stable pool without any sustainability violations. The average total extraction has been around $54, which is below the threshold. However, since the pool is currently at its maximum value, I want to ensure that I contribute to a sustainable extraction while also maximizing my payoff. \n\nConsidering the previous extractions, the average extraction per citizen has been around $12. If I extract $12, it would keep the total extraction at $48, which is well below the sustainability threshold. This would allow the pool to remain healthy and regenerate fully. Additionally, extracting $12 would provide me with a reasonable payoff while still being in line with the group's previous behavior.\n\nTherefore, I will extract $12 this month."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool's value next month. The average total extraction in the previous months has been around $54, which is below the sustainability threshold. Since the pool has been stable and regenerates to $120, I can afford to extract a reasonable amount while still contributing to the sustainability of the pool. \n\nConsidering that the other citizens have been extracting around $12 each in the past months, I will also aim for a similar extraction. However, to maintain a balance and ensure the pool remains sustainable, I will extract $12 this month. This amount is within the allowed range and aligns with the previous extractions, ensuring that the total extraction remains below the sustainability threshold.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value next month. The average total extraction in the previous months has been around $54, which is below the sustainability threshold. Since the pool has been stable and regenerates fully to $120, I can afford to extract a reasonable amount while still contributing to the sustainability of the pool. \n\nConsidering that the other citizens have been extracting $12 consistently, I could also choose to extract $12 to align with their behavior. However, I want to ensure that I maximize my payoff while still being sustainable. If I extract $12, the total extraction would be $48, which is sustainable. This would give me a payoff of $22. \n\nAlternatively, I could consider extracting $15, which would bring the total extraction to $51, still under the threshold. This would give me a slightly higher payoff of $22.25. However, I want to be cautious and not push the limits too much, especially since we are in the later months of the cycle.\n\nTherefore, I will extract $12, which is a safe and sustainable choice.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for the next month. The previous months have shown that a total extraction of around $48 to $51 has been sustainable, allowing the pool to regenerate fully. Since the average extraction has been around $12 per citizen, I will choose to extract $12 this month as well. This amount aligns with the previous patterns and keeps the total extraction within the sustainable limits.",
+      "Given the current state of the pool at $120 and the sustainability threshold of $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value next month. The previous months have shown that a total extraction of around $48 to $51 has been sustainable, allowing the pool to regenerate fully. Since the average extraction has been around $12 per citizen, I will choose to extract $12 this month as well. This amount is within the sustainable range and will help maintain the pool's stability while also providing a reasonable payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I can safely extract an amount that contributes to the total extraction without risking the sustainability of the pool. I will choose to extract $12, which is consistent with the previous extractions and ensures that the total remains sustainable. This way, I can maximize my payoff while maintaining the health of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I can safely extract an amount that continues to support this stability. I will choose to extract $12, which is consistent with the previous extractions and ensures that the total extraction remains at $48, keeping the pool healthy for the next month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I can safely extract an amount that contributes to the total extraction without risking the sustainability of the pool. I will choose to extract $12, which is consistent with the previous extractions and ensures that the total remains sustainable. This way, I can maximize my payoff while maintaining the health of the commons.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I can safely extract an amount that contributes to the total extraction without risking the sustainability of the pool. I will choose to extract $12, which is consistent with the previous extractions and ensures that the total remains sustainable. This way, I can maximize my payoff while maintaining the health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the other citizens have been extracting $12 each, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a good payoff while keeping the total extraction within the safe limit.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the other citizens have been extracting $12 each, I can choose to extract the same amount to maintain the status quo and ensure that the pool remains sustainable. Extracting $12 will also provide me with a good payoff while keeping the total extraction within the safe limit.",
+      "Given the history of the previous months, all citizens have consistently extracted $12, which has kept the total extraction well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the pool is currently at $120 and the sustainability threshold is still intact, I can choose to extract $12 as well, which aligns with the previous behavior of the other citizens. This will ensure that the pool remains sustainable and maximizes my payoff without risking a decrease in the pool value next month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120, I want to maintain this stability while also maximizing my payoff. \n\nIf I extract $12, like the other citizens have done in the past months, I can expect a similar payoff of $22. However, I could also consider extracting more, but I need to be cautious not to exceed the sustainability threshold, as that could lead to a reduction in the pool next month. \n\nSince the other citizens have been extracting $12, I will also extract $12 to keep in line with the group's behavior and ensure the pool remains stable."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since this is the second to last month, I want to ensure that I maximize my payoff while still contributing to the sustainability of the pool. If I extract $12, like the other citizens have done in the past months, it will keep the total extraction at $48, ensuring the pool remains stable. This will also give me a payoff of $22, which is optimal based on previous outcomes. Therefore, I will extract $12 this month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, I want to ensure that I maximize my payoff while still contributing to the sustainability of the pool. If I extract $12, like the other citizens have done in the past months, it will keep the total extraction at $48, ensuring the pool remains stable. This will also give me a payoff of $22, which is consistent with previous months. Therefore, I will extract $12.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully to $120 each month. Since this is the second to last month, I want to ensure that I maximize my payoff while still contributing to the sustainability of the pool. If I extract $12, like the other citizens have done in the past months, it will keep the total extraction at $48, maintaining the pool's stability. This will also ensure that I receive a good payoff of $22, which is consistent with previous months. Therefore, I will extract $12 this month.",
+      "Given the history of the previous months, the total extraction has consistently been $48, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since this is the second to last month, I want to ensure that the pool remains healthy for the final month. I will extract an amount that is reasonable and keeps the total extraction below the sustainability threshold. I will choose to extract $12, which is consistent with the previous months and will maintain the pool's stability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool for future months. The previous months have shown a consistent extraction of $12 by each citizen, which has kept the pool stable and allowed for regeneration. Since this is the last month, I can extract up to $30, but I want to maintain the sustainability of the pool. If all citizens extract $12 again, the total extraction will be $48, which is sustainable. Therefore, I will also extract $12 to align with the previous behavior and ensure a stable payoff.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value for the next month. The previous months have shown a consistent pattern of all citizens extracting $12, which has kept the pool stable. Since this is the last month, I can safely extract $12 without risking the sustainability of the pool, as it aligns with the previous extractions and maintains the total extraction below the threshold. This will also maximize my payoff while ensuring the pool remains stable.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool value for the next month. The previous months have shown a consistent pattern of all citizens extracting $12, which has kept the pool stable. Since this is the last month, I can extract up to $30, but I want to maintain the sustainability of the pool. If all citizens continue to extract $12, the total extraction will be $48, which is sustainable. Therefore, I will also extract $12 to align with the group's behavior and ensure a stable payoff.",
+      "Given that the pool is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a decrease in the pool for future months. Since this is the last month, I can extract without worrying about future consequences. However, I also want to maximize my payoff. The previous months have shown that a total extraction of $48 has been sustainable and has led to a stable pool. Therefore, I will extract $12, which is consistent with the previous extractions and will keep the total extraction within the sustainable limit. This will also allow me to receive a reasonable payoff while ensuring the pool remains stable."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the pool remains stable for the upcoming months. If all citizens extract too much, it could lead to a reduction in the pool value next month. Since I want to maximize my payoff while also considering the collective extraction, I will extract a moderate amount. If I extract $15, that would leave $105 in the pool, which is still above the sustainability threshold when considering the potential extractions of the other citizens. This way, I can balance my individual gain with the health of the commons.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the pool remains stable for the upcoming months. If all citizens extract $15 each, that would total $60, which is exactly at the sustainability threshold. This would allow the pool to remain at $120, doubling the remaining amount after extraction. However, I also want to maximize my payoff while ensuring the pool does not shrink. If I extract $15, I will receive a payoff of $5 (from my extraction) plus $15 (from the remaining pool), totaling $20. This seems like a balanced approach to ensure sustainability while maximizing my payoff.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I also want to consider the potential payoffs. If I extract $15, I will receive a payoff of $5 from my extraction and, assuming the other citizens also extract $15 each, the remaining pool would be $60, giving me an additional $15 from the remaining pool. This results in a total payoff of $20. Therefore, I will extract $15 this month to balance between maximizing my payoff and ensuring the sustainability of the pool.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that my extraction does not lead to a reduction in the pool value for the next month. If all citizens extract a total of $60 or less, the pool will remain stable. Since there are 4 citizens, if we all extract equally, we could each take $15 without exceeding the threshold. However, I want to consider the possibility that others might extract less, which would allow me to extract more while still keeping the total extraction at or below $60. \n\nTo balance my desire for a higher payoff with the need to maintain the pool, I will extract $15. This amount is reasonable as it allows me to benefit while still being cautious about the total extraction."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the total extraction does not exceed this threshold to maintain the pool's value for future months. In the previous month, all citizens extracted $15, which was sustainable and resulted in a payoff of $20 for each citizen. If I choose to extract $15 again, it is likely that the other citizens will also follow the same strategy, leading to a total extraction of $60 again. This would keep the pool stable and allow for a regeneration back to $120. Therefore, I will extract $15 this month to maintain sustainability and maximize my payoff.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that I do not extract too much to avoid shrinking the pool for next month. In the previous month, all citizens extracted $15, which was sustainable and allowed the pool to regenerate fully. Since the same conditions apply this month, I can safely extract $15 again, as it aligns with the previous successful strategy and keeps the total extraction at the sustainability threshold. This way, I can maximize my payoff while ensuring the pool remains healthy for future months.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we do not exceed this threshold to maintain the pool's value for future months. In the previous month, all citizens extracted $15, which was sustainable and allowed the pool to regenerate fully. Since the same conditions apply this month, I will also extract $15 to keep the total extraction at $60, which is sustainable. This way, I can maximize my payoff while ensuring the pool remains healthy for the upcoming months.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the total extraction does not exceed this threshold to maintain the pool's value for future months. In the previous month, all citizens extracted $15, which was sustainable and allowed the pool to regenerate fully. If I extract $15 again, it is likely that the other citizens will also follow the same pattern, leading to a total extraction of $60, which is sustainable. However, if I choose to extract less, it may not incentivize others to extract the same amount, potentially leading to a lower total extraction. Therefore, I will extract $15 to maintain consistency and ensure the pool remains stable."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous behavior of the other citizens, and it maximizes my payoff while ensuring the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month. Since the sustainability threshold is still $60, I want to maintain this balance to ensure the pool does not shrink. If I extract $15 again, it will keep the total extraction at $60, which is sustainable. Therefore, I will choose to extract $15 this month as well.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, resulting in equal payoffs for all citizens. Since the sustainability threshold is still $60, I should also extract $15 to maintain this balance. If I were to extract more, it could risk exceeding the threshold and shrinking the pool next month, which would negatively impact future payoffs. Therefore, I will stick to the established pattern of extraction.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's value for future months. In the previous two months, all citizens extracted $15, which kept the pool stable and allowed for regeneration. Since the total extraction of $60 is sustainable, I will also extract $15 this month to maintain consistency and ensure that the pool remains healthy for the upcoming months. This decision balances my immediate payoff with the long-term sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully each month, resulting in a stable payoff of $20 for each citizen. Since the sustainability threshold remains the same this month, I will also extract $15 to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous successful strategy and maximizes my payoff while contributing to the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully each month, resulting in a stable payoff of $20 for each citizen. Since the sustainability threshold remains the same this month, I will also extract $15 to maintain the balance and ensure that the pool does not shrink. This decision aligns with the collective behavior observed in the previous months, and it maximizes my payoff while ensuring the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully each month, resulting in a stable payoff of $20 for each citizen. Since the sustainability threshold remains the same this month, I will also extract $15 to maintain the balance and ensure that the pool does not shrink. This decision aligns with the collective behavior observed in the previous months, and it maximizes my payoff while ensuring the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains stable for the upcoming months. This decision aligns with the previous behavior of the other citizens, and it maximizes my payoff while ensuring the sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains stable for the upcoming months. This decision aligns with the collective behavior observed in the previous months, and it maximizes my payoff while ensuring the sustainability of the resource.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains stable for the upcoming months. This decision aligns with the collective behavior observed in the previous months, and it maximizes my payoff while ensuring the sustainability of the resource.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains healthy for the upcoming months. This decision aligns with the previous behavior of the citizens and supports the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains stable for the upcoming months. This decision aligns with the collective behavior observed in the previous months, and it maximizes my payoff while ensuring the sustainability of the resource."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous behavior of the other citizens, and it maximizes my payoff while contributing to the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous behavior of the other citizens, and it maximizes my payoff while contributing to the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool remains healthy for the upcoming months. This decision aligns with the previous behavior of the citizens and maximizes my payoff while ensuring the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous behavior of the other citizens, and it maximizes my payoff while contributing to the sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120 and the sustainability threshold is still $60, I will choose to extract $15 this month. This amount aligns with the previous extractions by the other citizens, ensuring that we maintain the sustainability of the pool while also maximizing my payoff. If all citizens continue to extract $15, we will remain at the threshold, allowing the pool to regenerate fully.",
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable and regenerate fully each month. Since the pool is currently at $120 and the sustainability threshold is $60, I want to maintain this balance to ensure the pool does not shrink. I will extract $15, which is a reasonable amount that aligns with the previous extractions by other citizens. This amount will keep the total extraction at $60, ensuring that the pool remains stable and maximizes my payoff.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the pool stable at $120. The sustainability threshold is $60 total extraction, and since the previous extractions have not violated this threshold, I can safely extract $15 as well. This will ensure that the pool remains stable and maximizes my payoff, as I will receive a portion of the remaining pool value after all extractions. If I were to extract less, I would miss out on potential payoffs, and if I extracted more, it could risk the sustainability of the pool in future months. Therefore, I will stick to the established pattern of $15 extraction.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the pool stable at $120. The sustainability threshold is $60 total extraction, and since the previous months have shown that this level of extraction does not harm the pool, I will also extract $15 this month. This decision aligns with the group's behavior and ensures that we maintain the pool's health for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable at $120. Since the sustainability threshold is still $60, I will also extract $15 this month to maintain the balance and ensure that the pool does not shrink. This decision aligns with the previous behavior of the citizens and maximizes my payoff while ensuring the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 8 of 12, maintaining this pattern is crucial for the sustainability of the pool for the remaining months. If I were to extract more than $15, it could risk exceeding the sustainability threshold, which would lead to a decrease in the pool value next month. Therefore, I will also extract $15 this month to ensure we continue to support the pool's stability.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 8 of 12, maintaining this pattern is crucial for the sustainability of the pool for the remaining months. If I were to extract more than $15, it could risk exceeding the sustainability threshold, which would lead to a decrease in the pool value next month. Therefore, I will also extract $15 to ensure that we continue to support the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 8 of 12, maintaining this pattern is crucial for the sustainability of the pool for the remaining months. If I were to extract more than $15, it could risk exceeding the sustainability threshold, which would lead to a decrease in the pool value next month. Therefore, I will also extract $15 to ensure that we continue to support the stability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable at $120. Since we are in month 9 of 12, it is crucial to maintain this stability to ensure that the pool does not shrink in the remaining months. I will extract $15, which is consistent with the previous extractions and keeps us at the sustainability threshold. This way, I can ensure a fair payoff while also contributing to the sustainability of the commons.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 9 of 12, maintaining this pattern is crucial to ensure the pool remains sustainable for the remaining months. Therefore, I will also extract $15 this month to align with the previous extractions and support the sustainability of the pool.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the pool stable at $120. The sustainability threshold is $60 total extraction, and since the previous months have shown that this level of extraction does not harm the pool, I will also choose to extract $15. This decision aligns with the group's behavior and ensures that the pool remains sustainable for the remaining months.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since we are in month 9 of 12, it is crucial to maintain this pattern to ensure the pool remains healthy for the remaining months. Therefore, I will also extract $15 this month to align with the previous extractions and support the sustainability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable at $120. Since the sustainability threshold is $60, I want to ensure that my extraction does not exceed this limit when combined with the other citizens' extractions. If I extract $15, I can expect the other citizens to also extract $15, maintaining the total extraction at $60. This would keep the pool stable and allow for a good payoff. However, I could also consider extracting less, such as $12, to provide a buffer in case one of the other citizens decides to extract more than $15. Given that the previous months have shown a pattern of consistent extractions, I will choose to extract $15 to align with the group's behavior while still ensuring sustainability.",
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable at $120. Since the pool is currently at $120 and the sustainability threshold is $60, I can safely extract $15 without risking the pool's stability. This amount has been the norm for all citizens, and it ensures that I receive a fair payoff while contributing to the sustainability of the commons. Therefore, I will extract $15 this month.",
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable at $120. Since we are in month 10 of 12, it is crucial to maintain this stability to ensure that the pool does not shrink in the final months. If all citizens continue to extract $15, we will again reach the sustainability threshold. Therefore, I will also extract $15 this month to align with the group's behavior and ensure that we do not exceed the threshold, thus keeping the pool intact for the remaining months.",
+      "Given the history of the previous months, the total extraction has consistently been at the sustainability threshold of $60, which has allowed the pool to remain stable at $120. Since we are in month 10 of 12, it is crucial to maintain this stability to ensure that the pool does not shrink in the final months. If all citizens continue to extract $15, we will again reach the sustainability threshold. Therefore, I will also extract $15 this month to align with the group's behavior and ensure that we do not exceed the threshold, thus keeping the pool healthy for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the pool stable at $120. The sustainability threshold is $60 total extraction, and since all citizens have been cooperating, I believe it is best to continue this trend. By extracting $15, I ensure that the total extraction remains at $60, allowing the pool to regenerate fully. This will maximize my payoff while maintaining the health of the commons for the final month.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the last month, I want to ensure that the pool remains sustainable and that I maximize my payoff. If I extract $15, I will receive a payoff of $20, which is consistent with the previous months. If I were to extract more than $15, it could risk exceeding the sustainability threshold, which would negatively impact the pool for the next month. Therefore, I will stick to the established pattern and extract $15.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the second to last month, it is crucial to maintain the same extraction level to ensure the pool remains sustainable for the final month. Therefore, I will also extract $15 this month to align with the group's previous behavior and ensure that we do not exceed the sustainability threshold.",
+      "Given the history of the previous months, all citizens have consistently extracted $15, which has kept the total extraction at the sustainability threshold of $60. This has allowed the pool to remain stable and regenerate fully each month. Since this is the last month, I want to ensure that I maintain the same extraction level to maximize my payoff while also contributing to the sustainability of the pool. Therefore, I will extract $15, as it aligns with the previous behavior of the other citizens and keeps the pool from shrinking."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that the pool value is at $120 and the sustainability threshold is $60 total extraction, I want to ensure that the total extraction remains at or below this threshold to maintain the pool for future use. The previous months have shown that all citizens have consistently extracted $15, which has kept the pool stable. Since this is the last month, I can safely extract $15 as it aligns with the previous behavior of the group and ensures that the total extraction remains sustainable. This will also maximize my payoff while adhering to the rules.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability. The previous months have shown that all citizens have consistently extracted $15, which has kept the pool stable and allowed for a regeneration back to $120. Since this is the last month, I will also extract $15 to align with the previous behavior of the group. This will ensure that the total extraction remains at $60, which is sustainable, and I will receive a fair payoff based on my extraction and the remaining pool value.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability for the last month. The previous months have shown that all citizens have consistently extracted $15, which has kept the pool stable and allowed for a regeneration back to $120. Since this is the last month, I will also extract $15 to align with the previous behavior of the group, ensuring that we do not exceed the sustainability threshold and that I maximize my payoff while contributing to the collective stability of the pool.",
+      "Given that the pool value is currently at $120 and the sustainability threshold is $60 total extraction, I want to ensure that we maintain the pool's stability. The previous months have shown that all citizens have consistently extracted $15, which has kept the pool stable and allowed for a regeneration back to $120. Since this is the last month, I want to maximize my payoff while still adhering to the sustainability threshold. If I extract $15, the total extraction will remain at $60, which is sustainable. This will also ensure that I receive a fair payoff, similar to previous months. Therefore, I will extract $15."
+    ]
+  }
+]

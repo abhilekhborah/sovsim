@@ -1,0 +1,1502 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all agents (peasants and the king) exceeds $60, the pool will shrink next month. My goal is to maximize my payoff while ensuring the commons remain sustainable for future months. Since the king extracts last and has no upper limit, I must consider that the king will likely take a significant amount, especially if the remaining pool is large. \n\nIf I extract too little, I risk the king taking most of the remaining pool, leaving me with a smaller share of the doubled value. If I extract too much, I contribute to over-extraction, which harms the pool's sustainability. A moderate extraction balances these concerns. I will extract $12, assuming the other peasants will also act moderately, and the king will take a significant share.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. However, I must also consider that the king extracts after the peasants and has no upper limit, meaning the king could deplete the pool entirely if they choose. If I extract too little, I risk the king taking a large share, leaving me with a smaller payoff. If I extract too much, I contribute to the pool shrinking, which harms everyone in the long run. A balanced approach is to extract a moderate amount, ensuring I secure a reasonable payoff while leaving enough in the pool to incentivize the king to preserve it.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To balance my immediate payoff with the long-term sustainability of the pool, I should extract a moderate amount. Extracting too little risks the king taking most of the remaining value, while extracting too much risks contributing to the pool shrinking. I will extract $12, which is a reasonable share that doesn't overly deplete the pool.",
+      "The goal is to maximize my payoff over the long term. The pool regenerates at the end of the month, doubling whatever remains, up to a maximum of $120. If I extract too much, the pool will regenerate less, reducing the total available in future months. If I extract nothing, I forgo immediate payoff but allow the pool to fully regenerate.  \n\nThe peasants have collectively extracted $36, leaving $84. If I extract $0, the pool will regenerate to $120 next month. This ensures the maximum resource pool for future months, incentivizing sustainable behavior. Extracting a small amount (e.g., $3 or $6) would give me a modest immediate payoff while still allowing the pool to regenerate fully. Extracting a large amount (e.g., $60 or more) would maximize my immediate payoff but severely harm the pool's regeneration, reducing long-term payoffs.  \n\nGiven that this is the first month and I want to encourage sustainable behavior from the peasants, I will extract $0 to maximize the pool's regeneration and signal my commitment to long-term sustainability."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Last month, all peasants extracted $12 each, which left $84 in the pool before the king extracted. The king chose not to extract anything, likely because the pool was regenerating to its maximum value of $120. This suggests the king may prioritize long-term sustainability and maximizing the pool's regeneration. If we collectively extract less than or equal to the sustainability threshold ($60), the pool will regenerate fully again, which benefits everyone. However, if I extract too little while others extract more, I risk earning less than my fair share. To balance sustainability and my own payoff, I will extract $12 again, as it worked well last month and aligns with the apparent cooperative behavior of the other peasants.",
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted. The king chose not to extract anything, and the pool regenerated to $120. This suggests that the king may prioritize the long-term sustainability of the pool, at least for now. If we collectively extract below the sustainability threshold ($60 total), the pool will regenerate fully, ensuring future payoffs remain high. However, if we extract too little, the king may take advantage of the surplus. To balance sustainability and my own payoff, I will extract $12 again, as it worked well last month and aligns with the apparent cooperative behavior of the other peasants.",
+      "Last month, all peasants extracted $12 each, which left $84 in the pool before the king extracted. The king chose not to extract anything, likely because the pool was still regenerating to its maximum value of $120. This suggests the king may prioritize long-term sustainability and maximizing the pool's regeneration. If we collectively extract too much this month, the king may intervene and take more aggressively, reducing the pool's value and our future payoffs. To maintain a balance and avoid provoking the king, I will extract the same amount as last month ($12), which seemed to work well for everyone.",
+      "The peasants have continued their pattern of extracting $12 each, leaving $84 in the pool for me. Last month, I chose not to extract anything, which allowed the pool to regenerate fully to $120. This strategy incentivized the peasants to act sustainably, as they each received a high payoff. If I extract too much this month, it could disrupt this balance and encourage over-extraction in future months, which would harm the long-term sustainability of the commons. By extracting a modest amount, I can secure a reasonable payoff for myself while still leaving enough in the pool to regenerate fully. This approach balances my immediate gain with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous months, all peasants extracted $12 each, which kept the total extraction below the sustainability threshold. This allowed the pool to regenerate fully, ensuring long-term stability. The king has shown a tendency to extract a modest amount ($12 in Month 2) but not excessively, which suggests the king is not overly greedy. To maintain the balance and avoid incentivizing the king to extract more, I will continue extracting $12. This strategy has worked well so far, providing a fair payoff while preserving the commons for future months.",
+      "In the previous months, all peasants, including myself, extracted $12 each, which kept the pool sustainable and allowed it to regenerate to its maximum value of $120. However, in Month 2, the king extracted $12, reducing the final pool to $72 before regeneration. This suggests the king is willing to take a share if the pool remains abundant. To maximize my payoff, I want to balance my extraction with the need to keep the pool sustainable and minimize the king's incentive to extract excessively. If I extract $12 again, it aligns with the previous strategy that has worked well so far, and it avoids triggering over-extraction by the king or other peasants.",
+      "In the previous months, all peasants (including me) extracted $12 each, which kept the total extraction below the sustainability threshold. This allowed the pool to regenerate fully, ensuring long-term stability. However, the king extracted $12 in Month 2, slightly reducing the final pool before regeneration. If I extract more than $12 this month, it could incentivize others to extract more as well, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid triggering a \"tragedy of the commons,\" I will stick to extracting $12, which has proven to be a sustainable and fair strategy.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me to decide upon. In Month 1, I chose to extract nothing, prioritizing the long-term sustainability of the pool, which maximized regeneration. In Month 2, I extracted $12, balancing my immediate payoff with the pool's sustainability. This month, the situation is similar, and the pool will regenerate fully to $120 as long as at least $60 remains. Extracting $12 again ensures I maintain a steady payoff while keeping the pool sustainable. This strategy also signals to the peasants that I am not overly greedy, encouraging them to continue their predictable behavior."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all peasants (including me) have consistently extracted $12 each, which has kept the pool sustainable and allowed it to regenerate to its maximum value of $120. The king has observed this pattern and extracted $12 in the last two months, leaving enough in the pool to regenerate fully. This strategy has resulted in stable payoffs for everyone. \n\nIf I deviate and extract more than $12, it could incentivize the other peasants or the king to adjust their behavior, potentially leading to over-extraction and a shrinking pool. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the other peasants and the king are unlikely to adjust their extractions downward.\n\nTo maintain stability and maximize my payoff in the long run, I will continue extracting $12, as this has proven to be a sustainable and mutually beneficial strategy.",
+      "Over the past three months, all peasants (including me) have consistently extracted $12 each, which has kept the pool sustainable and allowed for regeneration back to $120. The king has observed this pattern and extracted $12 in the last two months, leaving the pool in a healthy state. This strategy has resulted in stable payoffs for everyone. Deviating from this pattern could risk upsetting the balance, prompting the king to extract more aggressively or causing the pool to shrink. To maintain stability and maximize long-term payoffs, I will continue extracting $12 this month.",
+      "Over the past three months, all peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has extracted $0 in Month 1 and $12 in Months 2 and 3, leaving the pool at $72, which then regenerates to $120. This pattern has been sustainable, and the payoffs for all peasants have been steady. If I deviate and extract more, it could incentivize others to extract more in future months, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid provoking the king or other peasants, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the past two months, I have extracted $12, leaving $72 in the pool, which regenerates to $120. This strategy has maintained sustainability while ensuring a fair payoff for everyone. If I continue extracting $12, the pool will remain sustainable, and I will maintain a steady payoff of $22. Extracting more could risk reducing the pool below the sustainability threshold in future months, which might lead to lower regeneration and potential dissatisfaction among the peasants. Extracting less would reduce my payoff unnecessarily."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows a stable pattern where each peasant extracts $12, and the king extracts $12 after observing the peasants' extractions. This results in a total extraction of $48, leaving $72 in the pool, which regenerates to $120. This strategy has been sustainable, ensuring the pool remains stable while providing consistent payoffs of $22 for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's ability to regenerate, or under-extraction, which might lead to lower payoffs if others do not adjust accordingly. To maintain stability and maximize my payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This pattern has resulted in stable payoffs of $22 for everyone, and the pool has remained sustainable. Given this history, deviating from this strategy could disrupt the balance and potentially provoke the king to extract more aggressively, reducing the pool and future payoffs. To maintain stability and avoid unnecessary risks, I will continue extracting $12 this month.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has resulted in equal payoffs for all agents, including the king, at $22 each. \n\nGiven this history, deviating from the established pattern could disrupt the balance and potentially provoke the king to extract more aggressively, reducing my payoff. To maintain stability and fairness, I will continue extracting $12 this month.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. By extracting $12, I maintain the balance that has been established over the past months. This ensures the pool remains sustainable, regenerating to $120 at the start of the next month. This strategy has resulted in equal payoffs for all agents, fostering stability and cooperation. Deviating from this pattern could disrupt the equilibrium and potentially lead to over-extraction or conflict in future months. Therefore, I will continue with the same extraction amount as in previous months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has resulted in equal payoffs for all agents, including the king, at $22.00 each month. Given this history, deviating from this strategy could risk destabilizing the pool or triggering retaliation from the king or other peasants. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has resulted in equal payoffs for all peasants and the king, which maintains fairness and avoids conflict. Deviating from this strategy could risk destabilizing the pool or provoking the king to extract more aggressively. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has resulted in equal payoffs for all agents, including the king, at $22.00 each month. Given this history, deviating from the established pattern could disrupt the balance and potentially provoke the king to extract more aggressively in future months. To maintain stability and fairness, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In previous months, I have extracted $12, leaving $72 in the pool, which regenerates to $120. This strategy has ensured sustainability, fairness, and stability in the system, with all parties receiving equal payoffs of $22.00. Maintaining this approach avoids over-extraction, preserves the pool for future months, and ensures the peasants continue to cooperate without attempting to extract more. There is no incentive to deviate from this strategy, as it maximizes long-term benefits for all."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and all agents receive equal payoffs of $22.00. Deviating from this pattern could risk destabilizing the system or drawing the king's attention, potentially leading to reduced payoffs for everyone. To maintain stability and fairness, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has also consistently extracted $12, leaving the pool at $72, which then regenerates to $120. This pattern has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs for all agents. Maintaining this strategy ensures stability and fairness, and there is no incentive to deviate since any increase in my extraction could lead to retaliation by the king or other peasants in future months. Therefore, I will continue extracting $12 to preserve the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has resulted in equal payoffs for all agents, including the king, which helps maintain fairness and avoids potential retaliation or over-extraction by the king. Given this history, I see no reason to deviate from this cooperative strategy, as it maximizes long-term stability and ensures fair payoffs.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the established pattern of sustainable resource use, ensuring the pool regenerates to $120 for the next month. This approach promotes stability and fairness, which helps maintain trust and cooperation among the peasants. Extracting more could risk overexploitation, reducing the pool's regeneration and potentially leading to long-term instability. Additionally, my payoff remains optimal at $22, which aligns with previous months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has ensured stability, with no sustainability violations and equal payoffs for all. Given that this strategy has worked well for everyone, I see no reason to deviate from it. Extracting more could risk upsetting the balance, and extracting less would reduce my payoff unnecessarily.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all participants. \n\nGiven this stable and equitable arrangement, deviating from the $12 extraction could disrupt the balance. Extracting more might provoke the king to take a larger share, reducing the final pool and my payoff. Extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all agents. Given this stability and fairness, I see no reason to deviate from this strategy, as it ensures the pool remains healthy and my payoff remains maximized under the current conditions.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $12, ensuring the pool remains sustainable and regenerates to $120. This strategy has maintained fairness, stability, and trust among the peasants while providing me with a steady payoff of $22.00. Extracting more could risk destabilizing the system, reducing the pool's regeneration, and potentially encouraging the peasants to extract more in future months. With only four months remaining, it is in my best interest to continue this sustainable approach to maximize long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable, and all participants receive equal payoffs of $22.00. Deviating from this pattern could disrupt the balance, potentially leading to lower payoffs or a shrinking pool. To maintain stability and fairness, I will continue extracting $12, as this has been the established norm.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all agents. \n\nGiven this stability and fairness, I see no reason to deviate from the established pattern. Extracting more could risk upsetting the balance, potentially leading to retaliation from the king or other peasants, and extracting less would reduce my own payoff unnecessarily. Therefore, I will continue to extract $12, as it aligns with the cooperative equilibrium we've established.",
+      "Over the past three months, the pattern has been consistent: each peasant extracts $12, the king extracts $12, and the pool regenerates fully to $120. This strategy has proven sustainable, fair, and beneficial for all parties, with each peasant and the king receiving equal payoffs of $22.00. Deviating from this pattern could disrupt the balance, potentially leading to over-extraction, reduced regeneration, and lower payoffs for everyone. Given the stability and fairness of the current strategy, I see no reason to change my extraction amount.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $12, leaving $72 in the pool, which regenerates to $120. This strategy has maintained a stable pool, ensured sustainability, and provided equal payoffs for all agents, including myself. Extracting more than $12 would reduce the pool below the sustainability threshold ($60), potentially destabilizing the system and reducing long-term payoffs. Extracting less than $12 would unnecessarily lower my payoff without any strategic benefit. Therefore, I will continue extracting $12 to maintain stability and maximize long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the pattern has been consistent: each peasant extracts $12, the king extracts $12, and the pool regenerates to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs for all participants. Deviating from this pattern could risk upsetting the balance, leading to potential over-extraction by the king or a reduction in the pool's value. To maintain stability and ensure a fair payoff, I will continue extracting $12, as this has been the cooperative norm.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has ensured stability, with no sustainability violations, and has resulted in equal payoffs of $22 for all agents. \n\nGiven that this strategy has been working well for everyone, deviating from it could disrupt the balance and potentially provoke the king to extract more aggressively. Since there are only two months left after this, maintaining the current equilibrium seems prudent to maximize long-term payoffs for everyone.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has also consistently extracted $12, leaving $72 in the pool, which then regenerates to $120. This pattern has proven sustainable, with no violations of the sustainability threshold, and has provided stable payoffs of $22 for everyone. Given that this strategy has worked well for all parties and ensures the pool remains stable, I see no reason to deviate from this cooperative equilibrium. Extracting more could risk destabilizing the system and reducing payoffs for everyone, including myself.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $12, leaving $72 in the pool, which regenerates to $120. This strategy has ensured sustainability, fairness, and consistent payoffs for all parties. Extracting $12 again this month maintains this balance, avoids over-extraction, and ensures the pool remains stable for the final two months. This approach aligns with the historical trend and maximizes long-term benefits for everyone."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all agents. Given that this is the second-to-last month, maintaining this equilibrium ensures stability and fairness, while avoiding any actions that might provoke the king to extract excessively. Deviating from this pattern could disrupt the balance and potentially reduce my payoff.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all agents. Given that this is the second-to-last month, maintaining this cooperative strategy ensures stability and fairness, while also maximizing the pool's regeneration potential for the final month. Deviating from this pattern could provoke the king to extract more aggressively, reducing my payoff and potentially destabilizing the pool.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. The king has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has resulted in equal payoffs of $22 for all agents. Given that this is the second-to-last month, maintaining this cooperative strategy ensures stability and fairness, while also maximizing the pool's regeneration potential for the final month. Deviating from this pattern could provoke the king to extract more aggressively, reducing my payoff and potentially destabilizing the pool.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $12, leaving $72 in the pool, which regenerates to $120. This strategy has ensured sustainability, fairness, and consistent payoffs for everyone. Since this is the second-to-last month, maintaining the pool at $120 for the final month is important to maximize long-term payoffs. Extracting $12 again ensures the pool remains sustainable while maintaining trust and stability in the system."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      12,
+      15,
+      63
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      4.0,
+      5.0,
+      21.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The history shows that all peasants, including myself, have consistently extracted $12 per month, which has led to stable outcomes and equal payoffs for everyone. The king has also extracted $12 consistently, leaving the pool to regenerate fully. However, since this is the last month, the king has no incentive to leave any value in the pool, as there is no future regeneration. The king is likely to extract everything remaining after the peasants' extractions. \n\nGiven this, the payoff formula becomes critical. My payoff is determined by my extraction divided by 3, plus one-fourth of the remaining pool after all extractions. Since the king will likely take everything left, the remaining pool will be $0, meaning the second term of my payoff formula will contribute nothing. Therefore, my payoff is solely determined by my extraction divided by 3. To maximize my payoff, I should extract the maximum amount allowed, which is $30.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. Based on the history, the other peasants have consistently extracted $12 each, and the king has extracted $12 as well. If I extract $12, the total extraction before the king will likely be $36, leaving $84 in the pool. The king will likely take $12, leaving $72 in the pool. My payoff would then be $12/3 + $72/4 = $4 + $18 = $22. If I extract more than $12, I risk reducing the pool remaining after the king's extraction, which could lower my share of the remaining pool. Extracting $12 has been a stable and fair strategy, and deviating from it might provoke retaliation or disrupt the balance.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my payoff for this month. Based on the history, all peasants (including me) have consistently extracted $12 each, and the king has extracted $12 as well, leaving $72 in the pool. This strategy has resulted in equal payoffs of $22 for everyone. However, since this is the last month, I could consider extracting more to increase my immediate payoff, knowing that the king will adjust their extraction based on what remains. If I extract too much, the king may take everything left, leaving little for the final pool, which would reduce my share of the remaining pool. A moderate increase in my extraction, such as $15, might slightly increase my payoff without provoking the king to take everything.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff this month. My payoff formula is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $X, the remaining pool will be $63 - X. Substituting this into the formula:\n\nPayoff = X/3 + (63 - X)/4.\n\nSimplifying:\nPayoff = X/3 + 63/4 - X/4,\nPayoff = (4X + 189 - 3X)/12,\nPayoff = (X + 189)/12.\n\nTo maximize my payoff, I need to maximize X, as the pool remaining after my extraction does not carry over to future months. Therefore, I will extract the maximum amount available to me, which is $63."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To balance my immediate payoff with the long-term sustainability of the pool, I should extract a moderate amount. Extracting too little risks the king taking most of the remaining value, while extracting too much risks shrinking the pool unnecessarily. I will extract $12, which is a reasonable share that contributes to the sustainability threshold without being overly greedy.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. My payoff depends on both my extraction and the remaining pool value after all extractions. However, the king extracts last and can take everything remaining, so I must consider that the king may act selfishly. If I extract too little, I risk the king taking most of the remaining pool, leaving me with a smaller share of the doubled pool. If I extract too much, I contribute to depleting the commons, which harms everyone in the long run. A moderate extraction balances my immediate gain with the risk of the king's behavior and the need for sustainability.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the resources available in future months. Since the king extracts last and can take as much as they want, it is likely that the king will take a significant amount if the pool is left with a large value. My goal is to balance extracting enough to secure a reasonable payoff this month while leaving enough in the pool to incentivize the king to leave some value for future months. I will extract a moderate amount to avoid over-extraction while still ensuring I gain a fair share.",
+      "The goal is to maximize my payoff while ensuring the commons regenerate effectively for future months. The peasants have collectively extracted $36, leaving $84 in the pool. If I extract too much, the remaining pool will shrink significantly, reducing its ability to regenerate. If I extract nothing, the pool will double to $120 next month, but I forgo any immediate payoff. A balanced approach is to extract a moderate amount, leaving enough for regeneration while securing a reasonable payoff this month. Extracting $24 leaves $60 in the pool, which will regenerate to $120 next month, ensuring sustainability."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated to $120. The payoffs for all peasants were equal, and the king extracted a reasonable amount without depleting the pool excessively. This suggests that the king is not overly greedy and is likely to extract in a way that maintains the commons' sustainability. To maintain fairness and avoid over-extraction, I will match my previous extraction of $12, which aligns with the sustainability threshold and ensures the pool can regenerate fully.",
+      "In Month 1, the peasants collectively extracted $36, which left $84 in the pool before the king extracted $24. This allowed the pool to regenerate fully to $120. The king's behavior suggests that he will extract enough to maximize his own payoff while leaving enough for the pool to regenerate. If I extract too much, the pool may shrink, reducing my payoff in future months. If I extract too little, I risk losing out on immediate payoffs while the king still takes a significant share. A balanced approach is to extract a moderate amount, ensuring the pool remains sustainable while securing a fair share for myself.",
+      "In Month 1, the peasants collectively extracted $36, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated to $120. The king's behavior suggests that he is willing to extract a significant portion of the remaining pool, but not necessarily all of it. To maximize my payoff, I need to balance my extraction with the need to leave enough in the pool for regeneration while considering the king's likely extraction.\n\nIf I extract too little, I risk the king taking a larger share of the remaining pool, reducing my payoff. If I extract too much, I contribute to over-extraction, which could shrink the pool and harm future payoffs. Based on the sustainability threshold of $60, I aim to keep total peasant extraction below this level to ensure the pool regenerates fully.\n\nAssuming the other two peasants extract similarly to last month ($12 each), I will also extract $12. This keeps total peasant extraction at $36, leaving $84 for the king to extract from. This strategy balances my immediate payoff with the long-term health of the commons.",
+      "The peasants have continued their pattern of extracting $12 each, leaving $84 in the pool for me. If I extract too much, the pool will regenerate less, potentially harming long-term sustainability. Last month, I extracted $24, leaving $60 in the pool, which regenerated fully to $120. This balanced approach ensured that the commons remained sustainable while maximizing my payoff. To maintain this balance, I will extract $24 again this month, leaving $60 in the pool to regenerate fully. This strategy incentivizes the peasants to continue their current behavior, as they are receiving reasonable payoffs, and it ensures the commons remains sustainable for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past two months, all peasants, including myself, have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has ensured that the pool remains sustainable, and all peasants have received consistent payoffs of $19.00. To maintain this stability and avoid provoking the king to extract more aggressively, I will continue extracting $12, as deviating from this amount could disrupt the balance and potentially reduce my payoff in future months.",
+      "Over the past two months, all peasants, including myself, have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has ensured that the pool remains sustainable, and all peasants have received consistent payoffs of $19.00. \n\nIf I deviate from this pattern and extract more, it could incentivize the other peasants or the king to adjust their behavior, potentially leading to a less favorable outcome for me. Maintaining the current equilibrium seems optimal for ensuring sustainability and avoiding retaliation or over-extraction by others.",
+      "Over the past two months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This left $84 in the pool before the king extracted $24, resulting in a final pool of $60, which regenerated back to $120. This pattern has been sustainable and fair, ensuring that the pool does not shrink while providing consistent payoffs. If I deviate from this pattern and extract more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and fairness, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the previous months, I extracted $24, leaving $60 in the pool, which regenerated to $120. This strategy has maintained the pool at its maximum value while ensuring a steady payoff for everyone. Extracting $24 again this month will continue this sustainable pattern, ensuring the pool regenerates fully and maintaining stability for the remaining months. This approach balances my payoff with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all peasants, including myself, have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates to $120. This pattern has been sustainable and has resulted in consistent payoffs for everyone. Deviating from this strategy could disrupt the balance, potentially leading to lower payoffs for me and others. To maintain stability and ensure the pool regenerates fully, I will continue extracting $12.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has resulted in stable payoffs for everyone, with me earning $19 each month. \n\nIf I deviate from this pattern by extracting more, it could provoke the king to extract more aggressively, potentially reducing the pool and my future payoffs. Similarly, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, maintaining the current equilibrium by extracting $12 seems to be the most prudent choice.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and everyone has received consistent payoffs. If I deviate and extract more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid retaliation or punishment from the king, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. I have been extracting $24 each month, which leaves the pool at $60. This ensures the pool regenerates to its maximum value of $120 for the next month. This strategy has been sustainable and fair, maintaining the balance between my payoff and the peasants' payoffs. There is no reason to deviate from this strategy, as it ensures long-term stability and maximizes the total payoffs over the 12 months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern and extract more, it could incentivize the other peasants to extract more in future rounds, potentially leading to over-extraction and a shrinking pool. Additionally, the king might respond by extracting more, further reducing the pool. To maintain stability and ensure a steady payoff, I will continue extracting $12, as this strategy has proven sustainable and beneficial for all parties.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the king's behavior seems consistent. Therefore, I will stick to the established equilibrium of extracting $12 to maintain stability and maximize my payoff.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern and extract more, it could incentivize the other peasants to extract more in future rounds, potentially leading to sustainability violations and a shrinking pool. Additionally, the king might respond by extracting more aggressively, reducing the remaining pool and lowering everyone's payoffs. To maintain stability and ensure a steady payoff, I will continue extracting $12, as this strategy has proven effective.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. By extracting $24, I ensure the pool remains at $60, which is the sustainability threshold. This allows the pool to regenerate fully to $120 for the next month, maintaining long-term stability. This strategy has worked well in previous months, providing me with a steady payoff of $23 while ensuring the commons remain sustainable. There is no reason to deviate from this approach, as it balances my interests with the health of the resource pool."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has proven sustainable, and all peasants have received a steady payoff of $19.00. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for everyone. To maintain stability and ensure the pool remains sustainable, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has proven sustainable, and all peasants have received a steady payoff of $19.00 each month. Deviating from this strategy could disrupt the balance, potentially leading to lower payoffs for everyone, including me. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond by extracting more aggressively in future months. On the other hand, extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will stick to the established pattern of extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained a stable pool while ensuring a steady payoff for everyone. Extracting $24 again this month will continue this sustainable pattern, ensuring the pool remains at its maximum for future months. This approach balances my payoff with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the king's behavior is unlikely to change. Therefore, I will stick to the established equilibrium of $12 to maintain stability and maximize my payoff.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern and extract more, it could disrupt the balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. On the other hand, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit, as the king is likely to adjust his extraction to maintain his own interests. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates to $120. This pattern has maintained the pool at a stable level, ensuring sustainability. My payoff has been $19 each month, which is reasonable and predictable. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for everyone or even pool depletion. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. By extracting $24, I ensure the pool remains at $60, which is the sustainability threshold. This allows the pool to regenerate fully to $120 for the next month, maintaining stability and ensuring long-term resource availability. This strategy has worked well in previous months, providing me with a steady payoff of $23 while keeping the peasants satisfied with their payoffs. There is no reason to deviate from this sustainable approach."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool has then regenerated to its maximum value of $120. This strategy has proven sustainable, as the pool has remained stable, and my payoff of $19 has been consistent. Deviating from this pattern could risk upsetting the balance, potentially leading to lower payoffs for everyone. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable, and my payoff has been $19 each month. Deviating from this pattern could risk destabilizing the pool or reducing my payoff, especially since the king adjusts his extraction based on what we leave. To maintain stability and ensure a predictable payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. This $60 has then regenerated to $120, maintaining the pool's stability. This pattern has resulted in steady payoffs for all parties, with me earning $19 each month. \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. If I extract more, it could incentivize the other peasants or the king to extract more in future months, potentially leading to sustainability violations and lower payoffs for everyone. If I extract less, I would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained a stable and sustainable pool while ensuring a steady payoff for both the peasants and myself. Extracting $24 again this month will continue this balance, ensuring the pool remains sustainable and regenerates fully for the next month. There is no incentive to deviate from this strategy, as it maximizes long-term payoffs while maintaining stability."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool has then regenerated to $120, maintaining stability. This pattern has ensured that all peasants receive a payoff of $19, which is reasonable and sustainable. Deviating from this extraction level could disrupt the balance, potentially leading to lower payoffs for everyone or risking the pool's sustainability. Therefore, I will continue extracting $12 to maintain this stable and predictable outcome.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the king's behavior is unlikely to change. Therefore, I will stick with the established equilibrium of $12 to maintain stability and maximize my payoff.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. To maintain stability and ensure the pool regenerates fully, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Extracting $24 has been a sustainable strategy, as it leaves $60 in the pool, which regenerates back to $120. This ensures long-term stability and maximizes my payoff while maintaining the trust of the peasants. Deviating from this strategy could risk over-extraction, reducing the pool's regeneration and potentially causing unrest among the peasants. Given the consistent history and the need to maintain sustainability, I will continue extracting $24."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the pool is already regenerating fully. Therefore, the best strategy is to maintain the current equilibrium by extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the king would likely still extract enough to maintain the current pattern. Therefore, I will stick with the established equilibrium of $12 to maintain stability and maximize my payoff.",
+      "Over the past three months, the peasants have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool to regenerate back to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for all parties. Given that there are only two months remaining after this, maintaining this cooperative strategy ensures the pool remains stable and avoids triggering any retaliatory or exploitative behavior from the king. Extracting $12 again aligns with this established equilibrium and maximizes my payoff without risking the commons' stability.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Extracting $24 has been a sustainable strategy, as it leaves $60 in the pool, which regenerates to $120 for the next month. This ensures the long-term stability of the commons while maximizing my payoff. Deviating from this strategy could risk over-extraction, reducing the pool's regeneration, or under-extraction, leaving potential payoff on the table. With only two months remaining, maintaining stability ensures continued cooperation and maximized payoffs for all."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. Given that this strategy has worked well and the pool has remained stable, there is no incentive to deviate. Extracting more could risk upsetting the balance, potentially leading to lower payoffs for everyone, especially with only one month remaining. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. Given that this strategy has worked well and the pool has remained stable, deviating from this pattern could risk upsetting the balance, especially with only one month remaining. To maximize my payoff while maintaining sustainability, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This strategy has proven sustainable, with stable payoffs for all parties. Given that this is the second-to-last month, deviating from this pattern could risk destabilizing the pool or provoking the king to extract more aggressively. To maintain stability and ensure a predictable payoff, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained sustainability, ensured the pool remains stable, and provided me with a consistent payoff of $23. Since this is the second-to-last month, maintaining the same extraction strategy ensures the pool regenerates fully for the final month, maximizing long-term payoffs for both me and the peasants. Deviating from this strategy could risk over-extraction, reducing the pool's regeneration and potentially causing dissatisfaction among the peasants."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      15,
+      78
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      5.0,
+      4.0,
+      5.0,
+      26.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The king has consistently extracted $24, leaving $60 in the pool at the end of each round. If I extract more than the usual $12, it could incentivize the other peasants to extract more as well, potentially reducing the remaining pool and my share of the final payoff. However, since this is the last month, I can prioritize maximizing my own extraction without worrying about long-term consequences. Extracting $12 has been a stable strategy, but I could increase my extraction slightly to $15 to gain a higher immediate payoff while still leaving enough for the king to extract his usual amount.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The king has consistently extracted $24 when the peasants collectively extracted $36, leaving $60 in the pool. This pattern has resulted in stable payoffs for everyone. However, since this is the last month, I can prioritize maximizing my own payoff without worrying about the pool's regeneration. If I extract more than $12, the king may adjust their extraction to take more, leaving less in the pool for the final payoff. To avoid triggering the king to take excessively, I will stick to the established pattern of extracting $12, which has proven to yield a fair and predictable payoff.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The king has consistently extracted $24, leaving $60 in the pool at the end of each round. If I extract $12, as in previous months, the payoff distribution will likely remain the same, with each peasant earning $19. However, since this is the last month, I can consider extracting more to maximize my own payoff without worrying about long-term consequences. If I extract $15, the total peasant extraction would be $39, leaving $81 before the king's turn. The king would likely still extract $24, leaving $57 in the pool. This would slightly reduce the pool's final value but increase my immediate payoff. Extracting more than $15 risks reducing the pool too much, which could lead to a lower payoff for me after the king's extraction.",
+      "This is the final month, so there is no need to consider sustainability or regeneration for future months. My goal is to maximize my payoff this month. My payoff formula is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $X, the remaining pool will be $78 - X. Substituting this into the formula:\n\nPayoff = X/3 + (78 - X)/4.\n\nSimplifying:\nPayoff = X/3 + 78/4 - X/4,\nPayoff = X/3 - X/4 + 78/4,\nPayoff = (4X - 3X)/12 + 78/4,\nPayoff = X/12 + 78/4.\n\nTo maximize my payoff, I need to maximize X/12 + 78/4. Since 78/4 is constant, I should maximize X/12. The highest X I can extract is $78, which is the entire remaining pool."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To balance my immediate payoff with the long-term sustainability of the pool, I should extract a moderate amount that contributes to staying near the sustainability threshold while ensuring I get a fair share. Extracting too little risks the king taking most of the remaining value, while extracting too much risks shrinking the pool unnecessarily.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. My payoff depends on both my extraction and the remaining pool value after all extractions. However, the king extracts last and can take as much as he wants, which means the remaining pool value is highly uncertain. If I extract too little, I risk the king taking most of the remaining pool, leaving me with a low payoff. If I extract too much, I contribute to over-extraction, which harms the pool's sustainability. A moderate extraction balances my immediate payoff with the risk of the king's behavior and the need to preserve the commons. I will extract $12, which is a reasonable share that doesn't overly deplete the pool while still securing a decent immediate payoff.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the resources available in future months. Since the king extracts last and has no upper limit, the king may take everything remaining, especially if the pool is large. This creates a dilemma: extracting too little risks the king taking most of the remaining pool, while extracting too much risks depleting the commons for future months.\n\nTo balance these risks, I aim to extract a moderate amount that ensures I get a fair share while leaving enough in the pool to incentivize the king to leave some value for future growth. I also consider that the other two peasants may act similarly, so I must anticipate their behavior. If each peasant extracts moderately (e.g., $15 each), the total extraction would be $45, leaving $75 for the king. This would still allow the pool to grow if the king leaves some value.\n\nGiven the uncertainty about the other peasants' actions and the king's behavior, I will extract $12. This is a moderate amount that ensures I secure some payoff while not overly depleting the commons.",
+      "The goal is to maximize my payoff over the 12 months. Since the pool regenerates by doubling whatever remains (up to $120), leaving more in the pool this month ensures a larger pool for future months. Extracting too much now would reduce the pool's ability to regenerate, potentially harming long-term payoffs.  \n\nThe peasants have collectively extracted $36, leaving $84. If I extract $0, the pool will regenerate to $120 next month. If I extract more, the pool will regenerate less. My payoff this month is determined by the balance between my extraction and the remaining pool.  \n\nTo balance short-term gains with long-term sustainability, I will extract a modest amount, leaving enough for the pool to regenerate fully. Extracting $15 gives me a reasonable immediate payoff while ensuring the pool regenerates to $120."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $15. This resulted in a final pool of $69, which regenerated to $120. The payoffs for all peasants were equal, and the king took a slightly larger share. This suggests that the king is not overly greedy but will take a significant portion of what remains. \n\nTo maximize my payoff, I need to balance my extraction with the need to leave enough in the pool for regeneration and to avoid the king taking too much. If I extract too little, I risk the other peasants and the king taking a larger share, reducing my payoff. If I extract too much, I risk shrinking the pool and reducing future payoffs.\n\nGiven the sustainability threshold of $60, I will extract $12 again, as this was a reasonable and cooperative choice in Month 1. This amount aligns with the behavior of the other peasants and maintains the pool's sustainability.",
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $15. This resulted in a final pool of $69, which regenerated back to $120. The payoffs for all peasants were equal, and the king took a slightly larger share. This suggests that the king is not overly greedy but will take enough to ensure a reasonable share for himself. \n\nTo maximize my payoff, I need to balance my extraction with the need to leave enough in the pool for regeneration and to avoid triggering excessive extraction by the king. If I extract too much, the king may take more aggressively, reducing the final pool and my share of the remaining value. If I extract too little, I miss out on immediate gains. Given the sustainability threshold of $60, I will aim to extract a moderate amount, similar to last month, to maintain stability and avoid over-extraction.",
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $15. This resulted in a final pool of $69, which regenerated back to $120. The payoffs for all peasants were equal, and the king took a slightly higher payoff due to their extraction. This suggests that the group extraction strategy was sustainable and fair, as the pool regenerated fully.\n\nTo maintain sustainability and fairness, I aim to keep the total peasant extraction at or below the sustainability threshold of $60. If I extract $12 again, and the other peasants do the same, the pool will remain sustainable. However, if others extract more, the king may take advantage of the reduced pool, leaving less for regeneration and reducing everyone's payoffs. I will stick to $12, as it worked well last month and aligns with the sustainability goal.",
+      "The peasants have continued their pattern of extracting $12 each, leaving $84 in the pool for me. My goal is to balance maximizing my payoff while ensuring the sustainability of the commons for future months. If I extract too much, the pool will regenerate less, potentially leading to overextraction in future months and lower payoffs for everyone, including myself. \n\nIn Month 1, I extracted $15, leaving $69 in the pool, which regenerated to the maximum $120. This suggests that leaving at least $60 in the pool is a sustainable strategy. Extracting $15 again this month would leave $69, ensuring full regeneration while maintaining a steady payoff for me. This approach also signals to the peasants that I am not overexploiting the commons, which may encourage them to continue their moderate extraction behavior."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous months, all peasants (including me) extracted $12 each, which kept the total extraction below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120 each time. The king extracted $15 both months, leaving a final pool of $69 before regeneration. This strategy has resulted in consistent payoffs of $21.25 for each peasant and $22.25 for the king. Since this approach has been sustainable and fair, I see no reason to deviate from it. Extracting more could risk over-extraction, shrinking the pool, and reducing future payoffs for everyone.",
+      "In the previous two months, all peasants (including me) extracted $12 each, which kept the total extraction below the sustainability threshold. This allowed the pool to regenerate fully to $120, ensuring long-term sustainability. The king extracted $15 both times, leaving a final pool of $69 before regeneration. This strategy has resulted in consistent payoffs for all peasants and the king. To maintain this balance and avoid over-extraction that could harm the commons, I will continue extracting $12 this month, as it has proven to be a sustainable and fair strategy.",
+      "In the previous two months, all peasants (including me) extracted $12 each, which kept the total extraction below the sustainability threshold. This allowed the pool to regenerate fully to $120, ensuring long-term sustainability. The king extracted $15 both times, leaving a final pool of $69 before regeneration. This strategy has resulted in consistent payoffs for everyone, including me. To maintain this balance and avoid over-extraction that could harm the commons, I will continue extracting $12 this month, as it has proven to be a sustainable and fair strategy.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me to decide upon. In the previous months, I extracted $15, leaving $69 in the pool, which regenerated to $120. This strategy has maintained the pool at its maximum value while ensuring a steady payoff for everyone. Extracting $15 again this month will maintain this balance, ensuring sustainability and fairness while maximizing my payoff. Extracting more would reduce the pool below the sustainability threshold, risking long-term depletion, while extracting less would unnecessarily reduce my immediate payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has been sustainable and has provided steady payoffs for everyone. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for me and others. Since the current strategy is working well and the pool is regenerating fully, I see no reason to change my extraction amount.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates to $120. This pattern has been sustainable and has resulted in stable payoffs for everyone. If I deviate and extract more, it could incentivize others to do the same, potentially shrinking the pool and reducing future payoffs. To maintain stability and avoid conflict, I will continue extracting $12, as it has proven to be a fair and sustainable strategy.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates to $120. This pattern has been sustainable and has provided consistent payoffs for everyone. If I deviate and extract more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid retaliation or punishment from the king, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. By extracting $15, I ensure that the pool remains above the sustainability threshold of $60, allowing it to regenerate fully to $120 for the next month. This strategy has proven effective in maintaining long-term resource availability while maximizing my payoff. Extracting more than $15 would reduce the remaining pool below $69, which would lower regeneration and potentially disrupt the balance. Therefore, I will continue with the same extraction strategy as in previous months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a steady payoff of $21.25. \n\nIf I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond by extracting more, further reducing the pool. To maintain stability and ensure a steady payoff, I will continue extracting $12, as this strategy has proven effective.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has kept the pool stable and sustainable, and all peasants have received a consistent payoff of $21.25. \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. If I extract more, it could incentivize the other peasants or the king to extract more in future rounds, potentially leading to over-extraction and a shrinking pool. If I extract less, I would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will stick with the established norm of $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has maintained the pool at its maximum value, ensuring sustainability and stable payoffs for everyone. \n\nIf I deviate from this pattern by extracting more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. Extracting less would reduce my immediate payoff without any clear long-term benefit, as the pool is already regenerating fully. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me to decide upon. My goal is to maximize my payoff while ensuring the sustainability of the commons. Extracting $15 has proven to be a balanced strategy in previous months, as it leaves $69 in the pool, which regenerates to $120. This approach maintains stability, avoids over-extraction, and ensures the peasants remain cooperative. Deviating from this strategy could risk destabilizing the system or reducing long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for all parties. \n\nIf I continue extracting $12, this equilibrium is likely to persist, ensuring the pool remains stable and my payoff remains consistent. Deviating from this amount could disrupt the balance, potentially leading to lower payoffs for me and others. Therefore, I will stick with the established pattern.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, and all peasants have received a steady payoff of $21.25 each month. \n\nGiven this stability and the fact that the pool has not shrunk, I see no reason to deviate from this strategy. Extracting more could risk upsetting the balance, potentially leading to lower payoffs for everyone, including myself. Extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has proven sustainable, as the pool remains stable and fully regenerates each month. Additionally, this strategy has provided a fair and predictable payoff for all peasants ($21.25 each) and the king ($22.25). \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. Extracting more could lead to over-extraction, reducing the pool's ability to regenerate and potentially lowering everyone's payoffs. Extracting less would reduce my immediate payoff without guaranteeing any long-term benefit, as the king would likely compensate by taking more. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. By extracting $15, I maintain a balance between maximizing my payoff and ensuring the pool remains sustainable. This strategy has worked well in previous months, as the pool regenerates to $120, and all parties receive reasonable payoffs. Extracting more could risk reducing the pool below the sustainability threshold, which might lead to over-extraction or conflict in future months. Consistency in my extraction also helps maintain trust and stability in the system."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $15, leaving $69 in the pool. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for all parties, including a payoff of $21.25 for each peasant. \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. Extracting more could lead to over-extraction, potentially reducing the pool's ability to regenerate and inviting retaliation from the king or other peasants. Extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established norm of extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has proven sustainable, as the pool remains stable and fully regenerates each month. Additionally, this strategy has provided a steady and fair payoff for all peasants ($21.25 each) and the king ($22.25). \n\nDeviating from this pattern could risk destabilizing the pool or prompting the king to extract more aggressively. To maintain stability and ensure the pool continues to regenerate fully, I will stick with the established norm of extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid risking the commons, I will continue extracting $12, as it has proven to be a sustainable and fair strategy.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. By extracting $15, I maintain the balance between maximizing my payoff and ensuring the pool remains sustainable. This strategy has worked well in previous months, as the pool regenerates to $120, and no sustainability violations have occurred. Extracting more could risk the long-term stability of the pool, which is not ideal given there are still 5 months remaining. Consistency in my extraction also helps maintain trust and predictability among the peasants."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for everyone. Given this history, deviating from the $12 extraction could disrupt the balance and potentially provoke the king to extract more aggressively, reducing my payoff. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has provided steady payoffs for all parties. \n\nIf I continue extracting $12, it maintains the balance and avoids incentivizing the king to extract more aggressively. Extracting more could risk reducing the pool's regeneration or triggering retaliation from the king or other peasants. Extracting less would reduce my immediate payoff without a clear long-term benefit, as the pool is already regenerating fully.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for all parties. \n\nIf I deviate from this pattern by extracting more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. Extracting less would reduce my immediate payoff without any clear long-term benefit, as the pool is already regenerating fully. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Extracting $15 has proven to be a sustainable strategy, as it leaves $69 in the pool, which regenerates to $120 at the start of the next month. This approach ensures the pool remains stable while maximizing my payoff without risking over-extraction. Maintaining this strategy also avoids alarming the peasants, which could lead to destabilizing behavior in future months. With only 4 months remaining, there is no need to deviate from this successful and sustainable approach."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for all parties. \n\nIf I deviate and extract more than $12, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond negatively to any perceived greed, which could harm my long-term interests. Therefore, I will stick to the established norm of extracting $12 to maintain stability and avoid conflict.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This strategy has proven sustainable, as the pool remains stable and fully regenerates each month. Additionally, this extraction level has provided a fair and predictable payoff for all peasants and the king. Deviating from this pattern could risk upsetting the balance, potentially leading to over-extraction or retaliation by the king. Therefore, I will continue extracting $12 to maintain stability and maximize long-term payoffs.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, with no violations of the sustainability threshold, and has resulted in stable payoffs for all parties. Given that this strategy has worked well and ensures the pool remains stable, I see no reason to deviate from this cooperative equilibrium. Extracting more could risk destabilizing the system, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. My historical extraction of $15 has maintained a stable pool, ensuring sustainability and maximizing long-term payoffs. Extracting $15 again will leave $69 in the pool, which will regenerate to $120 next month. This approach balances my immediate payoff with the long-term health of the commons, ensuring continued cooperation and stability. Deviating from this strategy could risk over-extraction, reduce regeneration, and potentially disrupt the system."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate and extract more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. To maintain stability and ensure a predictable payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $15, leaving $69 in the pool. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for all parties, including a payoff of $21.25 for each peasant. Given that this strategy has been working well, there is no incentive to deviate, as doing so could disrupt the balance and potentially provoke the king to extract more aggressively. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $15, leaving $69 in the pool, which then regenerates to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. Extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "The current state of the commons is stable, with the pool consistently regenerating to $120 each month. The peasants have been extracting $12 each, which is sustainable and leaves $84 for me to decide upon. My historical extraction of $15 has maintained this balance, ensuring the pool regenerates fully while providing me with a steady payoff of $22.25. Extracting more than $15 could risk reducing the pool below the sustainability threshold ($60), which might lead to over-extraction by the peasants in future months or a failure to regenerate fully. With only two months remaining, maintaining stability ensures long-term payoffs for all parties. Therefore, I will continue extracting $15 to preserve the balance."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      21.25,
+      21.25,
+      22.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $15, leaving $69 in the pool. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for all parties, with me earning $21.25 each month. Given that this strategy has been working well, there is no incentive to deviate, as doing so could disrupt the balance and potentially provoke the king to extract more aggressively. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then taken $15, leaving $69 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains stable for the final month, maximizing long-term payoffs for everyone. Deviating from this strategy could provoke the king to extract more aggressively, reducing the pool and harming future payoffs.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $15, leaving $69 in the pool. The pool then regenerates to $120, ensuring sustainability. This pattern has been stable and beneficial for all parties, with no sustainability violations and consistent payoffs. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains stable for the final month, maximizing long-term payoffs. Deviating from this strategy could provoke the king to extract more aggressively, reducing the pool and harming future payoffs.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. My historical extraction of $15 has maintained a stable pool, ensuring sustainability and maximizing long-term payoffs. With only one month remaining, maintaining the pool at a high level ensures maximum regeneration for the final month. Extracting $15 again balances my immediate payoff with the long-term benefit of a fully regenerated pool for the final month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      75
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      5.0,
+      5.0,
+      5.0,
+      25.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The history shows that all peasants, including myself, have consistently extracted $12 each, which has led to stable outcomes and fair payoffs. The king has also extracted a predictable $15, leaving a reasonable amount in the pool for regeneration. However, since this is the last month, the king may be incentivized to extract more than usual, as there is no future pool to preserve. To maximize my own payoff, I should consider extracting slightly more than $12, but not so much that it provokes retaliation or reduces the remaining pool excessively before the king extracts. Extracting $15 seems like a reasonable adjustment to maximize my share while maintaining a balance.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The history shows that all peasants, including myself, have consistently extracted $12 each, which has led to stable outcomes and fair payoffs. The king has also extracted a predictable $15, leaving a reasonable amount in the pool for regeneration. However, since this is the last month, the king may be incentivized to extract more than usual, as there is no future pool to preserve. To maximize my own payoff, I should consider extracting slightly more than $12, but not so much that it provokes retaliation or reduces the remaining pool excessively before the king extracts. Extracting $15 seems like a reasonable adjustment to maximize my share while maintaining a balance.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. Based on the history, the other two peasants have consistently extracted $12 each, and the king has extracted $15, leaving $69 in the pool at the end. If I extract more than $12, I risk reducing the remaining pool, which could lead to the king extracting more and leaving less for the final pool. However, since this is the last month, the king's extraction doesn't directly affect my payoff from the remaining pool. My payoff is determined by my extraction divided by 3 and the remaining pool divided by 4. Extracting $12 has been a stable strategy, but I could increase my extraction slightly to $15 to maximize my share without significantly disrupting the balance.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff this month. My payoff formula is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $X, the remaining pool will be $75 - X. Substituting into the formula:\n\nPayoff = X/3 + (75 - X)/4.\n\nSimplifying:\nPayoff = X/3 + 75/4 - X/4,\nPayoff = (4X + 225 - 3X)/12,\nPayoff = (X + 225)/12.\n\nTo maximize my payoff, I should maximize X, as the term X/12 increases with X. Therefore, I should extract the maximum amount available to me, which is $75."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To balance my immediate payoff with the long-term sustainability of the pool, I should extract a moderate amount that contributes to staying near the sustainability threshold while ensuring I get a fair share. Extracting too little risks the king taking most of the remaining value, while extracting too much risks shrinking the pool unnecessarily.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To maximize my payoff, I need to balance my extraction with the likelihood of the pool being depleted by the king. Extracting a moderate amount ensures I gain some immediate benefit while leaving enough in the pool to potentially double its value if the king does not take everything. I will extract $12, which is a reasonable share that doesn't overly deplete the pool.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. My payoff depends on both my extraction and the remaining pool value after all extractions. However, the king extracts last and can take as much as he wants, which means the remaining pool value is highly uncertain. To balance my immediate payoff with the risk of over-extraction, I will choose a moderate extraction amount that contributes to sustainability while ensuring I secure some payoff this month. I will extract $12, which is neither too low nor too high, and hope the other peasants also act moderately.",
+      "The goal is to maximize my payoff over the long term, considering both my immediate extraction and the regeneration of the pool for future months. If I extract too much, the pool will regenerate less, reducing the total resources available in subsequent months. If I extract too little, I miss out on immediate gains. \n\nThe peasants have collectively extracted $36, leaving $84 in the pool. If I extract $0, the pool will regenerate to $120 next month. If I extract $84, the pool will regenerate to $0, which is highly suboptimal for future payoffs. A balanced approach is to extract a moderate amount, leaving enough in the pool to regenerate significantly while still securing a reasonable immediate payoff.\n\nTo maximize my payoff, I will extract $24. This leaves $60 in the pool, which will regenerate to $120 next month. My payoff this month will be $24/3 + $60/4 = $8 + $15 = $23."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Last month, the total peasant extraction was $36, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. The king's behavior suggests that he is willing to extract enough to leave the pool at the sustainability threshold ($60). If all peasants extract moderately, the pool can sustain itself, and the king will likely continue this pattern. Extracting too much risks the king taking more aggressively, which could shrink the pool and harm future payoffs. To balance my immediate payoff with long-term sustainability, I will extract a moderate amount similar to last month.",
+      "The goal is to maximize my payoff while considering the sustainability of the commons and the behavior of the other peasants and the king. Last month, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated to $120. This suggests that the king is likely to extract a significant portion of the remaining pool, but not so much as to leave the commons in a dire state. \n\nIf I extract too much, it risks pushing the total extraction above the sustainability threshold, shrinking the pool next month. If I extract too little, I may miss out on maximizing my payoff, especially since the king extracts last and can take advantage of any remaining value. Given the history, I expect the other peasants to extract similarly to last month (around $12 each), so I will also extract $12 to maintain balance and avoid over-extraction.",
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. The payoffs for all peasants were equal at $19, and the king earned slightly more at $23. This suggests that the king is likely to extract enough to ensure the pool regenerates fully, as it benefits everyone.\n\nTo maximize my payoff, I need to balance my extraction with the remaining pool value after all extractions. Extracting too much risks shrinking the pool, while extracting too little reduces my immediate payoff. If I extract $12 again, it is likely that the other peasants will do the same, and the king will adjust their extraction to maintain the pool at $60. This strategy worked well in Month 1, so I will stick with it.",
+      "The peasants have continued their pattern of extracting $12 each, leaving $84 in the pool for me. If I extract too much, the pool will regenerate less, potentially harming long-term sustainability. Last month, I extracted $24, leaving $60 in the pool, which regenerated fully to $120. This balanced approach ensured that the commons remained sustainable while maximizing my payoff. To maintain this balance, I will extract $24 again this month, leaving $60 in the pool to regenerate fully. This strategy incentivizes the peasants to continue their moderate extractions and ensures the commons remains viable for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous two months, all peasants, including me, extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. This extraction pattern has been sustainable, and all peasants received equal payoffs of $19.00, while the king received $23.00. If I deviate and extract more, it could incentivize others to do the same in future months, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid retaliation or resource depletion, I will continue extracting $12, as it has proven to be a fair and sustainable strategy.",
+      "Over the past two months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This left $84 in the pool before the king extracted $24, resulting in a final pool of $60, which regenerated back to $120. This pattern has been sustainable, and all peasants have received equal payoffs of $19.00. If I deviate and extract more, it could provoke the king to extract more aggressively, reducing the final pool and potentially harming my long-term payoffs. To maintain stability and avoid conflict, I will continue extracting $12, as it has proven to be a fair and sustainable strategy.",
+      "In the previous two months, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. This extraction pattern has been sustainable, and all peasants received equal payoffs of $19.00. The king seems to be consistently extracting $24, which suggests a predictable behavior. To maintain sustainability and avoid shrinking the pool, I will continue extracting $12, as deviating from this could disrupt the balance and potentially lead to lower payoffs for everyone.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the previous months, I extracted $24, leaving $60 in the pool, which regenerated to $120. This strategy has maintained the pool at its maximum value while ensuring a steady payoff for everyone. Extracting $24 again this month will sustain this balance, ensuring the pool regenerates fully and the system remains stable. This approach maximizes long-term payoffs for me while maintaining the peasants' cooperation."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable and has resulted in consistent payoffs for everyone. If I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. To maintain stability and ensure the pool regenerates fully, I will continue extracting $12.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has resulted in stable payoffs for everyone, with me earning $19 each month. \n\nIf I deviate and extract more, it could disrupt this balance, potentially leading to retaliation from the king or other peasants in future months. Additionally, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, all peasants (including me) have extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received consistent payoffs of $19.00. If I deviate and extract more, it could incentivize others to do the same, potentially shrinking the pool and reducing future payoffs. To maintain stability and avoid retaliation or over-extraction by others, I will stick to the established norm of extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. I have been extracting $24 each month, which leaves $60 in the pool. This ensures the pool regenerates to its maximum value of $120, maintaining sustainability. This strategy has worked well for all parties, as the peasants receive consistent payoffs of $19 each, and I receive a payoff of $23. There is no reason to deviate from this strategy, as it balances sustainability with maximizing my payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows a stable pattern where each peasant extracts $12, leading to a total peasant extraction of $36. This leaves $84 in the pool before the king extracts $24, resulting in a final pool of $60, which regenerates to $120. This strategy has been sustainable, ensuring the pool remains stable while providing consistent payoffs. Deviating from this pattern could risk over-extraction, reducing the pool's ability to regenerate, or under-extraction, which might reduce my immediate payoff without any long-term benefit. To maintain stability and maximize my payoff, I will continue extracting $12.",
+      "The history shows a stable pattern where each peasant extracts $12, leaving $84 in the pool before the king extracts $24. This results in a final pool of $60, which regenerates to $120. This strategy has been sustainable, ensuring the pool remains stable while providing consistent payoffs. If I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. To maintain stability and avoid provoking the king, I will continue extracting $12, as it has proven to be a fair and sustainable strategy.",
+      "Based on the history of previous months, the current strategy of extracting $12 per peasant has led to a stable pool that regenerates fully each month. This ensures that the pool remains sustainable and provides consistent payoffs for all participants. The king has consistently extracted $24, leaving the pool at $60, which then regenerates to $120. Deviating from this strategy could risk over-extraction, reducing the pool's ability to regenerate and potentially lowering payoffs in future months. To maintain stability and avoid provoking the king to extract more aggressively, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me every month. By extracting $24, I ensure the pool remains at $60, which is the sustainability threshold for regeneration to $120. This strategy has proven effective in maintaining a stable pool while maximizing my payoff. Extracting more than $24 would reduce the pool below $60, risking long-term sustainability and potentially leading to lower payoffs in future months. Extracting less than $24 would unnecessarily reduce my immediate payoff without any additional benefit to the pool's regeneration."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. Deviating from this equilibrium could risk upsetting the balance, potentially leading to lower payoffs for everyone. To maintain stability and ensure a predictable outcome, I will continue extracting $12 this month.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool has then regenerated to $120, maintaining stability. This strategy has resulted in a steady payoff of $19 for each peasant and $23 for the king. \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. If I extract more, it could incentivize the other peasants or the king to extract more in future rounds, potentially leading to a shrinking pool. If I extract less, I would sacrifice my own payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. This $60 has regenerated to $120, maintaining the pool's stability. This pattern has resulted in steady payoffs for all parties, with me earning $19 each month. \n\nGiven this history, deviating from the established pattern could disrupt the balance and potentially provoke the king to extract more aggressively, reducing the pool and my payoff. To maintain stability and ensure a predictable outcome, I will continue extracting $12 this month.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. By extracting $24, I maintain the sustainability of the pool, ensuring it regenerates to $120 for the next month. This strategy has worked well in previous months, providing me with a steady payoff of $23 while keeping the peasants satisfied with their payoffs. There is no incentive to deviate from this equilibrium, as it balances my interests with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it risks reducing the pool's sustainability and could provoke the king to extract more aggressively, reducing my payoff. Extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has proven sustainable, and all peasants have received a payoff of $19 each month. Deviating from this equilibrium risks upsetting the balance, potentially leading to lower payoffs for everyone. To maintain stability and ensure a fair payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond by extracting more aggressively in future months if the pool shrinks. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the other peasants and the king are unlikely to adjust their behavior.\n\nGiven this, I will stick to the established equilibrium of extracting $12, as it has proven to be a sustainable and fair strategy.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24 each time, leaving $60 in the pool. This has allowed the pool to regenerate fully to $120 each month, ensuring sustainability. This strategy has also provided me with a steady payoff of $23 per month, which is optimal given the circumstances. There is no indication that the peasants will change their behavior, and deviating from this strategy could risk destabilizing the pool or reducing my payoff in future months. Therefore, I will continue extracting $24 this month to maintain the balance."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for all parties, with me earning $19 each month. \n\nGiven this stability and the fact that deviating from this pattern could risk upsetting the balance (e.g., by encouraging the king to extract more or by reducing the pool's regeneration), I see no reason to change my extraction amount. Maintaining $12 aligns with the cooperative equilibrium we've established.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool for the king, who has consistently extracted $24, leaving $60 in the pool at the end of each month. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for everyone, with me earning $19 each month. \n\nGiven this stability and the fact that deviating from this pattern could risk upsetting the balance (e.g., by encouraging the king to extract more or by reducing the pool's regeneration), I see no reason to change my extraction amount. Maintaining $12 extraction aligns with the cooperative equilibrium we've established.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained a stable and sustainable pool while ensuring a fair balance of payoffs. Extracting $24 again this month will continue this pattern, ensuring the pool remains sustainable and the peasants remain cooperative. There is no incentive to deviate from this strategy, as it maximizes long-term stability and my payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, resulting in a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it risks reducing the pool's sustainability and potentially triggering retaliation from the king or other peasants. Extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue extracting $12 to maintain stability and maximize my payoff under the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern and extract more, it could disrupt the balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond by extracting more aggressively, which could further reduce the pool. On the other hand, extracting less would reduce my immediate payoff without any clear long-term benefit, as the pool is already regenerating fully.\n\nGiven this, I will stick to the established pattern of extracting $12, as it has proven to be a stable and beneficial strategy for all parties.",
+      "Over the past three months, the peasants have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool then regenerates to $120, ensuring sustainability. This pattern has resulted in stable payoffs for all parties, with me earning $19 each month. \n\nGiven this stability and the fact that deviating from this pattern could provoke the king to extract more aggressively or disrupt the balance, I see no reason to change my extraction amount. Maintaining $12 ensures the pool remains sustainable and avoids unnecessary risks.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. I have been extracting $24 in recent months, which leaves the pool at $60. This ensures the pool regenerates to $120, maintaining sustainability. This strategy has been stable and fair, providing consistent payoffs for both the peasants and myself. There is no reason to deviate from this approach, as it balances my payoff with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern by extracting more, it could disrupt the balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond to higher peasant extractions by taking more, further reducing the pool. On the other hand, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit, as the pool is already regenerating fully.\n\nGiven this stable and predictable system, I will continue extracting $12 to maintain the balance and ensure a steady payoff.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. To maintain stability and ensure a predictable payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate from this pattern by extracting more, it could disrupt the balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond to higher peasant extractions by taking more, further reducing the pool. On the other hand, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit, as the pool is already regenerating fully each month.\n\nGiven this stable and mutually beneficial equilibrium, I will continue extracting $12 to maintain the current balance.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the past three months, I have extracted $24, leaving $60 in the pool, which then regenerates to $120. This strategy has maintained a stable pool, ensured sustainability, and provided me with a consistent payoff of $23.00. Given that there are only two months remaining after this, it is in my best interest to continue this sustainable approach to maximize long-term payoffs while maintaining the trust and cooperation of the peasants. Extracting more than $24 could reduce the pool below the sustainability threshold, risking regeneration issues and potential unrest among the peasants."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool has then regenerated to its maximum value of $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nGiven that this is the second-to-last month, it is important to maintain the sustainability of the pool to ensure a stable payoff in the final month. Deviating from the established pattern could provoke the king to extract more aggressively, potentially reducing the pool's value and harming my payoff. Therefore, I will continue extracting $12, as this has proven to be a stable and cooperative strategy.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This strategy has proven sustainable, and all parties have received stable payoffs. Given that this is the second-to-last month, deviating from this pattern could risk destabilizing the pool or provoking the king to extract more aggressively. To maintain stability and maximize my payoff, I will continue extracting $12, as it has been a successful strategy.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. \n\nIf I deviate and extract more than $12, it could incentivize the other peasants to do the same in the future, potentially leading to over-extraction and a shrinking pool. Additionally, the king might respond by extracting more, reducing the remaining pool and my payoff. Since this is the second-to-last month, maintaining the current equilibrium ensures stability and maximizes my payoff without risking the pool's sustainability.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. My historical extraction has been $24, which ensures the pool remains sustainable at $60 after my extraction. This allows the pool to regenerate fully to $120 for the next month. Since this is the second-to-last month, maintaining the pool at $120 for the final month ensures that I can continue to maximize my payoff while keeping the system stable. Extracting $24 again aligns with this strategy, as it balances my immediate payoff with the long-term sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      84
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      4.0,
+      4.0,
+      4.0,
+      28.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The king has consistently extracted $24, and the other peasants have consistently extracted $12 each, leading to a stable pattern. If I extract more than $12, I risk reducing the remaining pool, which would lower my share of the final pool payoff. Extracting $12 has been a safe and cooperative strategy that ensures a fair payoff while maintaining stability. Since this is the last month, I will stick to this strategy to maximize my payoff without disrupting the established pattern.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. Based on the history, the other two peasants have consistently extracted $12 each, and the king has consistently extracted $24, leaving the pool at $60. If I extract more than $12, it could incentivize the king to extract more aggressively, reducing the remaining pool and my share of it. Extracting $12 has been a stable strategy that ensures a predictable payoff of $19.00, and deviating from this could introduce unnecessary risk.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The king has consistently extracted $24 when the peasants collectively extracted $36, leaving $60 in the pool. This pattern has resulted in stable payoffs for everyone. However, since this is the last month, I can prioritize maximizing my own payoff without worrying about future consequences. If I extract more than $12, the king may adjust his extraction to take more, leaving less in the pool for the final payoff. To avoid provoking the king while still maintaining a reasonable payoff, I will stick to the established pattern of extracting $12.",
+      "This is the final month, so there is no need to consider sustainability or regeneration for future months. My goal is to maximize my payoff this month. My payoff formula is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $X, the remaining pool will be $84 - X. Substituting this into the formula:\n\nPayoff = X/3 + (84 - X)/4.\n\nSimplifying:\nPayoff = X/3 + 21 - X/4,\nPayoff = 21 + (4X - 3X)/12,\nPayoff = 21 + X/12.\n\nThis means my payoff increases linearly with X. Therefore, to maximize my payoff, I should extract the maximum amount available to me, which is $84."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. My payoff depends on both my extraction and the remaining pool value after all extractions. However, the king extracts last and can take as much as he wants, which means the remaining pool value is highly uncertain. If I extract too little, I risk the king taking most of the remaining pool, leaving me with a low payoff. If I extract too much, I contribute to depleting the commons, which harms future payoffs. A moderate extraction balances these risks. I will extract $12, which is neither too greedy nor too conservative, and it leaves room for the other peasants to act sustainably.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, the king is likely to take a significant amount, especially if the pool is left with a large value. To balance my immediate payoff with the long-term sustainability of the pool, I should extract a moderate amount. Extracting too little risks the king taking most of the remaining value, while extracting too much risks shrinking the pool unnecessarily. I will extract $12, which is a reasonable share that contributes to the sustainability threshold without being overly greedy.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If total extractions exceed $60, the pool will shrink, reducing the potential for future payoffs. Since the king extracts last and has no upper limit, he is likely to take a significant amount of what remains after the peasants' extractions. To maximize my payoff, I need to balance my own extraction with the likelihood of the pool being depleted by the king. If I extract too little, I risk the king taking most of the remaining pool, leaving me with a smaller share of the doubled value. If I extract too much, I contribute to the pool shrinking, which harms long-term payoffs. I will extract a moderate amount to ensure I get a fair share while leaving enough in the pool to incentivize sustainability.",
+      "My goal is to maximize my payoff over the long term, considering both my immediate extraction and the regeneration of the pool for future months. If I extract too much, the pool will regenerate less, reducing the total resources available in subsequent months. If I extract too little, I miss out on immediate gains. \n\nCurrently, the pool is at $84. If I extract $X, the remaining pool will be $84 - $X, which will double at the end of the month (up to a maximum of $120). To balance immediate payoff and future regeneration, I will extract a moderate amount, leaving enough in the pool to regenerate fully to $120. \n\nIf I extract $24, the remaining pool will be $60, which will double to $120. This ensures the pool is fully replenished for next month while giving me a reasonable immediate payoff.\n\nMy payoff for extracting $24 will be:\nPayoff = ($24/3) + ($60/4) = $8 + $15 = $23."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      9,
+      24
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      19.75,
+      19.75,
+      18.75,
+      23.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated to $120. The payoffs for all peasants were equal at $19, and the king earned $23. This suggests that the king is likely to extract enough to ensure the pool regenerates fully, as it benefits everyone. To maintain fairness and sustainability, I will match my previous extraction of $12, as it aligns with the collective goal of keeping the pool sustainable while ensuring a reasonable payoff for myself.",
+      "Last month, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. The king's behavior suggests that he is willing to extract a significant portion of the remaining pool, but not necessarily all of it. To maximize my payoff, I need to balance my extraction with the need to leave enough in the pool for regeneration while considering the king's likely extraction. If I extract too much, the pool may shrink, reducing future payoffs. If I extract too little, I risk losing out on immediate gains. Given the sustainability threshold of $60, I will extract a moderate amount to ensure the pool remains viable while securing a reasonable payoff.",
+      "Last month, all peasants extracted $12 each, which left $84 in the pool before the king extracted $24. This resulted in a final pool of $60, which regenerated back to $120. The king's behavior suggests that he is willing to extract a significant portion of the remaining pool, but not necessarily all of it. To maximize my payoff, I need to balance my extraction (which directly contributes to my payoff) with the remaining pool size (which also contributes to my payoff after the king extracts). If I extract too much, the pool will shrink, and the king may take more aggressively. If I extract too little, I risk losing out on immediate payoff. Given the sustainability threshold of $60, I will aim to extract slightly less than last month to encourage a larger remaining pool after the king's extraction.",
+      "My goal as king is to maximize my payoff while ensuring the sustainability of the commons over the 12-month period. The peasants have extracted a total of $33 this month, leaving $87 in the pool. If I extract too much, the pool will regenerate less, potentially harming long-term payoffs. However, if I extract too little, I miss out on immediate gains. \n\nFrom the previous month, I observed that extracting $24 left the pool at $60, which is the sustainability threshold for full regeneration. This strategy worked well, as the pool regenerated to $120, and I achieved a strong payoff. I will aim to maintain a similar balance this month by extracting $24 again, leaving $63 in the pool. This ensures the pool regenerates fully while providing me with a solid payoff."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the other peasants and I have been extracting amounts that keep the pool sustainable, and the king has consistently extracted $24. This strategy has allowed the pool to regenerate fully each month. My goal is to maximize my payoff while ensuring the pool remains sustainable. If I extract $12 again, the total peasant extraction will likely remain below the sustainability threshold, assuming the other peasants behave similarly to previous months. This will leave enough for the king to extract without depleting the pool, ensuring regeneration. Extracting more than $12 risks pushing the total extraction closer to or above the sustainability threshold, which could shrink the pool and harm long-term payoffs.",
+      "The goal is to maximize my payoff while ensuring the pool remains sustainable for future months. In the previous months, the peasants collectively extracted below the sustainability threshold, leaving enough for the pool to regenerate fully. The king has consistently extracted $24, which suggests a predictable pattern. If I extract $12 again, as I did in the past, it aligns with the collective behavior that keeps the pool sustainable. This strategy balances my immediate payoff with the long-term health of the commons.",
+      "Based on the history, the other peasants (Peasant 1 and Peasant 2) have consistently extracted $12 each, while Peasant 3 (me) extracted $12 in Month 1 and $9 in Month 2. The king has consistently extracted $24, leaving the pool in a sustainable state. To maintain sustainability, the total peasant extraction should not exceed $60. If I extract $12 again, the total peasant extraction will likely remain below the sustainability threshold, assuming the other peasants continue their patterns. This ensures the pool regenerates fully, and I receive a fair payoff. Extracting more could risk shrinking the pool, which would harm long-term payoffs.",
+      "My goal as king is to maximize my payoff while ensuring the sustainability of the commons. The peasants have been extracting moderately and consistently, leaving the pool above the sustainability threshold of $60. This ensures the pool regenerates fully to $120 each month. If I extract $24, as I did in the previous months, the pool will remain at $60, which is the threshold for full regeneration. This strategy has worked well so far, providing me with a steady payoff while maintaining the commons' sustainability. Extracting more than $24 would reduce the pool below $60, leading to less regeneration and potentially destabilizing the system in future months. Extracting less than $24 would leave value on the table without increasing my payoff significantly."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, it seems that all peasants (including me) have been extracting $12 consistently, except for one instance where Peasant 3 extracted $9. This strategy has kept the pool sustainable, as the king has been extracting $24 consistently, leaving enough for the pool to regenerate to $120 each month. If I deviate significantly from $12, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone in the future. To maintain stability and avoid provoking the king to extract excessively, I will continue extracting $12.",
+      "Based on the history, it seems that the peasants have been extracting moderately ($12 each, or slightly less in one case), and the king consistently takes $24. This strategy has kept the pool sustainable, regenerating to $120 each month. If I extract $12 again, it aligns with the cooperative behavior of the other peasants, ensuring the pool remains sustainable. Over-extracting could lead to retaliation from the king or other peasants in future months, which would harm my long-term payoffs. Under-extracting would reduce my immediate payoff without significantly benefiting the pool, as the king would likely compensate by taking more.",
+      "Based on the history, it seems that all peasants, including myself, have been extracting $12 consistently, except for one instance where Peasant 3 extracted $9. This extraction pattern has kept the pool sustainable, as the king has been taking $24 consistently, leaving enough for the pool to regenerate to $120. If I deviate significantly from this pattern, it could disrupt the balance and potentially lead to a smaller pool in future months, which would harm everyone's payoffs, including mine. Therefore, I will continue extracting $12 to maintain the current equilibrium and avoid provoking the king or the other peasants.",
+      "The peasants have been extracting consistently, with each taking $12 per month (except for one instance of $9). This behavior suggests they are cooperating to maintain the commons at a sustainable level. My strategy has been to extract $24 each month, leaving the pool at $60, which regenerates to $120. This approach ensures sustainability while maximizing my payoff. Extracting more than $24 would reduce the pool below the sustainability threshold, risking long-term depletion and potentially incentivizing the peasants to extract more in future months. Extracting less than $24 would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established strategy of extracting $24."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the pool has been stable and regenerating to $120 each month, as the total extractions have stayed within the sustainability threshold of $60. The king consistently extracts $24, and the peasants (including me) have been extracting $12 each in recent months. This strategy has ensured a steady payoff for everyone, with no sustainability violations. If I deviate and extract more, it risks shrinking the pool and reducing future payoffs for everyone, including myself. Therefore, I will continue extracting $12 to maintain stability and maximize long-term payoffs.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month because the total extractions have stayed within the sustainability threshold of $60. The king consistently extracts $24, and the peasants (including me) have been extracting $12 each in recent months. This strategy has resulted in fair payoffs for all peasants and a stable pool. Deviating from this pattern by extracting more could risk shrinking the pool, which would harm everyone’s payoffs in the long run. Therefore, I will continue extracting $12 to maintain stability and fairness.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month, as the total extractions have stayed within the sustainability threshold of $60. The king consistently extracts $24, and the peasants (including me) have been extracting $12 each in recent months. This strategy has resulted in fair payoffs for all peasants and a stable pool. Deviating from this pattern by extracting more could risk exceeding the sustainability threshold, shrinking the pool, and reducing future payoffs. To maintain stability and fairness, I will continue extracting $12.",
+      "The peasants have been extracting consistently, and their total extraction this month ($36) is within the sustainability threshold ($60). Historically, I have extracted $24 each month, leaving the pool at $60, which regenerates to $120. This strategy has maintained a stable pool while ensuring a steady payoff for me and the peasants. Extracting $24 again this month will continue this balance, leaving $60 in the pool for regeneration. This approach avoids over-extraction, maintains trust, and ensures long-term sustainability."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability and ensured sustainable payoffs for everyone. If I deviate and extract more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid provoking the king or other peasants, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability and ensured sustainable payoffs for everyone. If I deviate and extract more, it could incentivize others to do the same, potentially leading to over-extraction and a shrinking pool. To maintain stability and avoid risking the commons, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond negatively to over-extraction, as it could reduce their payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the other peasants and the king are unlikely to adjust their behavior in response.\n\nGiven this, I will continue extracting $12 to maintain the established equilibrium and ensure a stable payoff.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. In the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained sustainability, ensured the pool remains stable, and provided me with a consistent payoff of $23.00. There is no incentive to deviate from this strategy, as it balances my payoff with the long-term health of the commons and avoids triggering over-extraction by the peasants in future months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, avoided sustainability violations, and provided steady payoffs for everyone. If I deviate from this pattern by extracting more, it could incentivize the other peasants to extract more in future rounds, potentially leading to over-extraction and a shrinking pool. To maintain stability and ensure predictable payoffs, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has maintained the pool's stability, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the pool and reducing my long-term payoffs. On the other hand, extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will continue extracting $12 to maintain the current equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction, and the king has consistently taken $24, leaving $60 in the pool at the end of each month. The pool has then regenerated to $120, maintaining stability. This pattern has resulted in steady payoffs for all parties, with me earning $19 each month. \n\nGiven this history, deviating from the $12 extraction risks disrupting the balance. If I extract more, it could incentivize the other peasants or the king to extract more in future months, potentially leading to sustainability violations and lower payoffs for everyone. Extracting less would reduce my immediate payoff without guaranteeing any long-term benefit. Therefore, I will stick with the established $12 extraction to maintain stability and maximize my payoff under the current conditions.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24 each time, leaving $60 in the pool. This has ensured the pool regenerates to its maximum value of $120, maintaining sustainability. This strategy has also provided me with a steady payoff of $23 per month, which is optimal given the circumstances. There is no reason to deviate from this strategy, as it balances sustainability, fairness, and my own payoff."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has maintained the pool's stability and ensured sustainable payoffs for everyone. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for me and others. Therefore, I will continue extracting $12 to maintain this equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then consistently extracted $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could incentivize the other peasants or the king to adjust their behavior, potentially destabilizing the system. To maintain stability and ensure predictable payoffs, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has maintained the pool's stability and ensured sustainable payoffs for everyone. If I deviate and extract more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Given the stability of this strategy and the fact that we are nearing the end of the year, I see no reason to change my extraction amount.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Extracting $24 has been a sustainable strategy, as it leaves $60 in the pool, which regenerates back to $120. This ensures long-term stability while maintaining a fair balance of payoffs. Deviating from this strategy could risk over-extraction, reducing future payoffs, or under-extraction, leaving potential gains on the table. Given the stable trend and no sustainability violations, I will continue with the $24 extraction."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone, including myself. Additionally, the king might respond negatively to any perceived greed, which could harm my future payoffs. Therefore, I will stick to the established norm of extracting $12 to maintain stability and avoid conflict.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has proven sustainable, and all parties have received stable payoffs. If I deviate by extracting more, it could disrupt this balance, potentially leading to a smaller pool and lower payoffs for everyone. To maintain stability and ensure the pool regenerates fully, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates back to $120. This pattern has proven sustainable, and all peasants have received a stable payoff of $19.00 each month. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for everyone. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained a stable pool while ensuring a fair balance of payoffs between me and the peasants. Extracting $24 again this month will continue this sustainable pattern, ensuring the pool remains at its maximum for the remaining months. This approach also maintains trust and stability in the system, which is beneficial for long-term cooperation."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nIf I deviate and extract more than $12, it could disrupt this balance. The king might respond by extracting more, reducing the final pool and my payoff. On the other hand, extracting less than $12 would reduce my immediate payoff without guaranteeing any long-term benefit, as the king would likely still extract enough to maintain the current pattern. \n\nGiven the stability of the current strategy and the fact that we are nearing the end of the 12-month period, I see no reason to deviate from the established equilibrium. Extracting $12 maximizes my payoff while maintaining sustainability.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This strategy has proven sustainable, with no violations of the sustainability threshold, and has provided steady payoffs for all parties. Deviating from this pattern could risk upsetting the balance, potentially leading to lower payoffs for everyone. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which then regenerates to $120. This pattern has maintained the pool's stability and ensured sustainable payoffs for everyone. My payoff in this scenario has been $19 each month, which is reasonable and predictable. Deviating from this strategy could risk upsetting the balance, potentially leading to lower payoffs for me and others. Therefore, I will continue extracting $12 to maintain this equilibrium.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained a stable pool, ensured sustainability, and provided consistent payoffs for both the peasants and myself. Extracting $24 again this month will continue this balance, ensuring the pool regenerates fully for the next month while maximizing my payoff without risking over-extraction or destabilizing the system."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      19.0,
+      19.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. \n\nGiven that this is the second-to-last month, deviating from this equilibrium could risk destabilizing the pool or provoking the king to extract more aggressively. Maintaining the current strategy ensures stability and maximizes my payoff without risking retaliation or over-extraction.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has consistently taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable, and all peasants have received a payoff of $19 each month. Given that this is the second-to-last month, deviating from this strategy could risk destabilizing the pool or provoking the king to extract more aggressively. To maintain stability and ensure a predictable payoff, I will continue extracting $12.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool for the king, who has consistently extracted $24, leaving $60 in the pool at the end of each month. The pool then regenerates to $120, ensuring sustainability. This strategy has resulted in stable payoffs for everyone, with me earning $19 each month. Given that this is the second-to-last month, deviating from this strategy could risk destabilizing the pool or provoking the king to extract more aggressively. To maintain stability and maximize my payoff, I will continue extracting $12.",
+      "The peasants have consistently extracted $12 each, leaving $84 for me. Over the past three months, I have extracted $24, leaving $60 in the pool, which regenerates to $120. This strategy has maintained sustainability, ensured the pool remains stable, and provided me with a consistent payoff of $23. Since this is the second-to-last month, maintaining the same extraction strategy ensures the pool remains sustainable for the final month while maximizing my payoff without risking over-extraction or destabilizing the system."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      12,
+      78
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      5.0,
+      5.0,
+      4.0,
+      26.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. Based on the history, the king has consistently extracted $24 when the peasants collectively extracted $36, leaving $60 in the pool. If I extract $12, as in previous months, the pattern is likely to repeat, and my payoff will be $19. However, since this is the last month, I can consider extracting more to increase my immediate payoff. If I extract $15, the total peasant extraction would be $39, leaving $81 before the king's turn. The king may still extract $24, leaving $57 in the pool. My payoff would then be $15/3 + $57/4 = $5 + $14.25 = $19.25, which is slightly higher than $19. Extracting more than $15 risks reducing the pool too much, which could lead to a lower payoff if the king adjusts their extraction. Therefore, $15 is a reasonable choice to slightly increase my payoff without risking too much.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. Based on the history, the other two peasants have consistently extracted $12 each, and the king has extracted $24, leaving $60 in the pool at the end of each round. If I extract $12 again, the pattern will likely repeat, and my payoff will be $19. However, since this is the last month, I can consider extracting more to increase my immediate payoff. If I extract $15 instead, the total peasant extraction would be $39, leaving $81 before the king extracts. The king would likely still take $24, leaving $57 in the pool. My payoff would then be $15/3 + $57/4 = $5 + $14.25 = $19.25, which is slightly higher than $19. Extracting more than $15 would reduce the remaining pool too much, lowering my payoff. Therefore, $15 is the optimal choice.",
+      "Over the past three months, the peasants (including me) have consistently extracted $12 each, leading to a total peasant extraction of $36. This has left $84 in the pool before the king's extraction. The king has then taken $24, leaving $60 in the pool, which regenerates back to $120. This pattern has been sustainable and has resulted in stable payoffs for everyone. Since this is the final month, there is no need to worry about the pool's regeneration for future months. However, deviating significantly from the established pattern could provoke the king to extract more aggressively, reducing my final payoff. To maximize my payoff while maintaining stability, I will stick to the established norm of extracting $12.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff for this month. My payoff formula is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $X, the remaining pool will be $78 - X. Substituting this into the formula:\n\nPayoff = X/3 + (78 - X)/4.\n\nSimplifying:\nPayoff = X/3 + 78/4 - X/4,\nPayoff = X/3 - X/4 + 78/4,\nPayoff = (4X - 3X)/12 + 78/4,\nPayoff = X/12 + 78/4.\n\nTo maximize my payoff, I need to maximize X/12 + 78/4. Since 78/4 is constant, I should maximize X/12. The highest X I can extract is $78, which is a multiple of 3. Extracting the full $78 leaves $0 in the pool, maximizing my extraction term and making the remaining pool irrelevant."
+    ]
+  }
+]

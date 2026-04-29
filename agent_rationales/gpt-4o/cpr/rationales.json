@@ -1,0 +1,1502 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      9,
+      15
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      21.75,
+      22.75,
+      21.75,
+      23.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. My goal is to balance my immediate payoff with the sustainability of the pool for future months. Assuming others act similarly and aim to preserve the pool, I will extract a modest amount to contribute to sustainability while still earning a reasonable payoff. I will extract $9, which is below the average sustainable extraction of $15 per person ($60/4). This leaves room for others to extract without exceeding the threshold.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the potential payoffs for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I cannot control the actions of others, and if others extract more aggressively, the pool may shrink regardless of my decision. To balance my immediate payoff with the long-term health of the pool, I will extract $12, which is slightly below the fair share of $15. This allows me to contribute to sustainability while still securing a reasonable payoff.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink, reducing the resources available for future months. Since the pool doubles whatever remains (up to $120), it is in my long-term interest to keep the pool as close to $120 as possible. However, I must also consider that other citizens may extract aggressively, which could lead to over-extraction and a shrinking pool regardless of my decision. To balance sustainability and my immediate payoff, I will extract a moderate amount, assuming others may also act cautiously.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I must also consider that others may extract more or less than $15, and I cannot control their decisions. To balance my immediate payoff with the long-term health of the pool, I will extract $15, which is sustainable if others act similarly. This decision aligns with fairness and sustainability while ensuring I receive a reasonable payoff."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool regenerated to its maximum value of $120 after last month's extractions, which were below the sustainability threshold of $60. This indicates that the group is currently extracting at a sustainable level. However, I notice that some citizens extracted more than others, which could lead to unequal payoffs over time. To balance my own payoff while keeping the pool sustainable, I aim to extract a moderate amount that contributes to staying below the sustainability threshold. I will extract $12, which is slightly above the average extraction last month ($45/4 = $11.25), but still within a sustainable range.",
+      "The pool regenerated to $120 after the first month, which indicates that the total extraction ($45) was well below the sustainability threshold ($60). This suggests that the group is not over-extracting, and the commons is being managed sustainably so far. However, I notice that some citizens extracted more than others, and the payoffs were slightly higher for those who extracted more. To balance my own payoff while still contributing to sustainability, I will aim to extract a moderate amount, slightly higher than the average extraction last month ($45/4 = $11.25). This ensures I benefit without risking the pool's sustainability.",
+      "The pool regenerated to its maximum value of $120 after last month's extractions, which were below the sustainability threshold of $60. This indicates that the group is currently managing the commons in a way that allows for regeneration. However, the extractions varied among citizens, with some extracting more than others. To ensure the pool remains sustainable while maximizing my payoff, I aim to extract a reasonable amount that contributes to staying below the sustainability threshold. Extracting $12 would balance my personal gain with the collective goal of sustainability, assuming others extract similarly to last month.",
+      "The pool regenerated to its maximum value of $120 last month because the total extraction ($45) was below the sustainability threshold ($60). This indicates that the group is currently extracting conservatively, which is good for the long-term health of the commons. However, some citizens extracted more than others, and I want to balance maximizing my payoff while ensuring the pool remains sustainable. If the total extraction exceeds $60, the pool will shrink, which would harm everyone in the long run. I will aim to extract a moderate amount, slightly above the average extraction last month ($45/4 = $11.25), while staying mindful of the sustainability threshold. This way, I contribute to the commons' sustainability while securing a fair payoff for myself."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been consistently regenerated to $120 in the previous months because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. However, I notice that citizens are extracting amounts that are relatively balanced, with no one over-extracting excessively. To maintain this balance and ensure the pool remains sustainable, I will extract a moderate amount that aligns with the group's behavior so far. This will maximize my payoff while contributing to the sustainability of the commons. Based on the history, $12 seems to be a fair and cooperative choice.",
+      "The pool has been consistently regenerated to $120 in the previous months because the total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. The extractions by other citizens have been fairly moderate, with no one extracting excessively. To maintain the pool's sustainability while maximizing my payoff, I aim to extract a reasonable amount that balances my immediate gain with the long-term health of the commons. Based on the history, a moderate extraction of $12 seems fair and aligns with the group's behavior.",
+      "The pool has been consistently regenerated to $120 in the previous months because the total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable and benefits everyone. The extractions in the previous months have been fairly balanced among citizens, with no one over-extracting. To maintain this balance and sustainability, I will continue extracting a moderate amount, similar to the previous months. This approach ensures that the pool remains healthy while I still receive a fair payoff.",
+      "The pool has been consistently regenerated to $120 in the previous months because the total extractions have stayed below the sustainability threshold of $60. This ensures the commons remain sustainable. The extractions by other citizens have been fairly moderate, with no one extracting excessively. To maintain the pool's sustainability while maximizing my payoff, I aim to extract a reasonable amount that balances my immediate gain with the long-term health of the commons. Based on the history, $12 seems to be a cooperative and sustainable choice that aligns with the group's behavior."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, it seems that the citizens have settled into a cooperative pattern of extracting $12 each, which keeps the total extraction below the sustainability threshold of $60. This ensures the pool regenerates fully to $120 each month, maximizing long-term payoffs. If I deviate and extract more, it could encourage others to do the same in future months, potentially shrinking the pool and reducing everyone's payoffs. To maintain trust and stability, I will continue extracting $12, as it aligns with the cooperative strategy and ensures the pool remains sustainable.",
+      "The history shows that the pool has been consistently regenerated to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the long-term health of the commons. In Months 2 and 3, all citizens extracted $12 each, leading to equal payoffs and a sustainable pool. To maintain fairness and sustainability, I will continue extracting $12, as this strategy has worked well so far and aligns with the collective interest of the group.",
+      "Based on the history, it seems that the citizens have been extracting amounts that keep the pool sustainable, as the total extractions have consistently been below the sustainability threshold of $60. This ensures the pool regenerates to its maximum value of $120 each month. The pattern of extractions in the last two months shows that all citizens extracted $12 each, leading to equal payoffs and a sustainable pool. To maintain this cooperative equilibrium and ensure the pool remains sustainable for future months, I will also extract $12 this month. This aligns with the group's behavior and avoids the risk of over-extraction, which could shrink the pool and harm long-term payoffs.",
+      "Based on the history, the citizens have been extracting amounts that keep the pool sustainable, as the pool regenerates to $120 each month. The extractions in the last two months were evenly distributed ($12 each), resulting in a total extraction of $48, which is below the sustainability threshold of $60. This strategy has ensured that the pool remains at its maximum value, and everyone receives a fair payoff. To maintain this cooperative equilibrium and ensure the pool remains sustainable for the remaining months, I will also extract $12 this month. This aligns with the group's behavior and maximizes long-term benefits for all."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, leading to a total extraction of $48. This is below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this approach has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from it. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear benefit.",
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, leading to a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this approach has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my current payoff.",
+      "Based on the history, all citizens, including myself, have consistently extracted $12 each month, leading to a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this cooperative behavior has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff.",
+      "Based on the history, all citizens, including myself, have consistently extracted $12 each month, leading to a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this approach has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from it. Extracting more could risk encouraging others to do the same, potentially leading to over-extraction and a shrinking pool in future months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given that this strategy has been working well for the group and aligns with the sustainability threshold, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has proven sustainable and fair, as everyone has received equal payoffs of $22.00. Given that the system is working well and there is no indication that others will deviate from this pattern, I will continue extracting $12 to maintain stability and fairness.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given this history of sustainable and fair extractions, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue extracting $12 to maintain the balance and fairness.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable at $120 due to regeneration. This strategy has proven sustainable and fair, as everyone has received equal payoffs of $22.00. There is no indication that any citizen will deviate from this cooperative behavior, and deviating myself could risk destabilizing the pool or reducing trust among citizens. Therefore, I will continue extracting $12 to maintain the balance and ensure long-term sustainability."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established norm of extracting $12.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured stability and maximized payoffs for everyone. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established pattern of extracting $12.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Deviating from this pattern by extracting more could risk destabilizing the system and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue to extract $12 to maintain the current balance and fairness.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured stability and maximized payoffs for everyone. Deviating from this pattern could risk destabilizing the system and reducing the pool's value in future months, which would harm everyone's payoffs. Therefore, I will continue extracting $12 to maintain this cooperative equilibrium."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable and regenerating fully over the past months, with all citizens extracting $12 each. This strategy has ensured that the total extraction remains below the sustainability threshold of $60, allowing the pool to regenerate to its maximum value of $120. This cooperative behavior has resulted in consistent payoffs of $22 for everyone. Given that this approach has been working well and there are only 4 months remaining, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that this cooperative behavior has been working well and there are only 4 months remaining, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has proven sustainable and fair, as everyone receives equal payoffs of $22.00. Given that we are in Month 8 with only 4 months remaining, maintaining this cooperative approach ensures the pool remains stable and benefits all citizens equally. There is no incentive to deviate from this strategy, as doing so could risk destabilizing the pool and reducing future payoffs.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that this approach has been working well, and there are only 4 months remaining, I see no reason to deviate from this cooperative equilibrium. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only three months remaining, maintaining this cooperative approach ensures the sustainability of the pool and maximizes long-term payoffs for everyone. Deviating from this strategy could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months, resulting in a stable pool that regenerates to $120 each time. This strategy ensures that the pool remains sustainable and that everyone receives a fair payoff of $22.00. There is no indication that others will deviate from this pattern, and deviating myself could risk destabilizing the pool or reducing my payoff in future months. Therefore, I will continue extracting $12 to maintain the balance and maximize long-term payoffs.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing long-term payoffs. Given this cooperative behavior and the fact that we are in month 9 of 12, I see no reason to deviate from this strategy. Extracting $12 ensures that I contribute to the sustainability of the pool while maintaining a fair and predictable payoff for myself and others.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing payoffs for everyone. If I continue extracting $12, it aligns with the established cooperative behavior, maintains the pool's sustainability, and ensures fair payoffs for all. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, especially with only three months remaining."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has provided consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Given that there are only two months remaining after this, maintaining this cooperative approach ensures the pool remains stable and benefits all citizens equally. Deviating from this strategy could risk destabilizing the pool and reducing future payoffs for everyone, including myself.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this strategy ensures the sustainability of the pool and maximizes long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this cooperative strategy seems optimal for maximizing long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this cooperative strategy seems optimal for maximizing long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22. With only two months remaining, maintaining this cooperative approach ensures that the pool remains sustainable and that we all continue to benefit equally. Deviating from this strategy could risk destabilizing the pool and reducing payoffs for everyone, including myself. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only one month remaining, maintaining this strategy ensures the pool remains sustainable and fair for the final month. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone. With only two months remaining, maintaining this cooperative approach ensures the pool remains sustainable and maximizes payoffs for all. Deviating from this strategy could risk reducing the pool and harming payoffs in the final month. Therefore, I will continue extracting $12 to maintain stability and fairness.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only one month remaining, maintaining this strategy ensures the pool remains sustainable and fair for the final month. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      24
+    ],
+    "final_pool": 6,
+    "payoffs": [
+      11.5,
+      11.5,
+      11.5,
+      9.5
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. Based on the payoff formula, my payoff is determined by my extraction divided by 3, plus one-fourth of the remaining pool. If I extract $12 (as in previous months), the pool will remain sustainable, and I will likely receive a fair share of the remaining pool. However, since this is the last month, I can extract more without worrying about sustainability. Extracting $30 maximizes my direct payoff from extraction, and while it reduces the remaining pool, I still receive a portion of it. This strategy maximizes my total payoff for the final month.",
+      "This is the final month, so there is no future pool to consider. The pool will not regenerate, and sustainability is no longer a concern. My goal is to maximize my payoff this month. The payoff formula is:  \nYour payoff = (your extraction)/3 + (pool remaining after ALL extractions)/4.  \n\nIf I extract $X, my payoff depends on the total extractions of the other citizens. Based on the history, the other citizens have consistently extracted $12 each, totaling $36. Assuming they continue this pattern, the total extraction would be $36 + my extraction.  \n\nThe remaining pool would then be $120 - (total extraction). My payoff would be:  \nPayoff = (my extraction)/3 + (remaining pool)/4.  \n\nTesting different values for my extraction:  \n- If I extract $12: Payoff = $12/3 + ($120 - $48)/4 = $4 + $18 = $22.  \n- If I extract $15: Payoff = $15/3 + ($120 - $51)/4 = $5 + $17.25 = $22.25.  \n- If I extract $18: Payoff = $18/3 + ($120 - $54)/4 = $6 + $16.50 = $22.50.  \n- If I extract $21: Payoff = $21/3 + ($120 - $57)/4 = $7 + $15.75 = $22.75.  \n- If I extract $24: Payoff = $24/3 + ($120 - $60)/4 = $8 + $15 = $23.  \n- If I extract $27: Payoff = $27/3 + ($120 - $63)/4 = $9 + $14.25 = $23.25.  \n- If I extract $30: Payoff = $30/3 + ($120 - $66)/4 = $10 + $13.50 = $23.50.  \n\nThe highest payoff occurs when I extract $30, assuming the others extract $12 each. Since this is the final month, I will prioritize maximizing my own payoff.",
+      "This is the final month, so there is no future pool to consider or preserve. The optimal strategy is to maximize my own payoff this month, as there are no long-term consequences. My payoff is determined by my extraction divided by 3, plus one-fourth of the remaining pool. If I extract $30, the total extraction will likely exceed the sustainability threshold, but since this is the last month, the pool's regeneration is irrelevant. Extracting $30 maximizes my direct payoff from extraction, and any reduction in the remaining pool affects all citizens equally. Therefore, extracting the maximum amount is the rational choice.",
+      "This is the final month, so there is no future pool to consider or preserve. The goal is to maximize my own payoff this month. The payoff formula is:  \nYour payoff = (your extraction)/3 + (pool remaining after ALL extractions)/4.  \n\nIf I extract $X, the remaining pool after all extractions will depend on the total extractions of the other citizens. Based on the history, the other citizens have consistently extracted $12 each, totaling $36. Assuming they continue this pattern, the total extraction (including mine) would be $36 + $X, and the remaining pool would be $120 - (36 + $X).  \n\nTo maximize my payoff, I need to balance my extraction ($X/3) with the share of the remaining pool ((remaining pool)/4). Testing different values of $X:  \n- If I extract $12 (like the others): Payoff = $12/3 + ($120 - $48)/4 = $4 + $18 = $22.  \n- If I extract $15: Payoff = $15/3 + ($120 - $51)/4 = $5 + $17.25 = $22.25.  \n- If I extract $18: Payoff = $18/3 + ($120 - $54)/4 = $6 + $16.50 = $22.50.  \n- If I extract $21: Payoff = $21/3 + ($120 - $57)/4 = $7 + $15.75 = $22.75.  \n- If I extract $24: Payoff = $24/3 + ($120 - $60)/4 = $8 + $15 = $23.  \n\nExtracting $24 maximizes my payoff, assuming the others extract $12 each. Since this is the final month, there is no downside to extracting more."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      15,
+      9,
+      15
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      23.0,
+      21.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens is $60 or less, the pool will double back to $120 next month, ensuring long-term sustainability. However, if the total extraction exceeds $60, the pool will shrink, reducing the resources available in future months. Since I cannot predict the exact behavior of the other three citizens, I must balance my personal gain with the need to preserve the commons. Extracting a moderate amount, such as $9, allows me to contribute to sustainability while still earning a reasonable payoff. This assumes others will also act with some level of restraint.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I must consider that others may extract more or less than $15, and their decisions are unknown to me. If I extract too little, I risk losing out on immediate payoffs, while extracting too much risks depleting the pool for future months. To balance sustainability and my own payoff, I will extract $15, which is fair and aligns with the sustainability threshold.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the resources available for everyone. Since the pool doubles whatever remains (up to $120), it is in the collective interest to keep extractions low to maintain the pool at its maximum value. However, I must also consider that other citizens may not act cooperatively and could extract higher amounts, which would reduce the pool regardless of my decision. To balance sustainability and my own payoff, I will extract a moderate amount, assuming others may also extract moderately. This decision reflects a cautious approach to avoid over-extraction while still securing some immediate benefit.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the potential payoffs for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I cannot control the actions of others, and if others extract more aggressively, the pool may shrink regardless of my decision. To balance sustainability with my own payoff, I will extract $15, which is fair and sustainable if others do the same. This decision also ensures I contribute to maintaining the pool for future months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      12
+    ],
+    "final_pool": 81,
+    "payoffs": [
+      23.25,
+      23.25,
+      23.25,
+      24.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, the total extraction was $48, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the group is somewhat cooperative, as no one extracted excessively. However, some citizens extracted more than others ($15 vs. $9), indicating a mix of strategies. To maintain the pool's sustainability and maximize my payoff, I aim to extract a moderate amount that balances my immediate gain with the long-term health of the pool. Extracting $9 again seems reasonable, as it aligns with the cooperative behavior observed in Month 1 while ensuring I contribute to the pool's sustainability.",
+      "In the previous month, the total extraction was $48, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the citizens are somewhat cooperative, as no one extracted excessively. However, some citizens extracted more than others, which could indicate a mix of strategies. To maintain the pool's sustainability and ensure long-term benefits for everyone, I will aim to extract a moderate amount that balances my immediate payoff with the health of the commons. Extracting $9 seems reasonable, as it contributes to staying below the sustainability threshold while still providing a fair payoff.",
+      "In the previous month, the total extraction was $48, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the citizens are somewhat cooperative and not overly exploitative. However, some citizens extracted more than others, which could indicate a mix of strategies. To maintain the pool's sustainability and ensure long-term benefits, I aim to keep the total extraction at or below the threshold. If I extract moderately, I can contribute to sustainability while still earning a reasonable payoff. I will extract $9, which is a balanced choice that neither exploits the pool nor sacrifices my own payoff excessively.",
+      "Last month, the total extraction was $48, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the group is somewhat cooperative, as no one extracted excessively. However, some citizens (Citizens 2 and 4) extracted more than others, which gave them slightly higher payoffs. To balance my own payoff while still promoting sustainability, I will extract a moderate amount. I aim to keep the total extraction close to or below the sustainability threshold of $60, ensuring the pool regenerates fully for future months. I will extract $12, which is slightly higher than the average extraction last month ($48/4 = $12), but still reasonable."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      9,
+      9
+    ],
+    "final_pool": 81,
+    "payoffs": [
+      23.25,
+      24.25,
+      23.25,
+      23.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the pool has been consistently regenerated to $120 because total extractions have stayed below the sustainability threshold of $60. This suggests that the other citizens are generally cooperative and aim to maintain the commons. My goal is to balance maximizing my payoff while ensuring the pool remains sustainable for the remaining months. If I extract too much, it could encourage others to extract more in future months, risking the pool's sustainability. Given the current dynamics, I will extract a moderate amount to maintain trust and cooperation while securing a fair payoff.",
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the long-term health of the commons. In the previous months, I extracted $9, which contributed to a fair balance between personal payoff and sustainability. However, Citizen 4 extracted slightly more in Month 2 ($12), which gave them a slightly higher payoff. To maintain fairness and avoid falling behind, I will increase my extraction slightly to $12 this month. This keeps my extraction reasonable while ensuring the pool remains sustainable if others behave similarly.",
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. Based on the history, citizens seem to be cooperating to keep the pool healthy while maximizing their payoffs. My goal is to maintain this balance while ensuring I receive a fair share of the payoff. If I extract $9, as I have in the past, it aligns with the cooperative behavior observed so far and keeps the total extraction likely below the threshold. This strategy also avoids risking over-extraction, which could shrink the pool and harm future payoffs.",
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. Based on the history, other citizens seem to be extracting moderately, with no one taking the maximum amount. To maintain sustainability and fairness while maximizing my payoff, I will extract a moderate amount. Extracting $9 has been a common choice, and it balances my immediate payoff with the long-term health of the pool."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the group has consistently extracted below the sustainability threshold, allowing the pool to regenerate fully each month. This cooperative behavior benefits everyone by maintaining the maximum pool value. My goal is to balance my individual payoff with the long-term sustainability of the commons. Extracting $9 has been a common choice among citizens, and it aligns with the group's cooperative trend while ensuring the pool remains sustainable. I will continue with this strategy to maintain trust and maximize collective benefits.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold, allowing the pool to regenerate fully each month. This strategy ensures long-term sustainability and maximizes payoffs for everyone. My extractions have been $9 each month, which aligns with this cooperative approach. Deviating from this by extracting more could risk encouraging others to extract more in future months, potentially shrinking the pool and reducing overall payoffs. Therefore, I will continue extracting $9 to maintain the balance and maximize long-term benefits.",
+      "The pool has been consistently regenerated to $120 each month because the total extractions have stayed below the sustainability threshold of $60. This ensures the commons remain sustainable. Based on the history, most citizens have extracted moderately, with extractions ranging from $9 to $15. I want to maintain the sustainability of the pool while maximizing my payoff. Extracting $9 has been a safe and cooperative choice in the past, and it aligns with the behavior of other citizens. This extraction level contributes to keeping the pool sustainable while ensuring a fair share of the remaining pool value.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold, allowing the pool to regenerate fully each month. This strategy ensures long-term sustainability and maximizes payoffs for everyone. My previous extractions have been $9 each month, which aligns with this cooperative approach. Given that the pool is at $120 again and the sustainability threshold remains $60, I will continue extracting $9 to maintain this balance. This amount provides a fair payoff while ensuring the pool remains sustainable for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been consistently regenerating to its maximum value of $120, and the total extractions have remained well below the sustainability threshold of $60. This indicates that the group is cooperating effectively to maintain the commons. My goal is to balance maximizing my payoff while ensuring the pool remains sustainable. Based on the history, most citizens have extracted $9, with occasional deviations to $12. To maintain the cooperative dynamic and avoid risking the pool's sustainability, I will extract $9, which aligns with the group's typical behavior and ensures the pool remains stable.",
+      "The pool has been stable and regenerating to its maximum value of $120 each month because total extractions have consistently stayed below the sustainability threshold of $60. This ensures that the pool remains sustainable and benefits everyone. In previous months, I have extracted $9, which has contributed to this stability while providing me with a fair payoff. I see no reason to change this strategy, as it aligns with the collective goal of maintaining the commons and maximizing long-term payoffs. Extracting more could risk destabilizing the pool if others also increase their extractions, which would harm everyone in the long run.",
+      "Based on the history, the pool has been stable and regenerating to its maximum value of $120 each month because total extractions have consistently stayed below the sustainability threshold of $60. This ensures that the pool remains sustainable and benefits everyone. The other citizens seem to be cooperating by extracting moderately, with most extractions around $9. To maintain this cooperative dynamic and ensure the pool remains sustainable, I will also extract $9, which aligns with the group's behavior and maximizes my payoff without risking the pool's stability.",
+      "Based on the history, the pool has been consistently regenerated to $120 each month because total extractions have stayed well below the sustainability threshold of $60. This has ensured stable payoffs for all citizens. The other citizens seem to be cooperating by extracting modest amounts, typically $9 or $12, which keeps the pool sustainable. To maintain this cooperation and maximize my payoff, I will also extract $9, as I have done in previous months. This amount balances my immediate gain with the long-term health of the pool."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the group has consistently extracted below the sustainability threshold, allowing the pool to regenerate fully to $120 each time. This strategy has resulted in stable and relatively high payoffs for everyone. The extractions have been evenly distributed among citizens, with each extracting $9 in the last two months. This cooperative behavior has maintained the commons and ensured fairness. To preserve this stability and maximize long-term payoffs, I will continue extracting $9, aligning with the group's established pattern.",
+      "The pool has been stable and regenerating to its maximum value of $120 due to the collective restraint of all citizens. Over the past three months, the total extractions have been well below the sustainability threshold of $60, ensuring the pool remains sustainable. The consistent extraction of $9 by each citizen has resulted in fair payoffs and a stable system. To maintain this balance and avoid risking the pool's sustainability, I will also extract $9 this month, aligning with the cooperative behavior observed so far.",
+      "The pool has been stable and regenerating to its maximum value of $120 due to the collective restraint of all citizens. Over the past three months, the total extractions have been well below the sustainability threshold of $60, ensuring the pool remains sustainable. Each citizen has extracted $9 consistently in the last two months, leading to equal payoffs and a fair distribution of resources. To maintain this stability and fairness, I will also extract $9 this month, as deviating from this amount could risk destabilizing the pool or creating inequality among citizens.",
+      "The pool has been stable and regenerating to its maximum value of $120 for the past several months. This is because the total extractions have consistently been well below the sustainability threshold of $60. The group seems to have settled into a cooperative pattern, with each citizen extracting $9 per month. This strategy ensures that the pool remains sustainable, and everyone receives a fair and predictable payoff. I see no reason to disrupt this balance, as it benefits everyone, including me. Extracting more could risk destabilizing the pool and reducing future payoffs, which is not in my best interest."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the society has established a stable pattern where each citizen extracts $9, resulting in a total extraction of $36. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured both the long-term sustainability of the commons and consistent, equitable payoffs of $24 for each citizen. Given this stability and the absence of any sustainability violations, I see no reason to deviate from this cooperative approach. Extracting $9 again aligns with the established norm and maintains trust among citizens.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $9, resulting in a total extraction of $36. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured both the long-term sustainability of the commons and consistent, equitable payoffs of $24 for each citizen. Given this stability and the absence of any sustainability violations, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the system, while extracting less would reduce my immediate payoff without any clear benefit.",
+      "Over the past three months, the society has established a stable pattern where each citizen extracts $9, resulting in a total extraction of $36. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $24.00, which is both fair and sustainable. Deviating from this pattern could risk destabilizing the system and reducing future payoffs for everyone. Therefore, I will continue to extract $9 to maintain the established equilibrium and ensure the pool remains sustainable.",
+      "Over the past three months, the group has consistently extracted $36 in total, which is well below the sustainability threshold of $60. This has allowed the pool to remain stable at $120, and everyone has received a consistent payoff of $24. This cooperative behavior benefits all citizens, as the pool regenerates fully each month. To maintain this stability and ensure long-term sustainability, I will continue extracting $9, as it aligns with the group's established pattern and maximizes my payoff without risking the pool's health."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable and regenerating fully to $120 each month because the total extractions have consistently been well below the sustainability threshold of $60. All citizens, including myself, have extracted $9 each month, leading to equal payoffs and a sustainable system. There is no indication that the other citizens will deviate from this cooperative strategy, as it has been working well for everyone. To maintain the stability of the commons and ensure long-term benefits for all, I will continue extracting $9, which aligns with the established norm.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $24.00, which is a fair and sustainable outcome. Given that this cooperative behavior has worked well and there are only 4 months remaining, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past months, the society has established a stable pattern of extracting $9 each, which keeps the pool sustainable and ensures it regenerates to its maximum value of $120. This strategy has resulted in consistent payoffs of $24 for everyone, which is fair and cooperative. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for others, which might lead to retaliation or a breakdown of trust. Since there are only 4 months left, maintaining this cooperative strategy seems optimal for long-term benefits.",
+      "The pool has been stable and regenerating fully to $120 each month because total extractions have consistently been below the sustainability threshold of $60. All citizens, including myself, have extracted $9 each month, leading to equal payoffs of $24 for everyone. This cooperative strategy ensures the long-term sustainability of the commons while providing a fair and predictable payoff. Deviating from this strategy by extracting more could risk reducing the pool's value in future months, which would harm everyone's payoffs, including mine. Since there are only 4 months left, maintaining this cooperative approach seems optimal for maximizing collective and individual benefits."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months, which has kept the pool stable and allowed it to regenerate fully to $120 each time. This strategy has ensured that everyone receives a fair and predictable payoff of $24.00 per month. Since there are only three months remaining, maintaining this cooperative approach will maximize long-term payoffs for everyone. Deviating from this strategy by extracting more could risk reducing the pool's value and harming future payoffs, while extracting less would unnecessarily lower my own payoff without any significant benefit to the group.",
+      "The history shows that all citizens, including me, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are in the final months of the game. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully for the remaining months.",
+      "The pool has been stable and regenerating fully to $120 each month because the total extractions have consistently been below the sustainability threshold of $60. All citizens, including myself, have extracted $9 each month, leading to equal payoffs of $24 for everyone. This cooperative behavior ensures the long-term sustainability of the commons, and there is no incentive to deviate since the payoff structure rewards maintaining the pool. With only three months remaining, it is in my best interest to continue this strategy to maximize collective and individual payoffs.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are nearing the end of the 12-month period. By extracting $9 again, I align with the cooperative behavior of the group, maintain the pool's stability, and secure a fair payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens have extracted $9 each, resulting in a total extraction of $36, which is well below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing payoffs for everyone. Given this cooperative behavior and the fact that there are only two months remaining after this, I see no reason to deviate from this strategy. Extracting $9 again ensures the pool remains sustainable, avoids conflict, and maintains trust among citizens.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this one. By extracting $9 again, I align with the cooperative behavior of the group, maintain the pool's stability, and secure a fair payoff.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $24. With only two months remaining, it is in my best interest to maintain this cooperative strategy to maximize my payoff this month and preserve the pool for the final month. Extracting more than $9 could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my current payoff without any strategic advantage.",
+      "Over the past several months, the group has consistently extracted $36 in total, which is well below the sustainability threshold of $60. This strategy has kept the pool stable at $120, allowing for maximum regeneration and consistent payoffs of $24 per citizen. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains at its maximum value for the final month, maximizing long-term payoffs for everyone. Deviating from this strategy by extracting more could risk reducing the pool and harming both this month's and next month's payoffs. Therefore, I will continue extracting $9, as it aligns with the group's established cooperative behavior.",
+      "Over the past several months, the group has consistently extracted $36 in total, which is well below the sustainability threshold of $60. This strategy has kept the pool stable at $120, allowing for maximum regeneration and consistent payoffs of $24 per citizen. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains at its maximum value for the final month, maximizing long-term payoffs for everyone. Deviating from this strategy by extracting more could risk reducing the pool and harming both this month's and next month's payoffs. Therefore, I will continue extracting $9, as it aligns with the group's established cooperative behavior.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months, which has kept the pool stable and allowed it to regenerate fully to $120 each time. This strategy has ensured that everyone receives a fair and predictable payoff of $24.00 per month. With only two months remaining, maintaining this cooperative behavior ensures the pool remains sustainable and maximizes collective payoffs. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my individual payoff this month. My payoff is calculated as (my extraction)/3 + (pool remaining after all extractions)/4. If I extract more, my direct payoff from extraction increases, but the remaining pool decreases, which reduces the shared portion of the payoff. Since the other citizens have consistently extracted $9 in previous months, it is reasonable to assume they will do the same this month. If I extract $9 as well, the total extraction will be $36, leaving $84 in the pool. However, extracting more than $9 could increase my direct payoff, even if it reduces the shared pool. To maximize my payoff, I will extract $30, as this maximizes my direct payoff and the shared pool is less relevant in the final month.",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. My payoff is determined by my extraction and the remaining pool, which is shared equally among all citizens. If I extract more, I increase my direct payoff but reduce the remaining pool, which decreases the shared portion of the payoff for everyone. However, since this is the last month, there is no incentive to preserve the pool for future rounds. Given the history, it seems likely that other citizens will continue extracting $9 each, as they have done consistently in the past. If I extract $9 as well, the total extraction will be $36, leaving $84 in the pool. My payoff would then be $9/3 + $84/4 = $3 + $21 = $24. If I extract more, I can increase my direct payoff, but the shared portion will decrease. To maximize my payoff, I will extract $30, as this maximizes my direct payoff and the shared portion will still be significant enough to make this the optimal choice.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my individual payoff for this month. My payoff is determined by the sum of (my extraction/3) and (the remaining pool/4). If I extract more, my direct payoff from extraction increases, but the remaining pool decreases, which reduces the shared portion of the payoff. Since all citizens have been extracting $9 consistently in previous months, it is likely they will continue to do so. If I extract $9 as well, the total extraction will be $36, leaving $84 in the pool. However, I can increase my payoff by extracting more, as the shared portion of the pool is less significant in this final round. Extracting $30 maximizes my direct payoff, even though it reduces the shared pool significantly.",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my individual payoff this month. The payoff formula is (my extraction)/3 + (remaining pool after all extractions)/4. If I extract more, my direct payoff from extraction increases, but the remaining pool decreases, reducing the shared portion of the payoff. Based on the history, the other citizens have consistently extracted $9 each, totaling $27. If I assume they will do the same, I can calculate the remaining pool and my payoff for different extraction amounts to find the optimal strategy. Extracting $30 maximizes my direct payoff, and since the pool will not regenerate, there is no incentive to leave resources behind."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      9,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      23.0,
+      22.0,
+      21.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since there are 12 months in total, it is in my interest to preserve the pool's value for as long as possible to maximize future payoffs. However, I also want to ensure I receive a fair share of the resources this month. Assuming other citizens act similarly and aim to extract sustainably, I will extract $15, which is one-quarter of the sustainability threshold. This ensures I contribute to maintaining the pool while securing a reasonable immediate payoff.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I must also consider the possibility that others may extract more than $15, which could lead to over-extraction and harm the pool. To balance sustainability and my own payoff, I will extract $12, slightly below the fair share, to encourage sustainability while still earning a reasonable payoff.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since the pool doubles whatever remains (up to $120), it is in everyone's best interest to keep the total extraction at or below $60 to maintain the pool at its maximum value. \n\nIf I extract too much, I risk contributing to over-extraction, which harms the group and reduces future payoffs. On the other hand, if I extract too little, I may miss out on immediate payoffs while others might over-extract anyway. A balanced approach is to extract a modest amount, assuming others will also act reasonably to preserve the commons.\n\nI will extract $9, which is a moderate amount. If others extract similarly, the total extraction will likely stay near or below the sustainability threshold, keeping the pool sustainable.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the potential payoffs for everyone. Since the pool doubles whatever remains (up to $120), it is in everyone's long-term interest to keep the total extraction at or below $60. However, I cannot control the actions of the other citizens, and they may extract selfishly. To balance my own payoff this month with the goal of sustainability, I will extract a moderate amount, assuming others may also extract moderately. I will choose $12, which is a middle-ground strategy that contributes to sustainability while ensuring I receive a reasonable payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      9,
+      12
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      22.75,
+      22.75,
+      21.75,
+      22.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool regenerated to its maximum value of $120 after last month's extractions, which were below the sustainability threshold of $60. This indicates that the group is currently managing the commons responsibly. However, if total extractions exceed $60 this month, the pool will shrink, reducing future payoffs for everyone. My goal is to balance my immediate payoff with the long-term sustainability of the pool. Based on the previous month, the average extraction per citizen was $12, which kept the pool sustainable. I will extract $12 again to maintain this balance and encourage others to do the same.",
+      "In the previous month, the total extraction was $48, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the citizens are somewhat cooperative and not overly exploitative. However, I must also consider that if others increase their extractions this month, the pool could shrink, reducing future payoffs. To balance my immediate payoff with the long-term sustainability of the pool, I will extract a moderate amount, aiming to stay below the sustainability threshold collectively. I will choose $12, which is slightly below the average extraction last month ($48/4 = $12), to encourage sustainability while still securing a reasonable payoff.",
+      "The pool regenerated to its maximum value of $120 after Month 1 because the total extraction ($48) was below the sustainability threshold ($60). This indicates that the group is currently behaving somewhat cooperatively, though not perfectly. To maintain the pool's sustainability and maximize long-term payoffs, I should aim to keep the total extraction at or below the sustainability threshold. However, I must also consider that other citizens may increase their extractions this month, potentially jeopardizing the pool's regeneration. To balance my individual payoff with the group's sustainability, I will extract a moderate amount, slightly below the average extraction from last month ($48/4 = $12). This approach encourages sustainability while ensuring I still receive a reasonable payoff.",
+      "The pool regenerated to its maximum value of $120 after Month 1 because the total extraction ($48) was below the sustainability threshold ($60). This indicates that the group is currently extracting at a sustainable level. However, the extractions in Month 1 were uneven, with some citizens extracting more than others. To maximize my payoff, I want to balance extracting a fair amount while ensuring the pool remains sustainable. If the total extraction exceeds $60, the pool will shrink, reducing future payoffs for everyone. I will extract $12, which is slightly above the average extraction in Month 1 ($48/4 = $12), but still within a range that encourages sustainability if others behave similarly."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been consistently regenerated to $120 because the total extractions in the previous months have stayed below the sustainability threshold of $60. This ensures the long-term health of the commons. The other citizens seem to be extracting moderately, with most extractions between $9 and $15. To maintain the pool's sustainability while maximizing my payoff, I will continue extracting a moderate amount. Based on the payoff formula, extracting $12 has been a common and reasonable choice, as it balances my immediate gain with the pool's regeneration.",
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. Based on the history, the other citizens seem to extract moderately, with extractions ranging from $9 to $15. To maintain the pool's sustainability while maximizing my payoff, I aim to extract a reasonable amount that doesn't push the total extraction too close to or above the threshold. Extracting $12 has been a common choice among others, and it balances my immediate payoff with the long-term health of the pool.",
+      "The pool has been consistently regenerated to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. Based on the history, the other citizens seem to extract moderately, with extractions ranging from $9 to $15. To maintain the pool's sustainability while maximizing my payoff, I aim to extract a moderate amount that balances my immediate gain with the long-term health of the pool. I will extract $12, which aligns with the behavior of other citizens and keeps the total extraction likely below the threshold.",
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. Based on the history, the other citizens seem to extract moderately, with extractions ranging from $9 to $15. To maintain the pool's sustainability while maximizing my payoff, I aim to extract a reasonable amount that doesn't push the total extractions too close to or above $60. Given the pattern of extractions, I estimate the total extractions by others will likely be around $45 again. If I extract $12, the total will likely remain sustainable, and my payoff will be balanced between my extraction and the remaining pool."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the citizens in this society have been extracting amounts that keep the pool sustainable, as the pool regenerates to $120 each month. The extractions have been fairly balanced, with no one over-extracting significantly. This cooperative behavior ensures long-term sustainability and fair payoffs for everyone. To maintain this balance and avoid depleting the pool, I will continue extracting a moderate amount, similar to previous months. Extracting $12 has been a common choice, and it aligns with the group's cooperative strategy while providing a reasonable payoff.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold, ensuring the pool regenerates to its maximum value of $120 each month. This cooperative behavior benefits everyone by maintaining a steady resource pool and fair payoffs. My goal is to continue this sustainable approach while maximizing my own payoff. If I extract $12, as I have in previous months, it aligns with the group's pattern and keeps the total extraction likely below the threshold. This ensures the pool regenerates fully, and I receive a fair share of the remaining pool.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold ($60 total), allowing the pool to regenerate fully each month. This cooperative behavior ensures long-term sustainability and fair payoffs for everyone. My goal is to maintain this cooperation while maximizing my payoff. If I extract $12, as I have in the past, and others do the same, the total extraction will be $48, leaving $72 in the pool. This ensures the pool regenerates to $120, and my payoff remains consistent with previous months. Extracting more could risk breaking the cooperative balance and shrinking the pool, which would harm everyone in the long run.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold, ensuring the pool regenerates to its maximum value of $120 each month. This strategy has maintained a stable resource base while providing reasonable payoffs for everyone. My goal is to continue this cooperative approach to ensure long-term sustainability and maximize collective payoffs. Extracting $12 has been a common and fair choice among citizens, and it aligns with the group's behavior so far. It also balances my immediate payoff with the need to preserve the pool for future months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable and regenerating to its maximum value of $120 each month, as the total extractions have consistently stayed below the sustainability threshold of $60. The other citizens seem to have settled into a pattern of extracting $12 each, which keeps the pool sustainable and ensures fair payoffs for everyone. If I also extract $12, the total extraction will likely remain at $48, allowing the pool to regenerate fully. This strategy aligns with maintaining the commons' sustainability while ensuring a fair payoff for myself.",
+      "The pool has been stable and regenerating to its maximum value of $120 each month because the total extractions have consistently stayed below the sustainability threshold of $60. This ensures that the pool remains sustainable for future months. The other citizens have been extracting $12 each, which seems to be a cooperative strategy that balances individual payoffs with the health of the commons. To maintain this stability and avoid risking the pool shrinking, I will also extract $12, as it aligns with the group's behavior and ensures fair payoffs for everyone.",
+      "The pool has been stable and regenerating to its maximum value of $120 each month, as the total extractions have consistently stayed below the sustainability threshold of $60. The other citizens appear to have settled into a pattern of extracting $12 each, which results in a total extraction of $48. This strategy has ensured that the pool remains sustainable while providing consistent payoffs. To maintain this stability and avoid risking the pool's health, I will also extract $12, which aligns with the group's apparent norm. This decision balances my immediate payoff with the long-term sustainability of the commons.",
+      "Based on the history, the pool has been stable and regenerating to its maximum value of $120 each month. The total extractions have consistently been below the sustainability threshold of $60, ensuring the pool remains sustainable. The other citizens seem to have settled into a pattern of extracting $12 each, which is cooperative and sustainable. If I also extract $12, the total extraction will likely remain at $48, keeping the pool stable and ensuring fair payoffs for everyone. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without significantly benefiting the group."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has proven to be sustainable and fair, ensuring that everyone receives a consistent payoff of $22.00. Given that the pool is stable and there have been no sustainability violations, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given this history of sustainable and fair extractions, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit. Therefore, I will continue extracting $12 to maintain the balance and fairness.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Given this cooperative behavior and the absence of sustainability violations, I see no reason to deviate from this equilibrium. Extracting $12 again ensures the pool remains sustainable, maintains trust among citizens, and guarantees a fair payoff for all.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This is below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Given this history, it seems that the group has established a cooperative equilibrium that balances individual payoffs with the sustainability of the commons. To maintain this balance and avoid risking the pool's regeneration, I will continue extracting $12, as deviating from this amount could disrupt the equilibrium and potentially lead to lower payoffs for everyone in the future."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has resulted in consistent payoffs of $22 for everyone. Since this cooperative behavior has been working well and ensures the sustainability of the commons, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established norm of extracting $12.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established norm of extracting $12.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear long-term benefit. Therefore, I will continue with the established pattern of extracting $12."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that this cooperative behavior has been working well and there are only 4 months left, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the society has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This keeps the pool sustainable, as it regenerates back to $120 each month. This strategy ensures that everyone receives a consistent payoff of $22.00, which is fair and balanced. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Since this approach has worked well and there are only 4 months left, I see no reason to change the strategy.",
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months. This extraction level has kept the pool stable and sustainable, as the pool regenerates back to $120 each time. Everyone has been receiving equal payoffs of $22, which is a fair and cooperative outcome. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs for everyone, including myself. Extracting less would reduce my immediate payoff without any clear benefit, as the pool is already regenerating fully. Therefore, I will continue extracting $12 to maintain the current balance and fairness.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that this cooperative approach has been working well and there are only 4 months remaining, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are in the final months of the game. By extracting $12 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only three months left, maintaining this cooperative approach will maximize the long-term sustainability of the pool and ensure stable payoffs for everyone. Deviating from this strategy could risk destabilizing the pool and reducing future payoffs.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has resulted in consistent payoffs of $22 for everyone. Given that the pool is stable, the sustainability threshold is not being violated, and the group seems to have reached an implicit agreement to extract $12 each, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The consistent behavior of the group suggests a cooperative strategy to maintain the commons. Extracting $12 again aligns with this cooperative approach, ensures the pool remains sustainable, and provides a fair payoff for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this strategy will likely continue to maximize long-term payoffs for everyone. Deviating from this pattern by extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this strategy will likely continue to maximize long-term payoffs for everyone. Deviating from this pattern by extracting more could risk reducing the pool and harming future payoffs, while extracting less would unnecessarily lower my immediate payoff without any clear benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this cooperative strategy seems optimal to preserve the pool and maximize payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22.00. Given that there are only two months remaining after this one, maintaining this strategy ensures the sustainability of the pool and maximizes long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured consistent payoffs of $22 for everyone. With only two months remaining, maintaining this cooperative approach ensures the pool remains sustainable and maximizes payoffs for everyone. Deviating from this strategy could risk reducing the pool and lowering payoffs in the final month, which is not in my best interest.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. With only two months remaining, maintaining this cooperative approach ensures the pool remains sustainable and maximizes payoffs for everyone. Deviating from this strategy could risk reducing the pool and harming payoffs in the final month. Therefore, I will continue extracting $12 to maintain stability and fairness.",
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured stability and maximized payoffs for everyone. Since there is only one month remaining after this, maintaining this cooperative strategy ensures that the pool remains sustainable and payoffs remain high for the final month as well. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only two months remaining, it is in my best interest to maintain this cooperative strategy to maximize the pool's regeneration and ensure a stable payoff for the final month. Deviating from this strategy could risk destabilizing the pool and reducing payoffs for everyone, including myself."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      15,
+      3
+    ],
+    "final_pool": 42,
+    "payoffs": [
+      20.5,
+      20.5,
+      15.5,
+      11.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. The payoff formula is (my extraction)/3 + (remaining pool)/4. If I extract more, my direct payoff increases, but the remaining pool decreases, which reduces the shared portion of the payoff. Based on the history, all citizens have consistently extracted $12 each, leading to a total extraction of $48. If I extract $12 again, the pool will remain stable, and my payoff will be $22. However, since this is the last month, I can extract more without worrying about sustainability. Extracting $30 maximizes my direct payoff, and the remaining pool will still be divided among all citizens. This strategy ensures I maximize my individual gain.",
+      "This is the final month, so there is no need to consider the pool's regeneration or sustainability for future months. The goal is to maximize my payoff this month. My payoff depends on two factors: my extraction and the remaining pool value after all extractions. Since the pool is shared equally among all citizens, I must consider the likely behavior of others. Based on the history, all citizens have consistently extracted $12 each, leading to a total extraction of $48. If I assume this pattern continues, I can calculate my payoff for different extraction amounts and choose the one that maximizes it.\n\nIf I extract $12 (like others), the total extraction would be $48, leaving $72 in the pool. My payoff would be $12/3 + $72/4 = $4 + $18 = $22.  \nIf I extract more, say $15, the total extraction would be $51, leaving $69 in the pool. My payoff would be $15/3 + $69/4 = $5 + $17.25 = $22.25.  \nIf I extract $18, the total extraction would be $54, leaving $66 in the pool. My payoff would be $18/3 + $66/4 = $6 + $16.5 = $22.5.  \nIf I extract $21, the total extraction would be $57, leaving $63 in the pool. My payoff would be $21/3 + $63/4 = $7 + $15.75 = $22.75.  \nIf I extract $24, the total extraction would be $60, leaving $60 in the pool. My payoff would be $24/3 + $60/4 = $8 + $15 = $23.  \nIf I extract $27, the total extraction would be $63, leaving $57 in the pool. My payoff would be $27/3 + $57/4 = $9 + $14.25 = $23.25.  \nIf I extract $30, the total extraction would be $66, leaving $54 in the pool. My payoff would be $30/3 + $54/4 = $10 + $13.5 = $23.5.  \n\nThe maximum payoff occurs when I extract $30. Since this is the final month, I prioritize maximizing my own payoff without concern for the pool's future.",
+      "This is the final month, so there is no need to consider the pool's regeneration or sustainability for future months. The goal is to maximize my payoff this month. My payoff is determined by my extraction divided by 3, plus one-fourth of the remaining pool. If I extract more, the remaining pool decreases, which reduces the second part of my payoff. However, extracting more directly increases the first part of my payoff. To find the optimal extraction, I need to balance these two effects while considering the likely behavior of the other citizens. Based on the history, the other citizens have consistently extracted $12 each, so I will assume they will do the same this month. If I extract $12 as well, the total extraction will be $48, leaving $72 in the pool. However, since this is the last month, I can extract more to maximize my individual payoff without worrying about the pool's future. After calculating the payoffs for different extractions, extracting $15 maximizes my payoff.",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. The payoff formula is:  \n\\[ \\text{Your payoff} = \\frac{\\text{your extraction}}{3} + \\frac{\\text{pool remaining after all extractions}}{4} \\]  \n\nIf I extract more, my direct payoff from extraction increases, but the remaining pool decreases, which reduces the shared payoff. Based on the history, the other citizens have consistently extracted $12 each, totaling $48. If this pattern holds, the remaining pool after their extractions would be $120 - $48 = $72.  \n\nIf I extract $12 as well, the total extraction would be $48 + $12 = $60, leaving $60 in the pool. My payoff would then be:  \n\\[ \\frac{12}{3} + \\frac{60}{4} = 4 + 15 = 19 \\]  \n\nIf I extract more, say $15, the total extraction would be $63, leaving $57 in the pool. My payoff would then be:  \n\\[ \\frac{15}{3} + \\frac{57}{4} = 5 + 14.25 = 19.25 \\]  \n\nIf I extract $18, the total extraction would be $66, leaving $54 in the pool. My payoff would then be:  \n\\[ \\frac{18}{3} + \\frac{54}{4} = 6 + 13.5 = 19.5 \\]  \n\nIf I extract $21, the total extraction would be $69, leaving $51 in the pool. My payoff would then be:  \n\\[ \\frac{21}{3} + \\frac{51}{4} = 7 + 12.75 = 19.75 \\]  \n\nIf I extract $24, the total extraction would be $72, leaving $48 in the pool. My payoff would then be:  \n\\[ \\frac{24}{3} + \\frac{48}{4} = 8 + 12 = 20 \\]  \n\nIf I extract $27, the total extraction would be $75, leaving $45 in the pool. My payoff would then be:  \n\\[ \\frac{27}{3} + \\frac{45}{4} = 9 + 11.25 = 20.25 \\]  \n\nIf I extract $30, the total extraction"
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      19.75,
+      20.75,
+      20.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the potential payoffs for everyone. Since the pool doubles whatever remains (up to $120), it is in everyone's long-term interest to keep the total extraction at or below $60. However, I cannot control the actions of the other citizens, and they may extract selfishly. To balance my own payoff this month with the goal of sustainability, I will extract a moderate amount, assuming others may also extract moderately. I will choose $12, which is neither too greedy nor too conservative.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the resources available for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I must also consider that others may extract more or less than $15, and I cannot control their decisions. Extracting too little risks leaving resources unused, while extracting too much risks depleting the pool. To balance sustainability and my own payoff, I will extract $15, which is fair and aligns with the sustainability threshold.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since the pool doubles whatever remains (up to $120), it is in everyone's best interest to keep the total extraction at or below $60 to maintain the pool at its maximum value. \n\nIf I extract too much, I risk contributing to over-extraction, which harms the group and reduces future payoffs. However, if I extract too little, I may miss out on immediate payoffs while others might over-extract anyway. A fair and cooperative strategy would be to extract $15, assuming others do the same, as this keeps the total extraction at $60 (the sustainability threshold). This ensures the pool remains at $120 next month, maximizing long-term benefits.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the resources available for everyone. Since there are 4 citizens, a fair and sustainable extraction would be $60/4 = $15 per person. However, I must also consider that others may extract more or less than $15, and I cannot control their decisions. Extracting too little risks leaving resources unused, while extracting too much risks depleting the pool. To balance sustainability and my own payoff, I will extract $15, which is fair and aligns with the sustainability threshold."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Last month, the total extraction was $57, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. The payoffs were fairly balanced, with only a slight difference due to my lower extraction. To maintain the pool's sustainability and ensure long-term benefits for all, I aim to keep the total extraction close to or below $60 again. Given the other citizens' behavior last month, they seem to extract moderately ($12-$15 each). I will extract $12 again to contribute to sustainability while ensuring a reasonable payoff for myself.",
+      "In the previous month, the total extraction was $57, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the group is generally cooperative and aiming to sustain the commons. However, the extractions were not perfectly equal, with some citizens extracting more than others. To maintain the pool's sustainability while ensuring a fair share for myself, I will aim to extract a moderate amount that contributes to keeping the total extraction near or below the $60 threshold. I will extract $12, which is slightly below the average extraction of $15 from last month, to encourage sustainability and fairness.",
+      "Last month, the total extraction was $57, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the group is somewhat cooperative, as no one extracted excessively. However, the extractions were close to the threshold, indicating that citizens are likely prioritizing their individual payoffs while still maintaining the pool's sustainability.\n\nTo maximize my payoff, I want to balance my extraction with the likelihood that the pool remains sustainable. If I extract too much, I risk encouraging others to extract more in future months, potentially shrinking the pool. Based on last month's behavior, I expect the total extraction this month to be similar, around $57-$60. I will extract $12, which is slightly below the average extraction last month ($14.25 per citizen), to contribute to sustainability while still earning a reasonable payoff.",
+      "In the previous month, the total extraction was $57, which was below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the group is generally cooperative, though some citizens extracted more than others. To maintain the pool's sustainability and maximize long-term payoffs, I aim to keep the total extraction close to or below the threshold of $60. My extraction should balance contributing to sustainability while ensuring a fair share of the payoff. I will extract $12, which is slightly below the average extraction of $15 from last month, to encourage cooperation and sustainability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous months, the group has managed to keep the pool sustainable, with total extractions below the $60 threshold. This has allowed the pool to regenerate fully each time. In Month 1, I extracted $12, which was slightly below the average extraction ($15) of the other citizens. In Month 2, all citizens extracted equally ($12), leading to a fair distribution and a slightly higher payoff for everyone. \n\nGiven that the pool is at $120 again and the sustainability threshold remains $60, I aim to maintain a cooperative approach to ensure the pool remains sustainable. Extracting $12 again seems reasonable, as it aligns with the group's behavior in Month 2 and ensures the pool can regenerate fully. This strategy balances my immediate payoff with the long-term health of the commons.",
+      "In the previous months, the total extractions have been below the sustainability threshold, allowing the pool to regenerate fully to $120. This cooperative behavior has resulted in fair and consistent payoffs for all citizens. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting a moderate amount that aligns with the group's apparent strategy. Extracting $12 has been a successful choice in the past, as it keeps the total extraction below the threshold while providing a fair payoff. I will stick with this amount to promote sustainability and fairness.",
+      "In the previous months, the total extractions have been below the sustainability threshold, allowing the pool to regenerate fully to $120. This cooperative behavior has benefited everyone with consistent payoffs. To maintain this trend, I aim to keep the total extraction below or at the sustainability threshold of $60. If each citizen extracts $12 (as in Month 2), the pool will remain sustainable, and everyone will continue to benefit. I will extract $12 again to align with this cooperative strategy, as it balances personal gain with the long-term health of the commons.",
+      "The pool has been consistently regenerated to $120 in the previous months because the total extractions have stayed below the sustainability threshold of $60. This ensures the long-term sustainability of the commons. In Month 1, extractions were close to the threshold, while in Month 2, extractions were more conservative, leaving a larger remaining pool. To maintain sustainability and maximize my payoff, I aim to balance my extraction with the likely behavior of others. Based on the history, it seems reasonable to expect others to extract around $12 each again, totaling $48. If I extract $12 as well, the total extraction will remain at $48, leaving $72 in the pool, which will regenerate to $120. This strategy ensures the pool remains sustainable while giving me a fair payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that the group has been extracting sustainably, with total extractions below the $60 threshold in all previous months. This has allowed the pool to regenerate fully each time. My goal is to maintain this sustainability while maximizing my payoff. If I extract $12, as I have in the past two months, and the other citizens do the same, the total extraction will be $48, which is well below the threshold. This ensures the pool regenerates fully, and I receive a fair share of the remaining pool. Consistency in behavior also helps maintain trust and predictability among citizens.",
+      "Based on the history, it seems that the citizens have been cooperating to keep the pool sustainable. In Months 2 and 3, all citizens extracted $12 each, which kept the pool healthy and allowed it to regenerate to $120. This strategy has resulted in consistent payoffs of $22 for everyone. To maintain this cooperative equilibrium and ensure the pool remains sustainable for the remaining months, I will also extract $12 this month. Extracting more could risk breaking the cooperation and shrinking the pool, which would harm everyone's payoffs in the long run.",
+      "The history shows that the pool has been managed sustainably, with total extractions staying below the sustainability threshold of $60. This ensures the pool regenerates to its maximum value of $120 each month. In the last two months, all citizens extracted $12 each, leading to equal payoffs of $22.00 for everyone. This cooperative strategy benefits all citizens and maintains the pool's long-term viability. To continue this sustainable and fair approach, I will extract $12 again this month, as it aligns with the collective behavior and ensures the pool remains healthy for future months.",
+      "Based on the history, it seems that the group has been extracting conservatively, keeping the total extraction below the sustainability threshold of $60. This strategy has allowed the pool to regenerate fully each month, ensuring long-term sustainability. In Months 2 and 3, all citizens extracted $12 each, resulting in equal payoffs and a regenerated pool. This cooperative behavior benefits everyone and ensures the commons remain sustainable. To maintain this balance and avoid risking the pool shrinking, I will continue extracting $12, as it aligns with the group's apparent strategy and maximizes fairness and sustainability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, which keeps the total extraction below the sustainability threshold of $60. This strategy has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. Additionally, this extraction level has provided consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. There is no indication that other citizens will deviate from this cooperative strategy, and I have no incentive to disrupt this balance.",
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, leading to a total extraction of $48. This is below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this cooperative behavior has been working well and ensures the long-term sustainability of the pool, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the system, while extracting less would reduce my immediate payoff without any clear benefit.",
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, which keeps the total extraction at $48. This is below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this approach has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from it. Extracting more could risk destabilizing the system, while extracting less would reduce my immediate payoff without any clear benefit.",
+      "Based on the history, all citizens, including myself, have been extracting $12 each month, leading to a total extraction of $48. This is below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Since this cooperative behavior has been working well and ensures the long-term sustainability of the pool, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the system and reducing future payoffs, while extracting less would unnecessarily lower my immediate payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The payoff for each citizen has been consistent at $22.00, which is a fair and sustainable outcome. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Therefore, I will continue extracting $12 to maintain the balance and ensure the pool remains sustainable.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The payoff for each citizen has been consistent at $22.00, which is a fair and sustainable outcome. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Therefore, I will continue extracting $12 to maintain the balance and ensure the pool remains sustainable.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The consistent behavior of the other citizens suggests a cooperative strategy to maintain the commons. Extracting $12 again aligns with this cooperative approach, ensures the pool remains sustainable, and provides a fair payoff for everyone. Deviating from this strategy could risk destabilizing the pool and reducing future payoffs.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that this approach has been working well for the group and aligns with the sustainability threshold, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured stability and maximized payoffs for everyone. Deviating from this pattern could risk destabilizing the system and reducing future payoffs. Therefore, I will continue extracting $12 to maintain the current balance and ensure long-term sustainability.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing payoffs for everyone. Given this cooperative behavior and the consistent payoff of $22 for each citizen, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has provided consistent payoffs of $22 for everyone, which is a fair and sustainable outcome. Given this history of cooperation and the stability of the pool, I see no reason to deviate from this pattern. Extracting $12 again ensures the pool remains sustainable, avoids conflict, and maintains the current payoff structure.",
+      "Over the past three months, the group has settled into a stable pattern where each citizen extracts $12, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has ensured both the sustainability of the commons and consistent payoffs of $22 for everyone. Deviating from this pattern could risk destabilizing the system or reducing the pool's ability to regenerate. To maintain stability and fairness, I will continue extracting $12, as it aligns with the group's established behavior and ensures the pool remains sustainable."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each time. This strategy has ensured stability and maximized payoffs for everyone at $22.00 per month. Given this cooperative behavior and the shared interest in maintaining the pool's value, I see no reason to deviate from this pattern. Extracting $12 again aligns with the group's apparent strategy, sustains the pool, and ensures a fair payoff for all.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The payoff for each citizen has been consistent at $22.00, which is a fair and sustainable outcome. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Therefore, I will continue extracting $12 to maintain the balance and ensure the pool remains sustainable.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00, which is a fair and sustainable outcome. Given that this cooperative behavior has been working well and there are only 4 months left, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term stability. The payoff for each citizen has been consistent at $22.00, which is a fair and sustainable outcome. Given this history and the importance of maintaining the pool for the remaining months, I will continue extracting $12 to align with the cooperative strategy that has proven successful so far."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing payoffs for everyone. Given this cooperative behavior and the shared interest in maintaining the pool for the remaining months, I will continue extracting $12. This aligns with the established norm, avoids risking the pool's sustainability, and ensures a fair and predictable payoff for all.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $22.00. Given that there are only three months remaining, maintaining this cooperative strategy ensures the sustainability of the pool and maximizes long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "The history shows that all citizens, including me, have been extracting $12 consistently for the past three months, which has kept the pool stable at $120. This strategy ensures that the pool regenerates fully, and everyone receives a fair payoff of $22.00. There is no indication that the other citizens will deviate from this cooperative behavior, and deviating myself could risk destabilizing the pool or reducing my payoff in future months. Therefore, I will continue extracting $12 to maintain the balance and maximize long-term payoffs.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, leading to a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has resulted in consistent payoffs of $22 for everyone. Since this cooperative behavior has been working well and ensures the sustainability of the pool, I see no reason to deviate from this pattern. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months, which has kept the pool stable and allowed it to regenerate fully to $120 each time. This strategy has ensured that everyone receives a fair and predictable payoff of $22.00. Since there are only two months remaining after this, maintaining the same extraction level ensures sustainability and avoids any risk of depleting the pool. Deviating from this cooperative strategy could lead to distrust or retaliation, which might harm my payoffs in the final months.",
+      "The history shows that all citizens, including me, have been extracting $12 consistently for the past three months, which has kept the pool stable and allowed it to regenerate fully to $120 each time. This strategy has resulted in equal payoffs of $22 for everyone, which is fair and sustainable. Since there are only two months left after this, maintaining the pool at its maximum value ensures that we can continue to extract sustainably and maximize payoffs for the remaining months. Deviating from this pattern by extracting more could risk shrinking the pool, which would reduce future payoffs for everyone, including me. Therefore, I will continue extracting $12 to maintain stability and fairness.",
+      "The history shows that all citizens, including myself, have been extracting $12 consistently for the past three months, which has kept the pool stable and allowed it to regenerate fully to $120 each time. This strategy has ensured that everyone receives a fair and predictable payoff of $22.00 per month. Since there are only two months remaining after this one, maintaining this cooperative approach will maximize long-term payoffs for everyone. Deviating from this strategy by extracting more could risk destabilizing the pool and reducing future payoffs, which is not in my best interest.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable at $120, allowing for consistent regeneration and ensuring sustainability. Everyone has received equal payoffs of $22.00, which is a fair and cooperative outcome. Given that there are only two months remaining after this, maintaining the pool's stability is crucial to ensure long-term benefits for all. Deviating from this cooperative strategy could risk reducing the pool and harming future payoffs. Therefore, I will continue extracting $12, as it aligns with the established cooperative norm and ensures sustainability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only one month remaining, maintaining this strategy ensures the pool remains sustainable and maximizes collective payoffs. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for the final month. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, all citizens have extracted $12 each, resulting in a total extraction of $48, which is below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each time, ensuring stability and maximizing payoffs for everyone. Given that this strategy has been consistent and beneficial for all, deviating from it could risk destabilizing the pool or reducing payoffs. With only one month remaining, maintaining this cooperative approach ensures the pool remains sustainable for the final month, maximizing collective and individual benefits.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only two months remaining, it is in my best interest to maintain this cooperative strategy to maximize my payoff while ensuring the pool remains sustainable. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself.",
+      "Over the past three months, all citizens, including myself, have extracted $12 each, resulting in a total extraction of $48. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This cooperative behavior has ensured that everyone receives a consistent payoff of $22. With only one month remaining, maintaining this strategy ensures the pool remains sustainable and maximizes collective payoffs. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for the final month. Therefore, I will continue extracting $12 to maintain the established equilibrium."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. Based on the payoff formula, my payoff is determined by my extraction divided by 3 plus one-fourth of the remaining pool. If I extract $12, as has been the norm in previous months, the total extraction will likely be $48 (assuming others also extract $12), leaving $72 in the pool. My payoff would then be $12/3 + $72/4 = $4 + $18 = $22. If I extract more, say $15, the total extraction would increase to $51, leaving $69 in the pool. My payoff would then be $15/3 + $69/4 = $5 + $17.25 = $22.25. Extracting $18 would result in a total extraction of $54, leaving $66 in the pool, and my payoff would be $18/3 + $66/4 = $6 + $16.5 = $22.5. Extracting $21 would result in a total extraction of $57, leaving $63 in the pool, and my payoff would be $21/3 + $63/4 = $7 + $15.75 = $22.75. Extracting $24 would result in a total extraction of $60, leaving $60 in the pool, and my payoff would be $24/3 + $60/4 = $8 + $15 = $23. Extracting $27 would result in a total extraction of $63, leaving $57 in the pool, and my payoff would be $27/3 + $57/4 = $9 + $14.25 = $23.25. Extracting $30 would result in a total extraction of $66, leaving $54 in the pool, and my payoff would be $30/3 + $54/4 = $10 + $13.5 = $23.5. Therefore, extracting $30 maximizes my payoff this month.",
+      "This is the final month, so there is no need to consider the sustainability of the pool for future months. The goal is to maximize my payoff this month. The payoff formula is:  \nYour payoff = (your extraction)/3 + (pool remaining after ALL extractions)/4.  \n\nIf I extract $x, the total extraction by all citizens will determine the remaining pool. Based on the history, it seems likely that other citizens will continue extracting $12 each, as they have done consistently for the past three months. If this pattern holds, the total extraction will be $12 (me) + $12 (Citizen 2) + $12 (Citizen 3) + $12 (Citizen 4) = $48, leaving $72 in the pool.  \n\nHowever, since this is the final month, I can consider extracting more than $12 to maximize my individual payoff. If I extract $30, the total extraction would be $30 (me) + $12 + $12 + $12 = $66, leaving $54 in the pool. My payoff would then be:  \nPayoff = ($30)/3 + ($54)/4 = $10 + $13.5 = $23.5.  \n\nThis is higher than the payoff I would get by extracting $12 ($22.00). Extracting $30 maximizes my payoff in this final month.",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. Based on the payoff formula, my payoff is determined by my extraction divided by 3, plus one-fourth of the remaining pool. If I extract $12 (as in previous months), the total extraction will likely remain at $48 (assuming others also extract $12), leaving $72 in the pool. My payoff would then be $12/3 + $72/4 = $4 + $18 = $22. However, since this is the last month, I can extract more without worrying about sustainability. If I extract $30, the total extraction would likely be $66 (assuming others extract $12 each), leaving $54 in the pool. My payoff would then be $30/3 + $54/4 = $10 + $13.5 = $23.5, which is higher than $22. Therefore, extracting $30 maximizes my payoff.",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. Based on the payoff formula, my payoff is determined by my extraction and the remaining pool divided by 4. If I extract too much, the remaining pool will decrease significantly, reducing the shared portion of the payoff. However, since this is the last month, I can prioritize my extraction without worrying about sustainability. The other citizens have consistently extracted $12 each in previous months, so I expect them to do the same. If I extract $12, the total extraction will be $48, leaving $72 in the pool. My payoff would then be $12/3 + $72/4 = $4 + $18 = $22. If I extract more, my personal extraction payoff increases, but the shared pool decreases. Extracting $15 would result in a slightly higher payoff: $15/3 + $69/4 = $5 + $17.25 = $22.25. Extracting $18 would result in $18/3 + $66/4 = $6 + $16.5 = $22.5. Extracting $21 would result in $21/3 + $63/4 = $7 + $15.75 = $22.75. Extracting $24 would result in $24/3 + $60/4 = $8 + $15 = $23. Extracting $27 would result in $27/3 + $57/4 = $9 + $14.25 = $23.25. Extracting $30 would result in $30/3 + $54/4 = $10 + $13.5 = $23.5. Therefore, extracting $30 maximizes my payoff."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      6,
+      12,
+      9,
+      12
+    ],
+    "final_pool": 81,
+    "payoffs": [
+      22.25,
+      24.25,
+      23.25,
+      24.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the potential payoffs for everyone in the future. Since there are 12 months in total, it is in my best interest to maintain the pool's value for as long as possible to maximize long-term payoffs. Assuming other citizens also aim to act sustainably, I will extract a modest amount to contribute to the sustainability of the pool while still earning a reasonable payoff this month. I will choose an extraction amount that, when combined with the likely extractions of others, stays at or below the sustainability threshold.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since there are 12 months in total, it is in my best interest to keep the pool as close to $120 as possible for future doubling. However, I also want to ensure I receive a fair share of the resources this month. Assuming others act in their self-interest but also consider sustainability, I will extract a moderate amount that balances my immediate payoff with the long-term health of the pool. I will extract $12, which is slightly below the per-person sustainable share of $15 ($60/4), to encourage sustainability while still securing a reasonable payoff.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. Since the pool doubles whatever remains (up to $120), it is in my interest to keep the pool as close to $120 as possible to maximize future payoffs. However, I must also consider that other citizens may extract selfishly, potentially leading to over-extraction. To balance sustainability and my immediate payoff, I will extract a moderate amount, assuming others may also extract moderately or selfishly. This decision aims to avoid contributing excessively to over-extraction while still securing some immediate benefit.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. If the total extraction across all citizens exceeds $60, the pool will shrink next month, reducing the long-term benefits for everyone. My goal is to balance my immediate payoff with the sustainability of the pool for future months. Assuming others act similarly and aim to preserve the pool, I will extract a modest amount to contribute to sustainability while still earning a reasonable payoff. I will extract $12, which is below the average sustainable extraction of $15 per person ($60/4). This leaves room for others to act sustainably as well."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      12,
+      9
+    ],
+    "final_pool": 81,
+    "payoffs": [
+      23.25,
+      23.25,
+      24.25,
+      23.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool regenerated to $120 after last month's extractions, which were well below the sustainability threshold of $60. This indicates that the group is currently cooperating to maintain the commons. However, some citizens extracted more than others, which suggests a mix of cooperative and self-interested behavior. To balance sustainability and my own payoff, I aim to extract a moderate amount that contributes to keeping the pool healthy while ensuring a fair share for myself. Extracting $9 seems reasonable, as it is below the average extraction ($15) needed to reach the sustainability threshold, leaving room for others to extract without depleting the pool.",
+      "The pool regenerated to $120 after last month's extractions, which were well below the sustainability threshold of $60. This indicates that the group is currently cooperating to maintain the commons. However, some citizens extracted more than others, which suggests a mix of cooperative and self-interested behavior. To balance sustainability and my own payoff, I aim to extract a moderate amount that contributes to keeping the pool healthy while ensuring a fair share for myself. Extracting $9 seems reasonable, as it is below the average extraction ($15) needed to reach the sustainability threshold, and it signals cooperation while still providing a decent payoff.",
+      "The pool regenerated to its maximum value of $120 after Month 1, indicating that the total extraction ($39) was well below the sustainability threshold ($60). This suggests that the group is currently extracting conservatively, which is good for the long-term health of the commons. My goal is to balance maximizing my payoff this month while ensuring the pool remains sustainable for future months. If I extract too much, I risk encouraging others to extract more in future months, potentially depleting the pool. Based on the previous extractions, I expect others to extract moderately again, so I will choose a moderate extraction amount to maintain cooperation and sustainability.",
+      "In Month 1, the total extraction was $39, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. This suggests that the other citizens are somewhat cooperative and not overly exploitative. To maintain the pool's sustainability and maximize long-term payoffs, I aim to keep the total extraction close to or below the $60 threshold. If I extract moderately, I can contribute to sustainability while still earning a fair payoff. Based on the previous extractions, the other citizens seem to extract amounts between $6 and $12, so I will choose a moderate extraction to balance my immediate payoff and the pool's health."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been consistently regenerating to $120 because total extractions have stayed below the sustainability threshold of $60. This ensures the commons remains sustainable. In the previous months, I extracted $9, which contributed to a fair balance between personal payoff and the health of the pool. Other citizens have also extracted moderately, with no one over-extracting excessively. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting $9. This amount provides a reasonable payoff while keeping the pool healthy.",
+      "The pool has been consistently regenerating to its maximum value of $120 because the total extractions in the previous months have stayed well below the sustainability threshold of $60. This ensures that the commons remain sustainable and benefits all citizens. Based on the history, the other citizens seem to be extracting moderately, with extractions ranging from $6 to $12. To maintain the sustainability of the pool while maximizing my payoff, I will extract $9, which is in line with the behavior of others and keeps the total extraction likely below the threshold. This strategy balances my immediate gain with the long-term health of the commons.",
+      "The pool has been consistently regenerated to $120 because total extractions have stayed below the sustainability threshold of $60 in the previous months. This ensures the long-term health of the commons. My goal is to balance maximizing my payoff while maintaining the pool's sustainability. Based on the history, other citizens have extracted moderately (mostly $9 or $12), and the total extractions have been $39 both months. If I extract $9 again, it aligns with the group's behavior and keeps the pool sustainable. Extracting more could risk encouraging others to extract more in future months, potentially shrinking the pool.",
+      "The pool has been consistently regenerated to $120 because the total extractions in the previous months ($39 each time) were well below the sustainability threshold of $60. This ensures the commons remains sustainable. My goal is to balance maximizing my payoff while maintaining the pool's long-term health. If I extract too much, it risks encouraging others to extract more in future months, potentially leading to over-extraction and a shrinking pool. Based on the history, the other citizens seem to be extracting moderately, so I will continue with a moderate extraction to maintain trust and sustainability."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the group has consistently extracted below the sustainability threshold, ensuring the pool regenerates to its maximum value of $120 each month. This strategy has resulted in stable and relatively high payoffs for everyone. My goal is to maintain this cooperative approach to maximize long-term payoffs. Extracting $9 has been a common choice, and it balances personal gain with the sustainability of the pool. I will continue with this amount to align with the group's apparent strategy and avoid risking over-extraction, which could shrink the pool and harm future payoffs.",
+      "The history shows that all citizens have been extracting moderately, keeping the total extraction below the sustainability threshold of $60. This has allowed the pool to regenerate fully each month. By extracting $9, I align with the cooperative behavior of the group, ensuring the pool remains sustainable while maximizing my payoff. Extracting more could risk encouraging others to extract more in future months, potentially depleting the pool. Extracting less would reduce my immediate payoff without significantly benefiting the group.",
+      "Over the past three months, the group has consistently extracted below the sustainability threshold, allowing the pool to regenerate fully each time. This cooperative behavior has resulted in stable payoffs for everyone. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting a moderate amount. Based on the history, $9 seems to be a fair and cooperative choice that aligns with the group's behavior, avoids over-extraction, and ensures the pool remains healthy.",
+      "Based on the history, the group has consistently extracted below the sustainability threshold, ensuring the pool regenerates to its maximum value of $120 each month. This strategy has resulted in stable and relatively high payoffs for everyone. My goal is to maintain this cooperative approach to maximize long-term payoffs. Extracting $9 has been a common choice among citizens, and it balances personal gain with the sustainability of the pool. I will continue with this amount to align with the group's cooperative behavior and ensure the pool remains healthy for future months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable and regenerating to its maximum value of $120 due to the collective extractions staying well below the sustainability threshold of $60. In the last two months, all citizens extracted $9 each, resulting in a total extraction of $36, which allowed the pool to regenerate fully. This strategy has provided consistent payoffs of $24 for everyone. To maintain this stability and ensure the pool remains sustainable for the remaining months, I will continue extracting $9, as it aligns with the cooperative behavior observed so far and maximizes long-term payoffs.",
+      "The pool has been stable and regenerating to its maximum value of $120 each month, as the total extractions have consistently stayed below the sustainability threshold of $60. This has resulted in fair and predictable payoffs for all citizens. Based on the history, it seems that the other citizens are likely to continue extracting $9 each, which totals $36. If I also extract $9, the total extraction will remain at $36, ensuring the pool regenerates fully. This strategy maximizes long-term sustainability and provides a fair payoff for everyone.",
+      "The pool has been stable and regenerating to its maximum value of $120 each month because total extractions have consistently stayed below the sustainability threshold of $60. This ensures that the pool remains sustainable and benefits everyone. The pattern of extractions has been fairly cooperative, with most citizens extracting $9 per month. This strategy has resulted in fair and consistent payoffs for all citizens. To maintain this stability and avoid risking the pool's sustainability, I will continue extracting $9, which aligns with the cooperative behavior observed in previous months.",
+      "The pool has been stable and regenerating to its maximum value of $120 due to the collective extractions staying well below the sustainability threshold of $60. In the last two months, all citizens extracted $9 each, leading to equal payoffs of $24 for everyone. This cooperative behavior ensures the pool remains sustainable and maximizes long-term payoffs. To maintain this stability and fairness, I will continue extracting $9, as deviating from this amount could risk destabilizing the pool or creating inequality."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has provided consistent payoffs of $24 for everyone, which is a fair and sustainable outcome. Given that this approach has worked well and ensures the long-term health of the commons, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear benefit.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Extracting more than $9 could risk reducing the pool below the sustainability threshold, which would harm future payoffs. Extracting less than $9 would reduce my immediate payoff without any clear benefit, as the pool is already regenerating to its maximum value. Therefore, I will continue extracting $9 to maintain the current balance and ensure long-term stability.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Extracting more than $9 could risk reducing the pool below the sustainability threshold, which would harm future payoffs. Extracting less than $9 would reduce my immediate payoff without any clear indication that others would follow suit. Therefore, I will continue extracting $9 to maintain the current balance and maximize my payoff.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable at $120, allowing it to regenerate fully each month. This strategy has provided consistent and fair payoffs of $24 for everyone. There is no indication that the other citizens will deviate from this cooperative behavior, and maintaining this strategy ensures the sustainability of the pool for the remaining months. Extracting more could risk destabilizing the pool, while extracting less would reduce my payoff unnecessarily."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the group has established a stable pattern of extracting $9 each, which keeps the pool sustainable and ensures it regenerates to its maximum value of $120. This strategy has resulted in consistent payoffs of $24 for everyone. Deviating from this pattern by extracting more could risk reducing the pool's value in future months, which would harm both my payoffs and the group's overall sustainability. Since there are still 5 months remaining, maintaining this cooperative strategy is in my best interest to maximize long-term payoffs.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable at $120, allowing it to regenerate fully each month. This strategy has been sustainable and has provided consistent payoffs of $24 for everyone. There is no indication that the other citizens will deviate from this cooperative behavior, and deviating myself could risk destabilizing the pool or reducing my long-term payoffs. Therefore, I will continue extracting $9 to maintain the current balance and ensure the pool remains sustainable.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $24.00, which is a fair and sustainable outcome. Given that this cooperative behavior has worked well and there are still 5 months remaining, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool and reducing future payoffs, while extracting less would unnecessarily lower my current payoff without any clear long-term benefit.",
+      "Over the past three months, the society has established a stable pattern where each citizen extracts $9, resulting in a total extraction of $36. This keeps the pool sustainable, as it regenerates back to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $24.00. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone, including myself. Since this approach has been working well and aligns with the sustainability threshold, I will continue extracting $9 to maintain stability and fairness."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all citizens, including myself, have extracted $9 each, leading to a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has resulted in consistent and fair payoffs of $24 for everyone. There is no indication that any citizen is deviating from this cooperative behavior, and maintaining this approach ensures the sustainability of the pool for the remaining months. Deviating by extracting more could risk destabilizing the pool and reducing future payoffs for everyone, including myself. Therefore, I will continue extracting $9 to maintain the current balance and cooperation.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are in the later months of the game. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are in the later months of the game and maintaining the pool's value is critical for long-term payoffs. Therefore, I will continue extracting $9 to align with the established cooperative strategy.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially since we are in the latter part of the 12-month period. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully for future months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable and regenerating fully to $120 each month because all citizens have been extracting $9, which is well below the sustainability threshold of $60. This cooperative behavior ensures that the pool remains sustainable and everyone receives a consistent payoff of $24.00. There is no incentive to deviate from this strategy, as extracting more could risk reducing the pool's value and harming future payoffs. Maintaining the current extraction level aligns with both individual and collective interests.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern by extracting more could risk shrinking the pool, which would harm future payoffs for all. Extracting less would reduce my immediate payoff without any clear benefit, as the pool is already regenerating to its maximum value. Therefore, I will continue with the cooperative strategy of extracting $9.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has ensured that everyone receives a consistent payoff of $24.00, which is a good balance between individual gain and sustainability of the commons. Given that there are only three months left, maintaining this cooperative strategy ensures the pool remains stable and benefits everyone equally. Deviating from this could risk destabilizing the pool and reducing future payoffs for all.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable at $120, allowing it to regenerate fully each month. This strategy has been sustainable and has provided consistent payoffs of $24 for everyone. There is no indication that the other citizens will deviate from this cooperative behavior, as it benefits everyone equally. To maintain the stability of the pool and ensure fair payoffs, I will continue extracting $9 this month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally.",
+      "Over the past three months, all citizens, including myself, have extracted $9 each, resulting in a total extraction of $36. This has kept the pool stable and allowed it to regenerate fully to $120 each month. This strategy has provided consistent and fair payoffs of $24 for everyone. Given that there are only two months remaining after this one, maintaining the pool's stability ensures that we can continue to maximize payoffs for the remaining months. Deviating from this cooperative strategy could risk reducing the pool and lowering everyone's payoffs, including my own. Therefore, I will continue extracting $9 to maintain the established equilibrium.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past three months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, especially with only two months remaining after this. By extracting $9 again, I contribute to maintaining the balance and ensuring the pool regenerates fully, which benefits everyone equally."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past several months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. With only one month remaining, there is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool and harming payoffs in the final month. Maintaining the current extraction level ensures fairness and stability for all.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past several months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. With only two months remaining, there is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool and lowering payoffs for the final month. Maintaining the current extraction level ensures fairness and stability for all.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past several months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. With only two months remaining, there is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool and harming payoffs in the final month. Maintaining the current extraction level ensures fairness and stability for all.",
+      "The history shows that all citizens, including myself, have been extracting $9 consistently for the past several months. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. With only two months remaining, there is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool and harming collective payoffs. Maintaining the current extraction level ensures fairness and stability for all."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      9,
+      9,
+      30
+    ],
+    "final_pool": 42,
+    "payoffs": [
+      20.5,
+      13.5,
+      13.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. My goal is to maximize my individual payoff for this month. The payoff formula is:  \nYour payoff = (your extraction)/3 + (pool remaining after ALL extractions)/4.  \n\nIf I extract $30, the pool will shrink significantly, but since this is the last month, the remaining pool value does not regenerate. The more I extract, the less is left for others to share, which increases my relative gain. Given that others have consistently extracted $9 in previous months, I anticipate they may continue to do so. If I extract $30, the total extraction would likely be $30 + $9 + $9 + $9 = $57, leaving $63 in the pool.  \n\nMy payoff would then be: ($30/3) + ($63/4) = $10 + $15.75 = $25.75. This is higher than if I extracted less. Therefore, extracting $30 maximizes my payoff.",
+      "This is the final month, so there is no future to consider in terms of sustainability. The pool will not regenerate after this round, and the goal is to maximize my own payoff. Since the payoff formula is based on both my extraction and the remaining pool, I need to balance extracting a significant amount while leaving enough in the pool to maximize the shared portion of the payoff. If I extract too much, the remaining pool will shrink significantly, reducing the shared payoff for everyone (including me). Based on the history, the other citizens have consistently extracted $9 each, which suggests they may do the same this month. If I assume they extract $9 each again (totaling $27), I can calculate the remaining pool and my payoff for different extraction amounts to find the optimal choice.\n\nIf I extract $9:\n- Total extraction = $9 (me) + $27 (others) = $36\n- Remaining pool = $120 - $36 = $84\n- My payoff = $9/3 + $84/4 = $3 + $21 = $24\n\nIf I extract $12:\n- Total extraction = $12 (me) + $27 (others) = $39\n- Remaining pool = $120 - $39 = $81\n- My payoff = $12/3 + $81/4 = $4 + $20.25 = $24.25\n\nIf I extract $15:\n- Total extraction = $15 (me) + $27 (others) = $42\n- Remaining pool = $120 - $42 = $78\n- My payoff = $15/3 + $78/4 = $5 + $19.5 = $24.5\n\nIf I extract $18:\n- Total extraction = $18 (me) + $27 (others) = $45\n- Remaining pool = $120 - $45 = $75\n- My payoff = $18/3 + $75/4 = $6 + $18.75 = $24.75\n\nIf I extract $21:\n- Total extraction = $21 (me) + $27 (others) = $48\n- Remaining pool = $120 - $48 = $72\n- My payoff = $21/3 + $72/4 = $7 + $18 = $25\n\nIf I extract $24:\n- Total extraction = $24 (me) + $27 (others) = $51\n- Remaining pool = $120 - $51",
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. The payoff formula is (my extraction)/3 + (remaining pool after all extractions)/4. Since the pool regenerates only after this month, the remaining pool value directly affects my payoff. If I extract too much, the remaining pool will shrink significantly, reducing the shared portion of the payoff. However, if I extract too little, I miss out on maximizing my direct extraction payoff. Based on the history, other citizens have consistently extracted $9 each, which totals $27 from the pool. To maximize my payoff, I will also extract $9, as this has been the stable and cooperative strategy that balances individual and collective payoffs.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my individual payoff for this month. My payoff is determined by the sum of (my extraction)/3 and (remaining pool value after all extractions)/4. If I extract more, my direct payoff from extraction increases, but the remaining pool value decreases, which reduces the shared payoff from the pool. Since all citizens have been extracting $9 consistently in previous months, it is likely they will continue to do so. If I extract $9 as well, the total extraction will be $36, leaving $84 in the pool, and my payoff will be $24. However, if I extract more, I can increase my direct payoff, even though the shared pool payoff will decrease. To maximize my payoff, I will extract $30, as this maximizes my direct payoff and the shared pool payoff is less significant in this final round."
+    ]
+  }
+]

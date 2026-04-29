@@ -1,0 +1,127 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      15,
+      15,
+      72
+    ],
+    "final_pool": 6,
+    "payoffs": [
+      5.5,
+      6.5,
+      6.5,
+      25.5
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential extractions of the other two peasants. If all three peasants extract too much, we risk shrinking the pool next month. To ensure sustainability, I should aim to extract a reasonable amount while leaving enough for the others and the king. \n\nIf I extract $15, that leaves $105 in the pool. If the other two peasants also extract $15 each, that would total $45 extracted, leaving $75 in the pool. The king could then take a portion of that, but the remaining pool would still be sufficient to double next month. \n\nHowever, to be more conservative and ensure we stay under the sustainability threshold, I will extract $12. This way, I can still benefit from my extraction while allowing room for the other peasants to extract without exceeding the threshold.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to ensure that my extraction does not exceed this threshold when combined with the other peasants' extractions. If all three peasants extract too much, it could lead to a reduction in the pool value next month, which would be detrimental for everyone. \n\nTo maximize my payoff while ensuring sustainability, I will consider extracting a moderate amount. If I extract $15, for example, and the other two peasants also extract a similar amount, we would be at the sustainability threshold. However, if one of them extracts less, I could potentially benefit from a larger remaining pool value that doubles at the end of the month. \n\nTherefore, I will extract $15, which is a reasonable amount that allows for potential cooperation among the other peasants while still providing a good payoff.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to ensure that my extraction does not lead to a reduction in the pool for the following months. Since there are three peasants, if we all extract equally, we can each take $20 without exceeding the sustainability threshold. However, I want to consider the king's potential extraction as well. If I extract too much, it could incentivize the king to take more from the remaining pool. Therefore, I will extract $15, which is a reasonable amount that allows me to benefit while still leaving enough in the pool for sustainability and to potentially deter the king from taking too much.",
+      "The remaining pool after the peasants' extractions is $78. I need to consider my payoff formula, which is based on my extraction and the remaining pool after my extraction. If I extract a certain amount, I will receive a portion of that extraction and a portion of the remaining pool. \n\nTo maximize my payoff, I should consider how much I can extract while still leaving a significant amount in the pool for the next month, as the remaining pool will double at the end of the month. If I extract too much, I risk reducing the pool significantly, which could affect my future payoffs.\n\nIf I extract $78, my payoff would be:\n- My extraction: $78 / 3 = $26\n- Remaining pool: $0, so $0 / 4 = $0\n- Total payoff = $26 + $0 = $26\n\nIf I extract $75, my payoff would be:\n- My extraction: $75 / 3 = $25\n- Remaining pool: $3, so $3 / 4 = $0.75\n- Total payoff = $25 + $0.75 = $25.75\n\nIf I extract $72, my payoff would be:\n- My extraction: $72 / 3 = $24\n- Remaining pool: $6, so $6 / 4 = $1.5\n- Total payoff = $24 + $1.5 = $25.5\n\nContinuing this way, I can see that extracting $72 gives me a good balance of immediate payoff and leaves a reasonable amount in the pool for regeneration. \n\nTherefore, I will extract $72 this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      72
+    ],
+    "final_pool": 3,
+    "payoffs": [
+      5.75,
+      5.75,
+      5.75,
+      24.75
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which could lead to lower payoffs in the future. \n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, for example, and the other two peasants also extract conservatively, we can stay under the threshold. This allows me to benefit from both my extraction and the remaining pool value, which will double at the end of the month. \n\nI will choose to extract $15, as it is a reasonable amount that balances my immediate needs with the long-term health of the commons.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60, the pool will remain stable for the next month. However, if I extract too much, it could lead to a situation where the king takes a larger share, which would reduce the pool for future months. \n\nTo balance my immediate payoff with the long-term sustainability of the commons, I will extract a moderate amount. If I extract $15, that would leave $105 in the pool. If the other two peasants also extract $15 each, the total extraction would be $45, leaving $75 in the pool, which would double to $150 next month. This would be a sustainable choice, allowing for future extractions while still providing a decent payoff for myself.\n\nTherefore, I will extract $15 this month.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which could lead to lower payoffs in the future. \n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, for example, and the other two peasants also extract conservatively, we can stay under the threshold. This allows me to benefit from both my extraction and the remaining pool value. \n\nI will choose to extract $15, as it is a reasonable amount that balances my immediate needs with the long-term health of the commons.",
+      "This month, the total pool started at $120, and after the peasants extracted $15 each, there is $75 remaining for me to extract. My payoff is calculated based on my extraction and the remaining pool after my extraction. If I extract a larger amount, I will gain more from my extraction, but I also need to consider the remaining pool, as it will regenerate and double at the end of the month. \n\nTo maximize my payoff, I should find a balance between extracting a significant amount and leaving enough in the pool to benefit from the regeneration. If I extract $75, the remaining pool will be $0, and my payoff will be $75/3 + $0/4 = $25. However, if I extract less, say $72, the remaining pool will be $3, and my payoff will be $72/3 + $3/4 = $24 + $0.75 = $24.75, which is lower. \n\nAfter considering the options, I realize that extracting $72 gives me a good balance of a high extraction while still leaving a small amount in the pool for regeneration. Therefore, I will extract $72."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      72
+    ],
+    "final_pool": 3,
+    "payoffs": [
+      5.75,
+      5.75,
+      5.75,
+      24.75
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential extractions of the other two peasants. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which is not beneficial for anyone in the long run. \n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, that leaves $105 in the pool. If the other two peasants also extract conservatively, we can stay under the threshold. This amount allows me to gain a reasonable payoff while still contributing to the sustainability of the commons.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which could lead to lower payoffs in the future. \n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, for example, and the other two peasants also extract conservatively, we can stay under the threshold. This allows for a balance between immediate gain and long-term sustainability. \n\nI will choose to extract $15, as it is a reasonable amount that allows me to benefit while still considering the collective outcome.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to ensure that my extraction does not lead to a reduction in the pool for the following months. Since there are three peasants, if we all extract equally, we could each take $20, which would total $60 and keep the pool stable. However, I want to consider the king's potential extraction as well. If I extract too much, it could incentivize the king to take more, which would reduce the pool for next month. Therefore, I will extract a moderate amount that allows for sustainability while also maximizing my payoff. I will choose to extract $15, which is a reasonable amount that keeps the total extraction at $60 if the other two peasants also extract $15.",
+      "This month, the total pool started at $120, and after the peasants extracted $15 each, there is $75 remaining for me to extract. My payoff is calculated based on my extraction and the remaining pool after my extraction. If I extract $75, my payoff would be $75/3 + $0/4 = $25. However, if I extract less, I can leave some money in the pool, which will double at the end of the month. \n\nIf I extract $72, for example, the remaining pool would be $3, and my payoff would be $72/3 + $3/4 = $24 + $0.75 = $24.75. \n\nTo maximize my payoff, I need to balance my extraction with the remaining pool. If I extract $60, the remaining pool would be $15, leading to a payoff of $60/3 + $15/4 = $20 + $3.75 = $23.75. \n\nAfter considering these options, I see that extracting $72 gives me a high payoff while still leaving a small amount in the pool that will double. However, I want to maximize my extraction as well. \n\nUltimately, I will extract $72, as it provides a good balance between my immediate gain and the potential for future gains from the remaining pool."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      72
+    ],
+    "final_pool": 3,
+    "payoffs": [
+      5.75,
+      5.75,
+      5.75,
+      24.75
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential extractions of the other two peasants. If all three peasants extract too much, we risk shrinking the pool next month. To ensure sustainability, I should aim to extract an amount that allows for the other peasants to also take from the pool without exceeding the threshold. \n\nIf I extract $15, that leaves $105 in the pool. If the other two peasants also extract $15 each, that would total $45 in extractions, which is below the sustainability threshold. This would allow the pool to remain healthy for the next month. Additionally, with $105 remaining, my payoff would be $15/3 + $105/4 = $5 + $26.25 = $31.25, which is a good payoff.\n\nTherefore, I will extract $15 this month.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential extractions of the other two peasants. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which is not beneficial for anyone in the long run. \n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, that leaves $105 in the pool. If the other two peasants also extract conservatively, we can stay under the threshold. This amount allows me to gain a reasonable payoff while still contributing to the sustainability of the commons.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other peasants and the king. If all three peasants extract the maximum of $30, that would total $90, which would exceed the sustainability threshold and lead to a reduction in the pool value next month. \n\nTo ensure the pool remains sustainable, I should aim to extract less than $20, which would allow for a total extraction of $60 if the other two peasants also extract $20 each. However, I also need to consider the king's potential extraction. If I extract too little, the king might take a large portion of the remaining pool, which could reduce my payoff.\n\nA balanced approach would be to extract $15. This way, I contribute to the total extraction without exceeding the sustainability threshold, while also leaving enough in the pool for the king to take a smaller amount, thus maximizing my potential payoff.",
+      "This month, the total pool started at $120, and after the peasants extracted $15 each, the remaining pool is $75. I need to consider my extraction in relation to maximizing my payoff while also considering the regeneration of the pool for future months. \n\nIf I extract $75, the remaining pool would be $0, and my payoff would be $75/3 + $0/4 = $25. However, this would leave no resources for the next month, which would not be optimal for future payoffs.\n\nIf I extract a smaller amount, say $72, the remaining pool would be $3, and my payoff would be $72/3 + $3/4 = $24 + $0.75 = $24.75. \n\nAlternatively, if I extract $60, the remaining pool would be $15, and my payoff would be $60/3 + $15/4 = $20 + $3.75 = $23.75. \n\nAfter evaluating these options, I see that extracting $72 maximizes my immediate payoff while still leaving a small amount for regeneration. The remaining pool of $3 will double to $6 next month, allowing for some potential extractions in the future.\n\nTherefore, I will extract $72 this month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      75
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      5.0,
+      5.0,
+      5.0,
+      25.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60, the pool will remain stable for the next month. However, if I extract too much, it could lead to a situation where the king takes a large portion of the remaining pool, which would reduce my payoff. \n\nTo maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, that leaves $105 in the pool. If the other two peasants also extract $15 each, the total extraction would be $45, leaving $75 in the pool. The king could then take a portion of that, but I would still benefit from the remaining pool doubling next month. \n\nTherefore, I will extract $15 this month, which is a reasonable amount that allows for sustainability while also providing a decent payoff.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60 or less, the pool will remain stable for the next month. However, if we collectively extract more than $60, the pool will shrink, which is not beneficial for anyone in the long run.\n\nSince I want to maximize my payoff while ensuring the sustainability of the commons, I will extract a moderate amount. If I extract $15, for example, and the other two peasants also extract conservatively, we can stay under the threshold. This way, I can secure a decent payoff while also contributing to the sustainability of the pool.\n\nI will choose to extract $15 this month.",
+      "Given that the pool value is $120 and the sustainability threshold is $60 total extraction, I need to consider both my own extraction and the potential actions of the other two peasants and the king. If all three peasants extract a total of $60, the pool will remain stable for the next month. However, if I extract too much, it could lead to a situation where the king takes a large portion of the remaining pool, which would reduce my payoff. \n\nTo maximize my payoff while ensuring sustainability, I will extract $15. This amount is significant enough to provide a decent payoff while still allowing room for the other peasants to extract without exceeding the sustainability threshold. If I extract $15, that leaves $105 in the pool. If the other two peasants also extract $15 each, the total extraction would be $45, leaving $75 in the pool, which would double to $150 next month. This strategy balances my immediate needs with the long-term health of the commons.",
+      "The total pool at the start of the month is $120, and after the peasants have extracted $15 each, the remaining pool is $75. I need to consider my payoff formula, which is based on my extraction and the remaining pool after my extraction. \n\nIf I extract $0, the remaining pool would be $75, and my payoff would be $0/3 + $75/4 = $0 + $18.75 = $18.75. \n\nIf I extract $3, the remaining pool would be $72, and my payoff would be $3/3 + $72/4 = $1 + $18 = $19. \n\nIf I extract $6, the remaining pool would be $69, and my payoff would be $6/3 + $69/4 = $2 + $17.25 = $19.25. \n\nContinuing this way, I can see that as I increase my extraction, my payoff increases until I reach a certain point. \n\nIf I extract $75, the remaining pool would be $0, and my payoff would be $75/3 + $0/4 = $25 + $0 = $25. \n\nGiven that I can extract any amount up to $75, I want to maximize my payoff. The maximum extraction of $75 gives me the highest payoff of $25. \n\nTherefore, I will extract the full amount available to me."
+    ]
+  }
+]

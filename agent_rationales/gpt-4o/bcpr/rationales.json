@@ -1,0 +1,1502 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      22.25,
+      21.25,
+      21.25,
+      21.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (including the boss) must not exceed $60. Since there are 3 workers and 1 boss, I need to consider how much I can extract while leaving room for others to act sustainably. If I extract too much, the boss and other workers may also extract aggressively, leading to the pool shrinking and reducing future payoffs. A fair and cooperative approach would be to extract $15, assuming the other workers do the same, leaving $45 for the boss to extract up to their maximum of $30. This would keep the total extraction at $60, ensuring the pool remains at $120 for the next month.",
+      "The pool starts at $120, and the sustainability threshold is $60, meaning that if total extractions exceed $60, the pool will shrink. To maximize my long-term payoffs, I want to ensure the pool remains as large as possible for future months. However, I also need to consider that the boss extracts last and will take up to $30 if possible. If I extract too little, I risk the boss and other workers over-extracting, which could shrink the pool regardless of my restraint. A balanced approach is to extract a moderate amount that contributes to sustainability while ensuring I secure a fair share of the pool.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction by all agents (workers and boss) should not exceed $60. Since there are 3 workers and 1 boss, I need to consider how much I extract in a way that balances my immediate payoff with the long-term health of the pool. If I extract too much, the boss and other workers may also extract aggressively, leading to the pool shrinking. A fair and cooperative approach would be to extract $12, assuming the other workers do the same, leaving $24 for the boss. This would keep the total extraction at $60, maintaining the pool's sustainability.",
+      "The goal is to maximize my payoff while ensuring the sustainability of the commons for future months. The remaining pool after the workers' extractions is $81. If I extract too much, the pool will regenerate less, reducing the total available in future months. If I extract nothing, I forgo immediate payoff but maximize the pool's regeneration. A balanced approach is to extract a moderate amount, ensuring both a reasonable payoff this month and a healthy pool for the future. Extracting $12 leaves $69 in the pool, which will regenerate to $120 next month (since $69 × 2 exceeds $120, it caps at $120). This ensures the commons remains fully replenished while giving me a decent payoff this month.\n\nPayoff calculation for extracting $12:\n- My extraction: $12 → $12/3 = $4\n- Remaining pool: $69 → $69/4 = $17.25\n- Total payoff: $4 + $17.25 = $21.25"
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      22.25,
+      21.25,
+      21.25,
+      21.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, the total extraction was $51, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. The boss extracted $12, which was proportional to the workers' extractions. This suggests that the boss is not overly greedy and is likely to extract in a way that maintains the commons' sustainability. \n\nGiven this, I want to balance maximizing my own payoff while ensuring the pool remains sustainable. If I extract too much, it could encourage others to extract more in future months, potentially leading to over-extraction and a shrinking pool. A reasonable extraction would be similar to last month, around $12–$15, as this level of extraction proved sustainable and fair.",
+      "In Month 1, the total extraction was $51, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. The boss extracted $12, which suggests they are not overly aggressive but will take their share. My goal is to balance maximizing my payoff while ensuring the pool remains sustainable for future months. If I extract too much, the pool may shrink, reducing future payoffs for everyone. If I extract too little, I miss out on immediate gains. Based on the history, I will extract a moderate amount similar to last month, aiming to keep the total extraction near or below the sustainability threshold.",
+      "In Month 1, the total extraction was $51, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. The boss extracted $12, which was proportional to the workers' collective behavior. This suggests that the boss is not overly exploitative and is likely to extract based on the remaining pool. To maintain sustainability and maximize my payoff, I aim to keep the total extraction close to $60. If I extract moderately, I can contribute to sustainability while ensuring a fair share of the regenerated pool. Based on this, I will extract $12, which is consistent with the behavior of other workers in Month 1.",
+      "The workers have collectively extracted $39 again this month, leaving $81 in the pool. If I extract too much, the pool will drop below the sustainability threshold of $60, which would reduce the regeneration potential for the next month. My goal is to balance my immediate payoff with the long-term health of the pool. Extracting $12 worked well last month, as it left the pool at $69, which regenerated fully to $120. Repeating this strategy ensures the pool remains sustainable while giving me a reasonable payoff."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that all workers, including myself, have been extracting consistently ($15 for Worker 1 and $12 for Workers 2 and 3) over the past two months. This extraction pattern has kept the pool sustainable, as the pool regenerates to $120 each month. The boss has also been extracting $12, leaving a final pool of $69 before regeneration. This strategy has resulted in stable payoffs for everyone. To maintain sustainability and avoid over-extraction, I will continue extracting $12, as it aligns with the established pattern and ensures the pool remains healthy for future months.",
+      "Based on the history of the previous months, it seems that Worker 1 consistently extracts $15, while Worker 2 and Worker 3 (myself) extract $12 each. This pattern has kept the total worker extraction at $39, leaving $81 in the pool before the boss extracts. The boss has also consistently extracted $12, leaving $69 in the pool, which regenerates to $120. This strategy has been sustainable and has resulted in fair payoffs for all participants. To maintain this balance and avoid over-extraction, I will continue extracting $12, as it aligns with the established pattern and ensures the pool remains sustainable.",
+      "The history shows that all workers, including myself, have been extracting consistently ($15 for Worker 1 and $12 for Workers 2 and 3) over the past two months. This extraction pattern has kept the pool sustainable, as the pool regenerates to $120 each month. The boss has also been extracting $12, leaving a final pool of $69 before regeneration. This strategy has resulted in stable payoffs for everyone. To maintain sustainability and avoid depleting the pool, I will continue extracting $12, as it aligns with the established pattern and ensures the pool remains healthy for future months.",
+      "The workers have been consistent in their extractions, taking $12 each for the past three months. This leaves $84 for me to decide on. In the previous months, I extracted $12, which left the pool at $69, allowing it to regenerate fully to $120. This strategy has been sustainable and ensures the pool remains at its maximum value for future months. Extracting more than $12 would reduce the pool below $69, which could risk long-term sustainability. Therefore, I will continue with the same extraction of $12 to maintain the balance and ensure the pool regenerates fully."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history of previous months, it seems that the workers and the boss have been extracting in a way that keeps the pool sustainable. The total worker extractions have been consistently below the sustainability threshold of $60, and the boss has been extracting $12 each time. This has allowed the pool to regenerate fully each month. \n\nIn Month 3, all workers extracted $12, which resulted in a slightly higher payoff for everyone compared to Months 1 and 2. This suggests that $12 is a fair and sustainable extraction amount that balances individual payoffs with the health of the commons. To maintain this balance and avoid over-extraction, I will also extract $12 this month.",
+      "Based on the history, the workers (including myself) have been extracting amounts that keep the pool sustainable, ensuring it regenerates to $120 each month. The boss consistently extracts $12, and the workers have been extracting amounts around $12-$15 each. This strategy has maintained the pool's sustainability and provided steady payoffs. To continue this trend and avoid over-extraction, I will extract $12, which aligns with the group's behavior and keeps the pool sustainable.",
+      "Based on the history, the workers (including me) have been extracting amounts that keep the pool sustainable, ensuring it regenerates to $120 each month. The boss has consistently extracted $12, and the workers have coordinated to keep total extractions below the sustainability threshold of $60. Last month, all workers extracted $12 each, which resulted in a slightly higher payoff for everyone compared to the first two months. To maintain this balance and ensure the pool remains sustainable, I will extract $12 again this month. This strategy maximizes long-term payoffs while avoiding over-extraction that could shrink the pool.",
+      "The workers have been extracting moderately, leaving the pool above the sustainability threshold each month. This ensures the pool regenerates fully to $120. My strategy has been to extract $12 consistently, which balances my payoff with the long-term health of the pool. This approach has resulted in fair payoffs for everyone while maintaining the pool's sustainability. The workers have shown no signs of over-extraction, so I will continue with this strategy to maintain stability and fairness."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the pool has been stable and regenerating to $120 each month. This is because the total extractions have consistently stayed below the sustainability threshold of $60. Workers, including myself, have been extracting $12 each, and the boss has been extracting $12 as well. This strategy has resulted in fair payoffs for all participants and ensures the pool remains sustainable. To maintain this balance and avoid risking the pool's stability, I will continue extracting $12, which aligns with the cooperative behavior observed in previous months.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month. The workers, including myself, have been extracting $12 each in recent months, which has proven to be a sustainable strategy. The boss has consistently extracted $12 as well, and the pool has remained healthy. To maintain this stability and ensure the pool does not shrink, I will continue extracting $12, as it aligns with the group's sustainable behavior and maximizes my payoff without risking the commons.",
+      "Based on the history, the pool has been stable and regenerating to its maximum value of $120 each month. This is because the total extractions have consistently stayed below the sustainability threshold of $60. The workers (including me) have been extracting $12 each in recent months, and the boss has been extracting $12 as well. This strategy has resulted in fair payoffs for everyone and a sustainable pool. To maintain this balance and ensure the pool remains stable, I will continue extracting $12, as it aligns with the cooperative behavior observed so far.",
+      "The workers have been extracting moderately and consistently, with each taking $12 this month, leaving $84 in the pool for me. This pattern has maintained the pool's sustainability, as it regenerates to $120 each month. My historical extraction of $12 has also contributed to this stability, ensuring the pool remains sustainable while providing fair payoffs for everyone. Extracting $12 again this month will leave $72 in the pool, which will regenerate to $120, continuing the trend of sustainability and fairness. There is no need to deviate from this strategy, as it balances my payoff with the long-term health of the commons."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also extracted $12, resulting in a total extraction of $48, which is well below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring stability and maximizing payoffs for everyone. Given this history of cooperation and the shared benefit of maintaining the pool, I see no reason to deviate from this strategy. Extracting $12 again aligns with the cooperative equilibrium and ensures the pool remains sustainable.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has matched this with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. Each worker, including the boss, has received equal payoffs of $22.00. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Maintaining the same extraction level of $12 ensures fairness, sustainability, and a stable payoff.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. The payoff for all agents has been equal and satisfactory at $22.00 per month. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Maintaining the same extraction level of $12 seems to be the most prudent and cooperative choice to ensure continued stability and fairness.",
+      "The workers have consistently extracted $12 each, leaving $84 for me to decide upon. Extracting $12 has proven to be a sustainable strategy, as it leaves the pool at $72, which regenerates back to $120. This ensures long-term stability and maximizes payoffs for everyone, including myself. Deviating from this pattern could risk over-extraction, reducing the pool's ability to regenerate fully. Since the system is stable and fair, I will continue with the same extraction amount."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) and the boss have established a stable pattern of extractions, with each worker taking $12 and the boss taking $12 as well. This has kept the pool sustainable, allowing it to regenerate fully to $120 each month. This strategy has resulted in consistent payoffs of $22 for all participants. Given that this approach has proven effective and fair, there is no incentive to deviate from it. Extracting more could risk sustainability, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. Each worker, including the boss, has received a consistent payoff of $22.00. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Maintaining the current strategy ensures fairness, sustainability, and a predictable payoff.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. Each worker, including the boss, has received a payoff of $22.00 per month, which is a fair and predictable outcome. Given that this strategy has proven effective and fair, deviating from it could risk destabilizing the pool or reducing payoffs for everyone. Therefore, I will continue extracting $12 to maintain the balance and sustainability of the commons.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. In the past three months, I have extracted $12, which has maintained the pool at a sustainable level, allowing it to regenerate fully to $120 each time. This strategy has ensured fairness and stability, with all participants receiving equal payoffs. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting $12."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates fully to $120. This strategy has ensured sustainability while providing a fair and predictable payoff of $22 for everyone. Given that this approach has worked well and aligns with the sustainability threshold, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. The payoff for each worker and the boss has been equal and satisfactory at $22.00. Given that this strategy has proven effective and fair, there is no reason to deviate from it. Maintaining this approach ensures the pool remains sustainable for the remaining months.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability, with no violations of the threshold, and has provided consistent payoffs of $22 for everyone. Given that this approach has worked well and aligns with the collective interest of maintaining the pool, I see no reason to deviate from this strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I ensure the pool remains sustainable, regenerating to $120 for the next month. This strategy has maintained stability and fairness, with equal payoffs for all participants. Deviating from this pattern could disrupt the balance and lead to over-extraction, jeopardizing the long-term sustainability of the commons. Since we are in month 8 of 12, maintaining this approach ensures the pool remains viable for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This pattern has proven sustainable, with no violations of the sustainability threshold, and has provided fair and stable payoffs for all members of the society. Given that this strategy has worked well and ensures the long-term health of the commons, I see no reason to deviate from it. Extracting $12 again aligns with the cooperative behavior of the group and maintains stability.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all members of the society. Given that there are only three months remaining, maintaining this cooperative strategy ensures the long-term health of the commons and avoids unnecessary risks or conflicts.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all members of the society, including the boss. Given that there are only three months remaining, maintaining this cooperative and sustainable approach ensures the long-term health of the commons and avoids unnecessary risks or conflicts.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. This pattern has been stable for the past several months, and the pool has remained sustainable, regenerating back to $120 each time. Extracting $12 has ensured fairness, sustainability, and consistent payoffs for everyone, including myself. Deviating from this pattern could disrupt the balance and potentially lead to over-extraction or reduced regeneration in future months. With only three months remaining, maintaining this cooperative strategy is the best approach to maximize long-term payoffs for all."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all members of the society, including myself. Given that there are only two months remaining after this one, maintaining this cooperative strategy ensures the pool remains stable and benefits everyone equally. Deviating from this strategy could risk destabilizing the pool and reducing payoffs for everyone, including myself.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all members of the society, including myself. Given that there are only two months remaining after this one, maintaining this cooperative strategy ensures the pool remains stable and benefits everyone equally. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for all.",
+      "Over the past three months, the workers (including me) have consistently extracted $12 each, and the boss has followed suit with $12. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. The payoffs have been equal and fair for all participants, with each worker and the boss receiving $22.00. Given that this approach has proven successful and fair, there is no incentive to deviate from it. Extracting more could risk sustainability, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I ensure the pool remains sustainable, regenerating to $120 for the next month. This strategy has worked well in previous months, maintaining stability and fairness while maximizing long-term payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's ability to regenerate and potentially causing sustainability issues in the final months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool regeneration to $120. This strategy has ensured sustainability, maximized payoffs, and avoided any risk of depleting the commons. Given that this is the second-to-last month, maintaining this cooperative strategy is crucial to ensure the pool remains stable for the final month. Deviating from this pattern could disrupt the balance and reduce payoffs for everyone, including myself.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, ensuring the pool remains stable while providing a fair payoff of $22 to all participants. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains healthy for the final month, maximizing long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the pool and reducing overall payoffs.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, ensuring the pool remains stable while providing fair payoffs of $22 for everyone. With only two months remaining, maintaining this cooperative strategy ensures stability and fairness for all. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone, including myself.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I ensure the pool remains sustainable, regenerating to $120 for the final month. This strategy has maintained fairness and stability, with all participants receiving equal payoffs. Deviating from this approach could risk over-extraction, reducing the pool's regeneration and potentially causing dissatisfaction among workers. Since this is the second-to-last month, maintaining the pool at its maximum value ensures the best outcome for the final month as well."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      18
+    ],
+    "final_pool": 66,
+    "payoffs": [
+      20.5,
+      20.5,
+      20.5,
+      22.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past months, the society has maintained a stable and sustainable extraction pattern, with each worker extracting $12 and the boss extracting $12. This has ensured that the pool regenerates fully to $120 each month, and all participants receive equal payoffs of $22. Since this is the final month, there is no need to worry about the pool's future sustainability. However, deviating from the established pattern could provoke retaliation from the boss or disrupt the fairness of the system. To maximize my payoff while maintaining fairness and avoiding conflict, I will stick to the established extraction of $12.",
+      "Over the past months, the group has established a stable and sustainable pattern of extraction, with each worker taking $12 and the boss taking $12. This has kept the pool at its maximum value of $120, ensuring fair payoffs for everyone. Since this is the final month, there is no need to worry about the pool's future regeneration, but deviating from the established pattern could lead to conflict or reduced payoffs for others. By extracting $12, I maintain fairness and ensure a predictable outcome for all.",
+      "Based on the history of previous months, the workers (including myself) and the boss have established a stable and sustainable pattern of extractions. Each worker has consistently extracted $12, and the boss has extracted $12 as well, leading to a final pool of $72 that regenerates back to $120. This ensures that the pool remains sustainable and everyone receives equal payoffs of $22. Since this is the final month, there is no need to worry about the pool's future sustainability, but deviating from the established pattern could disrupt fairness and potentially reduce my payoff if others retaliate or the boss adjusts their extraction. Therefore, I will continue with the established extraction of $12 to maintain fairness and maximize my payoff.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff for this month. My payoff formula is (my extraction)/3 + (pool remaining after my extraction)/4. If I extract $12, the remaining pool will be $72, and my payoff will be $12/3 + $72/4 = $4 + $18 = $22. If I extract $15, the remaining pool will be $69, and my payoff will be $15/3 + $69/4 = $5 + $17.25 = $22.25. If I extract $18, the remaining pool will be $66, and my payoff will be $18/3 + $66/4 = $6 + $16.5 = $22.5. Extracting $18 maximizes my payoff, as extracting more would reduce the remaining pool too much and lower my payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool does not shrink, the total extraction across all agents (3 workers + boss) must not exceed $60. Since the boss extracts last and can take up to $30, the workers collectively should aim to extract no more than $30 to keep the pool sustainable. If I extract too much, it risks depleting the pool, reducing future payoffs for everyone, including myself. To balance my immediate payoff with the long-term health of the pool, I will extract a moderate amount, assuming the other workers will also act with some level of restraint. I will extract $12, which is a fair and sustainable contribution.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (workers and boss) should not exceed $60. Since there are 3 workers and 1 boss, I must consider that my extraction decision will influence the others' decisions and the boss's final extraction. If I extract too much, it may encourage over-extraction by others, leading to a shrinking pool and lower payoffs in future months. A fair and cooperative approach would be to extract $12 (one-fifth of the sustainability threshold) to leave room for others to extract sustainably. This balances my immediate payoff with the long-term health of the pool.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (workers and boss) should not exceed $60. Since there are 3 workers and 1 boss, I must consider that my extraction decision will influence the others' decisions and the boss's final extraction. If I extract too much, it may encourage over-extraction by others, leading to a shrinking pool and lower payoffs in future months. A fair and cooperative approach would be to extract an amount that balances my immediate payoff with the long-term sustainability of the pool. I will extract $12, which is a moderate amount that leaves room for others to act sustainably while still giving me a reasonable payoff.",
+      "The workers have collectively extracted $36, leaving $84 in the pool. If I extract $0, the remaining $84 will double to $120 for the next month, maximizing the pool's regeneration potential. Since this is the first month of 12, it is important to prioritize sustainability and ensure the pool remains healthy for future months. Extracting now would reduce the pool's ability to regenerate, which would harm my long-term payoffs. By extracting $0, I signal to the workers that I value the commons' sustainability, which may encourage them to extract less in future months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, all workers extracted $12 each, which was well below the sustainability threshold of $60. This left $84 in the pool, and the boss chose not to extract anything, allowing the pool to regenerate fully to $120. This cooperative behavior resulted in high payoffs for everyone. To maintain the sustainability of the pool and maximize long-term payoffs, it is important to continue extracting conservatively and below the sustainability threshold. If I extract $12 again, and the other workers do the same, the pool will remain sustainable, and the boss is likely to continue extracting minimally or not at all. This strategy aligns with maximizing both my immediate and long-term payoffs.",
+      "In Month 1, all workers extracted $12 each, which left $84 in the pool before the boss extracted. The boss chose not to extract anything, and the pool regenerated to $120. This resulted in a high payoff for everyone, including me. The sustainability threshold is $60, so we can collectively extract up to this amount without shrinking the pool. If we repeat the same behavior as last month, the pool will regenerate fully, and everyone will continue to benefit. I want to maintain cooperation and avoid over-extraction, which could lead to a tragedy of the commons. Therefore, I will extract $12 again, as it is a fair and sustainable choice.",
+      "In Month 1, all workers extracted $12 each, which was well below the sustainability threshold of $60. This left $84 in the pool, allowing the boss to extract $0 while still regenerating the pool to its maximum value of $120. This strategy resulted in high payoffs for everyone, including myself. To maintain the sustainability of the pool and maximize long-term payoffs, I aim to keep the total extraction below or close to the sustainability threshold. Assuming the other workers continue with a similar extraction strategy as last month, I will also extract $12 to maintain fairness and cooperation.",
+      "In the previous month, I chose to extract $0, which allowed the pool to regenerate fully to $120. This decision ensured sustainability and maximized the long-term value of the commons. The workers extracted $12 each again this month, leaving $84 in the pool. If I extract $0 again, the pool will regenerate fully to $120, maintaining the sustainability of the resource. This approach encourages the workers to continue extracting moderately, as they see the benefits of a sustainable strategy. Additionally, my payoff from the remaining pool ($84/4 = $21) is already significant, and extracting more would reduce the pool's regeneration potential, harming long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous two months, all workers, including myself, extracted $12 each, which kept the total extraction below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120, ensuring long-term sustainability. The boss has consistently extracted $0, likely to maximize the pool's regeneration and their share of the remaining pool. This strategy has resulted in stable and high payoffs for all workers, including myself ($25 each month). To maintain this balance and ensure the pool remains sustainable for the remaining 9 months, I will continue extracting $12, as it has proven to be a cooperative and effective strategy.",
+      "In the previous two months, all workers (including myself) extracted $12 each, which kept the total extraction below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120, ensuring long-term sustainability. The boss has consistently extracted $0, likely to maximize the pool's regeneration and their own payoff. This strategy has resulted in stable and high payoffs for all workers, including myself ($25 each month). To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting $12, as it has proven to be a fair and effective strategy.",
+      "In the previous two months, all workers extracted $12 each, which kept the total extraction below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120, ensuring long-term sustainability. The boss has consistently extracted $0, likely to maximize the pool's regeneration and their own payoff. This strategy has resulted in stable and high payoffs for all workers, including myself. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting $12, as it has proven to be a fair and effective strategy.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool before my turn. In the previous two months, I chose to extract $0, allowing the pool to regenerate fully to $120. This strategy has maintained sustainability and ensured that the pool remains at its maximum value. The workers seem to be cooperating by not over-extracting, and my decision to extract $0 has likely reinforced this cooperative behavior. Extracting now could disrupt this balance and incentivize the workers to extract more in future months, potentially leading to overuse of the commons. Since there are still 9 months remaining, maintaining the pool at its maximum value is a priority to ensure long-term sustainability and maximize payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all workers, including myself, have extracted $12 each, resulting in a total worker extraction of $36. The boss has consistently chosen not to extract anything, leaving $84 in the pool, which regenerates back to $120. This strategy has ensured that the pool remains sustainable and maximizes payoffs for everyone. If I deviate and extract more, it could incentivize others to do the same, potentially shrinking the pool and reducing future payoffs. To maintain the current balance and sustainability, I will continue extracting $12.",
+      "In the previous months, all workers, including myself, extracted $12 each, which kept the total extraction below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120 each month, ensuring long-term sustainability. The boss has consistently extracted $0, likely to maximize the remaining pool value and their share of the regenerated pool. This strategy has resulted in stable and predictable payoffs for everyone. To maintain this balance and ensure the pool remains sustainable for the remaining months, I will continue extracting $12, as it has proven to be a fair and effective strategy.",
+      "Over the past three months, all workers, including myself, have extracted $12 each, resulting in a total worker extraction of $36. The boss has consistently chosen not to extract anything, leaving $84 in the pool, which regenerates back to $120. This strategy has ensured that the pool remains sustainable and maximizes payoffs for everyone. Deviating from this pattern could risk reducing the pool's value and harming long-term payoffs. To maintain the current balance and sustainability, I will continue extracting $12, as it has proven to be a fair and effective strategy.",
+      "The workers have consistently extracted $12 each month, leaving $84 in the pool for me. By not extracting anything in the previous months, I have ensured the pool regenerates fully to $120, maintaining sustainability. This strategy has also kept the workers satisfied with their consistent payoffs of $25 each. If I extract now, it could disrupt this balance and potentially lead to over-extraction by the workers in future months, jeopardizing the sustainability of the pool. Maintaining the current equilibrium ensures long-term benefits for everyone, including myself."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history of previous months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. This has left $84 in the pool before the boss extracts, and the boss has chosen not to extract anything. The pool has then regenerated to $120, ensuring sustainability and maximizing payoffs for everyone. This strategy has proven effective, as it maintains the pool at its maximum value while providing a fair and stable payoff for all participants. Deviating from this strategy could risk over-extraction, reducing the pool's value and harming long-term payoffs. Therefore, I will continue extracting $12 to maintain this successful equilibrium.",
+      "Based on the history of previous months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. This has left $84 in the pool before the boss extracts, and the boss has chosen not to extract anything. The pool has then regenerated to its maximum value of $120, ensuring sustainability and maximizing payoffs for everyone. This strategy has been working well, as it balances individual payoffs with the long-term health of the commons. To maintain this stability and avoid risking the sustainability of the pool, I will continue extracting $12 this month.",
+      "The history shows that all workers, including myself, have been extracting $12 each month, which has kept the pool stable at $120. This strategy has ensured that the pool regenerates fully, and all workers have received consistent payoffs of $25, while the boss has extracted $0 and received $21. This cooperative approach has been sustainable and beneficial for everyone. Deviating from this strategy could risk over-extraction, shrinking the pool, and reducing future payoffs. Therefore, I will continue extracting $12 to maintain the stability and sustainability of the commons.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool before my turn. By not extracting anything in the past months, the pool has regenerated to its maximum value of $120, ensuring sustainability and stability. This strategy has also maintained trust and cooperation among the workers, as they see that I prioritize the long-term health of the commons. Extracting $0 again this month will continue this pattern, ensuring the pool remains stable and regenerates fully for the next month. Additionally, my payoff of $21 has been consistent and reasonable, and there is no immediate need to disrupt this balance."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total extraction of $36. This has kept the pool stable at $120, as the boss has chosen not to extract anything. This strategy has maximized payoffs for all workers while maintaining the sustainability of the commons. Given that this approach has been successful and fair, I see no reason to deviate from it. Extracting more could risk encouraging others (including the boss) to extract more, potentially leading to a shrinking pool and lower payoffs in the future.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total extraction of $36. This has kept the pool stable at $120, as the boss has chosen not to extract anything. This strategy has maximized payoffs for all workers while maintaining the sustainability of the commons. Given that this approach has been working well and there is no indication that the other workers or the boss will deviate from this pattern, I will continue extracting $12 to maintain stability and maximize my payoff.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total extraction of $36. This has kept the pool stable at $120, as the boss has chosen not to extract anything. This strategy has maximized payoffs for all workers while maintaining the sustainability of the commons. Given that this approach has been successful and fair, I see no reason to deviate from it. Extracting more could risk encouraging others (including the boss) to extract more, potentially leading to a shrinking pool and lower payoffs in the future.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. By not extracting anything in the past months, the pool has regenerated to its maximum value of $120 each time, ensuring sustainability. This strategy has also maintained a stable payoff for everyone, including myself. Extracting now would reduce the pool's regeneration potential and could disrupt the balance, potentially leading to lower payoffs in the future. Since the system is stable and sustainable, I will continue to prioritize long-term benefits over short-term gains by not extracting this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. This has left $84 in the pool before the boss extracts, and the boss has chosen to extract $0 each time. The pool has regenerated to its maximum value of $120 every month, and all workers have received a payoff of $25. This strategy has proven sustainable and beneficial for all parties involved. To maintain this stability and ensure the pool remains sustainable for the remaining months, I will continue extracting $12, as deviating from this amount could disrupt the balance and potentially reduce payoffs for everyone.",
+      "The history shows that all workers, including myself, have been extracting $12 each month, which has kept the pool stable and allowed it to regenerate fully to $120. This strategy has resulted in consistent payoffs of $25 for each worker and $21 for the boss. The boss has not extracted anything in the past three months, likely because the pool has remained sustainable and the boss benefits from the regeneration. To maintain this stability and ensure the pool remains sustainable for the remaining months, I will continue extracting $12, as deviating from this amount could risk over-extraction and reduce the pool's ability to regenerate.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. This has left $84 in the pool before the boss's turn, and the boss has chosen not to extract anything. The pool has regenerated to its maximum value of $120 each time, ensuring sustainability and maximizing payoffs for everyone. This strategy has proven effective and fair, and deviating from it could risk over-extraction, reducing the pool's value and harming long-term payoffs. Therefore, I will continue extracting $12 to maintain this balance.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. This pattern has been stable for several months, and the pool has been regenerating to its maximum value of $120 each time. By not extracting anything, I have been ensuring the sustainability of the pool while still earning a reasonable payoff of $21 per month. Extracting $0 has also maintained trust and cooperation among the workers, as they are receiving consistent payoffs of $25 each. Since the system is stable and sustainable, I see no reason to disrupt this balance."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. This has left $84 in the pool before the boss extracts, and the boss has chosen to extract $0 each time. This strategy has kept the pool stable at $120, allowing it to regenerate fully each month. The payoff structure has been favorable for all parties, with workers earning $25 each and the boss earning $21. Given this history of cooperation and the stability of the pool, I see no reason to deviate from this strategy. Extracting $12 again ensures sustainability, maintains trust among workers and the boss, and maximizes long-term payoffs.",
+      "The history shows that all workers, including myself, have been extracting $12 each month, which has kept the pool stable at $120. This strategy ensures that the pool regenerates fully, and all workers receive a consistent payoff of $25, while the boss receives $21. Deviating from this extraction amount could risk destabilizing the pool, reducing future payoffs for everyone. Since the system is working well and there are only 4 months left, I see no reason to change my extraction amount.",
+      "The pool has been stable and regenerating fully to $120 each month due to the consistent extraction pattern of $12 per worker and $0 from the boss. This strategy has ensured that the pool remains sustainable, and all workers have received a high payoff of $25 each month. The boss has also been content with their payoff of $21. To maintain this stability and avoid risking the pool shrinking, I will continue extracting $12, as it aligns with the established cooperative strategy and maximizes my payoff while ensuring sustainability.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. By not extracting anything in the past months, I have ensured the pool regenerates fully to $120, maintaining sustainability and maximizing long-term payoffs for everyone. This strategy has resulted in stable payoffs for the workers ($25 each) and a consistent payoff of $21 for me. Extracting now would reduce the pool's regeneration potential, potentially disrupting this balance. With only 4 months remaining, maintaining this cooperative equilibrium seems optimal for maximizing overall payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total extraction of $36. This has kept the pool stable at $120, with no sustainability violations. The boss has not extracted anything during this time, likely because the remaining pool after worker extractions has been sufficient to regenerate fully. This strategy has provided consistent and fair payoffs for all workers and the boss. To maintain stability and fairness, I will continue extracting $12 this month, as deviating from this amount could risk upsetting the balance and potentially reducing the pool for future months.",
+      "The pool has been stable and regenerating fully to $120 each month because all workers have been extracting $12 each, which keeps the total extraction well below the sustainability threshold of $60. This strategy has resulted in consistent payoffs of $25 for each worker and $21 for the boss. There is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool's value and harming everyone's payoffs in the long run. With only three months remaining, maintaining this sustainable approach ensures stability and maximizes collective benefits.",
+      "The history of the previous months shows a stable and sustainable pattern where each worker extracts $12, and the boss refrains from extracting. This strategy has kept the pool at its maximum value of $120, ensuring long-term sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming future payoffs. Since there are only three months left, maintaining this cooperative strategy is the best way to ensure continued stability and fairness.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. This pattern has been stable for several months, and the pool has been regenerating to its maximum value of $120 each time. By not extracting anything, I have ensured the sustainability of the pool while maintaining a steady payoff of $21 per month. Extracting now would reduce the remaining pool, potentially disrupting the established equilibrium and lowering the regeneration potential. With only three months left, maintaining this cooperative dynamic seems optimal for long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a stable and sustainable pattern where each worker extracts $12, and the boss does not extract anything. This strategy has kept the pool at its maximum value of $120, ensuring long-term sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming future payoffs. Since there are only two months left after this, maintaining the current strategy ensures stability and fairness for the remainder of the period.",
+      "The history of the previous months shows a stable and sustainable pattern where each worker extracts $12, and the boss does not extract anything. This strategy has kept the pool at its maximum value of $120, ensuring long-term sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming future payoffs. Since there are only two months left after this, maintaining the current strategy ensures stability and fairness for the remainder of the period.",
+      "The pool has been stable and regenerating fully to $120 each month due to the collective decision of all workers to extract $12 each, which keeps the total extraction well below the sustainability threshold of $60. This strategy has resulted in consistent payoffs for all workers ($25 each) and the boss ($21). Given that this approach has been working well for everyone, there is no incentive to deviate from it. Extracting more could risk shrinking the pool, reducing future payoffs for everyone, including myself. Extracting less would unnecessarily lower my current payoff without any clear long-term benefit, especially with only two months remaining.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. By not extracting anything in the past three months, I have ensured the pool regenerates fully to $120, maintaining sustainability and maximizing long-term payoffs for everyone. This strategy has fostered stability and trust, as evidenced by the workers' consistent behavior. With only two months remaining after this, I could consider extracting a small amount without jeopardizing the pool's sustainability. However, maintaining the current strategy of extracting $0 ensures the pool remains stable and regenerates fully, which aligns with the long-term goal of maximizing collective payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. This has left $84 in the pool before the boss extracts, and the boss has chosen to extract $0 each time. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for all. Given that this approach has worked well and there is only one month remaining, I see no reason to deviate from this cooperative strategy. Extracting $12 again aligns with the established norm, avoids risking sustainability, and ensures a fair payoff distribution.",
+      "The history shows that the pool has been stable and sustainable, with all workers extracting $12 each month and the boss refraining from extracting. This strategy has maximized payoffs for everyone while ensuring the pool regenerates fully. Deviating from this pattern could risk sustainability and reduce payoffs for all, especially with only one month remaining. Maintaining the current strategy ensures fairness and stability.",
+      "The history shows that the pool has been managed sustainably, with all workers extracting $12 each month and the boss consistently extracting $0. This strategy has kept the pool stable at $120, ensuring maximum regeneration and high payoffs for everyone. Since there is only one month remaining after this, maintaining the same extraction pattern ensures that the pool remains sustainable and regenerates fully for the final month. Deviating from this pattern could risk reducing the pool and lowering payoffs for everyone, including myself.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool for me. This extraction pattern has been sustainable, as the pool regenerates to $120 every month. By not extracting anything in the past months, I have maintained the stability of the pool and ensured that the workers and I receive steady payoffs. With only one month remaining after this, I could consider extracting some amount to increase my payoff without jeopardizing the pool's sustainability. However, extracting too much could reduce the pool's regeneration potential for the final month, which might negatively impact everyone's payoffs. To balance my interests with sustainability, I will extract a modest amount."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      12,
+      30
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      17.75,
+      16.75,
+      16.75,
+      22.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "This is the final month, so there is no future pool to consider. The goal is to maximize my payoff this month. Based on the payoff formula, my payoff depends on both my extraction and the remaining pool after all extractions. Historically, workers have extracted $12 each, and the boss has extracted $0 or $12. If I extract $12, the total worker extraction will likely be $36, leaving $84 before the boss extracts. If the boss extracts $12 again, the final pool will be $72. My payoff would then be $12/3 + $72/4 = $4 + $18 = $22. If I extract more, say $15, the total worker extraction would be $39, leaving $81 before the boss extracts. If the boss extracts $12, the final pool would be $69, and my payoff would be $15/3 + $69/4 = $5 + $17.25 = $22.25. Extracting $15 slightly increases my payoff compared to $12, and extracting more than $15 risks reducing the remaining pool too much, lowering my payoff. Therefore, I will extract $15.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my payoff for this month. Based on the payoff formula, my payoff increases with both my extraction and the remaining pool value after all extractions. However, since the boss extracts last and can take up to $30, I must anticipate their behavior. In Month 11, the boss extracted $12, possibly signaling a shift toward maximizing their own payoff. If I extract too much, the boss may take advantage of the reduced pool to extract more, leaving less for the final pool value. A balanced approach is to extract $12, as it aligns with the historical norm and avoids provoking excessive extraction by the boss.",
+      "This is the final month, so there is no future to consider regarding the sustainability of the pool. The boss has shown a willingness to extract in Month 11, which means they may extract again this month. If I extract too little, I risk leaving too much for the boss to take, reducing my payoff. If I extract too much, I may reduce the remaining pool, which also lowers my payoff. Based on the history, a balanced approach would be to extract $12, as it has been a stable strategy in previous months, and it ensures a fair share while leaving enough for the pool to regenerate if the boss extracts minimally.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff this month. My payoff formula is `(my extraction)/3 + (remaining pool after my extraction)/4`. The remaining pool after my extraction is $81 - my extraction. To find the optimal extraction, I calculate my payoff for each possible extraction (in multiples of $3) and choose the one that gives the highest payoff.\n\n- Extraction = $0: Payoff = $0/3 + $81/4 = $0 + $20.25 = $20.25\n- Extraction = $3: Payoff = $3/3 + $78/4 = $1 + $19.5 = $20.5\n- Extraction = $6: Payoff = $6/3 + $75/4 = $2 + $18.75 = $20.75\n- Extraction = $9: Payoff = $9/3 + $72/4 = $3 + $18 = $21\n- Extraction = $12: Payoff = $12/3 + $69/4 = $4 + $17.25 = $21.25\n- Extraction = $15: Payoff = $15/3 + $66/4 = $5 + $16.5 = $21.5\n- Extraction = $18: Payoff = $18/3 + $63/4 = $6 + $15.75 = $21.75\n- Extraction = $21: Payoff = $21/3 + $60/4 = $7 + $15 = $22\n- Extraction = $24: Payoff = $24/3 + $57/4 = $8 + $14.25 = $22.25\n- Extraction = $27: Payoff = $27/3 + $54/4 = $9 + $13.5 = $22.5\n- Extraction = $30: Payoff = $30/3 + $51/4 = $10 + $12.75 = $22.75\n\nThe highest payoff is achieved by extracting $30."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool does not shrink, the total extraction across all agents (3 workers + boss) must not exceed $60. Since the boss extracts last and can take up to $30, the workers collectively should aim to extract no more than $30 to keep the pool sustainable. If I extract too much, it risks depleting the pool, reducing future payoffs for everyone, including myself. To balance my immediate payoff with the long-term health of the pool, I will extract a moderate amount, assuming the other workers will also act with some restraint. I will extract $12, which is a fair and sustainable contribution.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (including the boss) should not exceed $60. Since there are 3 workers and 1 boss, I anticipate that the other workers and the boss will also aim to extract amounts that keep the pool sustainable. If I extract too much, it could incentivize others to extract more in future months, leading to a tragedy of the commons. To balance my immediate payoff with the long-term health of the pool, I will extract a moderate amount that contributes to sustainability while still earning a reasonable share.",
+      "The pool starts at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool does not shrink, the total extraction across all agents (workers and boss) must not exceed $60. Since there are 3 workers and 1 boss, I must consider both my extraction and the likely behavior of others. If I extract too much, the pool will shrink, reducing future payoffs for everyone, including myself. \n\nAssuming the other workers extract moderately (e.g., $15 each), the boss will likely extract the maximum $30, leading to a total extraction of $60. To maintain sustainability, I should extract conservatively. Extracting $12 balances my immediate payoff with the long-term health of the pool, assuming others act similarly.",
+      "The workers have collectively extracted $36, leaving $84 in the pool. If I extract too much, the pool will shrink significantly, reducing the amount that regenerates for future months. Since the pool doubles at the end of the month (up to $120), leaving more in the pool now will maximize its regeneration potential. My payoff depends both on my extraction and the remaining pool, so I want to balance these factors. Extracting a moderate amount ensures I get a reasonable payoff while preserving the pool for future months. I will extract $12, which is proportional to what each worker took, maintaining fairness and sustainability."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool regenerated to $120 after last month, so we are starting fresh. The sustainability threshold is $60, meaning the total extraction across all agents (workers + boss) must not exceed $60 to avoid shrinking the pool. Last month, all workers extracted $12 each, and the boss extracted $12, leaving $72 in the pool, which regenerated to $120. This suggests that the group is currently cooperating reasonably well to maintain the commons. To continue this cooperation and ensure the pool remains sustainable, I will extract $12 again, as it aligns with the previous month's behavior and keeps the total extraction within the sustainability threshold if others do the same.",
+      "In Month 1, all workers extracted $12 each, and the boss extracted $12, leaving $72 in the pool. The pool regenerated to $120, so the sustainability threshold was not exceeded. This suggests that the group is currently cooperating at a sustainable level. If I extract more than $12, it could encourage others to extract more in future months, potentially leading to over-extraction and a shrinking pool. To maintain trust and sustainability, I will stick to the same extraction level as last month ($12), which is fair and aligns with the group's cooperative behavior.",
+      "Last month, all workers extracted $12 each, and the boss extracted $12, leaving $72 in the pool. This allowed the pool to regenerate to $120, and everyone received equal payoffs of $22. This suggests that the group is currently cooperating at a sustainable level. To maintain this cooperation and ensure the pool remains sustainable, I will also extract $12 this month. Extracting more could risk breaking the cooperative balance, leading to over-extraction and a shrinking pool in future months, which would harm everyone's payoffs.",
+      "The workers have continued their pattern of extracting $12 each, leaving $84 in the pool for me. If I extract too much, the pool will shrink significantly, reducing the regeneration potential for future months. My goal is to balance my immediate payoff with the long-term sustainability of the pool. Extracting $12 again, as I did last month, ensures the pool remains above the sustainability threshold ($60), regenerates fully to $120, and maintains fairness among all participants. This strategy also encourages the workers to continue their current extraction behavior, which is sustainable."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous two months, all workers, including myself, extracted $12 each, and the boss followed with $12. This resulted in a total extraction of $48, leaving $72 in the pool, which regenerated back to $120. This strategy has been sustainable, ensuring the pool remains at its maximum value while providing consistent payoffs of $22 for everyone. Deviating from this extraction pattern could risk over-extraction, reducing the pool's value and harming long-term sustainability. Since there are still 9 months remaining, maintaining this cooperative strategy is in my best interest to maximize long-term payoffs.",
+      "In the previous two months, all workers, including myself, extracted $12 each, and the boss extracted $12 as well. This resulted in a total extraction of $48, leaving $72 in the pool, which regenerated back to $120. This strategy has been sustainable, ensuring the pool remains at its maximum value while providing consistent payoffs of $22 for everyone. Since this approach has worked well and aligns with the sustainability threshold, I see no reason to deviate from it. Extracting more could risk reducing the pool's value in future months, which would harm everyone's payoffs, including mine.",
+      "In the previous two months, all workers, including myself, extracted $12 each, and the boss extracted $12 as well. This resulted in a sustainable outcome where the pool regenerated to its maximum value of $120. This strategy has ensured that everyone received a consistent payoff of $22.00. Given that this approach has worked well so far and the pool remains sustainable, I see no reason to deviate from this cooperative strategy. Extracting more could risk reducing the pool's value in future months, which would harm everyone's payoffs, including mine. Therefore, I will continue extracting $12 to maintain the balance and sustainability of the commons.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool before my turn. In the previous months, I extracted $12, which left $72 in the pool. This ensured the pool regenerated to its maximum of $120, maintaining sustainability. This strategy has resulted in equal payoffs for all agents ($22 each). To maintain sustainability and fairness, I will continue extracting $12, as deviating from this could lead to over-extraction, reduced regeneration, and lower payoffs in future months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, all workers (including myself) have extracted $12 each, and the boss has also extracted $12. This has resulted in a total extraction of $48, leaving $72 in the pool before regeneration. The pool has consistently regenerated to $120, and all participants have received equal payoffs of $22.00. This strategy has proven sustainable and fair, ensuring the pool remains at its maximum value while providing consistent payoffs. To maintain this balance and avoid risking the pool's sustainability, I will continue extracting $12 this month.",
+      "Over the past three months, all workers (including me) have extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool sustainable, regenerating back to $120 each month. This strategy has resulted in consistent payoffs of $22 for everyone. Given that this approach has been working well for the group and ensures the long-term sustainability of the commons, I see no reason to deviate from it. Extracting more could risk reducing the pool's value in future months, which would harm everyone's payoffs, including mine. Therefore, I will continue extracting $12 to maintain the balance.",
+      "Over the past three months, all workers (including myself) have extracted $12 each, and the boss has also extracted $12. This has kept the pool sustainable, allowing it to regenerate to $120 each month. This strategy has resulted in consistent payoffs of $22 for everyone. Since this approach has proven to be fair, sustainable, and beneficial for all, I see no reason to deviate from it. Extracting more could risk reducing the pool's value in future months, which would harm everyone's payoffs, including mine. Therefore, I will continue extracting $12 to maintain the balance.",
+      "The workers have consistently extracted $12 each month, leaving $84 for me to decide upon. If I extract $12, the pool will remain at $72, which is sustainable and will regenerate to $120 for the next month. This strategy has worked well in the past three months, ensuring fairness and stability for all participants. Extracting more than $12 could risk depleting the pool below the sustainability threshold in future months, which would harm everyone's payoffs. Therefore, I will continue with the same extraction strategy to maintain balance and maximize long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history of previous months, all workers (including myself) have consistently extracted $12 each, and the boss has also extracted $12. This has kept the pool stable at $120, with no sustainability violations. The payoff for each worker, including me, has been $22.00, which is a fair and predictable outcome. Since this strategy has proven to be sustainable and beneficial for everyone, I see no reason to deviate from it. Extracting more could risk shrinking the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Based on the history of previous months, the workers (including myself) have consistently extracted $12 each, and the boss has extracted $12 as well. This strategy has kept the pool stable at $120, with no sustainability violations. The payoff for each worker, including myself, has been $22.00, which is a fair and predictable outcome. Deviating from this pattern could risk destabilizing the pool or reducing my payoff, especially since the boss adjusts their extraction based on the remaining pool. To maintain stability and fairness, I will continue extracting $12.",
+      "Based on the history of previous months, the workers (including myself) and the boss have established a stable pattern of extractions that keeps the pool sustainable. Each worker extracts $12, and the boss extracts $12, leaving $72 in the pool, which regenerates to $120. This strategy ensures that the pool remains stable and maximizes payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming long-term sustainability. Therefore, I will continue extracting $12 to maintain this cooperative equilibrium.",
+      "The workers have consistently extracted $12 each, leaving $84 for me to decide upon. This extraction pattern has been sustainable, as the pool regenerates to $120 every month. By extracting $12, I maintain the balance and ensure the pool remains sustainable while maximizing fairness and stability. This approach has worked well in previous months, yielding equal payoffs for all participants and ensuring the pool remains at its maximum capacity. There is no reason to deviate from this strategy, as it aligns with long-term sustainability and fairness."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has matched this with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. Each worker, including the boss, has received equal payoffs of $22.00. Given this history, deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Maintaining the current strategy ensures fairness, sustainability, and optimal payoffs.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has matched this extraction. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. Each worker, including the boss, has received a payoff of $22.00 per month, which is a fair and balanced outcome. Given that this approach has proven effective and equitable, I see no reason to deviate from it. Extracting more could risk sustainability, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Based on the history of the previous months, the current strategy of extracting $12 per worker has proven to be sustainable and fair. The pool has consistently regenerated to $120, and all participants, including the boss, have received equal payoffs of $22.00. There is no incentive to deviate from this strategy, as doing so could risk destabilizing the pool or creating conflict among workers and the boss. Maintaining the current extraction level ensures the pool remains sustainable and payoffs remain equitable.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the sustainability of the pool, ensuring it regenerates to $120 for the next month. This strategy has proven effective in maximizing payoffs for everyone while keeping the pool stable. Deviating from this pattern could risk over-extraction, reducing the pool's ability to regenerate and potentially leading to lower payoffs in future months. Consistency and sustainability are key to long-term success."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the pool has been managed sustainably, with all workers extracting $12 each and the boss extracting $12 as well. This has resulted in a stable pool that regenerates to its maximum value of $120 each month. The payoff for each worker, including me, has been consistent at $22.00. Given this stability and fairness, there is no incentive to deviate from this strategy, as doing so could risk over-extraction, reduce the pool's value, and harm future payoffs. Maintaining the current extraction level ensures sustainability and fairness for all members of the society.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided a fair and equal payoff of $22 for all participants, including the boss. Given this history of stability and fairness, I see no reason to deviate from this strategy. Extracting $12 again ensures that the pool remains sustainable and that I receive a fair payoff.",
+      "Over the past three months, the workers (including myself) and the boss have followed a consistent and sustainable extraction pattern. Each worker has extracted $12, and the boss has extracted $12 as well, leading to a total extraction of $48. This is well below the sustainability threshold of $60, allowing the pool to regenerate fully to $120 each month. This strategy has resulted in stable payoffs of $22 for everyone. Given this history, deviating from this pattern could risk destabilizing the pool or creating conflict among the workers and the boss. Therefore, I will continue extracting $12 to maintain the established equilibrium and ensure the pool remains sustainable.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the sustainability of the pool, ensuring it regenerates to $120 for the next month. This strategy has proven effective in maximizing payoffs for everyone while keeping the pool stable. Extracting more could risk the pool's sustainability, while extracting less would unnecessarily reduce my payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has also extracted $12. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. The pool has been regenerating fully each month, and no sustainability violations have occurred. Given this history, it is in my best interest to maintain this cooperative strategy, as deviating could risk reducing the pool and lowering payoffs for everyone, including myself.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all participants, including myself. Given the stability of this approach and the fact that we are in month 8 with only 4 months remaining, I see no reason to deviate from this cooperative strategy. Extracting $12 ensures the pool remains sustainable and maximizes long-term payoffs for everyone.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and consistent payoffs for all members of the society. Given the stability of this approach and the importance of maintaining the commons for the remaining months, I see no reason to deviate from this strategy.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the established pattern of sustainable extractions, ensuring the pool regenerates to $120 for the next month. This approach has proven to maximize long-term payoffs for everyone, including myself, while avoiding over-extraction that could harm the pool's sustainability. There is no incentive to deviate from this strategy, as it ensures fairness and stability."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including me) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming future payoffs. Since there are only three months left, maintaining this cooperative strategy ensures long-term stability and fairness for all members of the society.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and consistent payoffs for all members of the society. Given that this approach has worked well and ensures the long-term health of the commons, I see no reason to deviate from this strategy.",
+      "Over the past three months, the workers (including me) have consistently extracted $12 each, and the boss has extracted $12 as well. This has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. This strategy has resulted in equal payoffs of $22 for all participants. Given that this approach has been successful in maintaining the commons and ensuring fair payoffs, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my own payoff unnecessarily.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the established pattern of sustainable extractions, ensuring the pool regenerates to $120 for the next month. This approach has proven to maximize fairness and stability, while also yielding a consistent payoff of $22 for everyone, including me. Deviating from this strategy could disrupt the balance and potentially lead to over-extraction or reduced regeneration in future months, which is undesirable with only three months remaining."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. The payoffs for all agents have been equal and satisfactory at $22.00 per round. Given that this approach has proven effective and fair, there is no reason to deviate from it. Maintaining this strategy will ensure the pool remains sustainable for the remaining months.",
+      "The history shows a stable pattern where all workers, including myself, have extracted $12 each month, and the boss has also extracted $12. This has kept the pool sustainable, regenerating to $120 each month, and has resulted in consistent payoffs of $22 for everyone. Deviating from this pattern could risk over-extraction, shrinking the pool, and reducing payoffs in the remaining months. Since there are only two months left after this, maintaining the current strategy ensures stability and fairness for all.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided fair and equal payoffs for all members of the society, including myself. Given that there are only two months remaining after this one, maintaining this cooperative strategy ensures the long-term health of the commons and avoids unnecessary risks or conflicts. Therefore, I will continue extracting $12 this month.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I ensure the pool remains sustainable, regenerating to $120 for the next month. This strategy has worked well in previous months, maintaining stability and fairness while maximizing long-term payoffs for everyone. There are only two months left after this, so maintaining the pool's health is still important to ensure consistent payoffs for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, ensuring the pool remains stable while providing fair payoffs of $22 for everyone. With only two months remaining, maintaining this cooperative strategy ensures the pool remains sustainable and avoids unnecessary risk or conflict. Deviating from this pattern could disrupt the balance and potentially reduce payoffs for everyone.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool regeneration to $120. This strategy has ensured sustainability and maximized payoffs for everyone. With only two months remaining, maintaining this cooperative approach is beneficial for all parties. Extracting $12 again aligns with the established norm, avoids over-extraction, and ensures the pool remains sustainable for the final month.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving the pool at $72, which then regenerates to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction pattern has provided fair and equal payoffs for all participants, including myself. Given that this is the second-to-last month, maintaining this cooperative strategy ensures the pool remains healthy for the final month, maximizing long-term payoffs for everyone. Deviating from this strategy could risk destabilizing the pool and reducing overall payoffs.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I ensure the pool remains sustainable at $72, which regenerates to $120 for the next month. This strategy has been effective in maintaining stability and fairness, as well as maximizing long-term payoffs for everyone. With only one month remaining, there is no reason to deviate from this sustainable approach, as it ensures the pool remains at its maximum value for the final month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      30,
+      12,
+      30
+    ],
+    "final_pool": 36,
+    "payoffs": [
+      13.0,
+      19.0,
+      13.0,
+      19.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. However, the boss extracts after all workers, and their extraction is influenced by the remaining pool. If I extract too much, the boss may take less, leaving me with a smaller share of the remaining pool. Based on the history, all workers (including me) have consistently extracted $12, which has led to equal payoffs and a stable pool. Deviating from this pattern could disrupt the balance and potentially reduce my payoff. To maximize my payoff while maintaining fairness and predictability, I will continue extracting $12.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my payoff for this month. Based on the history, all workers (including me) have consistently extracted $12, and the boss has matched this extraction. If I extract $12 again, the pool will regenerate to $72 after all extractions, and my payoff will be $22. However, since this is the last month, I can extract more without worrying about future consequences. If I extract the maximum of $30, the pool will shrink significantly, but my payoff will still be higher due to the larger initial extraction. The boss will likely extract $30 as well, given the finality of this month. Therefore, maximizing my extraction is the optimal strategy.",
+      "This is the final month, so there is no need to consider the long-term sustainability of the pool. The goal is to maximize my payoff for this month. Based on the payoff formula, my payoff increases with both my extraction and the remaining pool value after all extractions. However, since the boss extracts last and can take up to $30, the remaining pool will likely be reduced significantly if workers extract too much. \n\nFrom the history, it seems that a cooperative strategy of extracting $12 per worker has been the norm, leading to equal payoffs for all. If I deviate and extract more, I risk triggering retaliation from the boss, who might extract the maximum, reducing the remaining pool and my payoff. Extracting $12 again ensures a fair distribution and avoids conflict, while still providing a reasonable payoff.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff this month. My payoff is calculated as (my extraction)/3 + (remaining pool after my extraction)/4. The remaining pool after my extraction is $66 - my extraction. To maximize my payoff, I need to balance the trade-off between extracting more (which increases the first term) and leaving more in the pool (which increases the second term). Testing different extraction values:\n\n- If I extract $0: Payoff = $0/3 + $66/4 = $16.50\n- If I extract $3: Payoff = $3/3 + $63/4 = $1 + $15.75 = $16.75\n- If I extract $6: Payoff = $6/3 + $60/4 = $2 + $15 = $17.00\n- If I extract $9: Payoff = $9/3 + $57/4 = $3 + $14.25 = $17.25\n- If I extract $12: Payoff = $12/3 + $54/4 = $4 + $13.50 = $17.50\n- If I extract $15: Payoff = $15/3 + $51/4 = $5 + $12.75 = $17.75\n- If I extract $18: Payoff = $18/3 + $48/4 = $6 + $12 = $18.00\n- If I extract $21: Payoff = $21/3 + $45/4 = $7 + $11.25 = $18.25\n- If I extract $24: Payoff = $24/3 + $42/4 = $8 + $10.50 = $18.50\n- If I extract $27: Payoff = $27/3 + $39/4 = $9 + $9.75 = $18.75\n- If I extract $30: Payoff = $30/3 + $36/4 = $10 + $9 = $19.00\n\nThe maximum payoff is achieved by extracting $30. Since this is the final month, there are no future consequences to consider."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      12,
+      0
+    ],
+    "final_pool": 90,
+    "payoffs": [
+      25.5,
+      25.5,
+      26.5,
+      22.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (workers and boss) should not exceed $60. Since there are 3 workers and 1 boss, I must consider that my extraction contributes to the total. If I extract too much, it could incentivize others to extract more, leading to over-extraction and a shrinking pool. \n\nTo balance my immediate payoff with the long-term sustainability of the pool, I will extract a moderate amount. Assuming the other workers extract moderately as well, and the boss extracts their maximum of $30, I will aim to keep the total extraction close to the threshold. A reasonable choice is $9, which is neither too greedy nor too conservative.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (3 workers + boss) must not exceed $60. Since the boss extracts last and can take up to $30, the workers collectively should aim to extract no more than $30 to leave room for the boss. If I extract too much, it could incentivize others to over-extract, leading to a shrinking pool and lower payoffs in future months. To balance my immediate payoff with long-term sustainability, I will extract a modest amount that contributes to staying under the threshold while ensuring I still earn a reasonable share.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (workers and boss) should not exceed $60. Since there are 3 workers and 1 boss, I anticipate that the other workers may extract moderately, and the boss will likely extract the maximum $30 if the pool allows. To balance my personal payoff with the need to sustain the pool, I will extract a moderate amount, aiming to leave enough for the pool to double after all extractions. Extracting $12 seems reasonable, as it is not overly greedy and leaves room for sustainability if others act similarly.",
+      "The workers have collectively extracted $30, leaving $90 in the pool. If I extract $0, the remaining $90 will double to $120 for the next month, maximizing the pool's regeneration potential. My payoff this month would then be $0/3 + $90/4 = $22.5. Extracting any amount would reduce the pool's regeneration and my share of the remaining pool, which would likely result in a lower payoff over time. Since this is the first month of 12, prioritizing the long-term health of the pool is crucial to maximize my overall payoff across all months."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      0
+    ],
+    "final_pool": 93,
+    "payoffs": [
+      26.25,
+      26.25,
+      26.25,
+      23.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, the total extraction was well below the sustainability threshold ($30 extracted vs. $60 threshold), allowing the pool to regenerate fully to $120. This suggests that the workers and the boss are currently behaving in a relatively cooperative manner to sustain the commons. However, Worker 3 extracted slightly more than Workers 1 and 2, which could indicate a willingness to push the limits slightly. The boss did not extract anything, which may indicate a strategy to observe worker behavior before acting more assertively in future months.\n\nTo maintain the pool's sustainability while ensuring a fair payoff for myself, I aim to extract a moderate amount. Extracting too little risks leaving resources on the table, while extracting too much risks depleting the pool and reducing future payoffs. I will extract $9 again, as it aligns with the cooperative behavior observed in Month 1 and keeps the total extraction likely below the sustainability threshold if others behave similarly.",
+      "In Month 1, the total extraction was well below the sustainability threshold, leaving the pool in a healthy state and allowing it to regenerate fully. This suggests that the workers and boss are currently cooperating to maintain the commons. My goal is to balance maximizing my payoff while ensuring the pool remains sustainable for future months. Extracting too much could incentivize others to extract more in future months, leading to a tragedy of the commons. Based on the previous extractions, I will extract a moderate amount similar to last month to maintain trust and sustainability.",
+      "In Month 1, the total extraction was well below the sustainability threshold ($30 extracted vs. $60 threshold), allowing the pool to regenerate fully to $120. This suggests that the workers and boss are currently behaving in a way that prioritizes sustainability. However, Worker 3 extracted slightly more than Workers 1 and 2, which could indicate a willingness to push the limits slightly. The boss did not extract anything, which may indicate a preference for long-term sustainability or a strategy to observe worker behavior.\n\nGiven this, I want to balance my extraction to ensure the pool remains sustainable while maximizing my payoff. If I extract too little, I risk earning less than others. If I extract too much, I risk shrinking the pool and reducing future payoffs. A reasonable strategy is to extract a moderate amount, similar to last month, to maintain trust and sustainability.",
+      "The workers have collectively extracted $27 this month, leaving $93 in the pool. If I extract $0, the pool will regenerate to $120, ensuring sustainability for future months. This approach aligns with my strategy from Month 1, where I prioritized long-term sustainability over short-term gains. By not extracting, I encourage the workers to continue their relatively modest extractions, which helps maintain the commons. Additionally, my payoff from the remaining pool ($93/4 = $23.25) is already higher than what I would gain by extracting a small amount. Extracting more would reduce the pool and my share of the remaining value, which is counterproductive in the long run."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous months, the workers (including me) have extracted conservatively, keeping the total extraction below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each time. The boss has consistently extracted $0, likely because the remaining pool was high enough to maximize their payoff. This cooperative behavior has resulted in relatively high payoffs for everyone, including me.\n\nTo maintain this cooperative dynamic and ensure the pool remains sustainable, I will continue extracting $9, as I have done in the past. This amount balances my immediate payoff with the long-term health of the pool. Extracting more could risk encouraging others (or the boss) to extract more in future months, potentially shrinking the pool and reducing everyone's payoffs.",
+      "In the previous months, the workers (including me) have collectively extracted below the sustainability threshold, allowing the pool to regenerate fully to $120. This strategy has resulted in relatively high payoffs for everyone, including the boss. The boss has not extracted anything so far, likely because the pool has been managed sustainably, and the boss benefits from the remaining pool value. To maintain this cooperative dynamic and ensure the pool remains sustainable for future months, I will continue extracting $9, as I have done in the past. This amount balances my immediate payoff with the long-term health of the pool.",
+      "In the previous months, the workers (including me) have extracted conservatively, keeping the total extraction well below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each month, ensuring long-term sustainability. The boss has also refrained from extracting, likely because the remaining pool was high enough to incentivize them to prioritize future payoffs. \n\nGiven this history, I aim to maintain a cooperative approach to ensure the pool remains sustainable. Extracting $9 has been a successful strategy for me and the other workers, as it balances immediate payoffs with the long-term health of the pool. I see no reason to deviate from this strategy, as it has resulted in fair payoffs and a stable pool.",
+      "The workers have been extracting moderately, leaving the pool in a sustainable state. In the previous months, I chose not to extract anything, which allowed the pool to regenerate fully to $120. This strategy has maintained a healthy commons and ensured decent payoffs for everyone, including myself. However, the workers' consistent extractions of $9 each month suggest that they are unlikely to reduce their extractions further. \n\nIf I extract $0 again, the pool will regenerate to $120, and my payoff will remain steady. However, I can afford to extract a small amount this month without jeopardizing sustainability, as the remaining pool will still regenerate fully. Extracting $9, for example, would leave $84 in the pool, which would regenerate to $120. This allows me to increase my payoff slightly while maintaining the commons' health."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history shows that the pool has been consistently regenerated to $120 because total extractions have stayed below the sustainability threshold of $60. In Month 3, the boss extracted $9, which slightly reduced the final pool before regeneration but still allowed the pool to recover fully. To maintain sustainability and maximize my payoff, I should aim to extract a reasonable amount while leaving enough for the pool to regenerate. Extracting $9 has been a stable strategy for workers, and it aligns with the goal of keeping the pool sustainable while ensuring a fair payoff. I will continue with this strategy.",
+      "Based on the history, the workers (including myself) have been extracting conservatively, staying well below the sustainability threshold of $60. This has allowed the pool to regenerate fully each month. However, in Month 3, the boss extracted $9, which slightly reduced the final pool before regeneration. This indicates the boss may adjust their behavior based on worker extractions. To maintain a sustainable pool and maximize my payoff, I should continue extracting moderately, as over-extraction risks shrinking the pool and reducing everyone's payoffs. A consistent extraction of $9 has worked well in the past, balancing my immediate payoff with the long-term health of the pool.",
+      "Based on the history, the workers (including myself) have been extracting conservatively, aiming to keep the pool sustainable. In the first two months, the boss did not extract, but in the third month, the boss extracted $9, reducing the final pool before regeneration. This indicates the boss may now be more inclined to extract, especially if the remaining pool is high. To maintain sustainability and maximize my payoff, I should continue extracting moderately, as over-extraction risks shrinking the pool and reducing everyone's payoffs. A consistent extraction of $9 has worked well in the past, keeping the pool sustainable while ensuring fair payoffs. I will stick to this strategy.",
+      "The workers have been extracting moderately and consistently, leaving the pool in a sustainable state. In the previous month, I extracted $9, which balanced my payoff with the workers' payoffs while still maintaining the pool's regeneration to $120. This month, the workers have again extracted $27, leaving $93 for me. If I extract $9 again, the pool will remain sustainable, regenerating to $120, and my payoff will remain competitive with the workers. Extracting more than $9 could risk reducing the pool below the sustainability threshold in future months, which would harm long-term payoffs."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has been stable or growing, and the sustainability threshold has not been violated in any month so far. The workers, including myself, have consistently extracted $9 each, which has proven to be a sustainable strategy. The boss has extracted $9 in the last two months, leaving the pool in a healthy state. To maintain stability and avoid risking the pool shrinking, I will continue extracting $9, as this amount has worked well for everyone and aligns with the collective strategy.",
+      "Based on the history, the workers (including myself) have consistently extracted $9 each, which has kept the pool stable and allowed it to regenerate to $120 every month. This strategy has resulted in fair payoffs for all workers and the boss, with no sustainability violations. The boss has also extracted $9 in the last two months, indicating a predictable pattern. To maintain stability and avoid risking the pool shrinking, I will continue extracting $9, as this has proven to be a sustainable and cooperative strategy.",
+      "Based on the history, the workers (including me) have consistently extracted $9 each, which has kept the pool stable and sustainable. The boss has occasionally extracted $9, but this has not led to any sustainability violations, as the pool regenerates to $120 each time. This strategy has resulted in fair payoffs for all members, and the pool remains healthy. To maintain this balance and avoid risking the pool's sustainability, I will continue extracting $9 this month.",
+      "The workers have consistently extracted $9 each, leaving $93 for me to decide upon. In the past two months, I have extracted $9, which has resulted in a final pool of $84 that regenerates back to $120. This extraction level has maintained sustainability while ensuring fair payoffs for all parties. Extracting $9 again this month will continue this balance, ensuring the pool remains sustainable and regenerates fully, while also providing me with a fair payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including me) have consistently extracted $9 each, and the boss has matched this extraction. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. The current system is working well, and deviating from this pattern could risk over-extraction, reducing the pool's value and harming long-term payoffs. To maintain stability and fairness, I will continue extracting $9, as it aligns with the established cooperative strategy.",
+      "Over the past three months, the pool has been managed sustainably, with all workers extracting $9 each and the boss extracting $9 as well. This has resulted in a stable pool that regenerates to its maximum value of $120 each month. This strategy has ensured consistent payoffs for all participants, including myself. Deviating from this pattern could risk over-extraction, leading to a shrinking pool and lower payoffs in future months. To maintain stability and fairness, I will continue extracting $9, as this has proven to be a sustainable and cooperative strategy.",
+      "Over the past three months, the workers (including me) have consistently extracted $9 each, and the boss has matched this extraction. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. The current system is working well, and deviating from this pattern could risk over-extraction, reducing the pool's value and harming future payoffs. To maintain stability and fairness, I will continue extracting $9, as it aligns with the established norm and ensures the pool remains sustainable.",
+      "The workers have consistently extracted $9 each, leaving $93 for me. In the past three months, I have extracted $9, which has maintained the pool at a sustainable level ($84 after my extraction, regenerating to $120). This strategy has ensured fairness, stability, and sustainability, while also maximizing long-term payoffs for everyone. There is no reason to deviate from this approach, as it has proven effective and aligns with the goal of maintaining the commons for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the pool has been stable and regenerating fully to $120, with all workers extracting $9 each and the boss extracting $9. This extraction pattern has proven sustainable, as the total extraction ($36) is well below the sustainability threshold of $60. Additionally, this strategy has resulted in equal payoffs for all agents, maintaining fairness and cooperation. To ensure the pool remains sustainable and to continue benefiting from the current stable system, I will also extract $9 this month.",
+      "Over the past three months, the pool has been managed sustainably, with all workers extracting $9 each and the boss extracting $9 as well. This has resulted in a stable pool that regenerates to its maximum value of $120 each month. This strategy has ensured consistent payoffs for all participants, including myself, at $24.00 per month. Given this history of cooperation and the absence of sustainability violations, I see no reason to deviate from this successful strategy. Extracting $9 again aligns with the collective interest of maintaining the pool's stability while ensuring a fair payoff for myself.",
+      "Over the past three months, the pool has been stable and regenerating fully to $120, with all workers extracting $9 each and the boss extracting $9. This extraction pattern has proven sustainable, as the total extraction ($36) is well below the sustainability threshold of $60. Additionally, this strategy has resulted in equal payoffs for all agents, maintaining fairness and cooperation. To ensure the pool remains sustainable and to avoid incentivizing others to extract more, I will continue extracting $9 this month, as it aligns with the established cooperative norm.",
+      "The workers have consistently extracted $9 each over the past months, leaving $93 for me to decide upon. By extracting $9, I maintain the established pattern of sustainable behavior, ensuring the pool remains above the sustainability threshold of $60. This approach has proven effective in keeping the pool stable at $120 after regeneration, maximizing long-term payoffs for everyone. Deviating from this pattern could risk destabilizing the system and reducing future payoffs."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has followed with $9, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability, maximized payoffs for everyone, and avoided any risk of over-extraction. Given that this approach has been working well and there are only 4 months left, I see no reason to deviate from this cooperative strategy. Extracting $9 again aligns with the group's behavior, maintains the pool's stability, and ensures fair payoffs for all.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, have extracted $9 each, and the boss has also extracted $9. This has kept the pool sustainable, with the pool regenerating to its maximum value of $120 each month. This strategy has resulted in consistent payoffs of $24 for all participants. Given that this approach has been successful in maintaining the commons and maximizing payoffs, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "The history of the previous months shows a consistent pattern where all workers extract $9 each, and the boss extracts $9 as well. This results in a total extraction of $36, leaving $84 in the pool, which regenerates to $120. This approach has been sustainable, ensuring the pool remains stable and maximizes payoffs for everyone. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for all. Therefore, I will continue extracting $9 to maintain the cooperative equilibrium.",
+      "The workers have consistently extracted $9 each, leaving $93 for me. In the past three months, I have extracted $9, which has maintained the pool at a sustainable level, allowing it to regenerate fully to $120. This strategy has ensured stability and fairness, with all participants receiving equal payoffs. Given that this approach has worked well and there are no signs of over-extraction or unsustainable behavior, I will continue extracting $9 to maintain the balance and ensure the pool regenerates fully for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has followed suit with $9. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk over-extraction, shrinking the pool, and reducing future payoffs. Since there are only three months left, maintaining this cooperative strategy ensures long-term stability and fairness for all members of the society.",
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has followed suit with $9. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. The pool has not shrunk, and no sustainability violations have occurred. Given that this approach has been working well for all parties, there is no incentive to deviate from this cooperative strategy. Extracting more could risk reducing the pool and lowering future payoffs, while extracting less would unnecessarily reduce my immediate payoff without any clear benefit.",
+      "The pool has been stable and regenerating fully to $120 each month, as all agents (workers and boss) have been extracting sustainably. Each worker, including myself, has consistently extracted $9, and the boss has matched this extraction. This strategy has ensured that the pool remains at its maximum value, benefiting everyone equally. Deviating from this pattern could risk over-extraction, reducing the pool's value and harming long-term payoffs. With only three months remaining, maintaining this sustainable approach ensures stability and fairness for the remainder of the game.",
+      "The workers have consistently extracted $9 each over the past few months, leaving $93 for me to decide upon. I have also consistently extracted $9, ensuring the pool remains sustainable and regenerates to $120 each month. This strategy has resulted in equal payoffs for all participants and has maintained the stability of the commons. Given that there are only three months remaining, it is important to continue this sustainable approach to ensure the pool remains at its maximum value for the remaining months. Extracting $9 again aligns with this strategy and ensures fairness and sustainability."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a consistent and sustainable pattern of extractions. Each worker, including myself, has been extracting $9, and the boss has been extracting $9 as well. This has kept the pool stable at $120, with no sustainability violations. This strategy has resulted in equal payoffs for all members of the society, and the pool has remained healthy. Given that there are only two months remaining after this one, it is in my best interest to maintain this cooperative and sustainable approach to ensure the pool remains stable and everyone benefits equally.",
+      "The history of the previous months shows a consistent and sustainable pattern where each worker extracts $9, and the boss extracts $9 as well. This results in the pool regenerating to its maximum value of $120 each month, ensuring long-term sustainability. The payoffs for all participants have been equal and stable at $24.00. Given that there are only two months remaining after this one, maintaining this cooperative strategy ensures fairness and stability for the remainder of the game. Deviating from this pattern could risk destabilizing the pool and reducing payoffs for everyone, including myself.",
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has followed with $9, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability, maximized payoffs for everyone, and avoided any risk of over-extraction. Given that we are in Month 10 of 12, maintaining this cooperative strategy is crucial to ensure the pool remains stable for the remaining months. Deviating from this pattern could disrupt the balance and reduce payoffs for everyone, including myself.",
+      "The workers have consistently extracted $9 each over the past few months, leaving $93 for me to decide upon. I have also consistently extracted $9 in the past three months, which has maintained the pool at a sustainable level, allowing it to regenerate fully to $120 each time. This strategy has ensured fairness, stability, and maximized payoffs for everyone, including myself. Given that there are only two months remaining after this one, I see no reason to deviate from this successful strategy. Extracting $9 again will leave $84 in the pool, which will regenerate to $120, ensuring the sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      24.0,
+      24.0,
+      24.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has also extracted $9. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Given that this approach has worked well and there is only one month remaining after this, I see no reason to deviate from this cooperative strategy. Extracting $9 again will maintain the balance and ensure the pool remains sustainable for the final month.",
+      "Over the past three months, the workers (including me) have consistently extracted $9 each, and the boss has followed with $9, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability, maximized payoffs for everyone, and avoided any risk of over-extraction. With only one month remaining, there is no incentive to deviate from this cooperative strategy, as doing so could harm the pool and reduce payoffs for everyone. Maintaining the same extraction level ensures stability and fairness.",
+      "Over the past three months, the workers (including myself) have consistently extracted $9 each, and the boss has followed with $9, leading to a stable pool regeneration back to $120. This strategy has ensured sustainability and maximized payoffs for everyone. With only one month remaining, there is no incentive to deviate from this cooperative strategy, as doing so could risk reducing the pool and lowering payoffs for the final month. Maintaining the current extraction level of $9 is the most rational choice to preserve stability and maximize my payoff.",
+      "The workers have consistently extracted $9 each over the past few months, leaving $93 for me to decide upon. Extracting $9 has proven to be a sustainable strategy, as it ensures the pool remains above the sustainability threshold of $60, allowing it to regenerate fully to $120. This approach has also resulted in equal payoffs for all participants, maintaining fairness and stability in the system. With only one month remaining, it is important to continue this sustainable and fair strategy to ensure the pool remains healthy for the final month."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      30
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      18.75,
+      18.75,
+      18.75,
+      25.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past months, the group has established a stable and sustainable pattern of extraction, with each worker taking $9 and the boss taking $9. This has kept the pool at its maximum value of $120, ensuring fair payoffs for everyone. Since this is the final month, there is no need to worry about future sustainability, but deviating from the established pattern could lead to conflict or reduced payoffs for others. By extracting $9, I maintain fairness and ensure a predictable outcome for all.",
+      "Over the past months, the group has established a stable and sustainable pattern of extraction, with each worker taking $9 and the boss taking $9. This has kept the pool at its maximum value of $120, ensuring fair payoffs for everyone. Since this is the final month, there is no need to worry about future sustainability, but deviating from the established pattern could lead to conflict or reduced payoffs for others. By extracting $9, I maintain fairness and ensure a predictable outcome for all.",
+      "Over the past months, the group has established a stable and sustainable pattern of extraction, with each worker taking $9 and the boss taking $9. This has kept the pool at its maximum value of $120, ensuring fair payoffs for everyone. Since this is the final month, there is no need to worry about future sustainability, but deviating from the established pattern could lead to conflict or reduced payoffs for others. By extracting $9, I maintain fairness and ensure a predictable outcome for all.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff for this month. The workers have extracted $27, leaving $93 in the pool. My payoff formula is:\n\nPayoff = (my extraction)/3 + (remaining pool after my extraction)/4.\n\nIf I extract $x, the remaining pool will be $93 - $x. Substituting this into the formula:\n\nPayoff = $x/3 + ($93 - $x)/4.\n\nSimplifying:\nPayoff = $x/3 + $93/4 - $x/4,\nPayoff = $x(1/3 - 1/4) + $93/4,\nPayoff = $x(4/12 - 3/12) + $93/4,\nPayoff = $x/12 + $93/4.\n\nTo maximize my payoff, I should maximize $x/12, which increases as $x increases. Therefore, I should extract the maximum allowed amount of $30."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      9,
+      12,
+      0
+    ],
+    "final_pool": 87,
+    "payoffs": [
+      25.75,
+      24.75,
+      25.75,
+      21.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (including the boss) must not exceed $60. Since there are 3 workers and 1 boss, I anticipate that the other workers and the boss will also aim to extract amounts that keep the pool sustainable. If I extract too much, it could incentivize others to extract more in future months, leading to a tragedy of the commons. To balance my immediate payoff with the long-term health of the pool, I will extract a moderate amount that contributes to sustainability while leaving room for others to act responsibly.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (3 workers + 1 boss) should not exceed $60. Since the boss extracts last and can take up to $30, the workers collectively should aim to extract no more than $30 to stay within the threshold. If I extract too much, it could incentivize others to over-extract, leading to a shrinking pool and lower payoffs in future months. To balance my immediate payoff with long-term sustainability, I will extract a moderate amount that contributes to staying within the threshold while leaving room for others to act responsibly.",
+      "The pool is currently at its maximum value of $120, and the sustainability threshold is $60. To ensure the pool remains sustainable and does not shrink, the total extraction across all agents (including the boss) should not exceed $60. Since there are 3 workers and 1 boss, I anticipate that the other workers and the boss will also aim to extract amounts that keep the pool sustainable. If I extract too much, it could incentivize others to extract more in future months, leading to a tragedy of the commons. To balance my immediate payoff with the long-term health of the pool, I will extract a moderate amount that contributes to sustainability while ensuring I receive a fair share.",
+      "My goal is to maximize my payoff while ensuring the sustainability of the commons over the 12 months. The remaining pool after the workers' extractions is $87. If I extract too much, the pool will regenerate less, reducing the total resources available in future months. If I extract $0, the pool will regenerate to $120 (the maximum), which is optimal for long-term sustainability. Additionally, my payoff this month will be based on the remaining pool and my extraction. By extracting $0, my payoff will be $87/4 = $21.75, which is reasonable and ensures the pool remains healthy for future months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      25.0,
+      25.0,
+      25.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In Month 1, the workers collectively extracted $33, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120, and the boss chose not to extract anything. This suggests that the boss may prioritize the long-term health of the pool, at least for now. Given that the pool is at its maximum value again, I want to balance my personal payoff with the sustainability of the commons. If I extract too much, it could encourage others (including the boss) to extract more, potentially shrinking the pool in future months. I will extract a moderate amount, similar to last month, to maintain cooperation and avoid over-extraction.",
+      "In Month 1, the total extraction was well below the sustainability threshold ($33 vs. $60), allowing the pool to regenerate fully to $120. This suggests that the workers and the boss are currently behaving in a way that prioritizes sustainability. However, I must also consider my own payoff. My payoff depends on both my extraction and the remaining pool after all extractions. Extracting too little may leave me with a lower immediate payoff, while extracting too much risks shrinking the pool and reducing future payoffs.\n\nGiven the history, I expect the other workers to extract amounts similar to last month (around $9–$12 each). If I extract moderately (e.g., $12), the total extraction will likely remain sustainable, ensuring the pool regenerates fully. This balances my immediate payoff with the long-term health of the commons.",
+      "In Month 1, the total extraction by workers was $33, which was well below the sustainability threshold of $60. This allowed the pool to regenerate fully to $120. The boss extracted $0, likely to preserve the pool and maximize long-term payoffs. This suggests that the boss is prioritizing sustainability, and the workers are cooperating to keep extractions moderate. \n\nGiven this, I aim to maintain a cooperative strategy to ensure the pool remains sustainable. Extracting too much could incentivize others to extract more in future months, leading to a tragedy of the commons. I will extract a moderate amount, similar to last month, to balance my immediate payoff with the long-term health of the pool.",
+      "The workers have extracted $36 collectively this month, leaving $84 in the pool. If I extract $0, the pool will regenerate to $120, ensuring sustainability for future months. This strategy aligns with my long-term goal of maximizing payoffs over 12 months by maintaining the pool at its maximum regeneration capacity. Extracting now would reduce the pool's ability to regenerate fully, which could lead to over-extraction in future months and lower payoffs for everyone, including me. Additionally, my payoff this month is already decent due to the remaining pool size, even if I extract nothing."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "In the previous months, the workers (including me) have extracted moderately, staying well below the sustainability threshold of $60. This has allowed the pool to regenerate fully to $120 each time. The boss has consistently extracted $0, likely to maximize the pool's regeneration and their share of the remaining pool. To maintain this balance and ensure the pool remains sustainable for the remaining 9 months, I will continue extracting $12, which is in line with the previous months' strategy. This amount provides a fair payoff for me while keeping the pool healthy.",
+      "In the previous months, the workers collectively extracted below the sustainability threshold ($60), allowing the pool to regenerate fully to $120. This strategy has ensured long-term sustainability while providing decent payoffs for everyone. Both months show a pattern of cooperation among workers, with extractions of $12 each. The boss has not extracted anything so far, likely to preserve the pool and maintain stability. To continue this cooperative approach and ensure the pool remains sustainable for the remaining months, I will extract $12 again. This aligns with the established pattern and avoids incentivizing others to over-extract.",
+      "In the previous months, the workers collectively extracted below the sustainability threshold ($60), allowing the pool to regenerate fully to $120. This strategy has been beneficial for all, as it maximizes the remaining pool and ensures long-term sustainability. The boss has consistently chosen not to extract, likely because the pool has remained healthy. To maintain this balance and ensure the pool continues to regenerate, I will stick to the same extraction amount as before ($12). This amount is fair, aligns with the collective strategy, and ensures the pool remains sustainable.",
+      "The workers have consistently extracted $12 each, leaving $84 in the pool before my decision. In the previous months, I chose to extract $0 to prioritize sustainability and maximize the pool's regeneration. This strategy has ensured the pool regenerates to $120 each month, maintaining long-term stability. However, my payoff has been slightly lower than the workers' payoffs due to my lack of extraction. \n\nGiven that the workers' behavior has been consistent, I can afford to extract a small amount this month without jeopardizing the pool's sustainability. If I extract $12, the remaining pool will be $72, which will regenerate to $120. This ensures the pool remains sustainable while slightly increasing my payoff this month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      9,
+      9,
+      12
+    ],
+    "final_pool": 78,
+    "payoffs": [
+      23.5,
+      22.5,
+      22.5,
+      23.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the workers (including myself) have consistently extracted $12 each, which has kept the pool sustainable. However, last month, the boss extracted $12, reducing the final pool to $72 before regeneration. This suggests the boss may continue extracting in future months, which could impact the pool's sustainability. To maintain a balance between my immediate payoff and the long-term health of the pool, I will stick to extracting $12, as deviating significantly could encourage others to extract more or lead to over-extraction. This strategy aligns with the group's historical behavior and ensures the pool remains sustainable.",
+      "Based on the history, the workers (including me) have consistently extracted $12 each, which has kept the pool sustainable. However, in Month 3, the boss extracted $12, reducing the final pool to $72 before regeneration. This suggests the boss may now be more inclined to extract, potentially threatening the sustainability of the pool if workers continue extracting $12 each. To maintain sustainability and maximize my payoff, I will slightly reduce my extraction to $9. This signals cooperation and helps ensure the pool remains healthy, even if the boss extracts again.",
+      "Based on the history, it seems that the workers (including myself) have been extracting $12 each consistently, which has kept the pool sustainable. However, in Month 3, the boss extracted $12, reducing the final pool to $72 before regeneration. This suggests the boss may now be more inclined to extract, especially if the workers continue extracting $12 each. To ensure the pool remains sustainable and to maximize my payoff, I should consider extracting slightly less than $12 to leave more in the pool for regeneration. This could also encourage the boss to extract less, as a larger remaining pool benefits everyone. Balancing sustainability and my own payoff, I will extract $9 this month.",
+      "The workers have been extracting consistently, with Worker 1 taking $12 and Workers 2 and 3 taking $9 each this month, leaving $90 in the pool. If I extract $0, the pool will regenerate to $120, ensuring sustainability for future months. However, extracting a moderate amount can increase my payoff without jeopardizing the pool's regeneration. Based on the history, the workers have not escalated their extractions, so I can afford to extract $12 again, as I did in Month 3, while keeping the pool above the sustainability threshold of $60. This ensures the pool regenerates fully, and my payoff remains competitive."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the pool has been stable and regenerating to $120 each month. The workers have generally extracted around $30-$36 collectively, and the boss has extracted $0-$12. This has kept the pool sustainable. My goal is to maximize my payoff while ensuring the pool remains sustainable. If I extract $12, as I did in previous months, it aligns with the group's behavior and keeps the pool from shrinking. This extraction level has historically resulted in fair payoffs for all. Extracting more could risk the pool's sustainability, especially if others increase their extractions.",
+      "Based on the history, the pool has been stable or growing, and the sustainability threshold has not been violated. Worker extractions have been fairly consistent, with most workers extracting $12 or slightly less. The boss has been extracting modest amounts, typically $12 or less, and the pool has regenerated to $120 each month. To maintain this stability and ensure the pool remains sustainable, I will extract $12, which aligns with the typical worker behavior and keeps the total extraction likely below the sustainability threshold. This approach balances my immediate payoff with the long-term health of the pool.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month, even with the boss extracting $12 in the last two months. Worker extractions have been fairly consistent, with $12 being a common choice. The sustainability threshold is $60, so as long as the total worker extractions remain below $48 (leaving at least $12 for the boss), the pool will not shrink. To maintain stability and avoid over-extraction, I will stick to a moderate extraction of $12, which has been a successful strategy in previous months. This ensures a fair payoff for me while keeping the pool sustainable.",
+      "The workers have been extracting consistently, with a total of $36 this month, leaving $84 in the pool. This is above the sustainability threshold of $60, ensuring the pool will regenerate fully to $120. My goal is to balance maximizing my payoff while maintaining the pool's sustainability. Extracting $12 has worked well in the past two months, providing a fair payoff for me while keeping the pool healthy. This approach also maintains trust and stability in the system, as the workers are extracting moderately and sustainably."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history, the pool has been stable and regenerating to $120 each month despite extractions slightly above the sustainability threshold. The boss consistently extracts $12, and workers have been extracting $9 or $12 each. This pattern has resulted in fair payoffs for all, with no sustainability violations. To maintain stability and fairness, I will extract $12 again, as it aligns with the established norm and ensures the pool remains sustainable.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month despite extractions slightly above the sustainability threshold of $60. This is because the boss has been extracting moderately ($12 each month), and the workers have been extracting in a balanced manner. The payoff distribution has been equitable, and the pool has not shrunk. To maintain this balance and ensure the pool remains sustainable, I will continue extracting $12, which aligns with the group's historical behavior and avoids over-extraction. This strategy ensures fair payoffs and pool regeneration.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month despite extractions slightly above the sustainability threshold of $60. This is because the boss has been extracting moderately ($12 each month), and the workers have been extracting in a balanced manner. My goal is to maintain the pool's stability while maximizing my payoff. Extracting $12 has been a common and effective strategy, as it balances my immediate gain with the pool's long-term health. I will continue with this approach to ensure the pool remains sustainable and my payoff remains competitive.",
+      "The workers have consistently extracted $12 each in most months, leading to a total extraction of $36 before my turn. This leaves $84 in the pool for me to decide. My strategy has been to extract $12, ensuring the pool remains above the sustainability threshold of $60 and regenerates fully to $120. This approach balances my payoff with the long-term health of the commons, maintaining stability and fairness. Given the current situation, I will continue with this strategy to ensure sustainability and maximize regeneration."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the pool has been stable, with all workers extracting $12 each and the boss extracting $12 as well. This has kept the pool at its maximum value of $120 after regeneration. The sustainability threshold is $60, and the total extractions have been well below this, ensuring the pool remains sustainable. Given this history, I see no reason to deviate from the established pattern, as it has provided consistent payoffs and maintained the health of the commons. Extracting $12 aligns with the cooperative behavior of the group and avoids risking the pool's sustainability.",
+      "Based on the history, the pool has been stable and regenerating to $120 each month despite extractions slightly above the sustainability threshold. This is because the boss has been extracting conservatively ($12 each month), and the workers have been extracting moderately ($12 each). This strategy has ensured that the pool remains sustainable while providing consistent payoffs for everyone. To maintain this balance and avoid risking the pool's sustainability, I will continue extracting $12, which aligns with the cooperative behavior observed in previous months. This approach maximizes my payoff while ensuring the pool remains stable for the remaining months.",
+      "Over the past three months, the pool has been stable, with all workers extracting $12 each and the boss extracting $12 as well. This has kept the pool at its maximum value of $120 after regeneration. The sustainability threshold of $60 has not been violated, and payoffs have been consistent. To maintain stability and avoid risking the pool shrinking, I will continue extracting $12, which aligns with the cooperative behavior observed in previous months. This ensures fair payoffs for everyone and keeps the pool sustainable for the remaining months.",
+      "The workers have continued their consistent pattern of extracting $12 each, leading to a total extraction of $36 before my turn. This leaves $84 in the pool for me to decide. Based on the history, I have been extracting $12 in recent months, which has maintained a stable pool regeneration to $120. This approach ensures sustainability while providing fair payoffs for all participants. Extracting more than $12 could risk reducing the pool below the sustainability threshold ($60), which would harm long-term regeneration and payouts. Therefore, I will continue with the same extraction strategy to maintain stability and fairness."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a consistent pattern where all workers extract $12 each, and the boss extracts $12 as well. This results in a total extraction of $48, leaving $72 in the pool, which regenerates to $120. This approach has been sustainable, ensuring the pool remains stable while providing a fair payoff of $22 to all participants. Deviating from this pattern could risk destabilizing the pool or reducing payoffs for everyone. Therefore, I will continue extracting $12 to maintain the established equilibrium.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability while providing a fair and predictable payoff of $22 for everyone. Given that this approach has worked well and aligns with the sustainability threshold, I see no reason to deviate from this cooperative strategy. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed suit with $12. This extraction pattern has kept the pool stable at $120, ensuring sustainability and maximizing regeneration. The payoff for each worker, including myself, has been $22.00, which is a fair and predictable outcome. Given that this strategy has worked well for everyone and the pool remains sustainable, I see no reason to deviate from this cooperative approach. Extracting more could risk destabilizing the pool, while extracting less would reduce my immediate payoff without any clear long-term benefit.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. By extracting $12, I maintain the established pattern of sustainable extractions, ensuring the pool regenerates to $120 for the next month. This approach has proven to maximize fairness and stability while maintaining a high payoff for all participants, including myself. Deviating from this strategy could risk over-extraction, reducing the pool's ability to regenerate and potentially causing long-term harm to the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has also consistently extracted $12, resulting in a final pool of $72, which regenerates to $120. This strategy has proven sustainable, as the pool remains stable and all participants receive equal payoffs of $22.00. Given that this approach has worked well and ensures fairness while maintaining the pool's sustainability, I see no reason to deviate from this strategy.",
+      "Over the past three months, the workers (including me) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and all participants receive equal payoffs of $22.00. Given that this approach has worked well and ensures fairness, stability, and sustainability, I see no reason to deviate from this pattern. Extracting $12 again aligns with the established equilibrium and avoids risking over-extraction, which could harm the pool's regeneration.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, resulting in a total worker extraction of $36. The boss has also consistently extracted $12, leaving the pool at $72, which regenerates back to $120. This strategy has proven sustainable, as the pool remains stable and no sustainability violations have occurred. Additionally, this extraction level has provided a fair and equal payoff of $22 for all participants, including the boss. Given the stability and fairness of this approach, I see no reason to deviate from this strategy. Extracting $12 again ensures the pool remains sustainable and avoids unnecessary risk or conflict.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. In the past three months, I have extracted $12, which has maintained the pool at a sustainable level of $72 after my extraction. This ensures the pool regenerates to $120 each month, allowing for long-term stability. Extracting $12 again this month will maintain this balance, ensuring fairness and sustainability while maximizing my payoff. There is no reason to deviate from this strategy, as it has proven effective and equitable."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates fully to $120. This strategy has ensured sustainability while providing a fair and predictable payoff of $22 for everyone. Given that there are only two months remaining after this, maintaining this cooperative approach ensures the pool remains stable and avoids any risk of over-extraction that could harm future payoffs. Deviating from this strategy could disrupt the balance and potentially lead to lower payoffs for everyone, including myself.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates fully to $120. This strategy has ensured sustainability and maximized payoffs for everyone. Deviating from this pattern could risk destabilizing the pool, reducing regeneration, and lowering payoffs for all. Since there are only two months left after this, maintaining the current strategy ensures continued stability and fairness.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates to $120 each month. This strategy has ensured sustainability, maximized payoffs for everyone, and avoided any risk of over-extraction. Given that there are only two months remaining after this, maintaining this cooperative strategy is beneficial for long-term stability and fairness. Deviating from this pattern could disrupt the balance, reduce the pool's regeneration, and potentially harm everyone's payoffs.",
+      "The workers have consistently extracted $12 each, leaving $84 for me. Extracting $12 has been a sustainable strategy, ensuring the pool regenerates to $120 every month. This approach maintains stability, avoids over-extraction, and ensures fair payoffs for everyone. With only two months remaining, there is no incentive to disrupt this equilibrium. Extracting $12 again will keep the pool sustainable and maximize long-term payoffs for all."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      22.0,
+      22.0,
+      22.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history of previous months, the workers (including myself) have consistently extracted $12 each, and the boss has extracted $12 as well. This strategy has kept the pool stable at $120, ensuring sustainability and maximizing payoffs for everyone. Deviating from this pattern could risk reducing the pool's value, especially since we are near the end of the year and only have one month remaining. Maintaining the current strategy ensures fairness, stability, and a predictable payoff for all.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool that regenerates to $120. This strategy has ensured sustainability, maximized payoffs, and avoided any risk of depleting the commons. Given that this is the second-to-last month, maintaining this cooperative strategy is important to preserve the pool for the final month. Extracting more than $12 could disrupt this balance, reduce the pool's regeneration, and potentially harm payoffs for everyone. Therefore, I will continue extracting $12 to maintain stability and fairness.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss has then extracted $12, leaving $72 in the pool, which regenerates back to $120. This strategy has proven sustainable, ensuring the pool remains stable while providing consistent payoffs of $22 for everyone. With only one month remaining, there is no incentive to disrupt this equilibrium, as doing so could reduce the pool and harm payoffs for the final month. Maintaining the same extraction level ensures stability and fairness.",
+      "The workers have consistently extracted $12 each over the past few months, leaving $84 for me to decide upon. By extracting $12, I maintain the established pattern of sustainable extractions, ensuring the pool remains above the sustainability threshold of $60. This approach guarantees the pool regenerates to $120 for the final month, maximizing long-term payoffs for everyone. Deviating from this pattern could risk over-extraction, reduce regeneration, and harm collective payoffs in the final month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      12,
+      12,
+      30
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      17.5,
+      17.5,
+      17.5,
+      23.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Based on the history of the previous months, the workers (including myself) have consistently extracted $12 each, leading to a total worker extraction of $36. The boss then extracted $12, leaving $72 in the pool, which regenerated to $120. This strategy has ensured that the pool remains sustainable and stable, and all participants have received equal payoffs of $22. Since this is the final month, there is no need to consider the long-term sustainability of the pool. However, deviating from the established pattern could provoke retaliation from the boss or disrupt the fairness among workers. To maintain fairness and maximize my payoff without risking conflict, I will continue extracting $12, as it has proven to be a balanced and cooperative strategy.",
+      "Over the past months, the workers (including myself) and the boss have established a stable and sustainable pattern of extractions. Each worker has consistently extracted $12, and the boss has matched this with $12, ensuring the pool remains at its maximum value of $120 after regeneration. This strategy has resulted in equal payoffs for all participants and has avoided any sustainability violations. Since this is the final month, there is no need to consider the long-term health of the pool, but deviating from the established pattern could disrupt fairness and potentially provoke retaliation from the boss, who extracts last and observes all worker decisions. To maintain fairness and maximize my payoff, I will continue extracting $12.",
+      "Over the past three months, the workers (including myself) have consistently extracted $12 each, and the boss has followed with $12, leading to a stable pool regeneration back to $120. This strategy has ensured sustainability and maximized payoffs for everyone. Since this is the final month, there is no need to worry about future pool regeneration, but deviating from the established pattern could provoke the boss to extract more or disrupt the balance, potentially reducing my payoff. By extracting $12, I maintain the cooperative equilibrium and ensure a fair payoff for myself.",
+      "This is the final month, so there is no need to consider sustainability or regeneration. My goal is to maximize my payoff for this month. The formula for my payoff is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4.\n\nIf I extract $x, the remaining pool will be $84 - $x. Substituting this into the formula:\n\nPayoff = $x/3 + ($84 - $x)/4.\n\nSimplifying:\nPayoff = $x/3 + $84/4 - $x/4,\nPayoff = $x/3 - $x/4 + $21,\nPayoff = (4$x - 3$x)/12 + $21,\nPayoff = $x/12 + $21.\n\nTo maximize my payoff, I should maximize $x/12. Since $x must be a multiple of 3 and cannot exceed $30, the maximum value of $x is $30. Extracting $30 will give me the highest payoff."
+    ]
+  }
+]

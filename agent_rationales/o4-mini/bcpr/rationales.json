@@ -1,0 +1,602 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      30,
+      12
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      18.0,
+      18.0,
+      25.0,
+      19.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face a 12‐month horizon with no discounting, so preserving the commons matters for all future payoffs. If each of the three workers takes 9 (total 27), then the boss takes 30, leaving 63 in the pool, which doubles back up to 120. This “9 each” strategy is sustainable every month. My payoff this month would be  \n  9/3 + 63/4 = 3 + 15.75 = 18.75,  \nwhich is higher than the payoff from any non‐sustainable over‐harvest (which would shrink the pool and reduce future payoffs) or from extracting less. Maintaining 9 each maximizes my total payoff over the full 12 months.",
+      "We want to keep total extraction (workers + boss) at or below 60 so the pool stays at its cap (120) next month. If each worker takes 9, workers extract 27 total, the boss then takes 30 (max), leaving 63 in the pool, which doubles back to 120. My one‐period payoff is 9/3 + 63/4 = 3 + 15.75 = 18.75, and the pool is fully replenished for month 2.  Taking any larger multiple of 3 risks pushing total extraction above the sustainability threshold if others also nudge up; that would shrink the pool in future months. Therefore I choose the largest multiple of 3 that still guarantees sustainability when others do the same: 9.",
+      "Let x be my extraction and E the sum of the other two workers’ extractions. So total worker‐extraction is S_w = x + E. Since S_w ≤ 90 (because even if E is as big as 60, x≤30 ⇒ S_w≤90), the boss will take a fixed $30, leaving R = 120 − S_w − 30 = 90 − (E + x) in the pool. My payoff this month is  \n\n U(x) = x/3 + R/4  \n   = x/3 + [90 − (E + x)]/4  \n   = x(1/3 − 1/4) + (90 − E)/4  \n   = x(1/12) + constant  \n\nThat coefficient 1/12 > 0, so my payoff rises strictly in x. Hence I maximize my payoff this month by choosing the largest allowed extraction, $30.",
+      "We have a 12‐period game.  In each month three workers always take 48 (9+9+30) and the boss then chooses x≤30.  Any remaining R=Pool–48–x doubles (capped at 120) for the next month.  \n\nIf in any month you pick x≤12, then after the workers’ 48 you leave at least 60 (i.e. 72–12=60), so 2·60=120 next month.  That means as long as you choose x≤12 every month, the pool regenerates fully to 120 each time, and you never run the commons down.  \n\nYour one‐period payoff when you take x is  \n   payoff = x/3 + (72–x)/4 = x/12 + 18,  \nwhich increases in x.  But if you ever take more than 12, the pool next month drops below 120 and starts shrinking until collapse.  \n\nSo for months 1–10 you take the sustainable max of 12.  \nIn the final two months you have no future to protect, so in month 11 you can safely take x=30 (leaving 42 to double to 84≥48) and in month 12 you again take x=30.  \n\nThus in month 1 the optimal extraction is 12."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      18,
+      18,
+      9
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      21.0,
+      21.0,
+      18.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We’re at month 2 with 10 more months to go. To keep the commons alive, total extraction (workers + boss) should be 60 each month so the pool regenerates back to 120. In month 1 the boss took whatever was needed to bring total to 60, and we should expect the same cooperative stance now. If the three workers each take $15, that’s 45 total; the boss can then take $15 to reach 60, leaving 60 in the pool (which doubles back to 120). That way the resource is fully sustained, and each worker gets a current payoff of  \n15/3 + 60/4 = 5 + 15 = 20,  \nwhile preserving full value for all remaining months.",
+      "We’re in a 12‐month repeated game, so preserving the commons maximizes total future payoffs. The sustainability rule is that total extractions (workers + boss) must not exceed \\$60 each month. If the three workers each take \\$18, that’s \\$54 total by workers; the boss will then take just \\$6 to hit the \\$60 threshold, leaving \\$60 in the pool to regenerate back to \\$120.  \n\n• My payoff this month: \\$18/3 + \\$60/4 = \\$6 + \\$15 = \\$21  \n• The pool fully recovers, so every future month we can repeat the same and get \\$21 each.  \n• Any higher extraction risks overshooting the \\$60 total, shrinking the pool and lowering all future payoffs.  \n\nThus extracting \\$18 is the best stable strategy in month 2.",
+      "We want to keep the commons from shrinking while maximizing our own extraction.  The boss will top up (60 – sum of workers) to hit the total‐extraction sustainability threshold of \\$60 and then the pool doubles back to \\$120.  That means as long as the three of us together take no more than \\$60, the commons stays intact and everyone can keep getting future payoffs.  \n   \nA fair split of \\$60 among three workers would be \\$20 each, but we can only withdraw in multiples of \\$3.  The nearest safe withdrawal below \\$20 is \\$18.  At \\$18:  \n • Worker total = \\$54, boss takes \\$6, leaving \\$60 → regenerates to \\$120.  \n • Our payoff = 18/3 + 60/4 = 6 + 15 = \\$21, which is higher than any smaller sustainable take.  \n • Any larger grab (e.g. \\$21) either forces the boss to extract less (and risks over‐drawing if others also defect) or shrinks the pool and damages all future payoffs.  \n\nThus \\$18 maximizes our sustainable extraction this month without endangering the resource for the remaining 10 periods.",
+      "With 69 left after the workers’ extractions, I face a trade‐off between taking more now and preserving the pool for future periods.  If I take more than $9 (i.e. $12 or above), the remaining pool (69−x) falls below 60 and the end‐of‐month regeneration will be less than the full 120.  By contrast, extracting $9 leaves exactly 60, which doubles back to 120 for the next month, preserving the long‐run value.  Within the “leave ≥60” regime my payoff this month is  \n payoff(x)=x/3+(69−x)/4 =17.25 + x/12,  \nwhich is increasing in x up to the 9‐dollar limit.  Thus x=9 both maximizes my current payoff under the full‐regeneration constraint and sustains the resource for the remaining 10 months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      24,
+      21,
+      0
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      20.25,
+      22.25,
+      21.25,
+      14.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to keep the pool from shrinking so that we continue to start each month with \\$120.  To do that, total extraction by all workers must stay ≤ \\$60 so that the boss can fill up to 60 and leave \\$60 to double.  Since each worker must choose a multiple of \\$3, the largest “safe” symmetric extraction is \\$18 per worker (3 × 18 = 54; boss then takes 6 to bring total to 60; \\$60 remains and regenerates to \\$120).  \nBy taking \\$18, I get a payoff of 18/3 + 60/4 = 6 + 15 = \\$21 this month without endangering the pool—and I preserve the same high base for all nine remaining months.",
+      "We want to keep total worker extraction at or below 60 so the boss can trim to a 60‐unit final pool (which then regenerates to 120), preserving the resource for future months. If the other two workers each take 18 (the cooperative level), that’s 36 total; I can safely take up to 24 without pushing the worker total over 60.  \n\n• If I take 18, my payoff this month is 18/3 + 60/4 = 6 + 15 = 21.  \n• If I take 24, my payoff this month is 24/3 + 60/4 = 8 + 15 = 23.  \n\nBy choosing 24, I gain 2 extra payoff this month while still allowing the boss to leave 60 in the pool. This keeps the commons fully sustainable for the remaining 9 months.",
+      "We know the boss will always “top up” so that the final pool after boss‐extraction is 60 whenever the workers’ total is ≤ 60.  That guarantees next month’s pool regrows to 120.  Under that rule, if the other two workers stick to 18 each (as in month 2), their total is 36.  If I take:  \n- 18, worker sum = 54 → boss takes 6 → final pool = 60 → my payoff = 18/3 + 60/4 = 6 + 15 = 21.  \n- 21, worker sum = 57 → boss takes 3 → final pool = 60 → my payoff = 21/3 + 15 = 7 + 15 = 22.  \n\nGoing up to 21 still leaves total worker extraction under 60, preserves the commons, and raises my payoff this month to 22.  Extracting more (e.g. 30) would overshoot 60, shrink next month’s pool, and harm future payoffs, while extracting less gives me a lower current payoff.  Thus the best sustainable move is to extract 21.",
+      "We start with \\$57 and can take up to \\$30. Every dollar I take raises my immediate payoff by only 1/12 of a dollar, but it reduces next month’s starting pool by \\$2 and triggers exponential decline over the remaining 9 months.  Maintaining the pool as high as possible maximizes my total across months 3–12.  A quick calculation shows that taking any positive amount this month reduces my discounted future payoffs by more than the small immediate gain.  Therefore I should extract 0 this month to preserve as much as possible for the remaining 9 months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 114,
+    "extractions": [
+      30,
+      9,
+      18,
+      0
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      24.25,
+      17.25,
+      20.25,
+      14.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face a finite‐horizon commons game where the other two workers have been over‐extracting, driving the pool below the sustainability half‐level.  History suggests they will again take well above the $57$ threshold combined, so the boss will extract $0$ and the pool will shrink.  In that regime my payoff is  \n  Payoff = x/3 + (114 – S_others – x)/4 = 18 + x/12,  \nwhich is strictly increasing in my extraction x.  Even if the others cooperate and keep combined S_others small, my payoff in that case is  \n  Payoff = x/3 + 57/4 = 14.25 + x/3,  \nwhich is also maximized at x=30.  Any lower extraction only reduces my payoff this month (and, given the other workers’ behavior, does almost nothing to preserve the pool for me).  Therefore I should take the maximum $30$ to maximize my payoff.",
+      "This month the sustainability threshold is 57 total (workers + boss). The boss will take 30 as long as the workers leave at least 30 in the pool, so to keep (workers + boss) ≤ 57 the three of us together must extract no more than 27. Splitting that evenly is 9 each. At 9 my payoff is 9/3 + (114–27–30)/4 = 3 + 57/4 = 3 + 14.25 = 17.25 this month, and the pool stays at 114 for next month, so I preserve a high flow of future payoffs.",
+      "This month the pool starts at \\$114 so the sustainability threshold (total extraction by workers + boss) is 57.  If all three workers take 18 each, that’s 54 total; the boss will then take the remaining 3 to hit 57, leaving \\$57 in the pool.  That regenerates back to \\$114 next month.  By each worker taking 18, my payoff today is  \n  18/3 + 57/4 = 6 + 14.25 = \\$20.25  \nand the pool stays healthy for the remaining 8 months.  Any larger personal grab both lowers my present payoff (through a smaller leftover) and shrinks future gains.",
+      "We face a trade‐off between taking dollars now (each $1 extracted gives me an immediate return of 1/12 ≃ $0.0833) and leaving dollars in the pool so they double and then get re-extracted by the workers and by me over the remaining 8 months.  Numerically, if I leave $1, it becomes $2 next month; the workers will typically take about half of that ($1) and I on average capture perhaps 15–25 % of whatever remains.  So every dollar I leave seems to earn me on the order of $0.15–$0.25 in future extraction value, which greatly exceeds the $0.0833 I get by grabbing it today.  With eight months left, that compounding advantage makes it optimal to forgo extraction now and keep the pool as large as possible."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 114,
+    "extractions": [
+      18,
+      21,
+      18,
+      0
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      20.25,
+      21.25,
+      20.25,
+      14.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The sustainability threshold is 57 total from all three workers. To keep the pool from shrinking, each worker should take about one‐third of 57, i.e. 19. Since I can only choose multiples of 3, 18 is the closest. If all three workers take 18 (total 54), then:  \n- Pool before boss = 114 – 54 = 60  \n- Boss will extract 60 – 57 = 3 (to restore the pool to the sustainability threshold of 57)  \n- Final pool = 57 × 2 = 114  \nMy payoff = 18/3 + 114/4 = 6 + 28.5 = 34.5, and the pool stays stable for future months.",
+      "We need to keep total worker‐extraction at or below 57 so that after boss extraction the pool ends up at 57 and regenerates back to 114 next month.  If I expect the other two workers each to take 18 (O=36), then the highest I can take without pushing us past 57 is  \n   x + 36 ≤ 57   ⇒   x ≤ 21.  \nBy taking x=21 I maximize my extraction this round while still guaranteeing R=114−(36+21)=57, boss takes 0, final pool 57 → regenerates to 114.  That preserves the commons for month 6–12 and gives me the highest safe extraction today.",
+      "We want to keep total worker extraction at or below 57 so that the boss will leave the pool at 57 (which then regenerates to 114) rather than let it shrink.  If all three of us extract 18 (total 54), the boss will top up 3 to reach 57, preserving the commons.  By choosing 18, my immediate payoff is 18/3 + 57/4 = 6 + 14.25 = 20.25, and I help ensure a healthy pool for the remaining 7 months.  Extracting more risks triggering punishments or depleting the pool; extracting less yields a lower immediate payoff without improving long‐run outcomes.",
+      "If I take x dollars now, my immediate payoff this month is x/3 + (57 – x)/4 =14.25 + x/12.  But taking x also reduces next month’s starting pool from 114 to 114 – 2x, which (if I then extract zero in future to sustain the commons) yields a steady boss payoff of (114 – 2x)/8 per future month.  Over the remaining 7 months that is 7·(114 – 2x)/8 =99.75 –1.75x.  Adding the immediate payoff gives total =114 –1.6667x, which is maximized at x=0.  By extracting 0 I preserve the resource and maximize my long‐run payoff."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 114,
+    "extractions": [
+      18,
+      18,
+      21,
+      0
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      20.25,
+      20.25,
+      21.25,
+      14.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the commons from shrinking and protect payoffs over the remaining six months, the three workers together should extract exactly 57 (114 – 57 = 57 remains, which then doubles back to 114). Historically the other two workers have extracted around 18 each. If they again take 18 + 18 = 36, then my extraction should be 57 – 36 = 21. However, they have sometimes varied (e.g. one took 30, the other 9), so aiming for the median sustainable level (18) is a safer cooperative signal.  \n\nIf I extract $18, and the others again split the remainder cooperatively (total = 57), the pool stays at 114 each month, and my payoff is  \n18/3 + 57/4 = 6 + 14.25 = 20.25.  \nThis sustains the resource over all six remaining rounds.",
+      "We’re at month 6 with six rounds left.  To keep the pool at its maximum (120) we need total worker extraction this round ≤57 and in fact <57 so the post‐worker remainder ≥60 (60×2→120).  The only symmetric split in multiples of 3 under 57 is each worker taking 18 (3×18=54), leaving 60 to regenerate to 120.  That maximizes our total future payoff stream.  Any higher extraction today (e.g. 21) would shrink the pool to 114 and erode future payoffs, and there’s no credible punishment from the boss to offset that loss.  Hence the best sustainable choice is 18.",
+      "We want to keep total worker extraction at the sustainable threshold of \\$57 so the pool remains at \\$57 before the boss (who so far has chosen 0 extraction) and then regenerates back to \\$114. 57∕3=19 would be an equal “per‐person” split, but I must pick a multiple of 3. In the last two rounds I was on the low side (I took \\$18 twice), and in round 3 I took \\$21.  To keep things fair over time and still hit exactly \\$57 total, I should take \\$21 this round while the other two each take \\$18.  That way the pool stays stable and I get my fair share.",
+      "After the workers leave $57 in the pool, any extraction x gives me an immediate gain of x/3 but reduces the remaining pool by x. That leftover doubles for the next month (2×(57–x)), so each dollar I take today costs me 2 dollars of future pool value.  My immediate marginal return is 1/3 from extraction, but I forfeit 2×1/4=½ in next‐month payoff for each dollar I take.  Since months 7–12 still remain, the future loss outweighs the small current gain.  By waiting and extracting nothing now, I preserve the pool at 57, it regenerates to 114, and I can harvest more later when fewer periods remain."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 114,
+    "extractions": [
+      18,
+      18,
+      18,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      21.0,
+      21.0,
+      21.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to keep the total extraction at or below the sustainability threshold of \\$57 so that the pool regenerates back to \\$114 next month.  In every round so far two of the workers have been taking \\$18 each, and only one worker takes a slightly higher amount (either \\$21 or \\$30) before the boss steps in when there’s an overshoot.  By choosing \\$18 I play the “medium” amount that both preserves the commons and matches the pattern that the other two workers are most likely to follow.  If everyone sticks to 18/18/21 or 18/18/18, total worker extraction will stay at \\$57 or below, the boss won’t take anything, and I lock in a guaranteed payoff of 18/3 + 57/4 = 20.25 this round plus full pool regeneration for future rounds.",
+      "To keep the pool from shrinking we must hold total worker‐extraction at 57.  At 114 start, leaving 57 means the boss won’t take anything (history shows boss takes 0 when workers hit 57) and the pool regenerates to 114.  My payoff if I take 18 will be 18/3 + 57/4 = 6 + 14.25 = 20.25, which is good.  Extracting more risks over‐harvesting or losing to the boss, and extracting less forfeits value I could safely take while staying sustainable.  So I extract 18.",
+      "• The group has been perfectly hitting the sustainability threshold (57) each month 4–6, keeping the pool at 114 and earning each worker a stable payoff of 18/3 + 57/4 = 20.25.  \n• If I pull more than 18 while others stay at 18, total extraction could exceed the threshold, risking pool shrinkage and lower future payoffs (and possibly provoking boss extraction).  \n• By taking 18, I align with the other workers, maintain the commons at 114, and secure an assured payoff of 20.25 this month and continued high payoffs in the remaining five months.",
+      "If I take anything above 0 this month, the end‐of‐month pool (60–x) will be less than 60 and will regenerate below the maximum 120.  \n- If I take 3 now, I get a small immediate gain (15.25 vs. 15) but the pool regenerates only to 114, locking me into extracting just 3 per future round (5 more months) for a total payoff of 91.5 over months 7–12.  \n- If I take 0 now, the pool regenerates to the full 120, and in each of the remaining 5 months I can safely take 6 (without risking a collapse) for a per‐month payoff of 17, yielding a total of 100 over months 7–12.  \nThus abstaining now maximizes my long-run return."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      24,
+      24,
+      18,
+      0
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      21.5,
+      21.5,
+      19.5,
+      13.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To maximize my own payoff this month while still keeping total worker extraction at the sustainability threshold (60), I assume the other two workers each take \\$18 (as they have done consistently). That sums to 36, so I can take up to 60 – 36 = \\$24 without triggering the boss to extract.  \nIf I take \\$24, then  \n• Total W = 18+18+24 = 60 ≤ threshold → boss takes 0  \n• Remaining pool = 120 – 60 = 60 → regenerates to 120  \n• My payoff = 24/3 + 60/4 = 8 + 15 = 23, which is higher than what I’d get by taking 18 or 21.  \nThus \\$24 is my best response under these assumptions.",
+      "We want to balance getting as much now against keeping total worker extraction ≤ 60 so the pool regenerates to its full $120. Last round all workers took $18 each (total 54), boss extracted $0, and the pool refilled. If I take $24 while the other two stick to $18 each, total = 24+18+18 = 60, boss again likely takes $0, the pool ends month at $60 and regrows to $120, and my payoff = 24/3 + 60/4 = 8 + 15 = 23. That is higher than the $21 I’d get by taking only $18, and it preserves the commons for the remaining 4 rounds. Extracting more (e.g. $27) risks exceeding the 60‐dollar sustainable bound if others don’t cut back, shrinking the pool and lowering my future payoff.",
+      "The group has been sustaining the pool at or near full capacity by each worker taking \\$18 (total 54) so that after boss extraction the pool regrows to \\$120. If I deviate upward I can boost my one‐shot payoff slightly, but that risks overshooting the 60 threshold, shrinking the pool, inviting boss extraction, and undermining future payoffs. By taking \\$18 I help keep the pool at its maximum, securing both a good immediate return (18/3 + 66/4 = 22.5) and full regeneration for the remaining rounds.",
+      "Given the pool is already down to \\$54 before my move, any dollar I take not only gives me only \\$1/12 in immediate payoff but also shrinks the next month’s regeneration by \\$2.  Since each dollar I remove costs me 0.50 in next‐month payoff (2×\\$1/4) but only gains me \\$0.0833 now, the dynamic loss far outweighs the immediate gain.  By taking nothing, I maximize both this month’s payoff and preserve as large a base as possible for future months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 108,
+    "extractions": [
+      18,
+      18,
+      30,
+      0
+    ],
+    "final_pool": 42,
+    "payoffs": [
+      16.5,
+      16.5,
+      20.5,
+      10.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We’re at 108 in the pool and the sustainability threshold is a total of 54. If all three workers each take 18 (18 + 18 + 18 = 54), that leaves 54 for the boss, who so far has cooperated by taking $0, and regenerates back up to 108→216→capped at 120 at the start of the next round.  By sticking at 18 we get\n • this‐month payoff = 18/3 + 54/4 = 6 + 13.5 = 19.5 \n • high pools in the next three rounds that can each yield ~19–21 for us, for a total well above what short‐lived overharvest will bring.  \nDefecting now only shrinks future rounds and invites others (and eventually the boss) to grab more, destroying the commons.  To maximize our total across the three remaining months, we keep total worker extraction at the sustainable 54.",
+      "• The sustainability threshold is 54 for all three workers, which implies an equal‐share sustainable extraction of 18 each.  \n• If all three workers take 18, the pool after workers is 108 – 54 = 54, and the boss (who also gains more over time by leaving the pool intact) will leave it at 54.  \n• My payoff if I take 18 will be 18/3 + (54)/4 = 6 + 13.5 = 19.5, and the pool regenerates to 108 next month, preserving high future payoffs for the remaining rounds.  \n• Taking more this round (e.g. 24 or 30) yields a slightly higher immediate payoff only if others stick to 18, but it would shrink the pool and drastically reduce payoffs in the last three months, resulting in a lower cumulative return.  \n• By taking the sustainable share (18), I maximize my total expected payoff over the remaining horizon and help stabilize the commons.",
+      "Each dollar I take gives me $1/3 immediately but reduces the end‐of‐round pool by $1, which costs me $1/4 – so my immediate net gain is +1/12 per dollar I take.  Even though taking more shrinks future pools, in the last three rounds every future choice by every worker will also be driven by that same +1/12 margin (so they will all take the maximum, causing the boss to take \\$30 each round and leave little to regrow).  Thus there is no credible restraint by others or the boss, and my best response in month 9 – as in every remaining month – is to extract the maximum \\$30.",
+      "Taking any amount today reduces the remaining pool and thus future regeneration by twice that loss, which sharply cuts my payoffs over the next three rounds.  My marginal gain today is only $1/12 per dollar extracted, but each dollar I remove now costs me roughly $0.25 in next‐round payoff (and even more cumulatively).  By leaving the entire $42 in the pool, I maximize the doubled regeneration and secure higher payoffs in months 10–12."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 84,
+    "extractions": [
+      30,
+      30,
+      6,
+      18
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      2.0,
+      6.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "My payoff each month is  \n U(x) = x/3 + (remaining pool)/4  \nand “remaining pool” = 84 – (sum of all three workers’ extractions) – boss‐extraction.  Historically the boss has taken $0 provided the pool isn’t driven below half, so I can expect boss extraction ≈0 again.  Given the other two workers will almost certainly each grab well over $15 (we’ve seen sums of 66 in months 8 and 9), my marginal gain from raising my own extraction is always positive: each extra dollar I grab yields +1/3 for me but only costs 1/4 of a dollar in pool reduction, for a net +1/12 per dollar.  With only two rounds left, there’s little incentive to conserve for the future.  Hence my best response this month is to take the maximum $30.",
+      "We’re in month 10 of 12, with only two more rounds after this one.  In a finite‐horizon commons game with no credible enforcement, standard backward induction predicts that all players will “race to the exit” and grab as much as they can in each remaining round.  Even though full cooperation would let the pool bounce back, by month 12 everyone will harvest aggressively anyway, so holding back now only invites free‐riding by others and leaves you with less.  To maximize your total payoff over the last three months, you should therefore extract the maximum allowable amount today.",
+      "We have three months left (this month 10 plus months 11–12), and our payoff each month is  \n    extraction⁄3 + (remainder)⁄4.  \n\nTo maximize our total over the remaining three periods, we should sacrifice a little extraction today to restore the pool fully for month 11, so that in months 11 and 12 we can again extract high payoffs.  \n\n• If the other two workers together take about \\$16 (their recent average), then to cap next month’s pool back at \\$120 we must keep total worker take ≤\\$24.  \n• That means our take x must satisfy x + 16 ≤ 24 ⇒ x ≤ 8.  \n• Among the multiples of 3 ≤ 8, x = 6 is best: it still gives us a decent immediate payoff but fully regenerates to \\$120 for month 11, unlocking high payoffs in months 11 and 12.  \n\nA quick check of the numbers:  \n– If x = 6, this month’s payoff ≈ 6⁄3 + (84–(6+16))⁄4 = 2 + 62⁄4 = 17.5, and the pool regrows to 120.  \n– Then in month 11 we can sustainably take up to 60 total, and in month 12 we’ll each again take 30 with zero remainder.  \n– Summing up all three months beats the alternatives (e.g. taking 9 or 12 today).",
+      "The only way to get any payoff after this month is if there’s leftover in month 11 for the boss to extract or to carry into month 12, but with any L≤36 at the start of month 11, the three workers (30+30+30 max) will exhaust the entire pool before the boss ever moves.  Since even if I leave the full 18, month 11’s pool regenerates to 36, which the workers will fully deplete, I get zero in both remaining months regardless of how much I leave.  Therefore I should maximize my payoff right now by taking the full 18."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      9,
+      9,
+      12
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      18.0,
+      18.0,
+      19.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "With 12 months total and no binding agreement, standard backward‐induction in finite‐horizon commons games predicts defection in the last period (everyone takes 30), which then unravels back to month 1.  Anticipating that future defection yields no long‐run reward for restraint, my best response each month is to extract the maximum $30.",
+      "If all three workers each take \\$9 (27 total) and the boss then takes her full \\$30, total extraction is \\$57, leaving \\$63 in the pool.  After doubling (up to the \\$120 cap), the pool is fully replenished for next month.  This keeps the commons at its maximum value every period, securing steady future returns.  At \\$9, my payoff this month is  \n9/3 + 63/4 = 3 + 15.75 = \\$18.75,  \nand because the pool stays at \\$120 I can expect the same payoff in every one of the remaining 11 months.  \n\nIf I were to defect and take more—say \\$12—my one‐period payoff would rise slightly, but only defection up to exactly \\$12 by one worker is “safe” without harming next month’s pool.  Any larger defection or multiple defectors would shrink the commons, reducing future payoffs.  To ensure maximum sustainable value over all 12 months, I choose the cooperative extraction of \\$9.",
+      "To keep the commons at its full $120 each month (so that after the boss takes $30 and the remainder doubles back up to $120), total extraction by all four agents must not exceed $60.  Since the boss will always strip off the maximum $30 if it’s available, the three workers together can only safely take up to $30 among them each month.  Dividing that evenly gives $10 per worker – but because I’m constrained to multiples of 3, the largest sustainable pick below $10 is $9.  At $9:  \n- My private take is $9/3 = $3  \n- The pool leftover after the boss’s $30 is $(120 − 3×9 = 93) − 30 = 63$, which doubles to the full $120 for next month, so my share of that is $63/4 = $15.75  \n- My total payoff is $3 + 15.75 = $18.75, while preserving the maximum future value for everyone.",
+      "After the three workers take 48, there is 72 left.  Any extraction x ≤12 leaves at least 60, which doubles to the full $120 next month (no regeneration loss), while each extra dollar I take raises my current payoff by only 1/12 (=0.0833) but starts to shave off future value once x>12.  Up to x=12 I gain without hurting future rounds; beyond 12 I incur a larger future‐value loss than my immediate gain.  Therefore the optimal sustainable pick is 12."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      21,
+      21,
+      3
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      22.0,
+      22.0,
+      16.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to maximize our total payoff over the remaining 11 months, not just this one.  If total extraction stays at 60 (workers + boss) each month, the pool will regenerate back to \\$120 every turn, preserving full future value.  A fair split of the workers’ portion of 60 is 45 (workers) vs. 15 (boss).  Dividing 45 equally among the three workers gives each worker \\$15 extraction.  \n‐ If each of us takes \\$15, then boss will extract the remaining \\$15 (≤\\$30 cap), leaving \\$60 in the pool, which doubles back to \\$120.  \n‐ Our per‐period payoff: 15/3 + 60/4 = 5 + 15 = 20.  \nThis steady state of \\$20 per month for 11 more months (plus today) yields the highest sustainable average.",
+      "We saw last month the other two workers took 30 and 9 (total 39) and the boss then took exactly enough (12) to hit the 60‐dollar sustainability threshold, leaving the pool at 60 which doubled back to 120.  If I take x this month and the others again take 39, then as long as 39 + x ≤ 60 the boss will fill to 60 and the final pool will be 60 (doubling to 120).  My payoff this month would be x/3 + 15, which is increasing in x up to the point 39 + x = 60 ⇒ x = 21.  Any x>21 gives me a tiny extra immediate gain but shrinks the pool (hurting ten more future payoffs).  By choosing x=21 I maximize my current return within the sustainable region and keep the pool at 120 for all remaining months.",
+      "We know that if the three workers together extract more than \\$60, the commons will shrink next month. Last month Worker 1 took \\$30 and Worker 2 took \\$9, for a subtotal of \\$39. If they repeat that pattern this month (39 total), then I can take up to \\$60–39 = \\$21 without exceeding the \\$60 sustainability threshold.  \n\nBy taking \\$21  \n • I maximize my current payoff subject to keeping the pool from shrinking (payoff = 21/3 + 60/4 = 7 + 15 = \\$22).  \n • I leave the commons in a sustainable state so it regenerates to \\$120 for month 3.  \n\nExtracting any more risks collapsing the commons; extracting any less sacrifices both my current gain and the future full-regeneration benefit.",
+      "This month the three workers have already taken 15 + 21 + 21 = 57, leaving 63 in the pool.  To sustain full regeneration (double back up to 120 next month) total extraction must not exceed half the starting pool (60).  That means I can safely extract at most 3 now (57 + 3=60) if I want to keep the resource at 120 going forward.  Extracting more would shrink the pool and reduce my future payoffs.  By taking 3 I earn 3/3 + (63–3)/4 = 1 + 15 = 16 this month and preserve the full 120 for each of the remaining 10 months, maximizing my cumulative return."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      21,
+      24,
+      21,
+      30
+    ],
+    "final_pool": 24,
+    "payoffs": [
+      13.0,
+      14.0,
+      13.0,
+      16.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We have 9 more rounds after this one, and if the three workers together extract more than \\$60 in any round the commons will shrink permanently, lowering everyone’s future payoffs.  On the other hand, if total worker extraction is exactly \\$60, the boss will leave the final pool at \\$60 (regenerating back to \\$120), and each worker’s best‐share is 1/3 of \\$60, i.e. \\$20.  Extracting \\$20 gives us an immediate payoff of  \n– extraction component: \\$20/3 ≈ \\$6.67  \n– share of the \\$60 left in the pool: \\$60/4 = \\$15  \nfor a total of about \\$21.67 this round, while keeping the commons fully replenished for all 9 future rounds.  Any higher take risks pushing total extraction over \\$60, shrinking the commons and reducing our future payoffs; taking less just leaves money on the table.",
+      "We know the boss will “top up” so that total extraction (workers + boss) equals 60, leaving 60 in the pool every month.  With that steady‐state pool of 60, my payoff is  \n my take⁄3 + 60⁄4 = x⁄3 + 15.  \nTo stay sustainable, the three workers’ total must be ≤ 60; in fact if it exactly equals 60, the boss extracts 0 and the pool remains at 60.  From last month we expect Worker 1 to take 15 and Worker 2 to take 21 (total 36).  I can therefore take up to 60 − 36 = 24 without threatening sustainability.  Taking 24 maximizes my payoff this month (24⁄3 + 15 = 8 + 15 = 23) versus taking only 21 (21⁄3 + 15 = 22).",
+      "We know that if the three workers together take more than \\$60, the pool will shrink next month.  So far in Month 1 the three of us took 48, in Month 2 we took 57 (so boss could top up to keep the pool at 60).  The trend is clearly toward a total of 60.  If I stick with \\$21 and the other two take roughly what they did in Month 2 or inch up (say 18 and 21), our sum will be at or below 60 and the pool will regenerate to 120.  \nTaking 24 could push us over the \\$60 threshold if Worker 1 increases again from 15 to 18, but keeping my extraction at \\$21 is a safe, best‐response level—maximizing my immediate gain (21/3 + 15 = 22) without risking a collapse.",
+      "At this point in a finite 12‐month game with only 9 months left, workers have shown no restraint—each month they push the total extraction up (48→57→66). No matter what I leave, they will drain the pool as soon as they can. My month‐3 payoff is  \n  b/3 + (54−b)/4  \nwhich rises in b (marginal benefit =1/12 per extra dollar). Any reduction in my take only feeds more into the pool for them to plunder next month, yielding me almost zero future return. Thus I maximize immediate payoff by taking the full allowable extraction of $30."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 48,
+    "extractions": [
+      30,
+      30,
+      6,
+      0
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      2.0,
+      0.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "With the pool at \\$48 and a “sustainability threshold” of \\$24 total extraction, if the three workers together take more than \\$24 the boss will sweep out whatever is left (punishing overshoot) and the pool ends at zero. Given the past three months we’ve seen the other two workers collectively over‐extract (they have never cooperated to exactly hit the threshold), it is very likely again that their combined take will push us past the \\$24 mark. In that case the boss leaves nothing for regeneration, and our payoff reduces to x/3 (since the remainder is zero). To maximize x/3, we should take the largest x allowed. That is \\$30, yielding us 30/3 = \\$10 this month.",
+      "At a start‐of‐month pool of \\$48 the group can only sustain total worker extraction of at most \\$24 (the pool’s half) if we want the boss to leave the pool at 24 so it doubles back to 48 next month.  But workers must choose in multiples of 3, so if I extract less than 24 total among three of us, someone has to “leave slack” – and historically the other two workers have been over‐extracting.  If the three of us exceed \\$24 combined, the boss will drain whatever is left (up to his 30‐dollar cap), collapsing the pool to \\$0 and eliminating all future payoffs.  \n\nFacing the high risk that the other two will again over‐extract (as they did months 2 and 3), the pool is unlikely to survive even if I cooperate.  In that event my future value is zero and my only payoff comes today.  My payoff this month is x/3 plus whatever remains after the boss (which will be zero if they overdraw), so I maximize my certain immediate return by taking the full \\$30.",
+      "With 8 months still to go and only \\$48 in the commons, we need to keep total worker extractions at or below the sustainability threshold of \\$24 so that the boss will only “fill the gap” (rather than punish) and leave the pool at \\$24, which then regenerates to \\$48.  If every worker takes \\$6, the three of us sum to \\$18 (<\\$24), the boss will extract the remaining \\$6 to hit exactly \\$24 of total extraction, leaving \\$24 in the pool.  That regenerates to \\$48 for next month.  My immediate payoff if I take \\$6 is:\n\n  \\$6/3 + \\$24/4 = 2 + 6 = \\$8,\n\nand it preserves the commons for future months.  Extracting more risks pushing us over the threshold, triggering a boss punishment that collapses the pool.",
+      "All $48 has already been taken by the workers, leaving $0 for me. Since I cannot extract more than what remains, I must extract $0 this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      30
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      18.75,
+      18.75,
+      18.75,
+      25.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool at its maximum of \\$120 each month, total extraction by all agents must be ≤ \\$60. Since the boss will always take the full \\$30 (if available), the three workers together must take no more than \\$30. If each worker takes \\$9, the workers’ total is \\$27; plus the boss’s \\$30 that leaves \\$63 in the pool, which doubles back up to \\$120.  \n– My immediate payoff: 9/3 + 63/4 = 3 + 15.75 = 18.75.  \n– The pool remains fully replenished for all future months, securing high future payoffs.  \nTaking \\$12 (while the others take \\$9) would yield a slight one‐period gain (19 vs. 18.75) and still sustain the pool, but it risks undermining cooperation (others might retaliate) in this 12-month game. Extracting \\$9 balances a strong payoff today with preserving the commons for the long run.",
+      "We need to keep total worker extraction at most 30 so that after the boss takes his 30 the pool never falls below 60 and it can double back to 120 each month. If all three of us take \\$9 each, that’s \\$27 from the workers, plus the boss’s \\$30, leaving \\$63 in the pool. It then doubles (capped at 120) so we preserve the resource for all 12 months. Extracting \\$9 also gives me \\$9/3 + \\$63/4 = \\$3 + \\$15.75 = \\$18.75 this month, which balances my own payoff against the need for sustainability.",
+      "We want to keep the commons from shrinking so that future payoffs remain high.  The pool only stays at \\$120 if total extraction (workers + boss) ≤ \\$60.  Since the boss always takes up to \\$30, the three workers together must extract at most \\$30.  Splitting that evenly yields \\$30/3 = \\$10 each—but we must choose a multiple of \\$3, so the closest fair‐share extraction is \\$9.  \nIf all three of us take \\$9, then workers take \\$27, boss takes \\$30 (total \\$57 ≤ \\$60), and at month’s end the pool doubles back up to its \\$120 cap.  This preserves the commons at full size for all 12 months, giving each of us a steady monthly payoff of  \n9/3 + (120−27−30)/4 = 3 + 15.75 = 18.75,  \nwhich is far higher in total than defecting early and collapsing the pool.",
+      "The boss’s marginal gain from extracting is 1/3 of each dollar, while leaving it in the pool yields only 1/4 of each dollar to the boss (because of the division by 4).  So every dollar I take adds more to my payoff than a dollar left behind.  Since the workers have only taken $27, there are $93 left; even if I take the full $30, I leave $63, which doubles (up to the $120 cap) to replenish the pool completely for next month.  Therefore I maximize both this month’s payoff and keep the pool at full capacity next month by extracting the maximum of $30."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      30
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      18.75,
+      18.75,
+      18.75,
+      25.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We need to keep total extraction (workers + boss) ≤ 60 each month to regenerate back to \\$120. Since the boss will always take his full \\$30 (he maximizes b/3 + remaining/4), the three of us workers must together extract at most \\$30. In Month 1 we each took \\$9 (total \\$27), which was under the \\$30 worker‐limit and left the pool at \\$63 for doubling. Sticking with \\$9 keeps our group extraction at \\$27, which maintains full regeneration every month. While I could grab a bit more this turn, doing so risks pushing us over the sustainable limit if the others also inch up, undermining the resource for the remaining 10 rounds. By choosing \\$9 I preserve the commons and lock in a steady payoff of 18.75 each month going forward.",
+      "In month 1 all three workers took \\$9 each, leaving enough in the pool so that after the boss’s \\$30 take the commons regenerated back to \\$120.  That full‐regen outcome (total extraction ≤60) is the sustainability target each month.  If I defect and take more than \\$9 (e.g. \\$12) while the others stick at \\$9, then the commons just barely regenerates this period—but inviting future over­takes will erode the pot and lower everyone’s payoffs over the remaining ten months.  By matching the cooperative extraction of \\$9, I help ensure the pool stays at \\$120 each month and secure a higher average payoff over the full game.",
+      "To keep the commons alive for all 12 months, the three of us need to jointly extract at most \\$30 (so that after the boss takes \\$30, there’s at least \\$60 left to regenerate back to \\$120). Splitting that fairly gives each worker roughly \\$10, but since I must choose a multiple of \\$3 the closest sustainable extraction is \\$9. Last month all three of us took \\$9 and the pool fully recovered; repeating that keeps everyone’s payoff high and preserves the resource.",
+      "After the three workers have taken 9 each (total 27), 93 remains. I can extract up to 30 without pushing total extraction above 60, so the pool will regenerate fully to 120 for next month. My payoff is (x/3) + ((93–x)/4), which increases in x (marginal benefit of $0.083 per extra dollar). Taking the full 30 maximizes my current payoff (25.75) while preserving the resource for future months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      9,
+      12,
+      27
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      19.0,
+      18.0,
+      19.0,
+      24.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Each month the boss’s payoff from extracting y is y/3 + (remaining)/4, so the boss always takes the full 30.  If the three workers together take W, the pool left after the boss is 120 – W – 30 = 90 – W, which then doubles up to 120 if and only if 90 – W ≥ 60, i.e. W ≤ 30.  With the other two workers sticking at 9 each, we have W = 9 + 9 + x = 18 + x ≤ 30 ⇒ x ≤ 12.  \n\nYour monthly payoff is x/3 + (post-boss pool)/4 = x/3 + (90 – (18 + x))/4 = 18 + x/12, which is strictly increasing in x, subject to x ≤ 12 to keep the resource from shrinking.  Thus the best sustainable choice is x = 12.",
+      "All three workers choosing $9 has so far sustained the commons at \\$120 each month (after boss extraction and regeneration) and delivered each worker \\$18.75.  If I alone cut back (to \\$6), I actually earn less in the short run (18.50) if the others stay at \\$9; if I raise my take, I get a one‐shot bump but wreck the pool (it drops below full regeneration) and harm my long‐run payoffs over the remaining nine months.  Sticking with \\$9 preserves the current equilibrium, keeps the pool at full capacity, and maximizes my total payoff over the remaining horizon.",
+      "The other two workers have been taking \\$9 each, and the boss then takes \\$30, leaving \\$60 which regenerates back to \\$120. If I take up to \\$12, total extraction is \\$12 + \\$9 + \\$9 + \\$30 = \\$60, exactly the sustainability threshold. That leaves \\$60, which doubles back to \\$120, so the pool stays healthy. My payoff at \\$12 is 12/3 + 60/4 = 4 + 15 = \\$19, which is higher than the \\$18.75 I get by taking only \\$9. By taking \\$12 each month without exceeding the sustainability limit, I secure a consistent \\$19 per month over the remaining periods while keeping the pool intact.",
+      "After the workers take 12+9+12=33, I face a pool of 87.  If I take 27, I leave 60, which doubles to the full 120 next month and thereafter I can again safely take 27 each month.  My payoff this month would be 27/3 + 60/4 = 9 + 15 = 24, and I secure the full regeneration of the commons for all 9 remaining months.  \nIf instead I take 30, I leave 57, which only regenerates to 114, and over the remaining 9 months that lost capital will never fully recover, costing me more in future payoff than the 0.25 I gain today by over-harvesting.  Thus the best long‐run self‐interested move is to take 27 now."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      15,
+      12,
+      3
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      20.0,
+      19.0,
+      16.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "With two other workers historically taking 9 each (total 18), I face W = 18 + x.  \n• If W ≤ 30, the boss will still take 30 and leave R = 90 − W; my payoff is x/3 + (90 − W)/4 = x/3 + (90 − 18 − x)/4 = (1/12)x + constant, which is increasing in x.  \n• If 30 < W ≤ 60, the boss will leave exactly R = 60; then my payoff is x/3 + 60/4 = x/3 + 15, again strictly increasing in x until W hits 60.  \nI am capped at x = 30. And since 30 + 9 + 9 = 48 ≤ 60, the pool remains sustainable (boss leaves R = 60, it regenerates to 120).  \nSo extracting the full 30 maximizes my payoff without collapsing the resource this month.",
+      "We’re in month 4 of a 12‐month repeated commons game, so future months still matter.  To keep the pool from shrinking, total extractions (workers + boss) must be ≤ 60.  The boss enforces this by taking “up to \\$30” but never letting final pool fall below \\$60.  Worker payoffs each month are  \n x_i/3 + (final pool)/4.  \n\nIf all three workers take x each, boss takes min(30, 60–3x), leaving \\$60 every month and regenerating to \\$120.  The symmetric, sustainable worker extraction that maximizes each worker’s payoff is x=15:  \n payoff = 15/3 + 60/4 = 5 + 15 = \\$20.  \n\nThat dominates the lower payoffs at x=9 or 12 and still preserves the commons for the remaining 8 months.  Deviating higher (e.g. to 30) would earn more today but risks others retaliating and endangering the pool, reducing long‐run returns.  Thus I choose the sustainable, Pareto‐optimal level of \\$15.",
+      "We know that to keep the pool from shrinking we need total extraction (workers + boss) ≤ 60.  Since the boss always takes up to 30, the three of us must together take at most 30 (so that boss 30 + workers 30 =60) or in some cases up to 33 if boss takes less than his full 30.  Last month Worker 1 took 12 and Worker 2 took 9 (sum =21), which forced the boss down to 27 so that total extraction stayed at 60 and the pool regenerated to 120.  \n\nIf I also take 12, then workers’ sum =21 +12 =33 ⇒ boss will take 27 ⇒ total =33+27 =60 ⇒ pool stays at 60 and next‐month regen is back to 120.  My payoff this month would be 12/3 + 60/4 =4 +15 =19, which is higher than staying at 9 (18.75) or over‐harvesting (which would shrink the pool).  Extracting 12 is thus the largest extraction I can take without damaging next month’s resource.",
+      "So far this month the workers have taken a total of \\$57, leaving \\$63 for me.  If I want the pool remaining after my take to be at least \\$60, it must be that I take no more than \\$3 (63−3=60).  Keeping the post‐boss pool at \\$60 means it will fully regenerate back to \\$120 next month, preserving our long‐run payoffs.  Any larger extraction would push the remaining pool below \\$60, causing under‐regeneration and shrinking future payoffs for everyone (including me).  Therefore I take \\$3."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      15,
+      21,
+      30
+    ],
+    "final_pool": 24,
+    "payoffs": [
+      16.0,
+      11.0,
+      13.0,
+      16.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We know the boss will always top‐up or down to leave exactly \\$60 in the pool (so it regenerates fully to \\$120) as long as workers’ total extraction ≤\\$60.  If I choose x and the other two each choose about \\$12 (their recent pattern), then workers’ total = x+24 ≤60 for any x≤36, so the boss will set the post‐boss pool to \\$60 and we regenerate to \\$120.  My immediate payoff is  \n x/3 + 60/4 = x/3 + 15,  \nwhich is strictly increasing in x.  Thus, assuming the other workers remain around \\$12, I maximize my payoff by taking the full \\$30.  \n\nEven though if all three workers go to \\$30 it would break the commons, my best response to moderate co‐players (and given the boss’s stabilizing extraction) is x=30.",
+      "To maximize my payoff this month while keeping the pool stable, I want the three workers’ total extraction to hit exactly 60.  If the workers take 60 in total, the boss will extract 0 (because he enforces W+B=60) and the remaining pool is 60, which then regenerates back to 120 for next month.  From last month’s play we expect Worker 1 to stick at 30 and Worker 2 around 15.  So by taking 15 myself I reach 30+15+15=60, get the highest personal extraction without ever pushing the total past the 60‐point sustainability threshold, and secure a remaining pool of 60 for the future.",
+      "We want to keep total worker extraction at the sustainable threshold of \\$60 so that the pool never shrinks and regenerates each month to its full \\$120—this preserves value for all seven remaining months.  Splitting the \\$60 evenly among the three workers means extracting \\$20 each.  At \\$20, my payoff this month will be  \n  • immediate extraction payoff = \\$20/3 ≃ \\$6.67  \n  • my share of the end‐of‐boss–extraction pool = \\$60/4 = \\$15  \n  ⇒ total ≃ \\$21.67, which is substantially higher than the short‐term gain from over‐extraction (which would shrink the pool in future rounds) or from under‐extraction (where the boss would simply take more, leaving me worse off).",
+      "In every month so far I’ve taken the largest extraction I can without driving total (workers + boss) extraction above the 60­-point sustainability threshold.  When that cap is positive, I take that cap (up to my 30-max).  When that cap is negative—i.e. the workers have already overdrawn past the sustainable 60 threshold—no sustainable extraction is possible, so I revert to taking my full allowable share to maximize my immediate payoff.  \n\nThis month the workers have already taken 66, so the sustainable boss‐extraction cap is 60 − 66 = −6 (i.e. I can’t rescue sustainability no matter what I do).  Thus I take the full 30 to maximize my return."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 48,
+    "extractions": [
+      30,
+      3,
+      30,
+      0
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      1.0,
+      10.0,
+      0.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "The boss’s rule is to restore whatever is left to 60 if the pre‐boss remainder ≥60, otherwise to grab the full remainder (up to her $30 limit).  Since the pool is only $48 this month, whatever the workers leave (≤48) is <60, so the boss will always take her full $30, leaving nothing or almost nothing for regeneration.  That means as soon as total worker extraction W>18, the boss will deplete the pool completely (and you get only your $X/3 payoff); even if W≤18, the boss still grabs $30 (leaving R=18–W), which is a tiny remainder that hardly regenerates.\n\nIn that setting your payoff boils down almost entirely to X/3 (since the leftover‐pool payoff is effectively zero).  Hence your best response is to maximize X, i.e. extract the full $30.",
+      "We start the month with \\$48 in the commons and know the sustainability threshold is a total extraction of \\$24.  In past two rounds Workers 1 and 2 together took \\$45 (30+15), which already overshoots the new threshold.  No matter what I do, if they again take \\$45, the boss will react by taking the remaining pool (up to his \\$30 cap), leaving nothing for next month.  That means the pool collapses to zero no matter what.  \n\nGiven that Workers 1&2 are likely to again extract \\$45, the maximum I can actually get out of the pool this round is the leftover after they take their \\$45.  That leftover is \\$48−\\$45=\\$3.  If I try to claim more than \\$3, there simply isn’t any left in the pool after Workers 1&2 go; I’d only end up with \\$3 anyway, and risk unfilled claims.  By asking for exactly \\$3 I secure that remaining \\$3 for myself.  Any attempt at a higher ask can’t yield more, and any lower ask gives me less.  \n\nThus the best I can do this month is to extract \\$3.",
+      "Because my payoff from taking another dollar is 1/3 immediately but only costs me 1/4 in the shared‐pool term, each extra dollar I take raises my total payoff by 1/12.  In other words, the marginal benefit of extracting is positive.  Moreover, with two other workers in past months pulling 30 and 15 out of the commons and the boss poised to grab whatever is left, the pool is bound to shrink no matter how little I take.  It therefore makes sense for me to grab the maximum myself rather than be the only one pulling up a ladder.",
+      "The three workers have already taken the full $48 (indeed they over‐extracted 30+3+30), leaving $0 for me. I cannot extract anything this month."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      9,
+      21
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      18.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The boss will always take \\$30 unless the workers collectively extract more than \\$90, so to keep the pool at its maximum (\\$120) for next month we need total worker extraction ≤\\$30 (so boss’s \\$30 + workers’ ≤\\$60). With three workers splitting the sustainable \\$30, each could take up to \\$10 without shrinking the pool.  \n\nMy monthly payoff if I take w dollars is  \n  w/3 + (remaining after boss)/4  \n= w/3 + (90–3w)/4  \n= 22.5 – (5/12)·w.  \n\nThis is strictly decreasing in w, so even within the sustainable range (w ≤10) my payoff is highest at w=0. Extracting any positive amount both lowers my current payoff and risks reducing future pool value. Therefore I extract nothing.",
+      "We face a finite 12‐month game with three symmetric workers and a “boss” who also takes up to \\$30 after seeing our moves.  In a one‐shot extraction, each worker’s best response is to take the full \\$30 no matter what the others do, since any smaller take reduces your immediate payoff \\((x/3 + \\text{remainder}/4)\\).  Backward induction in a 12‐round finitely repeated game leads to the same outcome each month: everyone takes the maximum.  Even if you tried to conserve, the other workers and the boss will defect, driving the pool down to zero and destroying any future value.  Your best strategy to maximize your total payoff is therefore to extract the full \\$30 now.",
+      "The pool starts at \\$120 and after the three workers extract and the boss takes his \\$30, whatever remains doubles (up to a cap of \\$120). To keep the pool from shrinking, total extraction by all four (3 workers + boss) must be ≤ \\$60. Since the boss will always take his full \\$30 (as long as ≥ \\$30 is left), the workers together can only extract \\$30 if we want perfect sustainability (\\$30 + \\$30 = \\$60). Split equally among three workers gives \\$10 each, but we must choose a multiple of \\$3, so the closest sustainable split is \\$9 per worker. If all three extract \\$9, then:\n\n• Workers’ total = \\$27  \n• Boss takes \\$30  \n• Remaining = \\$120 – \\$27 – \\$30 = \\$63 ≥ \\$60, so after doubling we’re back to \\$120  \n• My payoff = 9/3 + 63/4 = 3 + 15.75 = 18.75  \n\nBy cooperating at \\$9, we keep the pool at full capacity and secure the highest long‐run payoff.",
+      "The pool after the workers’ extraction is 81.  If I take up to $21, the remaining 60 doubles to 120 next month, so I don’t lose any future resource.  My payoff this month is 21/3 + (81–21)/4 = 7 + 15 = 22.  Any additional extraction (e.g. 24) raises my one‐period payoff by only 0.25 but permanently reduces next month’s stock and thus future payoffs by more.  Therefore the best is to extract the full $21 without harming regeneration."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      21,
+      30
+    ],
+    "final_pool": 9,
+    "payoffs": [
+      12.25,
+      12.25,
+      9.25,
+      12.25
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "At the start of the month the pool is $120 and the boss will always adjust his take so that as long as the three workers together take no more than $60, the pool will end the month at $60 and then regrow to $120.  Last month Workers 1 and 2 took $0 and $30 (total $30), so if I take x dollars (up to $30), then the three‐worker total is 30 + x ≤ 60.  The boss will then take $(60–(30+x))=(30–x), leaving $60 in the pool, which doubles back to $120.  \n\nMy payoff this month is  \n  x/3  (my extraction share)  \n+ 60/4  (my share of the $60 that remains)  \n= x/3 + 15.  \n\nSince 15 is constant, I maximize my payoff by choosing x as large as possible.  Therefore I take $30.",
+      "Each month my payoff from extracting m when the other two workers extract S_others is  \n• if total S = m + S_others ≤ threshold, boss top‐ups to exactly the threshold, leaving a fixed remainder;  \n• if S > threshold, boss extracts 0 and the pool shrinks.  \n\nIn the one‐shot payoff function the marginal gain to me of raising m is positive in every regime (either 1/3 or 1/12 per dollar of m), so in a single‐period game my dominant choice is always to take the maximum, $30.  \n\nWith a known finite horizon (12 rounds) and no discounting, backward induction unravels any incentive to preserve the commons: in the last period I will take $30, so in the second‐to‐last I also take $30 anticipating no future loss, and so on all the way back to month 1.  \n\nThus in month 2, as a self‐interested worker in a finite‐horizon game, I extract the full $30.",
+      "We want to keep total extractions (workers + boss) at or below 60 so that the pool regenerates fully to 120 each month.  In equilibrium the boss will fill any gap up to 60, so if the three of us each take 20 (sum = 60), the boss takes 0, leaving 60 to double back to 120.  That is sustainable forever—and it also maximizes my immediate payoff of 20/3 + 60/4 ≈ 21.67, which is higher than if I under‐extract to make room for the boss.  So I extract 20.",
+      "With 39 left after the workers’ 81, I can take at most 30. My month‐2 payoff is increasing in my extraction:  \n  payoff = x/3 + (39–x)/4 = x/12 + 9.75  \nso it’s maximized at x=30. Moreover, whatever remains (39–30=9) doubles to 18 for month 3, and the three workers (who can take up to 90) will sweep the entire 18, leaving me zero from month 3 onward. There’s no way to sustain a higher pool for future boss payoffs, so I should maximize my extraction now."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 21,
+    "payoffs": [
+      8.25,
+      15.25,
+      15.25,
+      15.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool from shrinking, total extraction by the three workers must stay ≤30 (since the boss will then take his full 30 and leave at least 60 in the pool, which doubles back up to 120).  If each worker takes 9, the workers’ total is 27, the boss then takes 30, and 63 remains (63·2=126→120 next month).  At x=9 our payoff this month is 9/3 + 63/4 = 3 + 15.75 = 18.75, and the pool stays at 120 for all 12 months.  Any higher extraction either lowers our current payoff or causes the pool to shrink, reducing future payoffs.",
+      "In the one‐shot stage game (and hence by backward induction in a 12‐month finitely repeated game) each worker’s payoff x/3 + R/4 is strictly increasing in x regardless of what the others do.  No credible punishment can be sustained in the final round, so everyone defects by taking the maximum every month.  Therefore my best response in month 1 is to extract the full $30.",
+      "With a known, finite 12‐month horizon and no discounting, standard backward induction applies. In month 12, workers will all play the one‐shot Nash equilibrium and extract the full \\$30; knowing that, in month 11 there’s no credible future punishment or reward to sustain cooperation, so the stage‐game NE (\\$30) prevails again, and inductively this argument carries back to month 1. Thus the subgame‐perfect strategy is to extract the maximum \\$30 each month.",
+      "With the other three players already taking 69 out of 120, only 51 remains. My payoff from extracting x is x/3 + (51–x)/4, which rises by 1/12 for every extra dollar I take. Any money I leave behind is likely to be wiped out by the other players next month (they already took 30,30, and 9 this month), so the future‐regeneration benefit of saving is very small. In these circumstances it maximizes my total return to grab the full $30 now."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 42,
+    "extractions": [
+      30,
+      30,
+      30,
+      0
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Last round both other workers took the maximum (30), which guaranteed the pool collapsed and left almost nothing for anyone after the boss. Given they have no incentive to hold back, it’s virtually certain they will again overshoot the 12‐dollar worker threshold this month and drive the pool to zero before doubling. In that scenario your end-of-month pool remainder will be zero no matter what you leave, so your payoff is simply your extraction/3. To maximize your payoff under those conditions, you should extract the maximum $30.",
+      "We are already down to a $42 pool and after the boss takes his share it will collapse further no matter what we do, so there is basically no future‐value benefit to holding back.  Our payoff this month is  \n your payoff = your extraction/3 + (pool remaining after the boss)/4.  \nBy grabbing the full $30, we secure 30/3 = $10 guaranteed, and the pool is going to be exhausted by the other players and the boss anyway so we won’t sacrifice any meaningful future return by doing so.  Any smaller extraction gives us less than $10 today while the pool is collapsing in any case.",
+      "Given that in Month 1 everyone (the other two workers and the boss) over‐extracted to the full cap and drove the stock down from 120→42, it is almost certain that they will again try to grab as much as they can this month.  Since I cannot rely on them to stay at the 21‐dollar sustainability cut‐off, the pool will collapse regardless.  In that scenario my only lever is to maximize my own immediate share.  Extracting $30 gives me 30/3 = 10 dollars right now (and the pool will go to zero anyway), which is higher than any lower extraction.",
+      "The pool has been fully depleted by the workers, leaving $0 available. I cannot extract any funds when there is nothing left, so my only feasible extraction is $0."
+    ]
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      30,
+      9
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      18.0,
+      19.0,
+      25.0,
+      18.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "I want to balance my short-term gain with the long-term value of keeping the commons healthy for the remaining 11 months. If all three peasants together stay well under the $60 sustainability threshold, the king can still take a share and leave at least $60 in the pool, letting it double back to $120 next month. Extracting a modest $9 (well below my one-third share of the threshold) signals cooperation, earns me an immediate payoff of $3 (=$9/3), and—if the king leaves $60 in the pool—adds another $15 (=$60/4) this month while preserving the resource for future months. Even in the worst case where the king depletes the remainder, I only forgo at most $7 compared with grabbing the maximum $30 now, a reasonable risk for the chance of much higher future returns. Hence I choose a cooperative but non-zero extraction.",
+      "I want a good payoff this month, but I also want the pool to stay healthy for the next 11 months.  \n• If the three peasants together take more than $60, the pool falls below the sustainability threshold and the king can empty what’s left, leaving $0 for regeneration—bad for future payoffs.  \n• If the peasants together take exactly $60, the king can’t take anything without harming the pool, but he may resent that and we lose flexibility.  \n• A reasonable cooperative target is for the peasants to leave the king a small but non‐damaging share. If each peasant takes $18, total peasant extraction is $54. The king can then take $6, and $60 will remain, so the pool will double back to $120 for next month.  \n• My payoff this month would be:  \n  – Direct gain = $18 / 3 = $6  \n  – Share of remaining pool = $60 / 4 = $15  \n  – Total = $21  \nThis is high, keeps the pool sustainable, and should look fair to the king and the other peasants.",
+      "• My certain payoff grows by $1 for every additional $3 I extract (first term = extraction/3).  \n• The second part of my payoff (¼ of what the king leaves in the pool) is outside my control; it depends on what the other two peasants do and—above all—on how much the king decides to take.  \n• Whatever the king and the other peasants do, increasing my own extraction never reduces that shared second-term payoff, but it always increases the first term.  \n• Therefore, to maximize my guaranteed payoff this month, I should take the largest amount I am allowed to extract.",
+      "1. My total payoff in any single month equals  \n   (my extraction)/3  +  (pool remaining after my move)/4.  \n   Since extraction + remainder = 69 this month, the formula becomes  \n   17.25 + (extraction)/12.  \n   Thus every extra dollar I take right now raises this month’s payoff by only $0.0833.\n\n2. However, the pool that remains at the end of the month doubles (capped at $120).  \n   • If at least $60 remains, the pool is fully restored to $120 next month.  \n   • If less than $60 remains, next month’s pool is smaller, reducing future earnings.\n\n3. By leaving exactly $60, the pool will regenerate to the full $120, ensuring high payoffs in every remaining month while still giving me a small immediate gain.  \n\n4. Extracting more than $9 this month would push the remainder below $60, shrink next month’s pool, and lower my future payoffs far more than the extra $0.0833 per dollar gained now.\n\n5. Therefore, the long-run optimal strategy is to take just enough so that $60 is left in the pool—i.e., extract $9—keeping the commons sustainable and maximizing my cumulative payoff over the 12-month horizon."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      18,
+      18,
+      9
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      21.25,
+      17.25,
+      17.25,
+      14.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s behavior last month suggests he will always leave exactly $60 in the pool if the peasants together leave at least that much; otherwise the pool will simply be whatever is left.  \n2. Given that rule, our own payoff each month is:\n   • If total peasant extraction ≤ $60: payoff = (our extraction)/3 + 15.  \n   • If total peasant extraction > $60: payoff = (our extraction)/3 + (120 – total peasant extraction)/4  \n   In either case, the payoff rises with our own extraction: the marginal benefit to us of an extra $3 taken is +$1, while the cost is at most –$0.75 (¼ of $3) spread across everyone. Therefore, our private best-response is always to take the maximum $30.  \n3. One peasant already took $30 last month, showing low willingness to cooperate. If we continue to be modest we risk being exploited again.  \n4. Future months matter, but unless the other peasants credibly commit to restraint, self-protection today is best achieved by taking the full $30; even in the worst case this still yields a higher immediate payoff than smaller extractions.",
+      "1. Last month the other two peasants together took $21.  After seeing that Peasant 3 earned the highest payoff with a large extraction, it is reasonable to expect each of them to raise their own take this round.  \n2. If each of them increases to about $18 (a modest but noticeable jump), their combined extraction will be roughly $36.  \n3. To keep the total extraction near (but not above) the $60 sustainability threshold, my own extraction should therefore be no more than about $24.  \n4. Extracting $18 gives me:  \n   • Immediate payoff = $18 / 3 = $6 from my own take, plus  \n   • $15 from the guaranteed $60 the king will leave in the pool (if the peasants’ total ≤ $60),  \n   for a likely payoff of $21 this month.  \n5. This level still leaves head-room under the threshold if the other peasants raise their takes a bit more than expected (e.g., to $20 each), so the pool is likely to remain sustainable and future payoffs protected.  \n6. Therefore $18 strikes a good balance between earning now and keeping the resource viable for the ten remaining months.",
+      "1. From last month we learned that the king seems to aim to leave $60 in the pool (he took exactly what was needed to reach that level).  \n2. If total peasant extraction ≤ $60, the king will likely keep the pool at $60, so everyone’s payoff is: (own extraction)/3 + $15.  \n3. That means every extra dollar we take (as long as total peasant extraction stays ≤ $60) raises our payoff by $1/3 without hurting anyone this month.  \n4. But we don’t know what the other two peasants will do. Last month they jointly took $21, leaving a $9 buffer below $60. They might raise their extraction this time.  \n5. Choosing the full $30 risks pushing total peasant extraction above $60 if the others also increase, and that would cut everyone’s payoff and shrink the pool for future months.  \n6. A reasonable compromise is $18.  \n   • If the others take about what they did last month (≈ $21 total), peasant total will be $39; the king will take $21 to leave $60, and my payoff is 18/3 + 15 = $21.  \n   • Even if the others each raise to $21 (total $42), peasant total becomes $60; the king then takes $0, the pool still stays at $60, and my payoff is again $21.  \n   • This keeps us safely under the sustainability threshold while still giving a good payoff and signaling cooperation for future months.  \n7. Therefore, $18 balances profit, safety, and sustainability.",
+      "1. Long-run goal: keep the pool at or above the 60-dollar “sustainability” mark whenever possible so it can regenerate to the full $120 each month.  \n2. Deterrence: peasants just over-extracted by $6 (they took 66 rather than the sustainable 60). If I leave the 54 untouched, each extra dollar they grabbed gives its taker +$1/3 but costs everyone (including me) only $1/4, so the overshoot stays profitable for them.  \n3. Penalty: extracting $9 lowers the final pool to $45. That cuts every agent’s share of the pool by $15/4 = $3.75. For whichever peasant pocketed the extra $6 (gaining $2), the net effect is a loss of $1.75—making over-extraction unprofitable next time.  \n4. Sustainability: the remaining $45 still doubles to $90, letting the resource recover quickly, so the future pool is not crippled.  \n5. My payoff now is $9/3 + $45/4 = $14.25, only $0.75 more than taking nothing, but the disciplinary value more than compensates over the next 10 months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 90,
+    "extractions": [
+      0,
+      12,
+      12,
+      6
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      19.0,
+      19.0,
+      17.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king has so far taken only $9 each round, so I expect him to do the same again. Thus the final pool after all extractions will be: 90 – (total peasants’ take) – 9.  \n2. My own current-month payoff is: (my take)/3 + (final pool)/4.  For every extra dollar I take, my payoff rises by 1/12 (= 1/3 – 1/4).  So, holding the others’ behaviour fixed, more extraction always raises my immediate payoff.  \n3. The other two peasants have shown no sign of restraint (they took $30, $18 and $18 in the first two months), so I expect their combined extraction to remain high (around $30-$36).  Under such heavy extraction, the pool will shrink no matter what I do, so my own restraint would mainly lower my own payoff while having little chance of preserving the pool.  \n4. With nine months left it would be nice to keep the pool large, but unilateral self-restraint is unlikely to change the overall outcome given the others’ history.  Therefore, to maximise my own expected payoff this month, I should choose the maximum allowed extraction of $30.",
+      "1. This month the pool starts at $90 and will shrink unless the total extraction (peasants + king) stays at or below $45.  \n2. In the past two months the king has always taken $9, seemingly independent of what we do. I expect he will again take $9.  \n3. To keep the pool from shrinking we therefore want the three peasants to take no more than $36 in total. If each peasant takes $12, the peasants’ total is $36; adding the king’s $9 gives $45, exactly the sustainability threshold.  \n4. The personal, short-run incentive is to over-extract because each extra dollar I take gives me +$0.33 in direct payoff but only costs me $0.25 in the shared pool. However, we have nine months left, and preserving or rebuilding the pool will raise the shared component of everyone’s future payoffs.  \n5. Extracting $12 signals willingness to cooperate, keeps the pool from shrinking if others match it, and still gives a decent immediate payoff:  \n   • My direct return: $12 / 3 = $4  \n   • Expected remaining pool (if others also take $12 and the king takes $9): $45 → my share = $45 / 4 = $11.25  \n   • Total expected payoff this month: $4 + $11.25 = $15.25  \n6. This is only modestly below what I might get by grabbing $30 today, but it helps maintain a larger pool for the next nine months, which should more than compensate if cooperation emerges.  \n7. Therefore I choose $12 as a balance between immediate gain and long-term sustainability, hoping the others follow suit.",
+      "1. The sustainability threshold is $45 for total extraction (peasants + king).  \n2. The king has so far always taken $9 after seeing the peasants’ choices. If that continues, the peasants as a group should limit themselves to $36 to keep the pool from shrinking ($36 + $9 = $45).  \n3. With three peasants, a fair split of the sustainable $36 is $12 each.  \n4. My marginal personal gain from an extra $3 taken is +$1 direct but –$0.75 through a lower share of the remaining pool, so the short-run incentive is to over-extract. However, we have 9 months left, and preserving the pool yields higher future payoffs.  \n5. Last month I took $30, the pool shrank, and everyone’s payoffs fell. Reducing to $12 signals a willingness to cooperate, may encourage others to do likewise, and keeps the pool at $90 for future gains. Even if others still take $18 each, my payoff only falls slightly this month, but the cooperative signal could raise future payoffs.  \n6. Therefore, I will extract $12 this month.",
+      "My current-period payoff is  \nPayoff = (my extraction / 3) + (pool left / 4)  \n            = x⁄3 + (66 – x)⁄4  \n            = 16.5 + x⁄12.  \nThis rises a little (≈ $0.08) for each extra dollar I take, so—looking only at this month—I would like to extract as much as possible.  \nHowever, the pool that remains after my move doubles (capped at $120) and becomes the starting pool for next month. If the post-extraction pool is at least $60, it will regenerate to the maximum $120. Extra dollars left above $60 do not raise next month’s pool (they would be capped), while each dollar taken that drives the residue below $60 reduces next month’s pool by $2, cutting into my future payoffs for the remaining nine months.  \n\nWith $66 available, the largest extraction that still leaves the critical $60 is $6.  \n• Extracting less than $6 would just lower my current payoff without increasing future pools (because 60 doubles to the cap of 120 anyway).  \n• Extracting more than $6 would push the residue below $60, shrink next month’s pool below $120, and cost me far more in future periods than the extra $0.08 per dollar I could gain today.  \n\nThus, $6 is the payoff-maximizing balance between present gains and preserving the resource for the future."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      18,
+      27,
+      12
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      17.25,
+      17.25,
+      20.25,
+      15.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s behavior so far suggests a simple rule:  \n   – If the peasants together leave more than $60 in the pool, he trims just enough (up to $9) to bring the pool down to $60.  \n   – If they leave $60 or less, he still takes about $9 (or whatever is left if the pool is tiny).  \n   Therefore, as long as total peasant extraction is ≤ $60, the pool ends the month at $60 and fully regenerates to $120.  \n\n2. A sustainable target is thus to keep total peasant extraction at or below $60.  \n   With three peasants, a “fair share” is roughly $20 each. The closest allowed multiple of $3 is $18 (slightly under) or $21 (slightly over).  \n\n3. Last month the other two peasants each took $12, showing a cooperative mood. They will probably raise their take a bit now that the pool has recovered, but are unlikely to jump straight to $30. If each of them takes $18, their total is $36.  \n\n4. Choosing $18 myself would give a projected peasant total of about $54 (if the others take $18), comfortably under the $60 sustainability threshold. The king would then take $6, leaving $60, the pool would regenerate fully, and my payoff would be:  \n   – Extraction payoff: $18 / 3 = $6  \n   – Share of remaining pool: $60 / 4 = $15  \n   – Total this month = $21  \n\n5. Extracting much more (e.g., $24 or $30) risks pushing the peasants’ total over $60 if the others also increase their takes, which would shrink next month’s pool and lower future pay-offs for everyone, including me. Extracting much less leaves money on the table compared with the cooperative optimum.  \n\n6. An $18 extraction balances individual gain, fairness, and sustainability, likely keeping the pool healthy for the remaining eight months and maintaining goodwill with the other peasants.",
+      "1. The pool is back at $120, so if the final amount left after everyone extracts is $60 the pool will fully regenerate next month.  \n2. From the three-month history the two other peasants have recently converged on moderate extractions of $12 each (Month 1: 12; Month 2: 18; Month 3: 12). It is reasonable to expect they will again take about $12 apiece, for a projected 2-peasant total of $24.  \n3. The king’s pattern suggests that when the peasants leave more than $60 in the pool he simply trims it to $60; if the peasants push the pool below $60 he still grabs something, leaving the pool dangerously low. Therefore, as long as the peasants’ combined extraction is under $60, the pool is safe.  \n4. With the others likely taking $24, any amount we take up to $36 would still keep total peasant extraction ≤ $60.  \n5. Extracting the full $30 would maximize this month’s personal payoff but would look blatantly greedy and may provoke larger extractions from the others next month, risking the commons over the remaining eight months.  \n6. Extracting $18 is a balanced choice:  \n   • Expected peasant total = 24 + 18 = 42 < 60, so the pool stays healthy.  \n   • Before the king acts the pool would be 120 – 42 = 78; the king would likely take 18 to leave $60.  \n   • Our payoff this month would be 18/3 + 60/4 = 6 + 15 = $21.  \n   • It signals we are not exploiting the others (we take only 50 % more than their recent $12) while still improving our own earnings.  \n7. This keeps the commons sustainable and maintains cooperative norms, giving better prospects for the remaining eight months.",
+      "1. The king’s behavior so far suggests he tries to leave roughly $60 in the pool if it is possible (Month 1: left $60, Month 3: left $60).  Only when the peasants’ total already drove the pool below $60 (Month 2) did he leave less.  \n2. Therefore, if the three peasants together take no more than $60, the king will probably extract just enough so that $60 remains, letting the pool fully regenerate.  In that case, an extra dollar I take raises my own payoff by $1/3 and does not change the final pool (still $60), so it is strictly beneficial to grab as much as possible as long as the peasants’ subtotal stays ≤ $60.  \n3. From the history, the other two peasants have recently converged to moderate levels ($12 each last month).  It seems reasonable to expect them to take about $12–$18 each (total $24–$36).  \n4. If I take $27 and they take $12 each (likely $24 total), the peasants’ subtotal is $51, the king will remove $9, and $60 will remain.  My payoff = $27/3 + $60/4 = $9 + $15 = $24.  \n5. If they each increase to $18 (subtotal $36), the peasants’ subtotal with my $27 would be $63.  Then $57 remains before the king.  The king might take nothing (or a small amount), leaving ≈$57, giving me at least $27/3 + $57/4 ≈ $9 + $14.25 = $23.25.  That is still quite good and better than lower extractions in that scenario.  \n6. Higher extractions (e.g., $30) raise my risk: if the others take $18 each, the peasants’ subtotal becomes $66 and my payoff falls to ≈$21.25.  Thus $27 gives a higher worst-case payoff while keeping sustainability likely.  \n\nGiven these considerations, $27 is the best balance of high expected payoff and acceptable risk to the commons.",
+      "1. My immediate payoff this month is  \n   payoff = (my extraction)/3 + (pool left after me)/4.  \n   Because every dollar I take increases my payoff by only 1⁄12 ≈ $0.08, taking more right now is cheap but not very rewarding.\n\n2. Whatever I leave doubles for next month (up to 120).  \n   • If I extract nothing, 57 is left → next month’s pool = 114.  \n   • If I extract 12, 45 is left → next month’s pool = 90.\n\n3. Looking at the history:  \n   • When next‐month’s pool was 120, peasants took a lot (51 and 66).  \n   • When next‐month’s pool was 90, peasants were very restrained (24).  \n   So a 90-dollar starting pool seems to keep peasants cautious, whereas a pool above 100 tempts them to over-harvest.\n\n4. By taking 12 now I  \n   a) Gain an extra $1 this month compared with taking nothing.  \n   b) Set next month’s pool to exactly $90, a level that has already triggered low peasant extraction and let me rebuild the commons to $120 the following month.  \n   c) Preserve long-run sustainability far better than large extractions (which would crash the pool) yet avoid the over-harvest that tends to follow very large pools.\n\n5. Therefore, extracting $12 strikes the best balance between a small immediate gain and a larger expected stream of future payoffs over the remaining eight months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 90,
+    "extractions": [
+      0,
+      0,
+      6,
+      12
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      18.0,
+      18.0,
+      20.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s past behavior suggests a simple rule:  \n   • If the peasants leave ≥ $60, he leaves $60 for regeneration to $120.  \n   • If the peasants leave $45–$59, he trims it to $45 for regeneration to $90.  \n2. Low-extraction rounds (Month 3) alternated with high-extraction rounds (Months 2 & 4). Following this pattern the other two peasants are likely to extract modestly again (≈ $12 each ⇒ $24 total).  \n3. If I extract $3, total peasant extraction ≈ $27, leaving $63 before the king. The king should then take $3, leave $60, and the pool regenerates to $120.  \n   • My payoff = $3/3 + $60/4 = $1 + $15 = $16.  \n4. Extracting $0 would give only $15, while extracting $6 risks pushing the remainder to exactly $60 or below $60 if the others take a bit more, which would drop the final pool to $45 and cut my payoff sharply.  \n5. Therefore, $3 balances a strong payoff with a high probability of keeping the pool healthy.",
+      "1. The king’s behavior so far suggests a rule:  \n   • If the peasants leave at least $60 before he moves, he leaves $60.  \n   • Otherwise, he reduces the pool to $45—provided at least $45 is still there.  \n   • When less than $45 is left, he may be forced (or choose) to empty it further.  \n\n2. Today the pool starts at $90, so the sustainability threshold is $45.  \n   • To be certain the king can still leave $45, the peasants together must leave at least $45 before he moves.  \n   • Remaining before the king = $90 − (total peasant extraction).\n\n3. The other two peasants have recently taken $36 (Month 2), $24 (Month 3), and $45 (Month 4).  \n   • Their behavior is volatile; they might well extract $36–$45 again this month.  \n   • If they take $45 and I take anything above $0, the remaining pool drops below $45 and risks being wiped out, slashing my share of the final pool.  \n   • If I take $0, even in the worst plausible case (others take $45), $45 still remains for the king to leave, protecting both the pool and my share.\n\n4. My payoff formula: (my extraction)/3 + (final pool)/4.  \n   • With my extraction = $0 and final pool ≥ $45, I earn at least $11.25 and keep the commons healthier for future months.  \n   • Any small personal gain from extracting a few dollars is outweighed by the risk of pushing the remaining pool below $45 and getting almost nothing.\n\nTherefore, to secure a reliable payoff now and promote sustainability for the remaining seven months, I choose to extract nothing this round.",
+      "1. Long-run payoffs depend heavily on keeping the pool large; if the final pool falls below $45 it will regenerate to less than $90, hurting everyone in future months.  \n2. The king’s observed pattern is to leave $60 if the peasants’ total extraction ≤ $30, and otherwise leave $45 (or whatever is left). Thus:  \n   • If total peasant extraction ≤ $30, the pool stays healthy ($60 → $120 next month).  \n   • If total peasant extraction is modestly above $30 but ≤ $45, the pool still ends at $45 → $90 next month.  \n3. The other two peasants have recently taken $12–$18 each. A reasonable expectation is $12 each if they see cooperation, $18 each if not.  \n4. If they each take $12 (total $24), my taking $6 brings peasant total to exactly $30, triggering the king to leave $60. My payoff this round would be $2 + $15 = $17, and the pool is fully restored.  \n5. If they instead take $18 each (total $36), my $6 makes peasant total $42; the king would then leave $45. My payoff would still be a respectable $13.25 and the pool would remain at $90.  \n6. Extracting more (e.g., $18–$30) slightly raises this month’s payoff but guarantees a smaller pool next month, reducing future earnings.  \n7. Therefore, $6 balances current income with a strong chance of keeping the resource sustainable and signaling cooperation to the others.",
+      "1. Immediate payoff considerations  \n   • My payoff this month is: 21 + (x/12).  \n   • Extracting the full \\$84 would give the largest single-period payoff (28), but would leave the pool at 0, destroying future value.\n\n2. Regeneration dynamics  \n   • Whatever remains (R = 84 – x) will double, capped at 120.  \n   • Any R ≥ 60 guarantees the pool is back to \\$120 next month.  \n   • Even R ≥ 60 leaves plenty for future months while still letting me earn today.\n\n3. Long-term strategy & fairness  \n   • In prior months I have taken a modest share (≈15–25 % of the peasants’ total).  \n   • Peasants only took \\$6 this round; a very large royal take could provoke heavier extractions by them in future rounds.  \n   • Taking \\$12 keeps the pool high (R = 72 → next pool = 120) and still fits my historical pattern—my take (12) is double the peasants’ total but still below Peasant 3’s best-ever take (27).  \n   • My payoff becomes 21 + 12/12 = 22, only \\$1–2 less than more aggressive but riskier options.\n\nBalancing present gain, sustainability, and social stability points to extracting \\$12."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      12,
+      30,
+      9
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      18.0,
+      19.0,
+      25.0,
+      18.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. My payoff each month is: (my extraction)/3  +  (pool remaining after all extractions)/4.  \n   Every extra $3 I take adds $1 to the first term but reduces the second term by $0.75 (assuming the king’s take does not change), so my net gain per extra $3 is +$0.25 as long as the pool still ends the month above $60 (so it can regenerate to $120).  \n2. The king has recently been taking about $12 after seeing the peasants’ total. If that continues, the pool will stay at $120 next month provided the three peasants together take no more than $48 ($60 sustainability limit minus the king’s $12).  \n3. Last month the other two peasants together took only $6, but two months ago they jointly took $45. Their behavior is variable, so I should leave them room while still earning a reasonable guaranteed payoff myself.  \n4. If I take $9:  \n   • Even if the other two peasants each take $18 (total others = $36), peasant total = $45 and with the king’s likely $12 the pool would still end at $63 (> $60), so sustainability is preserved.  \n   • My immediate payoff would be 9/3 + (remaining pool)/4 ≈ 3 + ≥15.75 = ≥18.75, and likely higher if others stay moderate.  \n5. Extracting much more (e.g., $18 or $21) risks pushing total peasant extraction above $48 if the others also increase, which could shrink the pool and reduce future payoffs.  \n6. Extracting less (e.g., $0 or $3) sacrifices certain earnings with only a small expected gain from a slightly larger future pool, given the king’s cap of about $12 and the pool’s regeneration limit.  \n\nBalancing current earnings with sustainability and allowing room for others, I choose a moderate extraction of $9.",
+      "1. My payoff each month = (my extraction)/3 + (pool remaining after everyone extracts)/4.  \n2. The remaining pool matters a lot: every $4 left gives me $1 of payoff, so preserving the pool is valuable.  \n3. The king has recently tended to take about $12 if that still leaves at least $45–60 in the pool; he reduced his take only once (Month 3) when more was needed to keep the pool healthy.  \n4. In Month 5 the other peasants extracted very little (total $6). In Month 4 they extracted a lot ($63). Their behavior seems to alternate between restraint and higher takes, suggesting some willingness to cooperate but with occasional lapses. I expect them this month to take a moderate amount, perhaps about $12–$18 each (total ~ $24–$36).  \n5. If I take $12 and the other peasants together take, say, $24–$36, the pool before the king will be $84–$96. The king will likely take $12, leaving $72–$84, which is safely above the $60 level that fully replenishes the pool to $120.  \n   • My payoff in that range: (12/3)=4 from extraction plus ($72–$84)/4 = 18–21, so total ≈ $22–$25.  \n6. Extracting much more (e.g., $27–$30) slightly increases my immediate extraction payoff, but risks driving the remaining pool below $60 if the others also take more, which would shrink next month’s pool and harm future payoffs.  \n7. Extracting much less (e.g., $0–$6) protects the pool but gives me lower immediate returns and could leave me exploited if others take more.  \n8. Therefore a moderate take of $12 balances good current earnings with a high likelihood the pool still fully regrows, supporting future income and signaling continued cooperation.",
+      "1. My payoff = (my extraction)/3 + (final pool)/4.  \n   • Each extra $3 I take raises the first term by $1.  \n   • It lowers the final pool by at most $3, cutting my share of that pool by only $3/4 = $0.75.  \n   • Net gain to me ≈ $0.25 per extra $3, as long as the king’s behavior doesn’t wipe out more than the pool share I lose.\n\n2. Observed king behavior:  \n   • He has taken $6–$12 no matter what the peasants did.  \n   • When the peasants leave less in the pool, the king sometimes even trims his own take (Month 3).  \n   • So my larger extraction is unlikely to trigger a bigger royal response, and might even make the king take a bit less.\n\n3. Future impact:  \n   • Only 6 months remain; any reduction in the pool is spread over all players and future rounds.  \n   • I personally bear only ¼ of that cost each month, but I get the full immediate benefit of my own extraction now.  \n   • The immediate gain therefore outweighs the diluted future cost.\n\n4. Risk considerations:  \n   • Even in the worst case where the other two peasants also extract the maximum (total peasant take = $90), the king can still leave some pool, and my higher extraction still beats lower choices in immediate payoff.  \n   • If the others continue to extract modestly (as in Months 3 and 5), I gain even more.\n\nGiven these incentives, the individually rational best response is to take the maximum permitted amount.",
+      "1. My immediate payoff this month is  \n   payoff = (king extraction)/3 + (pool remaining after extraction)/4  \n           = k/3 + (69 – k)/4  \n           = (k + 207) / 12  \n           = 17.25 + k/12.  \n   So each extra dollar I take now raises this month’s payoff by only 1/12 ≈ $0.083.\n\n2. Whatever I leave in the pool doubles (capped at $120).  \n   • If I leave at least $60, next month’s pool will be the full $120.  \n   • If I leave less than $60, next month’s pool falls below $120 and future payoffs for everyone (including me) shrink.\n\n3. To guarantee next month starts again at the maximum $120, I must leave ≥ $60, i.e. extract ≤ $9.  \n   Taking more than $9 would reduce next month’s pool below the cap, sacrificing far more future value than the extra 8⅓ ¢ per dollar I’d gain now.\n\n4. Within the ≤ $9 range, extracting the maximum ($9) gives the highest immediate payoff while still preserving the pool at its regenerative maximum.\n\nTherefore I will take $9."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      0,
+      9,
+      30
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      17.25,
+      20.25,
+      27.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king has lately been taking around $10-$12. To keep the pool from shrinking, total extraction (peasants + king) should stay near $60.  \n2. If the king again takes $12, peasants together should aim for about $48. That is $16 apiece on average.  \n3. Looking at the last two months, the other two peasants together have varied between $36 and $45. Expecting roughly the middle of that range (about $36), my own extraction of $12 would keep the peasants’ total near $48.  \n4. For my own payoff, each extra dollar I take raises my payoff by roughly $0.083 after accounting for the reduced pool share, so moderate increases give only small gains.  \n5. Taking $12 is therefore sustainable, fair, and nearly payoff-maximizing while preserving the pool for the remaining five months.",
+      "1. My payoff this month rises by only 1/12 ≈ 0.083 for every extra dollar I take (because payoff = extraction/3 − extraction/4 = extraction/12 in the first term minus what I lose in the pool share).  \n2. Exceeding the sustainability threshold of $60 total extraction risks shrinking next month’s pool. Even a small overshoot of $3–$6 would cut next month’s pool by $6–$12, which would lower my share by (5 future months) × (1/4) × $6–$12 = $7.5–$15—far more than the extra $0.25–$0.5 I gain today from taking $3–$6 more.  \n3. Peasant 3 has repeatedly taken the maximum ($27, then $30), and the king often adds about $9–$12. If that happens again, other agents could already bring the total close to or above $60. By extracting nothing I leave the greatest safety margin and help keep the pool at its maximum $120 for the remaining 5 months, which benefits me more in the long run.  \n4. I have already shown willingness to take low amounts (month 5) without being punished, so another $0 extraction should not provoke retaliation.  \n5. Therefore, the long-term expected gain from preserving the pool outweighs the small short-term gain from taking more now.",
+      "1. The pool starts at $120, so we need at least $60 left after all extractions for it to regenerate fully.  \n2. Peasant 2 has recently taken about $12 and Peasant 3 about $30, so I expect their combined take to be roughly $42.  \n3. If I take $9, total peasant extraction should be about $51, safely below the $60 sustainability limit.  \n4. The king has been extracting around $9–$12. If he takes $9 again, the pool left will be $60 ($120 – $51 – $9 = $60), ensuring full regeneration to $120.  \n5. My payoff with a $9 extraction would be:  \n   • Direct component: $9 / 3 = $3  \n   • Share of remaining pool: $60 / 4 = $15  \n   • Total ≈ $18, which is good and avoids jeopardizing future rounds.  \n6. Extracting more would raise my immediate payoff only slightly (+$0.25 per extra $3) but risks shrinking the pool and provoking larger king extractions, harming everyone (including me) over the next five months.",
+      "1. Sustainability first: leaving at least $60 in the pool guarantees it will regenerate back to the $120 cap next month (because it doubles).  \n   • If I extract x dollars, the pool left is 99 – x.  \n   • Therefore I must keep x ≤ 39 to ensure 99 – x ≥ 60.\n\n2. Immediate payoff calculus: my current-month payoff is  \n      u = x/3 + (99 – x)/4 = 24.75 + x/12.  \n   Every extra $3 I take raises my payoff by only $0.25, so the marginal gain is small.\n\n3. Future payoffs: taking more than necessary this month lowers each peasant’s share by $0.25 per dollar and may provoke them to retaliate with higher extractions later, shrinking what I can take in subsequent rounds. Because only five months remain, protecting cooperation still matters.\n\n4. Balance:  \n   • Extracting the max sustainable amount (x = 39) gives me $28 now but slashes each peasant’s payoff by $2.25 relative to a milder move and signals sudden greed.  \n   • Extracting nothing gives up too much for very little goodwill benefit.  \n   • A middle course—x = 30—keeps the pool above the $60 sustainability threshold (pool left = 69 → regenerates to 120), nets me a strong payoff of $27.25, and stays within the peasants’ own individual cap ($30), making the move look proportionate rather than predatory.\n\n5. Therefore, I choose $30: high enough to reward myself, low enough to preserve both regeneration and social stability."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king moves after seeing the peasants’ total.  From past months he always leaves at least $60 so the pool will refill to $120 next month whenever that is still possible.  If the peasants’ total is ≤ $60, the king just takes the “extra” above $60; the final remainder stays about $60.  \n2. When the final remainder is fixed at $60, my payoff is  \n   (my extraction)/3  +  60/4  =  (my extraction)/3  + 15.  \n   Thus every additional $3 I extract raises my payoff by $1 while not changing the 15.  \n3. If the other two peasants take so much that the peasants’ total already exceeds $60, the king cannot top-up and simply leaves whatever is there.  Even in that worst case, adding another $30 still raises my extraction term by $10 while the remainder term falls by at most $7.50, so I still come out ahead.  \n4. Therefore, purely for this month’s payoff, it is optimal for me to take the maximum allowed amount, $30.",
+      "1. My payoff each month is: (my extraction)/3 + (final pool after the king)/4.  \n2. For every extra $3 I take, I gain +1 in the first term.  \n3. The worst that can happen is that the final pool falls by the full $3 I took (the king cannot add to the pool). A $3 drop in the final pool lowers the second term by 3/4 = 0.75.  \n4. Therefore the net marginal gain from an extra $3 extraction is at least +1 – 0.75 = +0.25. As long as that difference is positive, extracting more increases my immediate payoff.  \n5. The king’s past behavior shows he leaves at least $60 in the pool when he can, so in typical cases my taking more will simply cause him to take a bit less, leaving the final pool at or above $60 (which regenerates back to $120).  \n6. Even in the unlikely worst-case where both other peasants also take the maximum ($30 each), the final pool would be $30, giving me a payoff of 10 + 7.5 = 17.5, still higher than what I would get by extracting less (e.g., taking $0 would give only 15).  \n7. Because this month’s marginal benefit is positive and future damage is limited (there are only four months left and the pool often resets to $120 if the final pool ≥ $60), the best self-interested move is to take the maximum allowed.",
+      "1. From Months 5-7 the king’s behavior is consistent: he adjusts his own take so the final pool left after his extraction is about $60-$70, enough for the pool to regenerate to $120.  \n   • Month 5: peasants took $6 → king left $72.  \n   • Month 6: peasants took $51 → king left $60.  \n   • Month 7: peasants took $21 → king left $69.  \n   This pattern suggests that as long as the peasants’ total extraction does not push the remainder below $60, the king simply takes whatever is left over the $60-ish target.  \n\n2. Because the king is the last mover, any extra dollar I take now is almost certainly offset by the king extracting one dollar less (up to the point where only $60 is left). Therefore my own extraction has little or no effect on the final pool size as long as the peasants together do not exceed $60.  \n\n3. My payoff increases by $1/3 for every extra dollar I extract, while the effect on the “remaining pool” term is effectively zero (given the king’s compensating behavior). Hence, within the allowed range, larger extraction strictly increases my expected payoff without threatening the pool’s regeneration.  \n\n4. Even in the unlikely event that the other two peasants together exceed the sustainability limit (so the king cannot fully compensate), my marginal gain is still positive: each $1 I extract gives me +$0.333 in payoff while reducing the pool term by at most $0.25 for me, a net gain of $0.083. With only four months left, the future cost of a one-off slight drop in the pool is outweighed by the immediate benefit.  \n\n5. Therefore the payoff-maximizing choice is to take the maximum allowed amount, $30.",
+      "1. Immediate payoff calculus:  \n   – Payoff = (x/3) + (60-x)/4 = 15 + x/12.  \n   – Extracting the full $60 would raise the current payoff from $15 (if x=0) to $20, a gain of only $5.\n\n2. Regeneration effect:  \n   – Whatever is left after my move doubles (max 120).  \n   – If I leave the full $60, the pool resets to $120 next month.  \n   – Any extraction >0 drops next month’s starting pool below $120 (e.g., x=9 → start at $102; x=30 → start at $60; x=60 → start at $0).\n\n3. Future months (9-12) matter:  \n   – With four months still ahead, keeping the pool at the maximum $120 each month is worth far more than the extra $5 I could earn now.  \n   – A full pool gives me room to take sizeable, sustainable extractions later, even if peasants again take the maximum $60.\n\n4. Strategic message:  \n   – By taking nothing after the peasants’ large grabs, I signal that the resource can still fully recover if they moderate in future months, which can reduce the risk of a collapse spiral.\n\nGiven the modest short-term benefit and the large long-term value of a full pool, the optimal move this month is to extract nothing."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      0,
+      0,
+      30
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      15.0,
+      15.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s behavior so far fits the rule  \n   k = min(30 , max(0 , 60 − (total peasant extraction))).  \n   • If the three peasants take ≤ $60 in total, the king tops-up (or takes) so that $60 remains.  \n   • If the peasants take > $60, the king takes $0 and whatever is left just regenerates (even if < $60).  \n\n2. My own payoff each month is  \n   Payoff = (my extraction)/3 + (remaining pool after all extractions)/4.  \n\n3. a) If total peasant extraction after my move is ≤ $60, the king ensures the remaining pool is exactly $60, so my payoff is  \n      Payoff = (my extraction)/3 + 60/4 = (my extraction)/3 + 15.  \n      This rises directly with my own extraction: every extra $3 I take adds $1 to my payoff and never changes the remainder (still $60).  \n\n   b) If total peasant extraction after my move is > $60, the king takes nothing and the remainder becomes 120 − (total peasant extraction).  \n      My payoff is then  \n      Payoff = (my extraction)/3 + [120 − (total peasant extraction)]/4.  \n      Holding the others’ behavior fixed, each extra $3 I take still raises my payoff by 0.75 (= $1/3 − $0.25), so again more extraction helps me.  \n\n4. Last month both other peasants each grabbed $30, showing no sign of restraint; they may well do the same again.  \n   • If they again take $60 between them, the pool left before the king is $60.  Whether I take $0 or $30, the king will take $0 and the pool will simply be $60 − my extraction.  Even in that harsher scenario, my own payoff is higher the more I extract.  \n\n5. With only three months left, any pool shrinkage now has limited time to hurt me, while the immediate gain from extracting the maximum is certain.\n\n6. Therefore, purely on payoff grounds and given observed behavior, my best move this month is to take the maximum allowed $30.",
+      "1. The king’s behavior shows he tries to leave about $60 in the pool. If the peasants’ total extraction is ≤ $60, the king will simply top-off (or take nothing) so that $60 remains.  \n2. My payoff this month rises by $1 for every additional $3 I take, but only so long as the pool still ends at $60.  \n3. If total peasant extraction exceeds $60, the king cannot add money; the pool ends below $60, reducing everyone’s payoff this month and – more importantly – cutting next month’s starting pool (because it only doubles from the lower level).  \n4. The two other peasants have occasionally taken the full $30 each. If they do that again (total $60), any amount I take would push the group over the sustainability threshold.  \n5. Shrinking the pool below $60 would halve next month’s starting pool from $120 to at most $60, slashing my expected payoffs for the remaining three months. The small extra gain I could make this month by taking more is worth far less than the future losses.  \n6. By extracting $0 I guarantee the pool cannot shrink this round, no matter what the others do, protecting my future income while still earning $15 this month.",
+      "1. The king’s behaviour so far suggests he tries to leave at least $60 in the pool, taking up to $30 himself when the peasants leave him room.  \n2. If total peasant extraction is between $30 and $60, the king will almost certainly take just enough (0-30) to leave exactly $60, keeping the pool sustainable.  \n3. Our own payoff in that “safe band” is: (our extraction)/3 + 15, so within the band more extraction is always better for us.  \n4. Hence we would like the peasant total to land as close to $60 as possible without exceeding it.  \n5. From recent history the other two peasants together have averaged a little under $40, but with large swings (they took $9 one month and $60 another).  \n6. Picking $21 means:  \n   • If the others again take about $39 (their recent average), peasants’ total ≈ $60 → pool stays healthy and our payoff = 21/3 + 15 = $22.  \n   • If they are lower (say $30), king will top up to $60 and we still get $22.  \n   • If they are higher (say $60), we overshoot, but the marginal damage from our extra $21 is small to our own payoff and still leaves $39 in the pool.  \n7. Thus $21 balances good present-month payoff with a high chance of staying within the sustainability threshold, avoiding a big hit to the pool for the last three months.",
+      "• My immediate payoff from extracting x is:  x/3  +  (90 – x)/4  =  22.5  +  x/12.  \n  Every extra dollar I take now raises this month’s payoff by 1/12 ≈ 0.083.\n\n• However, the commons that remains doubles for next month.  \n  – If I leave ≥ $60 (i.e., extract ≤ $30), the pool fully regenerates to $120.  \n  – If I take more than $30, the pool regenerates to less than $120, and with only three months left the deficit will cut my future payoffs sharply (since a smaller pool means smaller extractions and smaller residual shares in every remaining month).\n\n• Example:  \n  • Extract $30 → payoff now = 10 + 15 = $25, pool next month = 120.  \n  • Extract $33 → payoff now = 11 + 14.25 = $25.25 (gain $0.25), but pool next month = 114, reducing my future take by far more than $0.25.  \n  • Extract $60 → payoff now = $27.5, but pool next month is only $60 and will likely be wiped out by peasants, leaving me with zero in months 10–12—a huge loss.\n\n• Therefore, the best balance of current gain and future sustainability is to take the maximum that still leaves $60 in the pool, i.e., $30."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. Whatever happens, the pool regenerates to $120 each month, so the sustainability threshold is not a binding long-run constraint.  \n2. The king’s behavior is predictable:  \n   • If the peasants leave more than $90, he always takes $30.  \n   • If they leave $60–$90, he trims it down to $60.  \n   • If they leave $≤ $60, he takes nothing.  \n   Hence the final pool after the king’s move is never below $60 – e (when the other peasants jointly take $60) and never above $90 – e (when they take nothing).  \n\n3. My payoff each month is: extraction/3 + final_pool/4.  \n   As long as the final pool stays above zero, my own extraction adds $1 to my payoff for every extra $3 I take, while it reduces the final-pool component by at most $0.75.  Net effect: each extra $3 extracted increases my payoff by at least $0.25.  \n\n4. History suggests the other two peasants will probably extract a lot this month (they both took $0 last month), so the marginal damage my extraction does to the final pool is minimal, and the king will not offset my take because the pool will likely already be at or below $60.  \n\n5. With only two months left after this one, the scope for retaliation or future loss from being “greedy” is small.  The simple, payoff-maximizing move is therefore to extract the maximum allowed amount.",
+      "The king’s pattern shows he tops up total extraction to around the 60-dollar sustainability mark, but never takes more than $30. That means:\n\n• If peasants jointly take ≤ 30, the king takes 30 and leaves 90;  \n• If peasants jointly take between 30 and 60, the king takes just enough (≤ 30) to make total 60, leaving 60;  \n• If peasants jointly exceed 60, the king takes nothing and whatever is left is 120 − (total peasant take).\n\nIn every one of these regions my own payoff,  \nπ = (my take)/3 + (remaining pool after extractions)/4,  \nrises when I increase my own extraction: an extra $3 taken raises my first term by $1 while lowering my share of the remainder by at most $0.75. Hence, for this month alone, the dominant choice is to grab the maximum $30.\n\nWith only two months left, the future cost of a possible temporary dip in the pool is small, and the king’s corrective behavior makes an outright collapse unlikely unless peasants take far more than $90 in total. Extracting $30 both maximizes my immediate payoff and fits within the informal norm that no one withdraws more than $30.",
+      "1. The king’s pattern matches:  \n   – He makes sure at least $60 remains if he can, and never takes more than $30.  \n   – Mathematically, after the peasants extract a total E, the king takes  \n     K = min(30, 120 – E – 60).  \n   – Thus the pool remaining after the king (R) is:  \n     • If E ≤ 30: R = 90 – E  \n     • If 30 < E ≤ 60: R = 60  \n     • If E > 60: R = 120 – E  \n\n2. My payoff is x/3 + R/4, where x is my extraction and E = x + (others’ extractions).  \n   Consider each region:  \n   • Region 1 (E ≤ 30): Payoff = 22.5 – (others)/4 + x/12 → rises with x (slope +1/12).  \n   • Region 2 (30 < E ≤ 60): Payoff = 15 + x/3 → rises with x (slope +1/3).  \n   • Region 3 (E > 60): Payoff = 30 – (others)/4 + x/12 → rises with x (slope +1/12).\n\n   In every possible region the payoff is strictly increasing in x, and there is no downward jump at the boundaries (the formula is continuous at E = 30 and E = 60).\n\n3. Therefore, regardless of what the other two peasants do, my best response is to take the maximum allowed amount, $30.",
+      "1. Let x be my extraction this month (0 ≤ x ≤ 60, multiple of 3).  \n2. My immediate payoff this month: x/3 + (60 – x)/4. This rises with x, so purely myopic maximization would suggest “take it all.”  \n3. BUT whatever is left (60 – x) is what the pool regenerates from. Because the pool doubles (capped at 120), leaving the full $60 means the pool is back to $120 next month; taking anything now makes next month’s pool strictly smaller.  \n4. There are only two months left. In the final month (Month 12) I will surely take everything the peasants leave, so my Month 12 payoff equals one-third of the amount still in the pool after their take. The larger the pool going into Month 12, the larger that final payoff.  \n5. If I leave the full $60 now (x = 0), the pool is $120 in Month 11. Even if the peasants again take their usual $60, I can forgo extraction in Month 11, let $60 remain, see it double back to $120, and then take the full $60 in the last month.  \n   • Month 10 payoff (x = 0): 0/3 + 60/4 = $15  \n   • Month 11 payoff (extract 0 to preserve pool): 0/3 + 60/4 = $15  \n   • Month 12 payoff (take the entire $60 remaining after peasants): 60/3 = $20  \n   • Total for the final three months = $50.  \n6. Any positive extraction today reduces the pool’s ability to regenerate, which lowers what can be taken in Months 11–12 by more than the few extra dollars I could earn now. For example, extracting $30 now gives me $17.5 today but collapses the pool to $60 in Month 11 and $0 in Month 12, cutting my total to at most $17.5.  \n7. Therefore, to maximize my total payoff over the remaining game, I should take nothing this month and let the pool rebound to $120 again."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s behavior so far is simple: whatever the peasants leave below the sustainability threshold of $60, the king tops up to reach exactly $60 total extraction.  \n   • Peasants extract 60 → king 0  \n   • Peasants extract 30 → king 30  \n   This keeps the final pool at $60 every month, so if peasants together take more than $60 the king will probably punish by taking what is left, leaving $0.  \n\n2. Your payoff = extraction/3 + (final pool)/4.  \n   • If total peasant extraction = 60, final pool = 60 → payoff = extraction/3 + 15.  \n   • If peasants over-extract (>60), king likely leaves 0 → payoff = extraction/3 only.  \n\n3. What do the other two peasants seem to do?  \n   • Months 8 and 10: both took $30 each (peasants’ total = 60).  \n   • Month 9: both took $0 (while you took $30).  \n   The pattern is “both 30, both 0, both 30…”. If that alternation continues, this month (11) they should both choose $0 to let the peasant who sat out last month take $30.  \n\n4. Payoff comparison:  \n   • If they both take $0 and you take $30 → payoff = 30/3 + 15 = $25.  \n   • If they both take $30 and you take $30 (total 90) → king takes the remaining 30, final pool 0, payoff = 30/3 = $10.  \n   • If they both take $30 and you take $0 → payoff = 15.  \n   Taking $30 beats taking $0 provided the chance they both grab $30 is below 2/3. Given the observed alternation, that probability looks well below 2/3 this round.  \n\n5. Fairness: you have extracted $30 only once in the last three months, while each of them has grabbed $60 total. Letting you take $30 this month restores balance and fits the pattern everyone has been following.  \n\nTherefore, the best guess is that the other peasants will choose $0 each, so extracting $30 maximizes your expected payoff and keeps the system on its implicit rotational norm.",
+      "1. The king’s behavior appears consistent: he adjusts his own extraction so that the pool left after him is about $60 whenever possible (Month 8: took $0, Month 9: took $30, Month 10: took $0).  \n2. If the peasants leave ≥ $60 before the king, the pool after the king will be $60 and my payoff will be (my extraction)/3 + $60/4 = (my extraction)/3 + $15. Hence my payoff rises with my own extraction so long as the total peasant take does not push the remainder below $60.  \n3. Looking at the recent pattern, Peasants 2 and 3 both took $30 in Months 8 and 10 but took $0 in Month 9. They have extracted twice as much as I have in the last three months (they each have $60, I have $30). Fairness and the observed alternation suggest they are likely to take $0 this round, letting me “catch up.”  \n4. If they both take $0, the pool before the king will be $90 when I take $30; the king will then take $30, leave $60, and my payoff is 30/3 + 15 = $25.  \n5. Even in a less favorable scenario—say one of them takes $30 or both take $30—my expected payoff from taking $30 is still at least as good as or better than taking a smaller amount unless both of them extract $30 each and the king punishes drastically, which past behavior makes unlikely.  \n6. Therefore, extracting the maximum $30 gives the highest expected payoff for this second-to-last month.",
+      "1. The peasants (including me) have been following a clear, fairly cooperative pattern:  \n   • Months 8 & 10: two peasants each took $30 (total $60).  \n   • Month 9: the remaining peasant took $30, the others $0 (total $30), after which the king took $30 so the pool still ended at $60.  \n   This keeps the post-king pool at $60 every month, letting it regenerate back to $120.  \n2. Over the last three months P2 and P3 have each taken $30 twice, while I (P1) have taken $30 only once. To keep payoffs even, it is my turn to take $30 while they take $0.  \n3. If I take $30 and the others take $0, peasants’ total is $30; the king will predictably top up with $30 (as in Month 9) so the pool ends at $60 and regenerates to $120. My payoff = $30/3 + $60/4 = $10 + $15 = $25.  \n4. The main risk is that both other peasants also take $30. Even in that worst case my payoff would be $30/3 + $30/4 = $10 + $7.5 = $17.5, which is still higher than what I would earn by taking $0.  \n5. With only one month left after this, even a temporary dip to $60 next month is acceptable, but sticking to the established rotation maximizes my expected payoff and maintains cooperation.",
+      "1. If I extract x now, the pool left is (60 – x).  \n2. Next month’s starting pool = min[120, 2 × (60 – x)].  \n   • If I take anything (x > 0), the start of month 12 drops below 120 because 2(60 – x) < 120.  \n   • With x = 0 the pool regenerates fully to 120.\n\n3. Payoff trade-off:  \n   • Current month payoff increases by x/12 (every extra $3 gives me $0.25 now).  \n   • But each dollar I pull now reduces next month’s pool by $2, cutting the amount I can seize next month.  \n     – Historical pattern: peasants on average leave about half the pool for me (they have been taking 60 of 120).  \n     – Expected loss next month per dollar I take now ≈ 2 × (½) × (1/3) = 1/3 ≈ $0.33.  \n   • So every $1 gained now (≈ $0.08 in payoff) costs ≈ $0.33 in expected future payoff. Net negative.\n\n4. Therefore leaving the full $60 guarantees the pool regenerates to $120, maximizing what I can seize in the final round and giving the highest two-month total.\n\n5. Conclusion: extract nothing this month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      0,
+      90
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      0.0,
+      10.0,
+      0.0,
+      30.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "1. My payoff each dollar I take gives me +1/3.  \n2. Any dollar left for the king to decide about gives me +1/4 only if he leaves it in the pool.  \n3. The king’s past pattern is to leave exactly $60 in the pool (extracting whatever excess is above $60).  \n   • If total peasant extraction ≤ $60, I can expect a final pool of $60 → my payoff = (my take)/3 + 15.  \n   • If total peasant extraction > $60, the king has so far extracted nothing, leaving the smaller pool, so my payoff = (my take)/3 + (120 – total peasant take)/4.  \n   • In either case my payoff rises with my own extraction.  \n4. This is the last month, so there is no future cost to shrinking the pool.  \n5. Across all plausible behaviors of the others and the king, taking the maximum allowed ($30) always yields at least as much and usually more than taking less.  \n\nTherefore, to maximize my guaranteed payoff, I should extract the maximum $30.",
+      "It is the final month (no future consequences), and the king moves last. His payoff increases with every additional dollar he extracts, so he will take all that remains after the peasants’ extractions, leaving the final pool at $0. Therefore my own payoff will simply be (my extraction)/3. To maximize this, I should take the largest amount allowed, $30. Any smaller extraction only lowers my payoff and does nothing to increase what remains (since the king will remove it anyway).",
+      "1. This is the last month, so there is no future penalty for shrinking the pool.  \n2. My payoff is (my extraction)/3 + (pool remaining)/4. \n3. The king has always ensured the final pool never exceeds $60. Even if he changed and took everything this month, each extra dollar I extract still raises my own payoff:  \n   – I gain 1/3 of any dollar I take.  \n   – I lose at most 1/4 of that same dollar through the smaller remaining pool.  \n   – Net effect: +1/12 per dollar, so extracting more always helps me.  \n4. Therefore, to maximize my payoff, I should take the highest amount allowed, $30.",
+      "This is the final month, so there is no future regeneration or reputational concern to temper my choice. My payoff this month is:\n\nPayoff = (my extraction)/3 + (pool remaining after my extraction)/4  \nLet my extraction be x. Then the remaining pool is 90 – x.\n\nPayoff(x) = x/3 + (90 – x)/4  \n           = (4x + 3(90 – x)) / 12  \n           = (4x + 270 – 3x) / 12  \n           = (x + 270) / 12\n\nThis expression is strictly increasing in x: each extra dollar extracted raises my payoff by 1/12. Therefore, to maximize my payoff, I should extract the maximum allowed amount, which is the entire $90 that remains."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      18,
+      18,
+      24
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      21.0,
+      21.0,
+      23.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. I expect the king cares about having at least $60 left so the pool can refill to $120 next month; if that is still possible after our extractions, he is likely to leave the needed amount.  \n2. I do not know what the other two peasants will do.  A reasonable guess is that, on average, they might each take around $15 (half of their $30 maximum).  That would be $30 from the two of them.  \n3. If I also took a very large amount, total peasant extraction could easily exceed $60, forcing the king either to drain the rest or leave too little for renewal.  That would hurt everyone in later months.  \n4. If I take a very small amount (or zero), I risk earning almost nothing this month if the king still removes a lot.  \n5. Extracting $9 is a compromise:  \n   • It gives me a sure $9/3 = $3 even in the worst‐case where the king takes everything.  \n   • Combined with a plausible $30 from the other peasants, total peasant extraction would be around $39, still well under the $60 sustainability point, so the king can comfortably leave at least $60.  \n   • My share of any remainder (¼ of what is left) is still substantial, and I signal cooperative intent for the coming months.  \n\nTherefore I will take $9 this month.",
+      "I want to keep the commons healthy so that we can all keep earning for the full 12 months.  \nIf each peasant takes $18, our combined extraction is $54; the king can then take $6, bringing total extraction to the sustainability threshold of $60. That leaves $60 in the pool, which will double back to $120 next month.  \nMy payoff this month would be: $18/3 + $60/4 = $6 + $15 = $21.  \nTaking more risks pushing the total well over $60 (especially if the other peasants also take more), which would shrink the pool and hurt future payoffs. Taking much less just invites the king to take the slack and lowers my own payoff.  \nThus $18 strikes a good balance between current income and long-term sustainability.",
+      "1. I want a good immediate payoff, but also need to keep the pool healthy for the next 11 months.  \n2. If total peasant extraction stays at or below $60, the king can still take something and leave $60 in the pool, which then doubles back to $120.  \n3. With three peasants, keeping our individual takes around $18 each (total $54) lets the king still grab up to $6 while sustainability is preserved.  \n4. At $18 my immediate payoff is 18/3 = $6, and if the king leaves $60, I also get $60/4 = $15, for a total of $21 this month—better than many lower-extraction options and safer for the future than grabbing the maximum $30.  \n5. Extracting $18 signals cooperation (I’m not being greedy), so the king is more likely to leave the sustainable $60 instead of punishing us by wiping out the pool.  \n6. Therefore $18 balances good income now with a strong chance of preserving the commons for the remaining months.",
+      "• My payoff this month comes from two sources:  \n  1) One-third of what I extract.  \n  2) One-quarter of what I leave in the pool.  \n  Extracting an extra dollar now raises my current payoff by 1/3 but lowers it by 1/4 because the remaining pool shrinks, for a net immediate gain of 1/12. So, if I cared only about this month, I would take everything.  \n\n• However, whatever I leave doubles (up to $120) for next month, and the game lasts 11 more months. If at least $60 is left, the pool refills to the maximum $120. Keeping the pool at $120 each month is valuable for future payoffs and lets me credibly threaten heavy extraction if peasants ever over-harvest later.  \n\n• The peasants together took only $36 (well below their combined cap of $90), suggesting a willingness to cooperate. Rewarding this cooperation by leaving just enough ($60) to refill to $120 both maximizes future sustainability and still gives me a strong current payoff.\n\n• To leave $60 out of the $84, I should extract $24.  \n  – My immediate payoff = (24)/3 + (60)/4 = 8 + 15 = $23.  \n  – The pool will regenerate to $120 for next month, preserving future potential gains and maintaining the cooperative norm."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      24,
+      18,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      21.0,
+      23.0,
+      21.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. Last month the peasants together took $36, well under the $60 sustainability limit.  \n2. The king then topped up his own take so that exactly $60 remained, letting the pool regenerate to $120.  \n3. This pattern suggests the king’s rule of thumb is: “leave $60 in the pool.” If the peasants together stay at or below $60, he will simply take the difference up to $60 and everyone enjoys a fully-regenerated pool next month.  \n4. Therefore, from my perspective the safe region is for the three peasants’ total extractions to sum to $60 or less.  \n5. If I expect the other two peasants to repeat last month’s $18 each (total $36), then a fair, symmetric contribution would be another $18 from me, bringing the peasant total to $54—still under the threshold.  \n6. My payoff with an $18 extraction would be:  \n   – Direct share: $18 / 3 = $6  \n   – Share of remaining pool: $60 / 4 = $15  \n   – Total payoff = $21  \n7. Extracting more than $18 (e.g., $24 or $30) would raise my immediate payoff slightly if the others stick to $18, but it would (a) push the peasant total closer to or over the $60 limit, (b) risk triggering lower regeneration if others also raise their take, and (c) signal greed that could provoke retaliation in later months.  \n8. Extracting less than $18 needlessly sacrifices immediate payoff while giving the king more room to take.  \n9. Balancing immediate gain, sustainability, and fairness, $18 is the prudent choice.",
+      "Last month I took $0 while the other two peasants each took $18, so the peasants’ total was $36. The king then removed $24 to leave the pool at the sustainable $60 level. This shows two things:  \n1) The other peasants seem satisfied with taking about $18 each.  \n2) The king is aiming to leave exactly $60 in the pool so it can regenerate to $120.\n\nIf the other peasants again take $18 apiece (total $36), the sustainable total extraction for peasants is $60, leaving $24 “unused.”  \n• If I take $24, the peasants’ total becomes $60. The king will then take $0 to keep the pool at $60, so it will regenerate fully.  \n• My payoff would be: (24)/3 + 60/4 = 8 + 15 = $23.  \n• This is higher than what I earned last month ($15) and still keeps the commons sustainable for future months.  \n• Taking more than $24 risks pushing total extraction above $60, shrinking next month’s pool and harming future payoffs.  \nThus $24 balances improving my share, denying the king extra surplus, and maintaining sustainability.",
+      "1. The king’s action last month suggests a clear rule: he extracts just enough so that total extraction equals the sustainability threshold ($60), leaving $60 in the pool to ensure full regeneration.  \n   • Peasants took $36 → King took $24 → Total $60 → Pool regenerated to $120.  \n2. If the three peasants together keep their total extraction ≤ $60, the king will likely continue this pattern (taking 60 − P_total), leaving $60 in the pool and guaranteeing regeneration.  \n3. Last month the other two peasants each took $18. It is reasonable to expect they may repeat that amount (they earned the highest peasant payoffs).  \n   • Expected others’ total = $18 + $18 = $36.  \n4. To stay within the sustainable $60 limit, I should target 60 − 36 = $24 or less.  \n   • Extracting $24 would maximize my immediate payoff if the others stay at $18 ($24/3 + 15 = $23).  \n   • However, if either of them increases even slightly (say to $21), our combined extraction could exceed $60, risking king retaliation or pool shrinkage.  \n5. Extracting $18 keeps my share equal to theirs (fairness), yields a solid payoff ($18/3 + 15 = $21), and leaves a buffer (total expected 54) in case someone increases a bit.  \n6. Choosing $18 balances self-interest, fairness, and risk management, while preserving the king’s incentive to maintain sustainability.",
+      "1. The peasants have left exactly $60 in the pool. If I take nothing, the pool will double back to the $120 maximum, giving us a full, healthy commons next month.  \n2. My within-month payoff rises only slowly with extra extraction:  \n   Payoff = 15 + (x/12).  \n   • Extracting the full $60 would raise my payoff from $15 to just $20—a gain of only $5.  \n3. Any extraction now that pushes the pool below $60 shrinks next month’s starting pool (e.g., taking $12 today means the pool starts at $96 next month), cutting into all future payoffs—including mine—for the remaining 10 months.  \n4. By showing restraint when the peasants behave sustainably (total take ≤ $60), I reinforce the rule that if they keep to the threshold I will not punish them; if they exceed it later, I can always enforce with my greater power.  \n5. The long-run value of a fully regenerated pool each month easily outweighs the extra $1 per $12 I could gain today.\n\nTherefore, the optimal move is to take nothing this month and preserve the resource."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      18,
+      18,
+      0
+    ],
+    "final_pool": 84,
+    "payoffs": [
+      21.0,
+      27.0,
+      27.0,
+      21.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s revealed rule is to leave the pool at $60: he extracts the excess above $60 if the peasants leave more than $60 and takes nothing if they leave ≤ $60.  \n2. Therefore, as long as total peasant extraction ≤ $60, the final pool (after the king) will be $60 and my payoff is  \n   payoff = (my extraction)/3 + 60/4 = (my extraction)/3 + 15.  \n   My marginal benefit under this “safe” zone is 1/3 dollar per extra dollar taken.  \n3. If peasant extraction exceeds $60, the king takes nothing and the final pool falls below $60.  \n   Then: payoff = (my extraction)/3 + (120 − total peasant extraction)/4,  \n   so overshooting lowers everyone’s payoff now and shrinks the pool for the next nine months.  \n4. The other two peasants together took $36 in month 1 and $42 in month 2.  \n   A reasonable forecast for them this month is about $42 again (possibly a little higher, but unlikely above $48).  \n5. To keep the total near (but not above) the $60 sustainability mark, my best response is to take $18:  \n   • If they take $42 again, total = 60 (exactly sustainable).  \n   • If they take only $36, total = 54 (still sustainable; king removes nothing).  \n   • If they push up to $48, total = 66; we overshoot by $6, but that is a modest error that signals them to scale back next round.  \n6. Extracting more than $18 yields only modest extra payoff this month (⅓ dollar per extra dollar) but greatly raises the chance of overshooting, which would hurt the next nine rounds. Extracting less than $18 sacrifices current payoff with little sustainability benefit because the others already seem comfortable around $42.  \n\nTherefore I choose the same $18 as last month to balance current earnings and future sustainability.",
+      "1. So far the three peasants have coordinated to keep their combined extraction at or below the sustainability threshold of $60, which lets the king leave a final pool of $60 that regenerates back to the full $120.  \n2. The king’s observed rule is to take just enough to leave exactly $60 in the pool whenever the peasants leave at least $60; if the peasants leave less, the king cannot fix the deficit.  \n3. My own payoff is: (my extraction)/3 + (final pool)/4.  As long as the peasants’ total extraction ≤ $60, the final pool will be $60, giving everyone a constant $15 share from that term.  \n4. Raising my extraction by $3 while keeping the total ≤ $60 gives me +$1 in direct payoff with no loss in the pool share.  Once the total exceeds $60, however, every extra $3 I take lowers the final pool by $3, cutting my pool share by $0.75 and each other peasant’s by $0.75.  I net only +$0.25 while harming the group and risking future retaliation in this 12-month game.  \n5. Last month the other two peasants took $24 and $18, totaling $42.  If they repeat those choices and I take $18, the peasants’ total is exactly $60 again, preserving the cooperation that has worked so far.  \n6. $18 is therefore cooperative, fair (close to the per-capita sustainable share of $20), and protects the long-run value of the resource.",
+      "The king has behaved consistently: whatever the peasants leave, he adjusts his own take so that the final pool ends at $60, which then regenerates back to $120. Thus, as long as the peasants’ total extraction does not exceed $60, the commons stays healthy and everyone keeps receiving the steady $15 share from the pool each month.  \n\nMy own payoff each month is: (my extraction)/3 + 15.  \n• If I extract $18, my payoff is 18/3 + 15 = $21.  \n• Extracting more (e.g., $21, $24, $27, or $30) raises my first‐part payoff, but risks pushing the peasants’ total above $60. If that happens, the king cannot “add back” what isn’t there, the pool would finish below $60, and next month’s pool share for everyone would fall below $15 for the remaining nine months—hurting me as well.\n\nFrom the history, the other two peasants have taken $18–$24 each. If I stay at $18, even if both of them repeat their Month-2 amounts ($24 and $18), the total is exactly $60 and sustainability is maintained. $18 therefore maximizes my expected long-run payoff while keeping the commons at the safe level the king wants.",
+      "1. My immediate payoff increases by only $1 for every extra $12 I take, because  \n   Payoff = 21 + (extraction)/12.  \n   So extracting the full $24 I could take while still leaving $60 would boost my payoff from $21 to $23—a gain of just $2.\n\n2. Last time I took that full $24 (Month 1) the peasants responded by ramping their total extraction up to $60 in Month 2.  \n   When I showed restraint and took $0 in Month 2, they rewarded me by cutting their extraction back down to $36 this month.  \n   This tit-for-tat pattern suggests that if I stay generous they will keep their demands low, which benefits me in every future month.\n\n3. The resource fully regenerates as long as at least $60 is left. Extracting nothing guarantees regeneration to $120 and preserves the cooperative mood.  \n   Any extra I grab now risks provoking the peasants to escalate again, which would slash my future payoffs far more than the tiny $1–$2 gain I’d get today.\n\n4. Therefore the long-run optimal move is to continue the cooperative strategy and take nothing this month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      24,
+      24,
+      18,
+      0
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      21.5,
+      21.5,
+      19.5,
+      13.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The other two peasants have taken $18 almost every month, so I expect them to take $18 each again (total $36).\n2. If I take $24, total peasant extraction will be $36 + $24 = $60, exactly the sustainability threshold.\n3. When the peasants extracted exactly $60 in Month 2, the king took $0. Hitting the same total should give the king no reason to extract this month either.\n4. With no king extraction, the pool after all extractions will be $60, which regenerates back to $120, keeping the commons healthy.\n5. My payoff would be: $24/3 + $60/4 = $8 + $15 = $23, which is higher than what I’ve earned in previous months and helps close the gap with the other peasants while still protecting the commons.",
+      "• The other two peasants have usually taken $18 each (months 1 & 3) and once took $18 and $24 (month 2). It is reasonable to expect they will together take about $36.  \n• The sustainability threshold is $60. If our joint extraction hits $60 or less, the king has previously left the remainder untouched (month 2).  \n• If the other two take $36, we can take $24 and keep total peasant extraction exactly at $60. That should leave $60 in the pool, giving the king little incentive to extract (as in month 2).  \n• Our payoff if the king does not extract:  \n  – Extraction payoff: $24 / 3 = $8  \n  – Pool share: $60 / 4 = $15  \n  – Total = $23  \n• Taking less than $24 lowers our extraction payoff and only slightly raises the pool share, so total payoff falls.  \n• Taking more than $24 drives total extraction above the sustainability threshold, risks provoking the king, and could shrink next month’s pool.  \nTherefore, extracting $24 is the best balance between personal payoff and minimizing king interference.",
+      "The other two peasants have repeatedly taken $18 each. If they do the same again, their total will be $36.  \nI want a high personal payoff but also want to keep the post-peasant total extraction at or below the $60 sustainability threshold so the king has little incentive (or ability) to take more.  \n\nIf I take $24, the peasants’ combined extraction becomes  \n$18 + $18 + $24 = $60.  \nThat leaves exactly $60 in the pool when the king’s turn arrives. Because only $60 remains, the king cannot extract anything without pushing the pool below the threshold, so the most likely outcome is he takes $0.  \n\nPayoff to me if the king takes $0:  \n• My extraction component = $24 / 3 = $8  \n• Final pool component   = $60 / 4 = $15  \nTotal payoff = $23, which is higher than what I’d expect from taking $18 (≈$22) or $0 (between $15 and $21 depending on the king).  \n\nTaking more than $24 (e.g., $27 or $30) risks driving the pool below $60 before the king moves; he could then seize what remains, slashing my payoff. Taking less than $24 leaves money on the table for me without increasing the final pool share because the king might step in if it exceeds $60.  \n\nThus $24 balances maximized personal gain and minimized risk.",
+      "1. My current-month payoff rises by only $0.083 for every extra dollar I take (because I gain $1/3 but lose $1/4 of the remainder).  \n2. Each dollar I extract now cuts next month’s starting pool by $2 (since the remainder is doubled), slashing my future payoffs for the next eight months.  \n3. The remaining pool is already below the 60-dollar sustainability threshold. Any further extraction would drop next month’s starting pool below $108 and accelerate depletion.  \n4. History shows that leniency (king takes $0) was followed by lower peasant extractions (Month 2 → 3), whereas a sizable royal take (Month 1) was followed by higher peasant grabs (Month 2). Thus restraint is the better signal to encourage cooperative behavior.  \n5. Leaving the $54 intact maximizes long-run value: it will regenerate to $108, preserving a larger commons for the remaining eight months and ultimately yielding me higher cumulative payoffs."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 108,
+    "extractions": [
+      18,
+      0,
+      18,
+      12
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      21.0,
+      15.0,
+      21.0,
+      19.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The pool is $108 and will only stay the same (108→108) if total extraction this month is 54.  \n2. My own payoff is x/3 + (remaining)/4 = x/12 + constant, so taking more always gives a slightly higher one-shot payoff (≈ $0.08 per extra dollar).  \n3. However, every extra dollar above the sustainability threshold shrinks next month’s pool by $2, hurting all future payoffs—including mine over the 7 months that remain.  \n4. The other two peasants have usually taken about $18 each (sometimes one goes to $24). If they each take $18 again, their total is $36.  \n5. Choosing $18 myself would put total extraction at the sustainability threshold ($36 + $18 = $54), keeping the pool stable at $108 and giving me $19.50 this month, while preserving future payoffs.  \n6. Extracting more (e.g., $24 or $30) would yield at most ~$1 extra right now but would almost certainly shrink the pool, costing me far more than $1 in each of the next 7 rounds.  \n7. Extracting less than $18 would sacrifice current earnings without offering noticeably better protection, because even if one peasant bumps up to $24, the total will still only be $60 (a small overshoot).  \n\nBalancing current income with the sustainability of the pool, $18 is the best compromise.",
+      "1. I earn 1/3 of what I take but lose 1/4 of every dollar that disappears from the pool. So each extra dollar I extract only nets me 1/12 ≈ $0.08 if the king leaves the remainder untouched—very small.  \n2. The king’s behaviour is uncertain. He has never punished when the peasants left $54 or more, but we have no data for cases where less than $54 remained. If the remaining pool drops below $54 he might take everything, dropping my share of the remainder to zero and slashing my payoff.  \n3. Last month the other two peasants together took $48. If they repeat that, the pool left before the king will be $60 – x. To guarantee the “safe” $54-plus buffer in that worst reasonable case, my extraction must be $6 or less.  \n4. The extra expected gain from taking $3 or $6 (only +$0.25 or +$0.50 in payoff) is not worth the risk of triggering royal punishment or further shrinking the commons.  \n5. Taking nothing both eliminates that risk and sets a cooperative example, helping the pool recover for the remaining seven months.",
+      "We start with $108 in the pool and the sustainability threshold is $54.  \n1. If the three peasants each take $18, the total extraction is exactly $54, leaving $54 in the pool and keeping the resource from shrinking (it will double back to $108).  \n2. Historically, most extractions have clustered around $18–$24, and after last month’s slight pool shrink (caused by going over the threshold), the other peasants are likely to scale back toward the sustainable $18 level.  \n3. Extracting $18 gives me a solid immediate payoff:  \n   • My term: $18/3 = $6  \n   • Pool term (if total extraction = $54): $54/4 = $13.5  \n   • Total ≈ $19.5  \n   This is only modestly below the my-payoff-maximizing “take $24–$30” alternatives, but it greatly helps keep the pool healthy for the remaining seven months, which should raise my future payoffs.  \n4. Choosing much less (e.g., $6 or $9) would sacrifice too much immediate payoff, and choosing more (e.g., $24) risks another pool shrink if the others do not also cut back.  \n5. Therefore, $18 is the best balance between current earnings and sustaining the commons.",
+      "1. My immediate payoff this month is U = E/3 + (72−E)/4 = (E + 216)/12.  \n   • Each extra $3 I take raises my payoff by only $0.25.  \n2. If I take more than $12, the remainder drops below $60.  \n   • Remainder ≥ $60 ⇒ pool fully regenerates to $120 next month.  \n   • Remainder < $60 ⇒ next month’s pool < $120, reducing future opportunities for both me and the peasants.  \n3. The long-run cost of shrinking the pool (lower bases for the next 7 rounds) outweighs the tiny $0.25-per-$3 gain I get today.  \n4. Extracting exactly $12 keeps the pool at $60, guarantees full regeneration to $120, and still nudges my current payoff up slightly (from $18 with E=0 to $19 with E=12).  \n5. Staying sustainable also signals restraint, which may help keep peasant extractions moderate in later months."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      18,
+      18,
+      6
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      21.0,
+      21.0,
+      21.0,
+      17.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The pool is healthiest if the three peasants’ total extraction stays at or below the sustainability threshold of $60; then the pool can regenerate to the full $120.  \n2. When the peasants have stayed under that $60 limit (Months 1–3 & 5), everyone has earned solid pay-offs and the pool has always bounced back to $120, even when the king skimmed a little in Month 5.  \n3. My own payoff is x/3 (from what I take) plus one-quarter of what is left after everyone, including the king, has taken.  Taking more always raises my immediate payoff a little, but it also lowers the shared remainder and risks prompting the king (who sometimes skims extra when the remainder is high) or shrinking the pool for future months.  \n4. The other two peasants have recently averaged about $18 each.  If they continue at $18 apiece (total $36), then my taking $18 would bring the peasants’ total to $54—comfortably under the $60 limit—likely leaving $66 in the pool.  That should either (a) keep the king from extracting at all or (b) at worst let him take a small amount while still leaving at least $60, so the pool fully regenerates.  \n5. Extracting more (e.g., $24 or $27) would push the peasants’ total closer to or over $60 if the others also inch upward, increasing the risk of shrinking the pool and reducing future pay-offs.  \n6. A steady, cooperative $18 keeps us sustainable, discourages excessive king extraction, maintains trust with the other peasants, and gives me a good current payoff (at least $21 if the king skims a little, up to $31.5 if he doesn’t).  This balances current gain with future sustainability over the remaining six months.",
+      "The other two peasants have recently settled around $18 each, so I expect them to do the same this round (≈$36 total). If I also take $18, peasant extraction will be $54, just below the $60 sustainability threshold. This leaves the king room to take a modest amount (likely $0–$6) while still keeping total extraction at or under the threshold. With $18 taken, my direct payoff is $6 (= 18/3), and even if the king lifts total extraction to the threshold, about $60 will remain, giving me another $15 (= 60/4). That yields an expected payoff around $21—higher than taking nothing and much safer than over-extracting, which could provoke a harsh king response and shrink the pool. Thus, $18 balances current gain with future sustainability.",
+      "1. In months when each peasant’s combined take has been around $36–$60, the king has either taken nothing or only a small, predictable amount ($0 or $12).  \n2. The most common pattern among the other two peasants has been $18 each (Month 3: 18+18, Month 5: 18+18). If they keep doing that, a sensible forecast for their joint extraction is $36.  \n3. If I now take $18, total peasant extraction is likely to be $54—below the $60 sustainability ceiling—leaving $66 in the pool before the king moves.  \n4. When the remaining pool has been in the $54–$84 range, the king has sometimes taken nothing, sometimes $12, but never enough to threaten the pool’s rebound to $120.  \n   • If the king takes $0, my payoff = 18/3 + 66/4 = 6 + 16.5 = $22.5.  \n   • If the king trims, say, $6–$12, my payoff is still at least $6 + (54/4) = $19.5.  \n5. Extracting the maximum ($30) would raise my first-term payoff but risks provoking the king or encouraging the others to grab more, pushing the pool below the sustainability line and lowering the second-term payoff for everyone (including me) in later months.  \n6. Therefore, $18 balances a good current payoff with a high chance of keeping the pool healthy and the king calm, which should pay off over the remaining six months.",
+      "• My per-month payoff is:  (king extraction)/3  +  (post-extraction remainder)/4.  \n• Before I act, $66 is left.  If the final remainder is at least $60, the pool will fully regenerate to $120 for next month; if it is below $60, next month’s pool will be smaller and future payoffs will fall.  \n• To keep at least $60 in the pool I can extract at most $6 (because 66 – x ≥ 60 ⇒ x ≤ 6).  \n• Compare payoffs:  \n – x = 0 → payoff = 0/3 + 66/4 = 16.5  \n – x = 3 → payoff = 1 + 15.75 = 16.75  \n – x = 6 → payoff = 2 + 15 = 17.0 (still sustainable)  \n – x > 6 gives slightly higher current payoff but drops the pool below 60, reducing next month’s pool (max 114 or less) and forcing lower future payoffs. Over the remaining 6 months this future cost outweighs the tiny immediate gain.  \n• Therefore, the best balance between current reward and maintaining the pool is to extract $6, leaving $60 so the pool doubles back to $120."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      0,
+      18,
+      18
+    ],
+    "final_pool": 66,
+    "payoffs": [
+      22.5,
+      16.5,
+      22.5,
+      22.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Over the last two months we (the peasants) have coordinated on a fair, sustainable pattern: each peasant takes $18 ⇒ peasants’ total = $54, the king then claims $6, the pool ends at $60 and regenerates to $120.  \n• This gives me a solid current payoff of $21 ($18/3 + $60/4).  \n• If I deviate upward (e.g., take $24 or $27) I might earn at most an extra $2–$3 now, but I would signal greed and risk the other peasants (or the king) escalating in later months, which could shrink the pool and cut my future payoffs over the next five months.  \n• Sticking with $18 supports the cooperative norm, keeps the pool healthy, and protects my longer-term earnings.\n\nTherefore I will continue extracting $18.",
+      "1. The king’s recent behavior shows he adjusts his own extraction so that the final pool is kept at (or near) $60, allowing regeneration back to $120.  \n2. When the peasants’ total extraction stays below $60, the king simply tops‐up (or extracts a little) to leave $60. If peasants go above $60, the king does not (and cannot) compensate, so the final pool falls below $60 and the resource shrinks next month.  \n3. Over the last two months all three peasants have converged on $18 each (total $54). This keeps the system stable, gives everyone good payoffs, and maintains trust with the king.  \n4. Deviating upward could give me at most a small one-time gain ($1–$2 extra this month) but risks pushing total extraction over $60 if even one other peasant also increases. That would shrink the pool, lower everyone’s future payoffs, and might provoke harsher king extraction later.  \n5. With five months still to go, preserving the stable $120 pool is more valuable than a tiny short-term gain.  \n6. Therefore I will stick with the cooperative, mutually understood amount of $18.",
+      "For two months in a row each peasant has taken $18, totalling $54. The king then removes just enough (6) to leave $60 in the pool, so it regenerates fully. This pattern gives me a steady payoff of $21 and keeps the commons sustainable.\n\nIf I raise my take to $24 while the others stay at $18, my immediate payoff rises to $23 (8 + 15). But if either of them also raises to $24 (quite plausible if they follow my lead), total peasant extraction becomes $72, the pool falls to $48, the king will not restore it, next month’s pool drops to $96, and everyone’s future payoffs decline—including mine. With five months left, that future loss outweighs the extra $2 I’d gain now.\n\nSticking to $18 maintains fairness, keeps the pool healthy, and avoids provoking retaliation or stricter royal extractions. It maximizes my expected long-run payoff.",
+      "1. My payoff this month is: payoff = E/3 + (84 – E)/4, where E is my extraction and 0 ≤ E ≤ 84 (in multiples of $3).  \n   ⇒ payoff = 21 + E/12.  So, the more I take now, the higher my immediate payoff.\n\n2. However, the pool only regenerates to a full $120 next month if I leave at least $60 today (i.e., E ≤ 24).  \n   – If I take more than $24, the pool will drop below $60, regrow to less than $120, and cut into everyone’s future payoffs—including my own—for the remaining 5 months.\n\n3. Among the sustainable choices (E ≤ 24), the largest extraction (E = 24) maximizes this month’s payoff (=$23).  \n   – But taking the full $24 would give me a payoff advantage over Peasants 1 & 3 (23 vs. 21) and sharply reduce their shares from the remaining pool, risking retaliation in later months.\n\n4. Extracting $18 keeps the pool at $66 (> $60), so it still regenerates to $120.  \n   – Payoffs with E = 18:  \n       • My payoff = 18/3 + 66/4 = 6 + 16.5 = 22.5  \n       • Peasants 1 & 3 each also earn 22.5, Peasant 2 earns 16.5.  \n     Thus I stay on par with the cooperative peasants while still improving my own payoff vs. last month.\n\n5. The extra 0.5 payoff I would gain by jumping from $18 to $24 is too small to justify the risk of provoking higher peasant extractions in the remaining five months.\n\nTherefore, the prudent, sustainable, and fairness-preserving extraction is $18."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      24,
+      30,
+      30,
+      36
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      8.0,
+      10.0,
+      10.0,
+      12.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "1. The king’s pattern is to leave roughly $60–$66 in the pool by extracting the difference after he sees what the peasants take.  \n2. If the three peasants’ total extraction is ≤ $60, the king can still leave about $60, so the final pool (and therefore the second part of my payoff) stays at ≈ $60, giving me about $15 no matter what.  \n3. My first-term payoff is my own extraction divided by 3, so within the safe total-extraction limit it is always better for me to take more.  \n4. The other two peasants have been very stable: Peasant 1 has always taken $18; Peasant 3 has taken $18 in five of seven months (and $18 the last two). Their combined extraction is therefore most likely $36.  \n5. If I take $24, the peasants’ total will be $36 + $24 = $60, exactly at the sustainability threshold. The king will then probably take little or nothing, leaving ~$60 in the pool.  \n   • My payoff would be $24/3 = $8 from extraction + $60/4 = $15 from the pool = $23.  \n6. Any lower extraction (e.g., $18 or $21) gives me a smaller first-term payoff while the second-term payoff stays the same, so $24 is the best risk-adjusted choice.  \n7. Taking more than $24 risks pushing the peasants’ total over $60; then the king would likely empty the pool, slashing my second-term payoff.  \n\nTherefore, I extract $24.",
+      "1. The king’s revealed pattern is to adjust his own extraction so that the pool left over after everyone ­– including himself – is roughly $60. \n   • If the peasants’ total (P) is ≤ $60, the king takes about (60 – P) and the final pool stays ≈ $60.  \n   • If P exceeds $60, the king usually takes nothing and the pool ends below $60.\n\n2. Because of this rule-of-thumb, my second-term payoff component (final pool/4) is almost always near $15 (=$60/4) and is largely unaffected by how much I personally take, provided total peasant extraction does not jump far above $60.\n\n3. My first-term payoff component is (my extraction)/3, which rises linearly with how much I take.  Since the second term is roughly fixed, maximizing my own extraction maximizes my total payoff.\n\n4. The highest amount I am allowed to extract is $30.  \n   • If the other two peasants follow their recent pattern (18 and 0, or 18 and 18), total peasant extraction will be $48 or $66.  \n   • In the $48 case, the king will still leave $60 in the pool, so my payoff is $10 + $15 = $25.  \n   • In the $66 case, the pool after all extractions would be $54, giving me $10 + $13.5 = $23.5 – still better than I would earn by taking less.  \n   • Even in extreme cases (both other peasants also take $30, making P = $90), my payoff is $17.5, which is higher than the $15 I’d get by taking nothing.\n\n5. With only four months left, the potential long-term downside of slightly lowering next month’s pool is limited, while the immediate gain is certain.\n\nTherefore, the self-interested best response is to extract the maximum allowed $30.",
+      "1. My payoff each month is: (my extraction)/3 + (final pool)/4.  \n2. Whatever the king leaves in the pool benefits me only at ¼ rate, whereas every extra $3 I take benefits me at ⅓ rate.  The net marginal gain from raising my own extraction by $3 is therefore +$1 – $0.75 = +$0.25 as long as the king’s behaviour doesn’t perfectly offset it.  \n3. Historical evidence shows the king is willing to leave at least $60–$66 in the pool even when peasants stay below the sustainability threshold (total ≤ $60).  If peasants exceed that threshold, the king has so far NOT “punished” them by driving the pool to zero; he simply takes less (or nothing) when the pool is already low.  \n4. The other two peasants have repeatedly chosen either $18 or $0.  The most common joint total from them is $36 (sometimes $54).  \n   • If they take $36 and I take $30, total peasant extraction is $66, leaving $54 in the pool before regeneration.  \n     My payoff = 30/3 + 54/4 = 10 + 13.5 = $23.5 (higher than the $21 I’d get by taking $18).  \n   • If they take only $18 between them (one of them cooperates at $0 as in months 5 and 7), total peasant extraction is $48, still under the sustainability threshold, so the king will likely leave $60 and my payoff becomes 30/3 + 60/4 = 10 + 15 = $25.  \n5. Even in extreme cases where everyone else also jumps to $30 (total peasant extraction $90, pool left $30), my payoff is 30/3 + 30/4 = 10 + 7.5 = $17.5, which is comparable to or better than what the low-extracting peasant has been getting (e.g., $15–$16.5).  \n6. Only four months remain.  Any future retaliation or pool shrinkage has limited time to hurt me, while the immediate gain from a higher extraction is certain.  \n\nGiven the positive marginal payoff, the observed behaviour of the king, and the short remaining horizon, the individually rational choice is to take the maximum allowed amount of $30.",
+      "1. My current-month payoff is: P(X) = X/3 + (36–X)/4 = (X + 108)/12.  \n   • This is strictly increasing in X (slope = +1/12), so a larger extraction always gives me a higher immediate payoff.  \n   • Maximum immediate payoff occurs at the maximal feasible X = 36, yielding P(36) = 12.  \n\n2. Future months matter only if a viable pool remains. The pool left after my extraction (R = 36 – X) doubles for next month (capped at 120).  \n   • If I leave R ≤ 30 (i.e., extract ≥ 6), next month’s pool will be ≤ 60.  \n   • Peasants have just shown extreme over-harvesting (they took 84 when the sustainable limit was 60). With only four months left, it is highly likely they will continue to grab whatever is available.  \n   • Any modest stock I leave (e.g., R = 30 ⇒ next pool = 60) would almost certainly be fully depleted by the peasants before my move next round, leaving me zero future payoff and collapsing the pool anyway.  \n\n3. To keep the resource truly sustainable I would need to leave ≥ 60 (which is impossible this month because only 36 remain). Hence, regardless of whether I leave 36, 30 or 0, the commons is effectively on a crash course given the peasants’ recent behavior.  \n\n4. Therefore, preserving the pool now yields me little or no expected future benefit, while reducing my sure payoff today. The dominance of immediate returns plus pessimistic expectations about future cooperation imply that maximizing current extraction is optimal."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      0,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      15.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. I receive $1 of immediate payoff for every $3 I extract (extraction/3).  \n2. I gain $0.75 of payoff for every $3 that remains in the pool after all agents finish (remaining/4), but only if the king actually leaves that money in the pool.  \n3. The king moves last and can take any or all of what is left. If the king is even moderately greedy, he is likely to capture most of the remaining pool, leaving little or nothing for the peasants’ “remaining/4” term.  \n4. Given this uncertainty, each extra $3 I leave in the pool risks returning as little as $0 to me if the king takes it, whereas extracting that $3 guarantees me $1.  \n5. Therefore, from a purely self-interested standpoint, maximizing my guaranteed payoff means extracting the maximum allowed amount.  \n6. While high extraction may reduce sustainability, I cannot count on others (especially the king) to cooperate, so securing my own benefit now is prudent.",
+      "1. I cannot control what the other two peasants do, nor can I control the king.  \n2. After the peasants move, the king observes the remaining pool and can freely take whatever is left. If the king is purely self-interested this month, he maximizes his own payoff by taking everything that remains.  \n3. If the king takes the entire remainder, the pool left after all extractions is $0, so the “pool remaining” part of my payoff is 0.  \n4. My payoff therefore reduces to (my extraction)/3.  \n5. To maximize that amount I should extract the largest amount allowed to me, which is $30.  \n6. Extracting any smaller amount strictly lowers my payoff under the assumption that the king will leave nothing.",
+      "1. My payoff this month equals (my extraction)/3 plus one-quarter of whatever the king leaves in the pool.  \n2. After the three peasants have taken their shares, the king moves last and can remove as much of what remains as he likes. The rules give him “no upper limit,” so I must assume he will act in his own interest and may take anything left beyond what he wants to preserve (and could even take everything).  \n3. Because I cannot control – or even predict – how much the other two peasants will take, nor how much (if anything) the king will leave, the only part of my payoff I can be absolutely sure of is the fraction that comes directly from my own extraction: (my extraction)/3.  \n4. That term is strictly increasing in the amount I take, and my allowed range is $0–$30 in $3 increments.  \n5. Any hope that the king will leave a large remainder for me to share is uncertain, whereas the benefit from my own extraction is guaranteed once I take it.  \n6. Therefore, to maximize my certain payoff this month, I should take the maximum permitted amount, $30, which guarantees me $30/3 = $10 no matter what the others do.",
+      "1. My immediate monetary gain from extracting X dollars is:  \n   payoff = X/3 + (60 – X)/4 = 15 + X/12.  \n   • Each extra dollar I take now raises this month’s payoff by $0.0833… (1/12).  \n2. However, any dollar I remove also shrinks the amount left in the pool (R = 60 – X).  \n   • The leftover R is what doubles to form next month’s pool (capped at 120).  \n3. If I leave the full $60 (i.e., extract 0):  \n   • Pool doubles back to $120 for next month.  \n   • Peasants will again take $60, leaving me another $60 to manage.  \n   • I then earn $15 every month (0/3 + 60/4) for as long as the cycle continues.  \n4. Comparing strategies:  \n   • Extracting everything now (X = 60) gives me $20 this month but collapses the pool to $0 forever—total expected 12-month payoff ≈ $20.  \n   • Leaving the pool at 60 each month by extracting nothing yields $15 per month for the first 11 months ($165), after which I can still take the whole $60 in month 12 for $20. Total ≈ $185.  \n5. Any partial extraction this month (e.g., X=3,6,15, etc.) gives only a small immediate gain (≈X/12) but cuts future payoffs roughly in half because the pool no longer regenerates to the full $120; over 12 months this is dominated by the “wait-and-raid-in-month-12” plan.  \n\nTherefore, to maximize total payoff across the 12-month horizon, I should leave the entire $60 now and plan to harvest in the final month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      0,
+      0,
+      30
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      15.0,
+      15.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king showed last month that he is benevolent when the three peasants keep their total extraction at or below the $60 sustainability threshold.  \n2. A simple, fair rotation can keep the commons sustainable: the peasant who took $0 last month takes $30 this month, while at least one of the two peasants who took $30 last month drops to $0.  \n   • That keeps the peasants’ total at $60, so the king should again leave the remainder untouched.  \n3. Last month I was the $0 extractor. Taking $30 now both evens up our individual payoffs and still allows the group to stay at the $60 limit if just one of the other two peasants cooperates by dropping to $0.  \n4. If both of the others ignore the norm and each again take $30 (total peasants = $90), the king is likely to punish by taking what is left. My worst-case payoff is then $10, which is not disastrous and is the cost of signalling that I expect the fair rotation to continue.  \n5. Overall, extracting $30 this month balances fairness, keeps us on the sustainability path if the others reciprocate, and has an acceptable downside risk if they do not.",
+      "Last month the three peasants coordinated on the sustainable total of $60 by having two peasants take $30 each and one take $0. A fair, sustainable rotation is for the peasant who took $0 last month to take $30 this month, while the two who took $30 last month now take $0. I was one of the peasants who extracted $30 in Month 1, so I should extract $0 in Month 2. This keeps total extraction at or below the $60 sustainability threshold, preserves the pool at its maximum $120 for future months, and maintains fairness among peasants.",
+      "Last month two peasants each took $30 and the king let the pool regenerate because total extraction stayed at the $60 sustainability cap. Those two peasants have no reason to change a strategy that worked, so it is very likely they each take $30 again.  \nIf I now take anything more than $0, total peasant extraction would exceed $60 and (1) the king could punish by emptying what is left, and (2) the pool would shrink, slashing the “remaining-pool” part of my payoff.  \n\n• If the other two peasants again take $30 each and I also take $15, my sure payoff falls to $5 (because the king is expected to grab the rest).  \n• If I take the full $30, my payoff is only $10 in that same scenario.  \n• By taking $0, I keep total extraction right at $60, the king is unlikely to intervene, the pool stays healthy, and I earn $15 (0 from extraction + $60/4 from the remaining pool).  \n\nGiven the high risk that the other two peasants will continue their $30 apiece behavior, extracting anything myself is likely to lower—rather than raise—my payoff, while also endangering future months. Therefore I choose to take nothing this month.",
+      "1. My immediate payoff from extracting X is X/3 + (90 − X)/4 = 22.5 + X/12.  This rises with X, so taking more always helps me this month.  \n2. However, if the final pool drops below $60 it will regenerate to less than $120 next month (because it only doubles and is capped at $120).  That permanently lowers everyone’s future payoffs, including mine.  \n3. Extracting $30 leaves exactly $60 in the pool.  The pool will then regenerate back to the full $120 for next month, keeping future opportunities intact.  \n4. Taking more than $30 would earn me at most a dollar or two extra now, but would cut next month’s pool and likely provoke higher peasant extractions in response, reducing my future gains far more than the small one-month increase.  \n5. Extracting less than $30 would leave more than $60 in the pool but would unnecessarily sacrifice current payoff without improving regeneration (it is already capped at $120).  \n\nTherefore, the best long-term strategy is to take $30 this month, leaving a sustainable $60 in the commons."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      0,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      15.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. My payoff each month is: (my extraction)/3 + (pool remaining after all extractions)/4.  \n2. So far the king’s behavior is to leave exactly $60 in the pool at the end of the peasants’ round:  \n   • If peasants leave ≥ $60, the king removes whatever is above $60.  \n   • If peasants leave < $60, the king takes nothing.  \n   Thus whenever total peasant extraction ≤ $60, the final pool is always $60.  \n3. If total peasant extraction ≤ $60, my payoff = x/3 + 60/4 = x/3 + 15. This increases monotonically with x, so I should take the maximum allowed ($30).  \n4. If total peasant extraction > $60, the king takes nothing and the final pool becomes 120 − E_p (which is below $60). Even in that case, my payoff = x/3 + (120 − E_p)/4. Holding other peasants’ choices fixed, this expression is still higher for larger x.  \n5. Therefore, regardless of what the other two peasants do, extracting $30 maximizes my immediate payoff and does not worsen it in any scenario.  \n6. Future sustainability is effectively managed by the king’s rule; any loss from an eventual smaller pool is shared, while I keep the certain gain from my extraction today.",
+      "1. The king’s revealed behavior: in Month 1 the peasants in total took $60 and the king took $0; in Month 2 the peasants took $30 and the king took $30 so that total extraction again hit $60.  This strongly suggests the king’s rule is: “take just enough so total extraction = $60.”  \n2. If that rule continues, whatever the peasants leave below $60 the king will remove; whatever is left after everyone’s extraction will therefore be $60 each month (so the pool always regenerates back to $120).  \n3. Under this rule, my payoff each month is  \n   payoff = (my extraction)/3 + (remaining pool)/4  \n           = (my extraction)/3 + 60/4  \n           = (my extraction)/3 + 15.  \n   The remaining-pool term is fixed at $15 no matter what I do (so long as total peasant extraction ≤ 60, the king will top-up to 60; if we exceed 60, the king takes nothing and my payoff from the pool falls—still, the marginal gain from an extra $3 extracted is +1/12·3 = +0.25, so more extraction never hurts my immediate payoff).  \n4. Therefore my immediate payoff rises monotonically with my own extraction.  The maximum I am allowed to take is $30, which yields the highest possible current-month payoff:  \n   payoff = 30/3 + 15 = 10 + 15 = $25.  \n5. Future pool sustainability appears protected by the king’s strategy, so there is no long-run penalty from extracting the maximum.  \n\nHence the best response for this month is to take the maximum permitted amount, $30.",
+      "1. The king’s past behavior shows he extracts just enough to leave $60 in the pool, ensuring it regenerates to $120.  \n2. Peasant 1 has twice taken $30, Peasant 2 has twice taken $0. It is reasonable to expect similar behavior this month.  \n3. If Peasant 1 again takes $30 and Peasant 2 takes $0, total peasant extraction before my move is $30.  \n4. I can take up to $30 while keeping total peasant extraction at $60, which still leaves $60 for the king’s sustainability target.  \n5. With a final pool of $60, my payoff is: (my extraction)/3 + 60/4.  \n   – If I take $30: payoff = 30/3 + 15 = 25.  \n   – Any smaller extraction gives a payoff below $25, and any larger extraction would push total extraction over $60, reduce the final pool below $60, and cut the second term of my payoff.  \n6. Therefore, extracting $30 maximizes my current payoff without harming future pool regeneration.",
+      "My payoff this month is x/3 + (60 − x)/4, which increases with x.  Taking the full $60 would give me $20 now but would leave the pool at $0, so it would never regenerate and I would earn nothing for the remaining 9 months.  \nIf instead I leave at least $60 in the pool the resource will regenerate back to the full $120 next month, allowing me to keep harvesting valuable payoffs in future months.  With a regenerated pool, typical future payoffs range from $15 (when peasants exhaust the 60-dollar sustainability threshold) up to $25 (when they take only $30 and I can safely take $30).  Over nine remaining months that is worth far more than the extra $5 I would gain today by taking $60 instead of $0.  \nTherefore I extract nothing this month to preserve the commons and maximize my total-season payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      0,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      25.0,
+      15.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Peasant 1 has taken $30 every month, while Peasant 3 has followed an alternating pattern: $30 in months 1 and 3, $0 in month 2. If that pattern continues, Peasant 3 will take $0 in this even-numbered month 4. Thus the other peasants’ total extraction should be about $30. If I now extract $30, the peasants’ combined take is $60, exactly at the sustainability threshold. The king then has no reason to remove anything, leaving $60 in the pool, which will double back to $120. My payoff becomes $30 / 3 + $60 / 4 = 10 + 15 = 25, the highest payoff I can earn this month without endangering the commons for future months.",
+      "The king always adjusts his own extraction so that $60 remains in the pool before regeneration. Therefore the final pool after the king’s move is always $60, which doubles back to $120. My payoff is 15 + (extraction/3). Since the king guarantees sustainability, extracting more never harms the future pool, so my payoff rises directly with my extraction. To maximize my payoff, I should extract the maximum allowed amount, $30.",
+      "1. My payoff from extraction has two parts:  \n   – Immediate gain: each $3 I take adds $1 to my payoff (since extraction/3).  \n   – Future/common gain: every $1 left in the pool gives each player 25 ¢ this month (because remaining/4 is shared among four players). So each extra $3 left in the pool is worth 75 ¢ to me this month, plus it helps keep the pool large for future months.  \n\n2. Thus, in the short run, each extra $3 I extract increases my payoff by $1 but reduces my share of the remaining pool by 75 ¢, for a net short-run gain of only 25 ¢. The upside is small.\n\n3. The king’s behavior so far shows he always leaves $60 in the pool if he can. If peasants take more than $60 in total, the king cannot top the pool back up; he might either leave the reduced balance (hurting everyone next month) or punish us by taking what remains (which would slash my payoff). Either way, overshooting $60 is risky.\n\n4. Peasant 1 has consistently taken $30 each month. Peasant 3 alternated: $30, $0, $30. If that pattern continues, Peasant 3 is likely to take $0 this month—or he might defect again and take $30. I cannot be sure.\n\n5. To keep the total peasant extraction at or below the sustainable $60 even in the worst case (Peasant 3 takes $30), I must take $0. That guarantees the pool stays at the target $60, avoids any chance of king punishment, and preserves the resource for the remaining 8 months.\n\n6. The safe, cooperative choice (extract $0) gives me a certain payoff of $15 this month and supports future sustainability, whereas any larger extraction yields only a tiny extra benefit if things go well and a potentially large loss if they do not.",
+      "1. Let X be my extraction.  \n   – My immediate payoff this month = X/3 + (60 – X)/4  \n   – This simplifies to 15 + X/12 → each extra $12 extracted adds only $1 to this month’s payoff.  \n2. Sustainability constraint: the peasants have repeatedly taken $60.  \n   – To keep the commons from collapsing, at the end of my move the pool must still be ≥ $60.  \n   – That requires X ≤ 0 (because 60 – X ≥ 60 ⇒ X ≤ 0).  \n3. If I take any positive amount (say X = 12, 15, 30, …) the pool going into next month will be < $60, so after the peasants’ usual $60 the commons would crash to 0 within a couple of months, ending all future payoffs (8 months remain after this one).  \n4. The extra dollars I could gain now (at most 5 extra payoff points if I took the entire $60) are trivial compared with the 8 × 15 = 120 payoff I would forfeit from the remaining months if the resource collapses.  \n5. Therefore the long-run maximizing move is to extract nothing this month, leaving $60 in the pool so it regenerates back to $120 and keeps the game alive."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      0,
+      0,
+      45
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      18.75,
+      18.75,
+      18.75,
+      33.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The shared goal is to keep total extraction (peasants + king) at $60 so the pool regenerates to $120 and the game can continue profitably for the remaining 7 months.  \n2. If I again take $30, there is a real risk that BOTH other peasants also take $30 to “catch up” on payoffs. That would push peasant extraction to $90. The king could then take some or all of the $30 left, very likely driving the pool to $0 and collapsing the commons for every future month.  \n3. Taking $0 entirely removes that meltdown risk. Whatever the other two peasants choose (0-30 each), the king can always top up to exactly $60 total extraction and the pool will safely end at $60.  \n4. Although my immediate payoff falls from $25 (if I took $30 and we hit $60 exactly) to $15, I preserve future payoffs by avoiding any chance of destroying the pool.  \n5. It is also fair: the other two peasants have each taken a turn at $30 while I have taken $30 every month so far. Sitting out this round signals cooperation and may encourage continued sustainable behavior.",
+      "1. In every past month, the three peasants’ total extraction has been exactly $60.  \n2. Whenever the peasants extract $60, the king leaves the remaining $60 untouched, so the final pool is $60 and everyone gets a $60/4 = $15 share.  \n3. If total peasant extraction is less than $60, the king has taken just enough to leave $60, so the final pool is still $60.  \n4. If total peasant extraction were to exceed $60, the king could take everything that remains (his incentive is to minimize what he leaves), leaving us with a very low payoff.  \n5. The best, safest payoff for any peasant therefore comes from helping to hit the $60 total exactly. Given the observed pattern—Peasant 1 always takes $30 and the other two peasants seem to alternate between $0 and $30—the most likely way to reach $60 this month is for us to take $30 while the other variable peasant takes $0.  \n6. With our extraction at $30 and a final pool of $60, our payoff is $30/3 + $60/4 = $10 + $15 = $25, which is the highest we can expect without risking over-extraction.",
+      "So far, the king’s behavior suggests he wants exactly $60 left in the pool after all extractions:  \n• When peasants took only $30 (Month 2), the king took $30 to make total extraction $60.  \n• When peasants already took $60 (Months 3 & 4), the king took $0.\n\nPeasant patterns look like a simple rotation:  \nPeasant 1 has always taken $30.  \nPeasant 3 alternated 0 → 30 → 0, so the next likely move for Peasant 3 is $30.  \nWe (Peasant 2) did 0 → 0 → 30, so the fair continuation of the cycle is for us to take $0 now.\n\nIf Peasant 3 indeed takes $30 and we take $0, total peasant extraction will be $60. The king should then extract $0, leaving $60 in the pool. Our payoff would be:\n\n0/3 + 60/4 = $15.\n\nIf instead we took $30 and Peasant 3 also took $30, total peasant extraction would jump to $90. The king could not restore the pool to $60 and might even empty the remainder, giving us at best:\n\n30/3 + 0/4 = $10 (and possibly collapsing the commons).\n\nSticking with $0 both sustains the commons and maximizes our expected payoff under the observed behavior.",
+      "1. My immediate payoff equals 30 + (extraction)/12.  So, the more I take now, the higher this month’s payoff.  \n2. However, to keep the pool fully regenerated to $120 next month, I must leave at least $60 in the commons after my move.  \n3. Any extraction up to $60 keeps the pool at its maximum in the future, so the choice is about balancing my marginal gain against keeping peasants cooperative.  \n4. The peasants took $0 this month—perhaps signalling trust and hoping for a fair share of the surplus. If I grab too much, they may retaliate in later months by taking their full $30 each, reducing my future payoffs.  \n5. Extracting $45 leaves $75 in the pool, so it still regenerates to $120.  \n   • My payoff this month: 45/3 + 75/4 = 15 + 18.75 = $33.75.  \n   • Each peasant (who took $0) still receives 75/4 = $18.75, a respectable return that rewards their restraint and should maintain cooperation.  \n6. Compared with taking $60 (payoff $35), I sacrifice only $1.25 now but likely preserve goodwill and future cooperation, which is worth more over the remaining seven months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      0,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      15.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. The king’s behavior so far suggests he wants the pool to regenerate to $120 each month.  \n   • If peasants leave more than $75, he skims off the excess to leave $75 (Month 5).  \n   • If peasants leave $60, he takes nothing (Months 3–4).  \n   Thus, if peasants’ total extraction E ≤ 45, the king will take 45 – E, leaving $75.  \n   If 45 < E ≤ 60, the king takes nothing, leaving 120 – E (which is 60–75).  \n   If E > 60, the king still takes nothing, but the pool falls below 60 and shrinks next month.\n\n2. My payoff this month is: (my extraction)/3 + (final pool)/4.  \n   Compare payoffs for different choices, given three possible counts of other peasants taking $30 (n = 0, 1, 2).\n\n   a) If n = 0 (others take $0):  \n      • My 0 → payoff 18.75  \n      • My 15 → 23.75  \n      • My 30 → 25   (best)\n\n   b) If n = 1 (others take $30):  \n      • My 0 → 18.75  \n      • My 15 → 23.75  \n      • My 30 → 25   (best)\n\n   c) If n = 2 (others take $30 each):  \n      • My 0 → 15  \n      • My 15 → 16.25  \n      • My 30 → 17.5 (best, though pool shrinks)\n\n   In every scenario, extracting $30 gives me the highest immediate payoff.\n\n3. Risk to future months is only serious if all three peasants take $30 (E = 90).  \n   Past behavior shows peasants coordinate so total extraction stays at 60; simultaneous triple-30 has not happened and seems unlikely.  \n   Even in that worst case I still earn more this month (17.5) than with lower extractions, and coordination can restore the pool later.\n\n4. Therefore, maximizing my current payoff while following the prevailing pattern (two peasants take $30, one takes $0) means I should take $30.",
+      "1. When the peasants together leave $60 in the pool (total peasant extraction = $60), the king has so far chosen to take $0, letting the pool stay sustainable and giving 30-extracting peasants the highest observed payoff ($25).  \n2. In Months 3 and 4 two peasants each took $30 while one took $0, exactly hitting the $60 target; the king then took nothing.  \n3. In Month 5 all peasants took $0, leaving $120; the king responded by taking $45, which reduced everyone’s payoff. That taught us that leaving too much invites heavier king extraction and lowers our returns.  \n4. Given this history, it is likely that at least one other peasant will again take $30 to avoid a repeat of Month 5. By taking $30 myself we help reach (or get close to) the $60 total that discourages the king from plundering, while giving me the highest individual share if the pattern holds.  \n5. If all three peasants happened to take $30 (total $90), my payoff would still be at least $17.5—better than the $15 I’d get by taking $0 while two others take $30. So $30 is a relatively safe, high-return choice under the uncertainty about others’ actions.",
+      "1. My current-month payoff rises with my own extraction (it is my extraction divided by 3), while the share I get from the remaining pool is partly under the king’s control.  \n2. History suggests the king is satisfied (extracts little or nothing) when the peasants together take about $60. A pattern of two peasants taking $30 each has occurred twice already, so it is plausible that at least one other peasant will also take $30 this round.  \n3. If two peasants (including me) take $30 each (total peasant extraction = $60), the king has so far taken $0, leaving $60 to regenerate and giving me a payoff of 25 (= $30/3 + $60/4).  \n4. Even in a less favorable scenario—e.g., all three peasants take $30 (leaving $30 before the king moves)—my payoff is still 17.5, which is higher than the 15 I would get by extracting nothing.  \n5. Should the other peasants take less than $30 each, the king can still intervene to leave at least $60 in the pool, and my payoff remains at least 25.  \n6. Therefore $30 maximizes my expected payoff while still allowing the pool to remain sustainable under reasonable behaviors by the others and the king.",
+      "My goal is to maximize my total payoff over the remaining 7 months (this month plus six more).  \n• This month the peasants have already taken $60, leaving $60 in the pool.  \n• If I take x dollars now (0 ≤ x ≤ 60, multiples of 3), my immediate payoff is  \n     π₀ = x/3 + (60 – x)/4 = (x + 180)/12.  \n  So a larger x raises my payoff today.  \n\n• However, the pool available next month will be P₁ = 2 × (60 – x), capped at $120.  \n  If I take any positive amount, then 60 – x < 60 ⇒ P₁ < 120, and the pool begins an inexorable decline if the peasants keep extracting 60 each round (their historical pattern). Once the pool ever hits 0, it never recovers, and everyone—including me—earns nothing thereafter.  \n\n• By leaving the full $60 now (i.e., extracting $0), the pool stays at the sustainability threshold, doubles back to the maximum $120, and I can expect to keep earning at least $15 per month for the remaining 6 months, totaling about $105 in future value.  \n\n• Any extraction >0 gives me at most $5 extra today (if I took the entire $60, my one-shot gain is $20 vs. $15), but it would collapse the pool and destroy all future payoffs, leaving me much worse off overall.  \n\nTherefore, the long-run payoff-maximizing and sustainability-preserving choice is to extract nothing this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      0,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      25.0,
+      25.0,
+      15.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. My payoff rises by $1 for every additional $3 I take (since extraction is divided by 3).  \n2. The second part of my payoff depends on the pool that remains after the king’s move.  \n   • If the peasants leave more than $60, the king has so far trimmed the excess and still left at least $60 (Month 5).  \n   • If the peasants leave exactly $60, the king has taken nothing (Months 4 & 6).  \n   • If the peasants leave less than $60, the king cannot “undo” the shortfall, so the remainder just shrinks.  \n3. Therefore, as long as total peasant extraction does not push the remainder below $60, my share of the pool-remnant term stays at its maximum of $15.  \n4. Recent history suggests two peasants usually take $30 and one takes $0, keeping total peasant extraction at the sustainable $60. If that pattern continues, taking $30 myself fits the norm and still leaves $60 for the king (who has so far not extracted in that scenario).  \n5. Even in the worst case where all three peasants take $30 (total $90, remainder $30), my payoff would be 10 + 7.5 = $17.5—higher than any payoff I would get by taking a smaller amount when others take $30.  \n6. With only five months left, the long-run cost of a possible one-round pool shrinkage is limited, while the immediate gain from the higher extraction is certain.\n\nGiven these considerations, the payoff-maximizing and historically consistent choice is to extract the maximum allowed amount of $30.",
+      "When the peasants’ total extraction has hit the $60 sustainability threshold (Months 4 & 6), the king has taken nothing, leaving $60 in the pool to regenerate fully. That outcome gives the peasants who extracted $30 a high payoff of $25 and keeps the commons sustainable. If I take $30 and exactly one other peasant also takes $30 (a pattern already observed twice), the king is likely to leave the remainder, and I get the best immediate return (10 from my own take plus 15 from the pool share = 25).  \nIf the other two peasants both take $0, the king has so far chosen to extract some—but even then my payoff stays respectable (e.g., king took $45 last time, leaving $45; I’d get 10 + 11.25 = 21.25).  \nIf all three peasants took $30 (total $90), the pool would drop to $30 before any king extraction. The king has previously refrained from taking when little remained, so my payoff would be 10 + 7.5 = 17.5, still better than what I earn by taking nothing.  \nThus, $30 maximizes my expected payoff while keeping the risk to future pool levels acceptable.",
+      "1. The pool is at its maximum $120, so keeping the final remainder at or above $60 guarantees full regeneration.  \n2. The king’s behaviour so far:  \n   • When peasants leave exactly $60, he has taken $0.  \n   • When peasants leave more than $60, he skims off the surplus (Month 5).  \n   Therefore, the safest way to minimise the king’s take is for the peasants to leave exactly $60.  \n3. Over Months 4-6 the peasants have followed an informal rotation: two peasants each take $30 (total $60) while the third takes $0.  \n   • I took $30 in Month 6, so to stay on that fair schedule I should now be the “$0” peasant.  \n4. If the other two peasants again take $30 each, total extraction will be $60, leaving $60 for the king to observe; he is likely to take nothing, the pool will regenerate fully, and my payoff will be $15.  \n5. Extracting more than $0 risks (a) pushing total extraction above $60, shrinking next month’s pool, and (b) signalling greed, inviting retaliation in later months when five rounds still remain.  \n6. Extracting $0 this month therefore balances short-term payoff, future sustainability, and social reciprocity.",
+      "1. The sustainability threshold we have implicitly coordinated on is to leave at least $60 in the pool after all extractions.  \n2. In Months 4 and 6 the peasants together took $60, I took $0, the pool stayed at $60 and regenerated fully to $120. That pattern maintains the resource and seems to keep the peasants cooperative.  \n3. If I now take anything (>0), the pool will drop below $60, regenerate to less than $120 next month, and signal a break from the established fair‐sharing norm.  \n4. The immediate monetary gain from a small extraction (e.g., $15 gives a payoff of $16.25 vs. $15 if I take $0) is minimal, while the long-term cost could be significant: a smaller pool next round and potential retaliation or over-extraction by peasants (they still have unused capacity).  \n5. Maintaining the precedent of extracting $0 when peasants hit the $60 sustainability limit maximizes future payoffs by keeping the commons at its cap for the remaining five months.  \n6. Therefore, I will again extract $0 to preserve trust, sustainability, and future pool size."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "final_pool": 120,
+    "payoffs": [
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The three peasants have implicitly coordinated on a fair rotation: each month two peasants take $30 each (total $60) while one takes $0, keeping the pool sustainable and avoiding the king’s intervention.  \n• Month 5: all peasants took $0 → king took $45, left $75.  \n• Month 6: P1 & P3 took $30, P2 took $0 → king took $0.  \n• Month 7: P1 & P2 took $30, P3 took $0 → king took $0.  \n\nSo far, P2 and P3 have each been the “$0” peasant once; I (P1) have not yet taken $0 in the rotation. If I now take $0 while the other two take $30 each, total extraction stays at the sustainable $60, the king stays satisfied (likely taking $0), and the pool remains at $120 for future months. \n\nDefecting by taking more this month would raise my immediate payoff only slightly (+$0.25 per extra $3) but risks:  \n1. Shrinking the pool for the remaining 4 months, lowering future payoffs.  \n2. Provoking retaliation from the other peasants or additional extraction by the king.\n\nMaintaining the cooperative rotation maximizes expected long-term gains and preserves goodwill.\n\nTherefore, I will extract nothing this month.",
+      "1. The peasants have settled into a stable, sustainable pattern: total peasant extraction = $60 each month, which keeps the pool at $120 and usually induces the king to take $0 (he only took a large amount when peasants took nothing in Month 5). \n2. Over Months 5–7, the peasants have been rotating who sits out:\n   • Month 5: all took $0  \n   • Month 6: P1 & P3 took $30, P2 took $0  \n   • Month 7: P1 & P2 took $30, P3 took $0  \n   So far, I (Peasant 1) have already taken $30 twice (Months 6 & 7). The fair rotation now calls for me to take $0 while the other two split the $60.\n3. Sticking to the rotation has benefits: \n   • It keeps total extraction at the sustainability threshold, so the king is likely to refrain from further extraction (as seen in Months 6 & 7).  \n   • It maintains cooperation and avoids triggering retaliation or over-extraction in the remaining four months, preserving high future payoffs.\n4. If I were to take another $30 now, total extraction could exceed $60 (if others also take $30), risking a smaller pool and lower future payoffs, and signaling untrustworthiness. The short-term gain is outweighed by the long-term cost.\n5. Therefore, I choose to extract $0 this month, adhering to the cooperative rotation and maximizing expected long-run payoff.",
+      "1. The king’s behavior over the last three months suggests he tries to keep total extraction at or below the sustainability threshold of $60.  \n   • When peasants took only $0, he filled the gap ($45) so that the pool still stayed healthy.  \n   • When peasants already took $60, he took $0.  \n\n2. Among the peasants a tacit coordination seems to have emerged: exactly two peasants take $30 each (total $60) while one takes $0, rotating who sits out.  \n   • Month 6: Peasants 1 & 3 took $30; Peasant 2 took $0.  \n   • Month 7: Peasants 1 & 2 took $30; Peasant 3 took $0.  \n   • If the rotation continues, this month the two who have not both taken $30 together yet (Peasants 2 & 3) should extract $30 each, and I (Peasant 1) should take $0.  \n\n3. By taking $0 now:  \n   • We keep total peasant extraction likely at $60, so the king will again take $0, leaving $60 in the pool.  \n   • My payoff will be 0/3 + 60/4 = $15.  \n   • This sustains the pool at its maximum ($120 after regeneration) for the remaining four months and maintains trust among peasants, protecting future payoffs.  \n\n4. If I deviated by taking more, I risk (a) over-extraction if others also take $30, which would shrink the pool and hurt future earnings, or (b) provoking king retaliation. The immediate gain is outweighed by these risks.  \n\nTherefore, the cooperative and payoff-stable action is to extract $0.",
+      "1. My immediate payoff rises only slowly with additional extraction: every extra $12 taken this month increases my payoff by just $1.  \n2. As long as I leave at least $60 in the pool (i.e., extract ≤ $60), the resource will still regenerate to the full $120 next month, so the ecological cost of a moderate take is zero.  \n3. The real danger is social: when I grabbed $45 in Month 5, the peasants retaliated by maxing out their $30 caps for two straight months. That retaliation cost me $0 immediately (since I then took $0) and will cost me more if it recurs.  \n4. The peasants have now shown goodwill by taking $0 again. Extracting anything significant risks reigniting their punishment, which would cut my payoffs in the remaining four months by much more than the extra $5–$10 I could gain today.  \n5. Therefore, the value of maintaining cooperation and trust outweighs the small immediate gain from extracting this month. I should take nothing and enjoy the full $30 payoff while preserving a cooperative climate for the final stretch of the game."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "final_pool": 120,
+    "payoffs": [
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. When all peasants took $0 last month, everyone (including the king) earned the maximum possible payoff of $30, and the pool stayed full at $120.  \n2. If I now take x dollars while the others continue to cooperate (take $0), my immediate gain is small: my payoff becomes 30 + x/12, so even the largest deviation ($30) raises my payoff by only $2.50 (to $32.50).  \n3. However, any visible defection risks triggering retaliation by the other peasants (who could then each take $30 in the remaining rounds) or a punitive extraction by the king, both of which would cut my future pay-offs sharply. With just three months left, two retaliatory rounds at $15 each would more than wipe out the one-time $2.50 gain from defecting.  \n4. Continuing to extract $0 is thus safest and yields the highest expected total payoff (three more rounds at $30 = $90) while preserving the cooperative norm and the pool.  \n5. Therefore I should stick with full cooperation and take nothing this month.",
+      "1. The king has shown a clear pattern: if the peasants’ total extraction is ≤ $60 he takes nothing; if it ever exceeds $60 he can wipe out the remainder, slashing everyone’s payoffs.  \n2. In months 6 and 7 the other two peasants together took $60; in month 8 they took $0. So the chance they again sum to $60 this month is high (historically 2 out of 3 recent rounds).  \n3. If the other peasants together take $60 and I take even $3, the total becomes $63, likely provoking the king and dropping my payoff to about $10.  \n4. If they take less than $60 and I take $0, my payoff is still generous (between $22.50 and $30) and the pool stays safe. The gain from defecting (at most +$2.50 if the others take $0) is tiny compared with the huge downside risk.  \n5. Therefore the safest and highest-expected-value move is to extract nothing again and preserve the cooperative equilibrium.",
+      "The pool is full at $120. When all peasants extracted $0 last month everyone (including the king) earned the maximum possible payoff of $30 and the pool stayed at its cap. Repeating that outcome gives me $30 again.  \nIf I grab extra today I can earn at most $40 (by taking $30) or $31 (by taking $3) this month, but the other peasants—already $10 behind me because I took $30 in months 6 and 7—would see the free-ride and likely retaliate in the last three months by switching back to large extractions. That would drop my future payoffs below 30 and leave me worse off overall. The cooperative choice of $0 is thus the safest way to preserve both the pool and my long-run earnings.",
+      "1. My payoff each month is: (my extraction)/3  +  (pool remaining after my extraction)/4.  \n   With 120 available, this is 30 + (extraction)/12.  So grabbing more now raises this month’s payoff, but it shrinks the pool and/or angers the peasants, hurting future months.  \n\n2. If I take the full $120 now, I earn 40 this month but leave $0, so the pool regenerates to $0 and everyone (including me) gets nothing for the remaining three months. Total ≈ 40. Bad.\n\n3. If I take $60 (leaving $60), I earn 35 this month and the pool bounces back to $120.  \n   • Peasants, who just showed full restraint last month, would see their payoffs drop from 30 to 15.  \n   • They could retaliate by jointly taking 60–90 in the next rounds, slashing my future payoffs to 15 or even below 10 per month. Expected total < 120.\n\n4. If I continue the cooperative pattern (take $0, leave $120), everyone gets 30 this month, the pool remains at $120, and I keep peasants happy, encouraging them to keep their extraction low.  \n   • With three months left, sustaining cooperation can yield about 30 + 30 + 30 + (optionally a big final-round grab) ≈ 120–130 in total for me, far exceeding the myopic 40 from defecting today.\n\n5. Therefore, the best long-run strategy is to preserve trust now and postpone any large extraction until the final month, when no future retaliation is possible."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      0,
+      15,
+      45
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "For the last two months all three peasants have taken $0, the king has also taken $0, and everyone has earned the maximum possible payoff of $30.  \nIf I extract x dollars this month my immediate gain rises only by x/12 (e.g., +$2.50 if I take the maximum $30), but:\n\n1. The king might respond by extracting more this round, cutting the pool and my payoff.  \n2. The other peasants (and the king) will see my defection and could retaliate in the remaining two months, destroying the high-payoff cooperative pattern.  \n3. Staying at $0 guarantees three more $30 payoffs (this month plus two more), which dominates the small one-time gain from deviating.\n\nThe safest way to preserve the high long-term return is to keep extracting $0.",
+      "Over the past two months all peasants have taken $0 and each of us has earned the maximum $30 while keeping the pool full. If I take more now, I gain only ⅓ of each dollar I pull out but lose ¼ of that same dollar from the pool share, so the net private gain is small. More importantly, grabbing money now risks triggering retaliation by the other peasants or a large punitive extraction by the king, which would slash everyone’s payoffs for the remaining two months. Sticking with the cooperative norm keeps my risk low and preserves the high, stable $30 payoff for this month and likely the next two.",
+      "1. The king has consistently taken $0, so whatever the peasants leave is what goes into the “remaining-pool” term of everyone’s payoff.  \n2. My marginal gain from taking $1 is +1/3 for me but –1/4 for everyone (including me), so I personally gain 1/12 ≈ 0.083 per extra dollar I take.  \n3. Full cooperation ($0 each) yields me $30.  \n   • If I alone take $30 while the others stay at $0, I get $32.5, but I look blatantly greedy and may trigger retaliation in the last two months.  \n   • If everyone suddenly took $30, the pool left would be only $30, the king might react, and each peasant’s payoff would plunge (≈$10 or less).  \n4. A moderate extraction of $15 gives  \n   • If others stay at $0: pool left = $105 → my payoff = 5 + 26.25 = $31.25 (better than $30).  \n   • If the others also take $15: pool left = $75 (> sustainability) → my payoff = 5 + 18.75 = $23.75 (still better than what I would get by taking $0 in that scenario, which would be $22.5).  \n   • Even in the worst reasonable case (both others jump to $30 each), the pool left is $45; I’d get $16.25, which is only slightly worse than $15 I would get by extracting $0 in that same bad case.  \n5. Thus $15 strikes a balance: small personal gain, keeps the pool above the sustainability threshold unless both other peasants go to the extreme, and is less provocative than a full $30 grab.",
+      "1. My payoff this month is P(x) = x/3 + (105 − x)/4 = 26.25 + x/12.  \n   • It rises steadily with every extra dollar I take.  \n2. However, whatever remains after my extraction doubles for next month, capped at $120.  \n   • If I leave at least $60, the pool is fully restored to $120.  \n   • If I leave less than $60, next month’s pool starts below $120 and everyone earns less in months 11 & 12.  \n3. The best “sustainable” extraction therefore is the largest x that still leaves $60:  \n   • x = 105 − 60 = 45.  \n4. Benefits of extracting 45:  \n   • Gives me the highest possible immediate payoff that still guarantees full regeneration (payoff = 30).  \n   • Signals mild punishment for Peasant 3’s $15 grab without destroying the commons.  \n   • Keeps the resource at its maximum for the final two months, when I can still earn large payoffs—including the option to empty the pool in month 12 if it’s optimal then."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      0,
+      0,
+      60
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      15.0,
+      15.0,
+      35.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The king’s behavior in Months 8–10 fits the rule  \n Final king payoff ≈ $30, achieved by solving Ek/3 + L/4 = 30, where Ek is the king’s take and L the leftover pool.  \nGiven a remaining pool before the king (Rb = 120 – S, with S the peasants’ total extraction), the king leaves  \n\n L = max(4·Rb – 360, 0).  \n\nThus, if peasants’ total extraction S ≤ 30 (so Rb ≥ 90), the leftover becomes L = 120 – 4S and each peasant i’s payoff is  \n\n πi = Ei/3 + L/4 = Ei/3 + (120 – 4S)/4 = 30 – (2/3)Ei – S_other.  \n\nOur own payoff falls as soon as we take anything: with Ei = 0 and the others likely cooperative (history shows 0 or small amounts), we get the maximum 30.  \nExample:  \n• If we take $0 (and others take $0): payoff = 30.  \n• If we take $3 (others $0): payoff = 28.  \n• If we take $6 (others $0): payoff = 26.  \n• If we take $15 (others $0): payoff = 20.  \n• If we take $30 (others $0): payoff = 10.  \n\nExtracting more never helps us while the king follows his 30-payoff rule.  \nBecause Month 12 still matters, keeping the pool high now (leaving ≥ $60) ensures next month also starts at the full $120, giving us another chance at a large payoff. Therefore the strictly best response is to take nothing.",
+      "1. The king’s behavior follows the rule: K = max[0, min(R, 360 − 3R)], where R is the pool remaining after the peasants’ extractions.  \n   • If R > 90, the king leaves a positive final pool F = 4R − 360.  \n   • If R ≤ 90, the king takes everything (F = 0).\n\n2. My payoff is:  \n   • If R > 90:  payoff = x/3 + F/4 = 30 − (2/3)x − y, which decreases as my own extraction x rises.  \n   • If R ≤ 90:  payoff = x/3, which increases with x but is always ≤ 10 (since x ≤ 30).\n\n3. History shows that when all peasants extracted 0, everyone (including me) earned the maximum 30.  \n   When one peasant deviated to 15, everyone’s payoff fell (mine to 15). That deviator also hurt himself (down to 20).\n\n4. The most likely scenario is that the other peasants return to 0 to regain the 30-unit payoff. If they do, any extraction I take above 0 strictly lowers my own payoff (from 30 down to at most 28, 26, …).  \n\n5. If, against expectations, the others extract a lot (so R ≤ 90), my best response would be to take the maximum 30 to get 10—but this is still far below the 30 I get when we cooperate. The probability of both others heavily overdrawing seems low after last month’s lesson.\n\n6. Therefore, the strategy with the highest expected payoff for me is to keep extracting $0, preserving the pool and the 30-unit payoff.",
+      "1. The king’s behavior fits the rule k = 360 – 3R (unless that exceeds what is available).  \n   • If all peasants take $0 → R = $120 → k = $0 → each payoff = $30.  \n   • If peasants take some amount but keep R ≥ $90, the king extracts just enough to keep his own payoff at $30, leaving some pool for us.  \n   • If peasants drive R < $90, the king takes everything and each peasant’s payoff falls to (own extraction)/3.\n\n2. Our payoff when R ≥ $90 is: 30 – (2/3)x – y, where x = our extraction and y = the other peasants’ total extraction. This is highest when x = 0 for any y ≤ 30.\n\n3. If the other peasants together take more than $30 (y > 30), then R < $90. In that case:\n   • Our payoff with x = 0 is 0.  \n   • Our maximum possible payoff is with x = 30, which would give 10.  \n   • However, history shows y > 30 is very unlikely (never happened in 10 rounds; only one peasant once took $15).\n\n4. Expected-value comparison:  \n   • When y ≤ 30 (the overwhelmingly likely case), x = 0 strictly dominates any positive extraction.  \n   • The unlikely case (y > 30) is not enough to justify giving up 20 or more expected dollars in the common, cooperative outcome.\n\n5. There is only one month left, but maintaining cooperation this month maximizes both this month’s payoff (most probable) and encourages everyone, including the king, to keep cooperating in the final month.\n\nTherefore, the best response is to extract nothing again.",
+      "1. My current-month payoff if I extract X is: X/3 + (120−X)/4 = X/12 + 30.  \n   – This increases with X, so—ignoring the future—I would take the maximum.  \n\n2. But there is still one month left.  \n   – Whatever I leave now (R = 120 − X) will double, up to a cap of 120, to become next month’s starting pool.  \n   – On the final month I can then extract the entire pool (because there is no future to worry about), giving me a second-month payoff of (next-month pool)/3.  \n\n3. Total two-month payoff:  \n   • If I leave at least 60 (i.e., X ≤ 60), next month’s pool will be 120.  \n     Total payoff = (X/12 + 30) + 120/3 = X/12 + 70.  \n     This rises with X in this range, peaking at X = 60, giving 75.  \n\n   • If I leave less than 60 (i.e., X > 60), next month’s pool = 2R = 240 − 2X.  \n     Total payoff = X/12 + 30 + (240 − 2X)/3 = 110 − (7/12)X, which falls as X rises.  \n     The best in this region is the smallest X above 60, but even that is below 75.  \n\n4. Therefore the extraction that maximizes my combined payoff for months 11 and 12 is X = 60.  \n   – It keeps the pool at the sustainability threshold (R = 60) so it regenerates fully to 120.  \n   – It gives me a strong payoff now and still lets me take a full 120 next month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "1. My payoff this final month is: (my extraction)/3 + (remaining pool after king)/4.  \n2. Since the king’s recent behavior leaves a final pool of $60 whenever the peasants’ total extraction is ≤ $60, it is reasonable to expect he will again target a $60 final pool (K = 60 – total peasant take).  \n   • If total peasant extraction ≤ $60 → final pool ≈ $60 → my payoff = (x/3) + 15.  \n   • If total peasant extraction > $60 → king can empty the rest → final pool ≈ $0 → my payoff = (x/3).  \n3. The other two peasants have so far taken very little (mostly $0, once $15); even if each of them jumps to $30, total is $60 if I take $0, or $90 if I also take $30.  \n   • History suggests both simultaneously taking the maximum is unlikely.  \n4. With a high chance the other two together stay at or below $30, choosing the maximum $30 gives:  \n   • Good outcome (probable): pool ends at $60 → payoff = 30/3 + 60/4 = 10 + 15 = $25.  \n   • Bad outcome (rare): pool ends at $0 → payoff = 30/3 = $10, still better than the $0–$15 range I’d get with lower extraction in that worst case.  \n5. Expected value therefore peaks at the highest allowable extraction.  \n6. It is the last month, so future retaliation is impossible; maximizing this round’s payoff dominates caution.",
+      "It is the final month, so the future size of the pool no longer matters. From past rounds, the king’s rule is predictable: he tops extraction up to the $60 sustainability threshold (King takes 60 − total peasant extraction if that difference is positive, otherwise he takes 0).  \n• If total peasant extraction ≤ $60, the remaining pool is always $60, so my payoff = (my extraction)/3 + 15. This rises with every extra dollar I take.  \n• If total peasant extraction > $60, the king takes nothing and the remaining pool is 120 − (total peasant extraction). My payoff then is (my extraction)/3 + (120 − total extraction)/4. The derivative with respect to my own extraction is 1/3 − 1/4 = 1/12, still positive, so my payoff again increases with every extra dollar I take.  \n\nThus, regardless of what the other peasants do, my payoff is maximized by choosing the maximum allowed extraction, $30.",
+      "It is the last month, so future sustainability no longer matters.  \nMy payoff this round = (my extraction)/3 + (pool remaining after everyone)/4.  \nWhatever the king does, each extra \\$3 I take raises my payoff by \\$1 ( = 3/3 ) while only reducing the term that depends on the remaining pool by at most \\$0.75 ( = 3/4 ).  Thus every extra dollar I extract still increases my net payoff.  \nHistorical evidence shows the king always leaves at least \\$60 and sometimes more, but even if he becomes fully greedy and leaves \\$0, my payoff is still highest when I take the largest amount allowed.  \nTherefore the payoff-maximizing choice is to extract the maximum \\$30.",
+      "My payoff this month is calculated as (extraction)/3 + (remaining after extraction)/4. With 30 dollars left in the pool, let x be my extraction (0 ≤ x ≤ 30, in multiples of 3). The payoff function is:\n\nPayoff(x) = x/3 + (30 − x)/4\n           = (4x + 3(30 − x)) / 12\n           = (x + 90) / 12.\n\nThis expression increases with x, so the larger the extraction, the higher my payoff. Since this is the final month and future regeneration no longer matters, I should maximize x. The maximum allowable extraction is the entire remaining $30."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "I have no reliable information about how the other peasants or, more importantly, the king will behave. If the king is greedy and simply takes everything that remains (which he is allowed to do), the pool remainder after all extractions will be $0. In that worst‐case scenario, my payoff equals only my own extraction divided by 3. To maximize that guaranteed payoff, I should take the largest amount allowed to me, $30, which gives me a sure payoff of $30/3 = $10 even if the king empties the pool. Any smaller extraction risks leaving me with less than $10 if the king is greedy. Therefore, to secure the highest certain payoff, I extract the maximum.",
+      "1. I cannot predict exactly how much the other two peasants will take, nor how the king will behave, but I do know the king always moves last and can take any amount he wants.  \n2. If the king is purely self-interested, he can always adjust his own extraction so the final remainder is whatever he prefers. Therefore my choice will not reliably protect the pool’s future size—the king’s decision dominates that.  \n3. For my own payoff this month, every extra $3 I take increases my first-term payoff by $1 (=$3/3).  \n4. The second-term payoff (¼ of the remainder) is largely out of my control because the king can offset whatever I leave. If he wants to leave $60 he will do so regardless of whether I take a bit more or less (as long as the three peasants together take under $60). If the peasants exceed $60, the king can just exhaust the pool, leaving zero.  \n5. In either case, my marginal gain from extracting an additional $3 is at least +$1 and at worst does not reduce my share of the remainder, because the king controls that remainder.  \n6. Therefore, the dominant, payoff-maximizing action for me this month is to take the maximum allowed amount: $30.",
+      "Whatever the three peasants leave in the pool will almost certainly be taken by the king, since the king moves after observing our choices and has no extraction limit. Therefore, the amount that remains after all extractions (and that would contribute to my payoff) will effectively be $0 no matter what the peasants do. My payoff this month is therefore simply (my extraction)/3. To maximize that, I should extract the maximum allowed amount, $30, giving me a payoff of $30/3 = $10. While this depletes the commons, any restraint on my part would not increase my payoff because the king would still take the remainder. Hence, extracting $30 is my best response.",
+      "The peasants have already removed $90 of the $120 pool, demonstrating a “take-the-maximum” pattern.  \nIf I leave any money in the pool, the most that can remain is $30.  That $30 would double to $60 next month.  \nWith three peasants each able (and apparently willing) to take up to $30, a $60 pool would almost certainly be entirely exhausted by them before my turn, leaving me nothing in all future months.  \n\nTherefore, whatever I leave today is highly likely to yield me no future payoff, while reducing what I could earn right now.  \nSince future gains look negligible, I should maximize the sure, immediate payoff.  Extracting the entire $30 maximizes this month’s return:\n\nPayoff this month if I take $30:\n(30 / 3) + (0 / 4) = $10\n\nAny smaller extraction gives me less than $10 now and does not appreciably improve future prospects.  \nHence, the optimal move is to take the full $30."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      30,
+      0
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      25.0,
+      15.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. My individual return from each dollar I take out is $1/3 ≈ 0.33, whereas each dollar I leave in the pool only gives me $1/4 = 0.25 after the king has finished. So if I ignored the future and the king’s behavior, pure short-run self-interest would push me to take the maximum $30.  \n2. However, the game lasts 12 months and the pool only stays at its maximum $120 if at least $60 is left un-extracted each month (because the residual then doubles back to $120). If the peasants together keep their total extraction at or below $60, the king can (and probably will) top up his own take so that exactly $60 remains, keeping the pool healthy for all future months.  \n3. If the peasants collectively grab more than $60, the king cannot add water back to the well; the leftover falls below $60, the pool shrinks next month, and everyone (including the king) is poorer thereafter.  \n4. A natural focal‐point for cooperative peasants is to split the sustainable total ($60) equally: $20 each. But $20 is not an allowed choice (must be a multiple of $3). The closest smaller multiple of $3 is $18 (total 3 × 18 = 54). With peasants taking $54, the king would likely take $6, leaving $60 in the pool—exactly the sustainability target.  \n5. My immediate payoff if all peasants take $18 is: $18/3 + $60/4 = $6 + $15 = $21. That is higher than the $17.5 I would get if everyone grabbed $30 and crashed the pool to $30 leftover.   \n6. Even if the others turn out to be greedy and take $30 each this first month (total 60 before my move), my payoff with an $18 extraction is still $18/3 + (120 − 78)/4 = $6 + $10.5 = $16.5, only $1 lower than the $17.5 I’d have received by matching their greed, but I keep open the possibility of future cooperation if they are moderate.  \n7. Therefore I choose a cooperative yet not self-sacrificing level: $18. It signals willingness to keep the resource sustainable while giving me a solid current return.",
+      "After the peasants have extracted, the king moves last and his payoff (presumably the same formula as ours) increases with every extra dollar he takes. Therefore a purely self-interested king will always extract everything that is left in the pool. If the king removes all remaining value, the end-of-month remainder is $0, so the doubling mechanism yields $0 for next month. In that case, each peasant’s payoff this month comes only from their own extraction: (extraction)/3. Because this term is strictly increasing in our own extraction and nothing we do can affect the (zero) remainder, the best response is to take the maximum allowed amount this month.",
+      "1. Whatever we peasants leave in the pool is vulnerable: the king moves after seeing our choices and can take anything he wants. If we leave a big remainder, he is very likely to grab most of it.  \n2. My own extraction turns into payoff at the generous rate of $1 for every $3 I take (i.e., 33 ¢ on the dollar), whereas I only receive 25 ¢ on the dollar of whatever is left after everyone else and the king have taken their shares. So each extra dollar I extract is individually more valuable to me than leaving that dollar in the pool.  \n3. Because the other two peasants decide simultaneously and may also reason this way, I cannot rely on them to limit their take.  \n4. Even if all three peasants take the maximum ($30 each, total $90), my payoff is still higher with the max-take choice ($17.5) than with any smaller take when the others take large amounts.  \n5. If, by chance, the other peasants are modest and total peasant extraction stays at or below $60, the king is likely to skim off the excess and leave about $60 anyway. My payoff in that case is also strictly increasing in my own extraction.  \n6. Therefore, the safest way to guarantee the highest first-month return for myself—given the king’s power and the uncertainty about the other peasants—is to extract the maximum allowed amount, $30.",
+      "1. My objective is to maximize my total payoff over 12 months, not just the current month.  \n2. My current-period payoff is  \n   payoff = (my extraction)/3 + (leftover)/4.  \n   At the moment there are $60 still in the pool.  If I extract x dollars, the leftover becomes (60 – x) and my immediate payoff is  \n     x/3 + (60 – x)/4 = (x + 45) / 12,  \n   which rises very slowly with x (only $1/12 for each extra dollar I take).  \n3. The resource that remains at month-end doubles (capped at $120).  \n   • If at least $60 is left, the pool is fully replenished to $120 next month.  \n   • If I leave less than $60, next month’s pool is 2 × (leftover) < $120, so every future month starts with a smaller amount, lowering all my future payoffs.  \n4. Because each extra dollar I remove today cuts next month’s pool by $2 and every future pool thereafter, the long-run cost of extracting today far exceeds the $1/12 immediate gain.  \n5. Therefore the best long-run strategy is to leave the full $60, guarantee the pool refills to $120, and earn a steady $15 every month (0/3 + 60/4), for a total of $180 over 12 months.  \n6. To keep the peasants cooperating, I can adopt a simple public rule next month: “If the peasants ever take more than $60 in total, I will confiscate the entire remainder.”  Given their $30 cap, that rule makes sticking to the $60 total in their interest, so I should expect the cooperative path to continue.  \n7. Hence this month I extract nothing."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      30,
+      0,
+      30
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      15.0,
+      25.0,
+      15.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "1. I want to maximize my own payoff, but I must also consider the king’s ability to punish by removing all remaining funds (which would drop everyone’s “remaining-pool” share to zero).  \n2. Last month the other two peasants each took $30, so the total extraction was exactly the sustainability threshold of $60. The king did not punish, leaving $60 in the pool.  \n3. If the other two peasants repeat the same behavior (very plausible), any amount I take above $0 will push total extraction over $60 and could trigger the king to punish.  \n4. If I take $0 and they each take $30 again, the pool before the king will still be $60, so the king is unlikely to punish (he earns $15 if he leaves it). My payoff would then be $0/3 + $60/4 = $15.  \n5. If I instead take $30 and the others also take $30, total extraction becomes $90, the king is likely to punish by taking the $30 left. My payoff would fall to $30/3 + $0/4 = $10.  \n6. Therefore, $0 extraction is the safest way to avoid punishment and guarantees at least $15, which is higher than the punished outcome of taking more.",
+      "Last month I extracted nothing while the other two peasants each took $30, using up the entire sustainable limit and leaving me with the smallest payoff. If I continue to take $0, I will keep getting less than they do and have no leverage to push them toward a fairer split. By matching their $30 extraction this month I 1) guarantee myself a baseline payoff of $10 (because every $3 I take is worth $1 to me), 2) remove their relative advantage, and 3) signal that I am willing to defend my share of the commons, which may encourage everyone to discuss a fairer, more sustainable division next month. Even if the king decides to take what remains, my guaranteed $10 is still acceptable compared with the risk of being exploited again. Therefore I will extract the full $30.",
+      "Last month the other two peasants each took $30, and the king left the remaining $60 untouched so the pool stayed healthy. If they behave the same way again, the total extraction will already be exactly $60. Any positive amount I take would push the group over the sustainability threshold, shrink next month’s pool, and risk provoking the king to extract more. The extra few dollars I would gain today are not worth the long-run loss from reducing the pool for the remaining 10 months. By taking $0 again I keep the pool at the safe level if the others remain at $30, signal continued commitment to sustainability, and avoid giving the king any reason to intervene.",
+      "1. I earn this month: (my extraction)/3 + (remaining pool after my take)/4.  \n   With the peasants’ total of $30 already out, $90 is left.\n\n2. If I take X dollars now, my immediate payoff is:  \n      X/3  +  (90 – X)/4  = 22.5 + X/12.  \n   This rises with X, so taking more boosts this month’s payoff.\n\n3. However, next month’s pool size equals 2 × (90 – X), capped at $120.  \n   • If at least $60 remains (i.e., X ≤ 30), the pool regenerates to the full $120.  \n   • If I take more than $30, the pool starts below $120 next month, cutting everyone’s future payoffs.\n\n4. Extracting the full $30 (so X = 30) strikes the best balance:  \n   • Immediate payoff this month = 30/3 + 60/4 = 10 + 15 = $25.  \n   • $60 remains, so the pool doubles back to $120, keeping future months fully stocked.  \n   • Peasants’ payoffs stay exactly the same as last month, maintaining fairness and reducing the risk they retaliate by over-harvesting later.\n\n5. Extracting more than $30 would only raise my current payoff slightly but would shrink next month’s pool and likely lower my total earnings over the remaining 10 months.\n\nTherefore, I should take $30."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "1. The king’s revealed policy is to leave exactly $60 in the pool whenever possible. If the peasants’ total extraction E ≤ $60, the king simply takes (60 – E) and the pool ends at $60; if E > $60 the king takes nothing and the pool ends at 120 – E.  \n2. Under either case my own payoff is  \n   • If E ≤ 60:  (my extraction)/3 + 60/4 = (x/3) + 15.  \n   • If E > 60:  x/3 + (120 – E)/4.  \n   In the first case each extra dollar I take raises my payoff by 1/3.  \n   In the second case each extra dollar still raises my payoff by 1/12 ( +1/3 from extraction, –1/4 from the smaller pool ), so my payoff is still increasing with x.  \n3. Therefore, purely for this month, the payoff-maximising choice is to take the maximum allowed $30.  \n4. Taking $30 is also compatible with sustainability if the other two peasants together stay at $30 or below; if they exceed that, my payoff is still higher than if I had taken less, and the pool will not crash completely (it would at worst fall to $30 and regenerate to $60 next month).  \n5. Having contributed nothing the last two months while another peasant has consistently taken $30, it is reasonable for me to claim my full share now without jeopardising the commons unduly.",
+      "1. The king’s behavior in the first two months suggests a clear pattern:  \n   • If the peasants extract less than $60 in total, the king “tops up” his own extraction so that total extraction equals $60.  \n   • If the peasants already extract $60, the king takes nothing.  \n\n   Thus the king appears to be enforcing the sustainability threshold of $60 total extraction.\n\n2. Because of this rule, two situations can arise:\n\n   a) Total peasant extraction ≤ $60  \n      – The king will take exactly the difference up to $60.  \n      – The pool left after all extractions will be $60, so my payoff is  \n        (my extraction)/3 + 60/4 = (my extraction)/3 + 15.  \n      – My payoff rises by $1 for every additional $3 I extract.  \n\n   b) Total peasant extraction > $60  \n      – The king will take $0.  \n      – The pool left after all extractions will be 120 − (total peasant extraction).  \n      – My payoff becomes (my extraction)/3 + (120 − total peasant extraction)/4  \n        = 30 − (others’ extraction)/4 + (my extraction)/12.  \n      – Even in this case, my payoff still rises by $0.25 for every $3 I extract.  \n\n   In both cases, my payoff is strictly increasing in my own extraction.  \n   Therefore, to maximize this month’s payoff, I should extract the maximum amount allowed: $30.\n\n3. Future consequences are mitigated because the king’s rule keeps the pool from collapsing as long as total extraction is not far above $60; however, even if the pool shrinks slightly, my immediate payoff gain more than compensates.",
+      "In the first two months the king’s behavior was to leave exactly $60 in the pool at the end of each round (he took nothing when the peasants left $60, and he removed $30 when the peasants left $90). If the peasants’ total extraction this month is ≤ $60, the king will take nothing and the pool will stay at $60; if the peasants take more than $60, the worst that can happen is the pool falls below $60, but my own payoff formula still gives me 1/3 of whatever I take plus 1/4 of what remains. \n\nGiven that:\n• My payoff component from the remaining pool is at most $15 (if $60 is left) and at worst $7.50 (if only $30 is left).\n• The only part of my payoff I fully control is my own extraction, and I get $1 for every $3 I take.\n\nExtracting the maximum allowed ($30) gives me $10 from my extraction plus at least $7.50 from the pool remainder, so my payoff is at least $17.50 and as high as $25. Extracting anything less cannot match that upper bound and could even drop my payoff below $15 if the pool ends low. Therefore the dominant move is to take the full $30.",
+      "The peasants have already over-extracted a total of $90, leaving only $30 in the pool.  \n1. If I leave any amount in the pool (extract less than $30), the pool will at most double to 60 next month.  \n   • With 60 available, the peasants can (and likely will) grab the entire amount—up to $30 each—leaving nothing for me and crashing the pool to 0 thereafter.  \n2. Taking the full $30 now gives me the highest immediate payoff:  \n   Payoff = (30)/3 + (0)/4 = 10.  \n   Although this leaves the pool at 0 (and thus eliminates future gains), any smaller extraction would still lead to the peasants exhausting the resource next month, so my future payoffs would be negligible anyway.  \n3. Therefore, the rational choice for maximizing my own expected earnings—given the peasants’ demonstrated willingness to take the maximum—is to extract the entire $30 now."
+    ]
+  }
+]

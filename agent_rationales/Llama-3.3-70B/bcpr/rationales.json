@@ -1,0 +1,977 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction without the boss would be $90 (3 workers * $30). However, considering the boss can also extract up to $30, the total potential extraction could reach $120, which would leave no remaining balance for the pool to double from. \n\nTo maximize my payoff while considering the sustainability of the pool, I should aim to extract an amount that, when combined with the expected extractions of others, stays below or at the sustainability threshold. Assuming other workers might also aim to maximize their payoff without immediately depleting the pool, and considering the boss's extraction will be based on the remaining pool after all workers have extracted, a moderate extraction seems prudent.\n\nGiven the payoff formula, extracting $0 would yield a payoff solely based on the remaining pool after all extractions, which could be significant if others also extract moderately. However, this approach does not guarantee a high payoff since the boss's extraction could significantly reduce the remaining pool. On the other hand, extracting the maximum of $30 would provide a guaranteed immediate payoff of $30/3 = $10 but could lead to a quicker depletion of the pool if others also extract heavily.\n\nAiming for a balance, and considering the extraction must be in multiples of $3, extracting $15 seems like a reasonable approach. It provides an immediate payoff of $15/3 = $5 and allows for a significant remaining pool for potential growth, assuming others extract similarly or the boss extracts moderately.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "The workers have extracted a total of $45, leaving $75 in the pool. Since the pool doubles at the end of the month up to a maximum of $120, and there are 11 months remaining, it's essential to balance extraction with conservation for long-term payoff. Extracting $0 would leave $75 to double, resulting in $150, which would be capped at $120. This means that any extraction I make will reduce the amount that can be doubled and potentially capped. However, my payoff also depends on my extraction, so I need to find a balance. Given that my payoff is (extraction)/3 + (remaining pool)/4, and considering the regeneration rule, a moderate extraction seems prudent. Extracting $30 would give me a direct payoff of $10 from the extraction itself, but it would leave only $45 to potentially double. A smaller extraction, like $12 or $15, might provide a better balance, allowing more to double while still giving me a significant payoff from my extraction. Between these options, $15 seems more appealing as it gives a higher direct payoff than $12 while still conserving more of the pool than extracting $30 would."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous month, all workers extracted $15, and the boss also extracted $15, resulting in a total extraction of $60, which is exactly the sustainability threshold. This led to a final pool of $60, which then regenerated to $120. Since the goal is to maintain or increase the pool value over time while also maximizing individual payoff, it's essential to consider the balance between extraction and conservation. Extracting at or below the sustainability threshold is crucial to avoid depleting the pool. Considering the payoff formula, extracting $15 provides a direct payoff of $15/3 = $5, and if the remaining pool after all extractions (including the boss) is maximized, the indirect payoff ($60/4 = $15) can be substantial. Given that the pool regenerates to its maximum value of $120 after the first month, and aiming to replicate a successful strategy from the previous month while being mindful of the need to balance individual gain with collective sustainability, extracting $15 seems like a reasonable approach.",
+      "Given the history of the previous month, all workers extracted $15 each, totaling $45, which is below the sustainability threshold of $60. The boss also extracted $15, leaving $60 in the pool, which then regenerated to $120. This suggests a cooperative behavior among workers and the boss. To maintain this cooperation and ensure the pool's sustainability, I will aim to extract a similar amount to the previous month, considering the pool's regeneration and the need to keep the total extraction below the threshold. Extracting $15 allows me to contribute to the collective payoff while preserving the pool's value for future months.",
+      "Given the history of the previous month, all workers extracted $15 each, totaling $45, which is below the sustainability threshold of $60. The boss also extracted $15, leaving $60 in the pool, which then regenerated to $120. This suggests a cooperative behavior among workers and the boss. To maintain this cooperation and ensure the pool's sustainability, I will aim to extract a similar amount to the previous month, considering the pool's regeneration and the need to keep the total extraction below the threshold. Extracting $15 allows me to contribute to the collective payoff while preserving the pool's value for future months.",
+      "The workers have extracted a total of $45, leaving $75 in the pool. This is the same situation as last month. Given that the pool regenerates to $120 at the end of each month, and considering my payoff function, I should aim to balance my extraction with the need to maintain a healthy pool for future months. Extracting $15, as I did last month, resulted in a payoff of $20 and allowed the pool to regenerate fully. Since the situation is identical, I see no reason to change my strategy this month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, it's clear that all workers, including myself, have been extracting $15 each month, and the boss has also been extracting $15. This has resulted in a total extraction of $60, which is exactly the sustainability threshold. The pool has been regenerating to $120 each month, indicating that this level of extraction is sustainable. Since the goal is to maximize payoff while maintaining the sustainability of the pool, and considering that the payoff formula rewards both individual extraction and the remaining pool value, I will continue with the same strategy that has proven sustainable and profitable so far.",
+      "Given the history of the previous months, it's clear that all workers, including myself, have been extracting $15 each month, and the boss has also been extracting $15. This has resulted in a total extraction of $60, which is exactly the sustainability threshold. The pool has been regenerating to $120 each month, indicating that this level of extraction is sustainable. Since the goal is to maximize payoff while maintaining the sustainability of the pool, and considering that the payoff formula rewards both individual extraction and the remaining pool value, I will continue with the same strategy that has proven sustainable and profitable so far.",
+      "Given the history of the previous months, it's clear that all workers, including myself, have been extracting $15 each month, and the boss has also been extracting $15. This has resulted in a total extraction of $60, which is exactly the sustainability threshold. The pool has been regenerating to $120 each month, indicating that this level of extraction is sustainable. Since the goal is to maximize payoff while maintaining the sustainability of the pool, and considering that the payoff formula rewards both individual extraction and the remaining pool value, I will continue with the same strategy that has proven sustainable and profitable so far.",
+      "The workers have extracted a total of $45, leaving $75 in the pool. This pattern is consistent with the previous months, where the workers also extracted $15 each. Given that the pool regenerates to $120 at the end of each month, and the workers' extractions have been moderate, I can aim to maximize my payoff while ensuring the sustainability of the commons. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. To maximize this, I should extract an amount that balances the immediate gain with the long-term health of the pool. Extracting $15, as I have in previous months, seems prudent, as it allows for a significant payoff while leaving a substantial amount in the pool to regenerate."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pattern from the previous months suggests that all workers, including myself, have been extracting $15 each, and the boss has also been extracting $15. This total extraction of $60 is exactly at the sustainability threshold, allowing the pool to regenerate to $120 each month. Given that the pool regenerates to its maximum value of $120 every month when the total extraction is $60, and considering the payoff formula which rewards both individual extraction and the remaining pool value, there's an incentive to maintain this balance. Extracting more than $15 could lead to a reduction in the pool's value, potentially affecting future payoffs, while extracting less might not maximize my individual payoff. Therefore, maintaining the status quo seems like the most reasonable approach, especially since we are still in the early months of the 12-month period, and there's no indication that other workers or the boss plan to change their strategy.",
+      "The pattern from the previous months suggests that all workers, including myself, have been extracting $15 each, and the boss has also been extracting $15. This total extraction of $60 is exactly at the sustainability threshold, allowing the pool to regenerate to $120 each month. Given that the pool regenerates to its maximum value of $120 every month when the total extraction is $60, and considering the payoff formula which rewards both individual extraction and the remaining pool value, there's an incentive to maintain this balance. Extracting more than $15 would reduce the remaining pool value, potentially lowering the payoff from the remaining pool for all workers, including myself. Extracting less than $15 would not necessarily increase my payoff significantly, as the primary determinant of the payoff from the remaining pool is the total extraction, not individual extraction amounts. Therefore, maintaining the status quo of extracting $15 seems to be the most reasonable strategy, as it maximizes both parts of the payoff (individual extraction and remaining pool value) under the current conditions.",
+      "The pattern from the previous months suggests that all workers, including myself, have been extracting $15 each, and the boss has also been extracting $15. This total extraction of $60 is exactly at the sustainability threshold, allowing the pool to regenerate to $120 each month. Given that the pool regenerates to its maximum value of $120 every month when the total extraction is $60, and considering the payoff formula which rewards both individual extraction and the remaining pool value, there's an incentive to maintain this balance. Extracting more than $15 would reduce the remaining pool value, potentially lowering the payoff from the remaining pool for all workers, including myself. Extracting less than $15 would not necessarily increase my payoff significantly, as the primary determinant of the payoff from the remaining pool is the total extraction, not individual extraction amounts. Therefore, maintaining the status quo of extracting $15 seems to be the most reasonable strategy, as it maximizes both parts of the payoff (individual extraction and remaining pool value) under the current conditions.",
+      "The pattern of worker extractions and my own extractions has been consistent for the past three months, with each worker extracting $15 and me extracting $15. This has resulted in a remaining pool of $60, which then regenerates to $120 at the start of the next month. Given that the workers have again extracted a total of $45 this month, leaving $75 in the pool, I see no reason to deviate from the established pattern. Extracting $15 will maintain the balance and ensure the pool remains sustainable. Additionally, my payoff is calculated based on my extraction and the remaining pool, so extracting $15 will give me a payoff of $15/3 + $60/4 = $5 + $15 = $20, which is consistent with previous months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that the pool value is $120 and the sustainability threshold is $60, extracting $15 maintains this balance. There's no indication that other workers will change their strategy, and the boss's extraction pattern also remains consistent. Therefore, to maintain the stable state of the pool and maximize my payoff, I will continue with the established pattern.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that the pool value is $120 and the sustainability threshold is $60, extracting $15 maintains this balance. There's no indication that other workers will change their strategy, and the boss's extraction pattern also suggests consistency. Therefore, to maintain the stable state of the pool and maximize my payoff, I will continue with the established pattern.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that the pool value is $120 and the sustainability threshold is $60, extracting $15 maintains this balance. There's no indication that other workers will change their strategy, and the boss's extraction pattern also suggests consistency. Therefore, to maintain the stable state of the pool and maximize my payoff, I will continue with the established pattern.",
+      "The workers have extracted a total of $45, leaving $75 in the pool. This pattern has been consistent for the past 4 months, with the pool regenerating to $120 at the end of each month. Given that the pool is expected to regenerate to $120, and the workers have consistently extracted $15 each, it seems that the system is in a stable state. As the boss, extracting $15 would maintain this stability and ensure that the pool remains at a sustainable level. Extracting more than $15 could potentially disrupt this balance, while extracting less than $15 might not be optimal for maximizing my payoff. Since my payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, extracting $15 would give me a payoff of $15/3 + $60/4 = $5 + $15 = $20, which is consistent with the payoffs in previous months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that we are halfway through the 12-month period and the pattern has been consistent, there's an incentive to maintain this balance to ensure the pool's sustainability and maximize payoffs. Extracting $15 allows me to benefit from my extraction while also ensuring the pool's value doubles back to $120 for the next month, maintaining the stability and potential for future payoffs.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that we are halfway through the 12-month period and the pattern has been consistent, there's an incentive to maintain this balance to ensure the pool's sustainability and maximize payoffs. Extracting $15 allows me to benefit from my extraction while also considering the long-term health of the pool. Since the payoff formula rewards both personal extraction and the remaining pool value, maintaining the status quo seems the most beneficial strategy for now.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that we are halfway through the 12-month period and the pattern has been consistent, there's an incentive to maintain this balance to ensure the pool's sustainability and maximize payoffs. Extracting $15 allows me to benefit from my extraction while also considering the long-term health of the pool. Since the payoff formula rewards both personal extraction and the remaining pool value, maintaining the status quo seems the most beneficial strategy for now.",
+      "The workers have consistently extracted $15 each, totaling $45, and I have consistently extracted $15, resulting in a stable pool trend and no sustainability violations. The remaining pool available to me is $75, which is the same as in previous months. Given this pattern, I can expect the pool to regenerate to $120 at the end of the month. My goal is to maximize my payoff, which is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. To achieve this, I should extract an amount that balances my immediate payoff with the long-term sustainability of the pool. Extracting $15 has been the optimal strategy so far, as it allows me to maintain a high payoff while ensuring the pool remains stable."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that there are 5 months remaining, it's essential to maintain this balance to ensure the long-term sustainability of the pool. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool and reducing future payoffs. Therefore, I will follow the established pattern and extract $15 this month.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that there are 5 months remaining, it's essential to maintain this balance to ensure the long-term sustainability of the pool. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool and reducing future payoffs. Therefore, I will maintain the established pattern and extract $15 this month.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that there are 5 months remaining, it's essential to maintain this balance to ensure the long-term sustainability of the pool. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool and reducing future payoffs. Therefore, I will maintain the established pattern and extract $15 this month.",
+      "The workers have consistently extracted $15 each, totaling $45, and I have consistently extracted $15, resulting in a stable pool trend and no sustainability violations. The remaining pool available to me is $75, which is the same as in previous months. Given this pattern, I can expect the pool to regenerate to $120 at the end of the month, regardless of my extraction. My payoff is calculated based on my extraction and the remaining pool after my extraction. To maximize my payoff, I should extract an amount that balances the two components of my payoff function. Extracting $15 has yielded a payoff of $20 in previous months, which is a reasonable outcome. However, I should also consider the possibility of extracting a bit more, while still being mindful of the pool's sustainability. Since the workers' extractions have been consistent and the pool has been regenerating fully, I can try to extract a bit more this month, while still being cautious."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      18
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      19.25,
+      19.25,
+      19.25,
+      20.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the end of each month. Given that there are 4 months remaining, it's essential to maintain this balance to ensure the pool's sustainability. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool in future months. Therefore, I will follow the established pattern to maintain stability and fairness.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that there are 4 months remaining, it's essential to maintain this balance to ensure the pool's sustainability. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool in future months. Therefore, I will maintain the established pattern to preserve the pool's stability and maximize my payoff, which has been $20.00 in previous months.",
+      "The history of the previous months shows a stable pattern where all workers, including myself, extract $15, and the boss also extracts $15. This results in a total extraction of $60, which is exactly the sustainability threshold. The pool remains stable, regenerating to $120 at the start of each month. Given that there are 4 months remaining, it's essential to maintain this balance to ensure the pool's sustainability. Extracting more than $15 could lead to a violation of the sustainability threshold, potentially shrinking the pool in future months. Therefore, I will maintain the established pattern to preserve the pool's stability and maximize my payoff, which has been $20.00 in previous months.",
+      "The workers have consistently extracted $15 each, totaling $45, and I have consistently extracted $15, resulting in a stable pool trend and no sustainability violations. The remaining pool available to me is $75, which is the same as in previous months. Given this pattern, I can expect the pool to regenerate to $120 at the end of the month, regardless of my extraction. My payoff is calculated based on my extraction and the remaining pool after my extraction. To maximize my payoff, I should extract an amount that balances the two components of my payoff function. Extracting $15 has yielded a payoff of $20 in previous months, which is a reasonable outcome. However, I should also consider the possibility of extracting more, as the pool can regenerate up to $120. Since the workers' extractions have been consistent, I can take a bit more without risking the sustainability of the pool. Extracting $21 or $24 would be too aggressive, but extracting $18 might be a good compromise, allowing me to increase my payoff while still maintaining the stability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 114,
+    "extractions": [
+      9,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      18.0,
+      19.0,
+      19.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool value this month is $114, and the sustainability threshold is $57 total extraction. Given that there are 3 workers and 1 boss, and the boss extracts last with a maximum of $30, it's crucial to consider the potential total extraction to avoid shrinking the pool further. In the previous months, the total worker extraction was consistently $45, and the boss extracted around $15-$18. To maintain the pool's value and ensure it doesn't shrink, it's essential to keep the total extraction below or at the sustainability threshold. Considering the boss's maximum extraction is $30, and aiming to keep the total extraction at or below $57, the workers should extract less than $27 in total to account for the boss's potential maximum extraction. Given the history of equal extractions among workers, extracting $9 would be a conservative approach, allowing for the boss's extraction while trying to maintain the pool's value.",
+      "The pool value this month is $114, and the sustainability threshold is $57 total extraction. Given that there are 3 workers and 1 boss, and the boss extracts last with a maximum of $30, it's crucial to consider the potential total extraction to avoid shrinking the pool. In previous months, workers extracted $15 each, totaling $45, and the boss extracted $15 or $18. This month, to ensure the pool doesn't shrink and considering the boss's maximum extraction, it's wise to aim for a total extraction close to but not exceeding the sustainability threshold. Since the boss can extract up to $30, and we want to leave enough for the pool to regenerate to its maximum value, workers should consider extracting less than $15 to account for the boss's potential maximum extraction. However, extracting too little might not maximize individual payoffs. Given the payoff structure, extracting $12 would provide a good balance, allowing for a significant individual payoff while considering the need to keep the total extraction below the threshold to ensure the pool's sustainability.",
+      "The pool value this month is $114, and the sustainability threshold is $57 total extraction. Given that there are 3 workers and 1 boss, and the boss extracts last with a maximum of $30, it's crucial to consider the potential total extraction to avoid shrinking the pool. In previous months, workers extracted $15 each, totaling $45, and the boss extracted $15 or $18. This month, to ensure the pool doesn't shrink and considering the boss's maximum extraction, it's wise to aim for a total extraction close to but not exceeding the sustainability threshold. Since the boss can extract up to $30, and we want to leave enough for the pool to regenerate to its maximum value, workers should consider extracting less than $15 to account for the boss's potential maximum extraction. However, extracting too little might not maximize individual payoffs. Given the payoff structure, extracting $12 would provide a good balance, allowing for a significant individual payoff while considering the need to keep the total extraction below the threshold to ensure the pool's sustainability.",
+      "The workers have extracted a total of $33 this month, which is less than the $45 they extracted in the previous months. The remaining pool available to me is $81, which is relatively high. Considering the regeneration rule, where the remaining pool doubles at the end of the month, I want to balance my extraction with the need to maintain a sustainable pool. Since the pool is already high, I can extract a bit more than I did in the previous month. However, I should also be mindful of the fact that there are only 3 months remaining, and I want to ensure that the pool remains stable. Given the payoff function, extracting $21 would give me a good balance between my immediate payoff and the long-term sustainability of the pool."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      19.0,
+      19.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history and current state, the pool has been relatively stable, with some fluctuations. The sustainability threshold this month is $60 total extraction, and there are only 2 months remaining. In Month 9, the total extraction was $33 (workers) + $21 (boss) = $54, which is below the threshold, resulting in the pool regenerating to $120. Considering the upcoming months and the need to balance individual payoff with the sustainability of the pool, a moderate extraction seems prudent. Extracting $15 would provide a reasonable payoff while considering the threshold and the boss's potential extraction. This approach also takes into account the behavior of other workers and the boss in previous months, aiming for a balance that maintains the pool's value.",
+      "Given the history and current state, the pool has been relatively stable, with some fluctuations. The sustainability threshold this month is $60 total extraction, and there are only 2 months remaining. In Month 9, the total extraction was $33 (workers) + $21 (boss) = $54, which is below the threshold, resulting in the pool regenerating to $120. Considering the upcoming months and the need to balance individual payoff with the sustainability of the pool, a moderate extraction seems prudent. Extracting $0 would maximize the pool's growth but minimize personal payoff, while extracting the maximum $30 could risk depleting the pool if other workers and the boss also extract heavily. Aiming for a balance, and considering the pattern of extractions and the boss's tendency to extract near the maximum allowed, I will choose an extraction amount that contributes to maintaining the pool's stability while also ensuring a reasonable personal payoff.",
+      "Given the history and current state, the pool has been relatively stable, with some fluctuations. The sustainability threshold this month is $60 total extraction, and there are only 2 months remaining. In Month 9, the total extraction was $33 (workers) + $21 (boss) = $54, which is below the threshold, resulting in the pool regenerating to $120. Considering the upcoming months and the need to balance individual payoff with the sustainability of the pool, a moderate extraction seems prudent. Extracting $0 would maximize the pool's growth but minimize personal payoff, while extracting the maximum $30 could risk depleting the pool if other workers and the boss also extract heavily. Aiming for a balance, and considering the pattern of extractions and the boss's tendency to extract near the maximum allowed, I will choose an extraction amount that contributes to maintaining the pool's stability while also ensuring a reasonable personal payoff.",
+      "Given the current state of the pool and the history of previous months, it's essential to balance the need for immediate payoff with the long-term sustainability of the commons. The workers have extracted a total of $39 this month, leaving $81 for me to decide on. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120, and the fact that there are only two months remaining, it's crucial to ensure the pool remains healthy but also to maximize my payoff. The workers have been relatively conservative this month, which suggests they might be aiming for a sustainable approach. My extraction should aim to balance between taking a decent share and leaving enough for regeneration and future months. Given the payoff formula, extracting $21 would yield a significant immediate gain while still allowing for a substantial pool to regenerate for the next month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      21
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      18.5,
+      18.5,
+      18.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool's value and the sustainability threshold have been relatively stable, with some fluctuations. The key observation is that the total extraction has mostly been below or around the sustainability threshold, allowing the pool to regenerate or remain stable. However, with only one month remaining after this, the focus should shift towards maximizing the current payoff without compromising the pool's ability to regenerate for the final month. \n\nThe boss's extraction pattern seems to be taking as much as possible up to $30, or slightly less, depending on the remaining pool value. Workers have been extracting varying amounts, but there's a noticeable trend towards conservative extraction to keep the pool stable. \n\nGiven the payoff formula, extracting a higher amount increases the payoff directly, but it also reduces the pool remaining, which affects the payoff negatively. The optimal strategy seems to balance these two aspects. Since the pool regenerates to its maximum value of $120 at the end of each month if not over-extracted, and considering we are near the end of the 12-month period, the goal should be to ensure the pool remains healthy for the final month while also maximizing current payoff.\n\nExtracting $15 seems like a balanced approach. It's a moderate amount that allows for a decent direct payoff while also considering the need to keep the pool from shrinking significantly, ensuring it can regenerate for the final month. This amount is also consistent with previous months' extractions by workers, which have generally aimed to maintain the pool's stability.",
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool's value has been generally maintained or has grown back to $120 after periods of extraction below or at the sustainability threshold. The sustainability threshold this month is $60 total extraction, and since there are 3 workers and 1 boss, with the boss extracting last and having a maximum extraction limit of $30, the workers need to be mindful of their total extraction to avoid depleting the pool. \n\nIn months 8, 9, and 10, the total extractions were $45, $33 (before the boss), and $39, respectively, with the boss extracting $18, $21, and $21. The pool regenerated to $114 and then back to $120 after month 9, showing resilience. However, the goal should be to maintain the pool's value as much as possible, especially since there's only one month left after this one.\n\nGiven the payoff structure, extracting more does provide a direct benefit, but it also reduces the pool's remaining value, which affects the payoff from the pool's regeneration. The key is finding a balance that maximizes the current payoff without jeopardizing future payoffs, especially considering the boss's extraction will follow.\n\nSince the maximum any worker can extract is $30, and considering the need to stay below the sustainability threshold to ensure the pool doesn't shrink, a moderate extraction seems prudent. Extracting $15 would be a balanced approach, considering it allows for a significant payoff from extraction while also leaving enough in the pool for regeneration and the boss's extraction, aiming to keep the total extraction (including the boss's) as close to or below the sustainability threshold as possible.",
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool's value has been generally maintained or has grown back to $120 after periods of extraction below or at the sustainability threshold. The sustainability threshold this month is $60 total extraction, and since there are 3 workers and 1 boss, with the boss extracting last and having a maximum extraction limit of $30, the workers need to be mindful of their total extraction to avoid depleting the pool. \n\nIn months 8, 9, and 10, the total extractions were $45, $33 (before the boss), and $39, respectively, with the boss extracting $18, $21, and $21. The pool regenerated to $114 and then back to $120 after month 9, showing resilience. However, the goal should be to maintain the pool's value as much as possible, especially since there's only one month left after this one.\n\nGiven the payoff structure, extracting more does provide a direct benefit, but it also reduces the pool's remaining value, which affects the payoff from the pool's regeneration. The key is finding a balance that maximizes the current payoff without jeopardizing future payoffs, especially considering the boss's extraction will follow.\n\nSince the maximum any worker can extract is $30, and considering the need to stay below the sustainability threshold to ensure the pool doesn't shrink, a moderate extraction seems prudent. Extracting $15 would be a balanced approach, considering it allows for a significant payoff from extraction while also leaving enough in the pool for regeneration and the boss's extraction, aiming to keep the total extraction (including the boss's) as close to or below the sustainability threshold as possible.",
+      "Given that this is the second-to-last month and the pool is at $75 after the workers' extractions, the goal is to balance maximizing the current payoff with ensuring the pool's sustainability for the final month. The workers have extracted a total of $45, which is relatively conservative compared to previous months. Considering the payoff function, extracting a higher amount increases the first part of the payoff (extraction/3) but decreases the second part (pool remaining after extraction/4). Since the pool doubles at the end of the month up to a maximum of $120, and we want to ensure a substantial pool for the final month, we should aim to leave enough for regeneration to $120 or close to it. Extracting $21 would leave $54, which doubles to $108, close to the maximum. This seems a reasonable balance, given the workers' conservative extractions and the need to maintain pool health for the final month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 108,
+    "extractions": [
+      15,
+      24,
+      24,
+      30
+    ],
+    "final_pool": 15,
+    "payoffs": [
+      8.75,
+      11.75,
+      11.75,
+      13.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "This is the last month, so there's no need to worry about the long-term sustainability of the pool. The goal is to maximize the current payoff. Since the payoff is calculated as (your extraction)/3 + (pool remaining after ALL extractions including boss)/4, extracting more will increase the first part of the payoff, but decrease the second part. However, the pool is already at $108, which is below the maximum of $120, and the boss's extraction is limited to $30. Considering the history, the boss tends to extract around $21. To maximize the payoff, it's reasonable to extract a moderate amount, ensuring a decent share while also leaving some for the boss and the remaining pool value. Given the pattern of previous months, extracting $15 seems like a balanced choice, as it allows for a significant personal gain while also considering the potential boss extraction and the remaining pool value.",
+      "This is the last month, so there's no need to consider the long-term sustainability of the pool. The goal is to maximize the current payoff. The payoff consists of two parts: the extraction value divided by 3, and the remaining pool value divided by 4. To maximize the payoff, it's essential to balance these two components. Since the boss extracts last and can take up to $30, it's likely that the boss will extract the maximum amount if possible. Considering the history, workers have been extracting relatively high amounts, and the boss has consistently taken $21. Given the current pool value of $108 and the sustainability threshold of $54, extracting a moderate to high amount while leaving enough for the boss and some remaining balance could yield the highest payoff. Extracting $30 would leave $78 before the boss's extraction, which could result in a significant remaining pool value after the boss extracts, thus increasing the payoff from the remaining pool. However, considering the need to balance the extraction with the potential remaining pool value, a slightly lower extraction might be more optimal to ensure a higher remaining pool value after all extractions.",
+      "This is the last month, so there's no need to consider the long-term sustainability of the pool. The goal is to maximize the current payoff. The payoff consists of two parts: the extraction value divided by 3, and the remaining pool value divided by 4. To maximize the payoff, it's essential to balance these two components. Since the boss extracts last and can take up to $30, it's likely that the boss will extract the maximum amount if possible. Considering the history, workers have been extracting relatively high amounts, and the boss has consistently taken $21. Given the current pool value of $108 and the sustainability threshold of $54, extracting a moderate to high amount while leaving enough for the boss and some remaining balance could yield the highest payoff. Extracting $30 would leave $78 before the boss's extraction, which could result in a significant remaining pool value after the boss extracts, thus increasing the payoff from the remaining pool. However, considering the need to balance the extraction with the potential remaining pool value, a slightly lower extraction might be more optimal to ensure a higher remaining pool value after all extractions.",
+      "This is the last month, so there's no need to consider the long-term sustainability of the pool. The goal is to maximize the payoff for this month. The payoff function is (your extraction)/3 + (pool remaining after your extraction)/4. Given that the remaining pool available to me is $45, I want to extract as much as possible to maximize the first part of the payoff function while still considering the second part. Extracting the maximum allowed, $30, would leave $15 in the pool, resulting in a payoff of $30/3 + $15/4 = $10 + $3.75 = $13.75. Extracting $27 would leave $18 in the pool, resulting in a payoff of $27/3 + $18/4 = $9 + $4.5 = $13.5. Extracting $24 would leave $21 in the pool, resulting in a payoff of $24/3 + $21/4 = $8 + $5.25 = $13.25. Extracting $21 would leave $24 in the pool, resulting in a payoff of $21/3 + $24/4 = $7 + $6 = $13. Extracting $18 would leave $27 in the pool, resulting in a payoff of $18/3 + $27/4 = $6 + $6.75 = $12.75. Extracting $15 would leave $30 in the pool, resulting in a payoff of $15/3 + $30/4 = $5 + $7.5 = $12.5. Extracting $12 would leave $33 in the pool, resulting in a payoff of $12/3 + $33/4 = $4 + $8.25 = $12.25. Extracting $9 would leave $36 in the pool, resulting in a payoff of $9/3 + $36/4 = $3 + $9 = $12. Extracting $6 would leave $39 in the pool, resulting in a payoff of $6/3 + $39/4 = $2 + $9.75 = $11.75. Extracting $3 would leave $42 in the pool, resulting in a payoff of $3/3 + $42/4 = $1 + $10.5 = $11.5. Extracting $0 would leave $45 in the pool, resulting in a payoff of $0/3 + $45/4 = $0 + $11.25 = $11.25. Based on these calculations, extracting $30 yields the highest payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      24
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      17.75,
+      17.75,
+      17.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that the remaining pool available to me is $75, and considering the regeneration rule where the remaining amount doubles at the end of the month up to a maximum of $120, I want to balance my extraction to maximize my payoff while also considering the long-term sustainability of the pool. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. Since the workers have already extracted a total of $45, leaving $75, I have a significant amount to work with. Extracting the maximum of $30 would leave $45, which would double to $90 by the next month, still a healthy amount. However, I also need to consider the impact of my extraction on the pool's regeneration and my future payoffs. Given that I move last and can observe the workers' actions, I can adjust my strategy based on their behavior. For the first month, aiming for a moderate extraction seems prudent to ensure the pool remains substantial for future months while also maximizing my current payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 102,
+    "extractions": [
+      15,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 42,
+    "payoffs": [
+      15.5,
+      14.5,
+      14.5,
+      17.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $102 and the sustainability threshold at $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Since there are 10 months remaining after this one, preserving the pool's value is important for future extractions and payoffs. Considering the boss can extract up to $30 and the goal is to keep the pool from shrinking, workers should aim to extract below the threshold to ensure the pool's regeneration. In Month 1, all workers extracted $15 each, totaling $45, which was below the sustainability threshold of $60, resulting in a regenerated pool of $102 for Month 2. This suggests a conservative approach can be beneficial. Given the extraction rule allows for multiples of $3 up to $30, and aiming for a balance that doesn't overly deplete the pool while still providing a decent payoff, extracting $15 seems like a reasonable choice, as it mirrors the successful strategy from Month 1 and allows for the boss's potential maximum extraction without necessarily exceeding the sustainability threshold.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool and the history of the previous month, it's essential to balance the extraction to ensure the long-term sustainability of the commons. The workers have extracted a total of $39, leaving $63 for me. Given that the pool regenerates by doubling at the end of the month, up to a maximum of $120, and considering my payoff is based on my extraction and the remaining pool, I need to find an optimal balance. Extracting too much could deplete the pool and reduce its regeneration potential, while extracting too little might not maximize my payoff. Since my payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, I should aim to leave enough in the pool to regenerate substantially while also taking a significant share. Given the constraints and the aim for sustainability and maximizing payoff, extracting $21 seems like a balanced approach, as it allows for a considerable regeneration of the pool while also providing a substantial payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 84,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 33,
+    "payoffs": [
+      12.25,
+      12.25,
+      12.25,
+      13.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $84 and the sustainability threshold at $42 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The pool's value has been decreasing over the months, and it's essential to prevent it from shrinking further to ensure higher payoffs in the future. Considering the boss's extraction is limited to $30 and the goal is to keep the pool from shrinking, the total extraction (including the boss) should ideally be at or below $42. Since there are 3 workers and the boss, and assuming the boss will extract the maximum $30, the workers should aim to extract a total that, when combined with the boss's maximum extraction, does not exceed the sustainability threshold. However, since the boss extracts last and observes all other extractions, the boss's strategy might adjust based on the workers' extractions. Given the history, workers have been extracting around $12 to $15. To contribute to the sustainability of the pool while still aiming for a decent payoff, extracting at the lower end of the spectrum seems prudent. Extracting $12 would allow for a moderate personal gain while considering the pool's sustainability, especially since the boss's extraction will also impact the final pool value.",
+      "Given the current state of the pool at $84 and the sustainability threshold at $42 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The pool's value has been decreasing over the months, and it's essential to prevent it from shrinking further to ensure higher payoffs in the future. Considering the boss's extraction is limited to $30 and the pool doubles up to a maximum of $120 at the end of each month, extracting too much could lead to a significant decrease in the pool's value, negatively affecting future payoffs. Since the goal is to maximize the payoff, which is calculated as (your extraction)/3 + (pool remaining after ALL extractions including boss)/4, and considering the need to keep the pool sustainable, a moderate extraction that respects the sustainability threshold while also considering the boss's potential maximum extraction is necessary. Given that the total extraction should not exceed $42 for sustainability, and assuming the boss might extract up to $30, workers should aim to extract a total that, when combined with the boss's maximum, does not exceed the sustainability threshold. However, since the boss extracts last and the workers' total extraction in previous months has been $45 and $39, aiming for a moderate extraction that allows for some personal gain while preserving the pool's value is prudent. Extracting $12 seems like a balanced choice, considering it allows for a decent payoff while keeping the total extraction potentially below or near the sustainability threshold, depending on the other workers' actions.",
+      "Given the current state of the pool at $84 and the sustainability threshold at $42 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The pool's value has been decreasing over the months, and it's essential to prevent it from shrinking further to ensure higher payoffs in the future. Considering the boss's extraction is limited to $30 and the pool doubles up to a maximum of $120 at the end of each month, extracting too much could lead to a significant decrease in the pool's value, negatively affecting future payoffs. Since the goal is to maximize the payoff, which is calculated as (your extraction)/3 + (pool remaining after ALL extractions including boss)/4, and considering the need to keep the pool sustainable, a moderate extraction that respects the sustainability threshold while also considering the boss's potential maximum extraction is necessary. Given that the total extraction should not exceed $42 for sustainability, and assuming the boss might extract up to $30, workers should aim to extract a total that, when combined with the boss's maximum, does not exceed the sustainability threshold. However, since the boss extracts last and the workers' total extraction in previous months has been $45 and $39, aiming for a moderate extraction that allows for some personal gain while preserving the pool's value is prudent. Extracting $12 seems like a balanced choice, considering it allows for a decent payoff while keeping the total extraction potentially below or near the sustainability threshold, depending on the other workers' actions.",
+      "The workers have extracted a total of $36, leaving $48 in the pool. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120, it's essential to balance extraction with preservation for future months. The sustainability threshold seems to be around $60, given the initial pool and regeneration pattern. Since the pool is currently at $48, extracting too much could risk depleting the pool below a sustainable level for the next month. However, given that the pool will double after this month, extracting a moderate amount that allows for some preservation while also maximizing my payoff is crucial. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, so I need to find a balance that optimizes this. Extracting $30 would leave $18, which doubles to $36, potentially risking the sustainability for the next month. A more balanced approach would be to extract less, ensuring the pool remains healthy. Considering the options and the need to maximize my payoff while ensuring the pool's sustainability, extracting $15 seems like a reasonable choice. It allows me to benefit from the extraction while leaving $33 in the pool, which will double to $66, providing a comfortable starting point for the next month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 66,
+    "extractions": [
+      9,
+      9,
+      9,
+      12
+    ],
+    "final_pool": 27,
+    "payoffs": [
+      9.75,
+      9.75,
+      9.75,
+      10.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the current state of the pool at $66 and the sustainability threshold at $33 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The history of previous months shows a trend of decreasing pool values and total extractions, indicating a cautious approach by workers. To maintain the pool's value and ensure it doesn't shrink further, extracting at or below the sustainability threshold per worker is prudent. Since there are 3 workers, extracting $11 or less would be ideal to stay under the $33 total threshold. However, the extraction options are in multiples of $3, making $9 the highest option that doesn't exceed $11. Extracting $9 also allows for a reasonable personal payoff while considering the boss's extraction and the pool's regeneration.",
+      "Given the current state of the pool at $66 and the sustainability threshold at $33 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The history shows that when workers extract closer to or below the sustainability threshold, the pool regenerates to a higher value, benefiting everyone in the long run. Since there are 8 months remaining, prioritizing sustainability is key. Extracting at or below the threshold per worker ($33 total / 3 workers = $11 per worker) would be ideal for long-term pool health. However, considering the boss's extraction and the desire for a reasonable payoff, extracting $9 seems like a balanced choice. It allows for some personal gain while keeping the total extraction potentially below or near the sustainability threshold, depending on the other workers' actions.",
+      "Given the current state of the pool at $66 and the sustainability threshold at $33 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. The history shows that when workers extract closer to or below the sustainability threshold, the pool regenerates to a higher value, benefiting everyone in the long run. Since there are 8 months remaining, prioritizing sustainability is key. Extracting at or below the threshold per worker ($33 total / 3 workers = $11 per worker) would be ideal for long-term pool health. However, considering the boss's extraction and the desire to maximize personal payoff within the constraints, extracting $9 seems like a balanced choice. It allows for a decent personal payoff while keeping the total extraction potentially below or near the sustainability threshold, depending on the other workers' actions.",
+      "The workers have extracted a total of $27, leaving $39 in the pool. Considering the history of previous months, the workers have been extracting relatively consistently, but the pool has been decreasing. As the boss, my goal is to balance my payoff with the sustainability of the pool. Extracting too much could lead to a low pool value, which would negatively impact future payoffs. On the other hand, extracting too little might not maximize my current payoff. Given the current pool value of $39, I want to extract enough to get a decent payoff but also ensure the pool remains relatively healthy. Since my payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, I need to find a balance between these two components. Extracting $12 would leave $27 in the pool, which would double to $54 at the end of the month, providing a relatively stable foundation for the next month."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 54,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 18,
+    "payoffs": [
+      7.5,
+      7.5,
+      7.5,
+      7.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The current pool value is $54, and the sustainability threshold is $27 total extraction. This means that if the total extraction exceeds $27, the pool will shrink next month. Considering the history of previous months, the pool has been declining, and the sustainability threshold has been violated in the past. To avoid shrinking the pool further and to ensure its regeneration, it's essential to extract responsibly. Given that there are 7 months remaining, it's crucial to balance short-term gains with long-term sustainability. Extracting $9 would be a conservative approach, allowing the pool to regenerate and increase the chances of a higher payoff in the long run. This amount also considers the potential extraction by other workers and the boss, aiming to keep the total extraction below or close to the sustainability threshold.",
+      "The current pool value is $54, and the sustainability threshold is $27 total extraction. This means that if all workers, including myself, extract a total of $27 or less, the pool will not shrink next month. Considering the history of previous months, the pool has been declining, and there have been sustainability violations. However, in Month 4, the total extraction was exactly $27, which is a positive sign. To maintain this trend and ensure the pool's sustainability, I will aim to extract a moderate amount. Since the maximum extraction allowed is $30 and the sustainability threshold is $27, I will extract $9, which is a relatively conservative amount, allowing the pool to regenerate and maintain its value.",
+      "The current pool value is $54, and the sustainability threshold is $27 total extraction. This means that if all workers, including myself, extract a total of $27 or less, the pool will not shrink next month. Considering the history of previous months, the pool has been declining, and there have been sustainability violations. However, in Month 4, the total extraction was exactly $27, which is a positive sign. To maintain this trend and ensure the pool's sustainability, I will aim to extract a moderate amount. Since the maximum extraction allowed is $30 and the sustainability threshold is $27, I will extract $9, which is a relatively conservative amount, allowing the pool to regenerate and maintain its value.",
+      "Given the current state of the pool at $27 after the workers' extractions, and considering the regeneration rule where the remaining pool doubles at the end of the month up to a maximum of $120, my goal is to balance the immediate payoff with the long-term sustainability of the pool. The workers have extracted a total of $27, leaving $27 for me. Extracting the maximum of $30 is not possible since only $27 remains. To maximize my payoff, I need to consider both the extraction reward and the pool remaining after my extraction. The formula for my payoff is (my extraction)/3 + (pool remaining after my extraction)/4. Given that I want to ensure the pool regenerates to a healthy amount for future months and considering the workers' consistent extraction patterns, I should aim to leave enough for regeneration while also maximizing my current payoff. Since the pool is already low, extracting too much could jeopardize future payouts. Therefore, I will choose an extraction amount that balances these considerations."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 36,
+    "extractions": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "The current pool value is $36, and the sustainability threshold is $18 total extraction. Given that there are 3 workers, including myself, and we decide simultaneously and independently, the best outcome for the long-term health of the pool and our payoffs would be for each of us to extract an amount that, when combined, does not exceed the sustainability threshold. Since the boss extracts last with a maximum of $30 but typically extracts less, aiming for a total worker extraction close to but not exceeding the sustainability threshold is prudent. \n\nIn previous months, especially Month 3, Month 4, and Month 5, we've seen that when workers extract a total of $27 or $36, the pool's regeneration is sufficient to maintain or slightly increase its value. However, the boss's extraction also plays a significant role in the final pool value. Given the boss tends to extract less than the maximum $30, aiming for a worker total extraction of $18 or slightly less could balance individual payoff with pool sustainability.\n\nConsidering the payoffs are calculated as (your extraction)/3 + (pool remaining after all extractions including boss)/4, extracting $9 would provide a direct payoff of $3 from the extraction, and if the pool remains healthy, a potentially higher payoff from the remaining pool. This strategy also considers the need to keep the pool from shrinking, as the pool's value at the start of the next month will be double the remaining value after all extractions, up to $120.\n\nGiven these considerations, extracting $9 seems like a balanced approach that considers both personal payoff and the sustainability of the pool.",
+      "The current pool value is $36, and the sustainability threshold is $18 total extraction. This means that if the total extraction exceeds $18, the pool will shrink next month. Considering the history of previous months, the pool has been declining, and there have been sustainability violations. However, in the last two months (Months 4 and 5), the workers have extracted a total of $27, which is close to or exactly at the sustainability threshold. The boss has also been extracting a significant amount, but in Month 5, the boss extracted $9, which is relatively low. Given that there are 6 months remaining, it's essential to balance the need for current payoff with the need to sustain the pool for future months. Extracting $9 would be a moderate approach, allowing for some current payoff while also considering the sustainability of the pool.",
+      "The current pool value is $36, and the sustainability threshold is $18 total extraction. This means that if the total extraction exceeds $18, the pool will shrink next month. Considering the history of previous months, the pool has been declining, and there have been sustainability violations. However, in the last two months (Months 4 and 5), the workers have extracted a total of $27, which is close to or exactly at the sustainability threshold. The boss has also been extracting a significant amount, but in Month 5, the boss extracted $9, which is relatively low. Given that there are 6 months remaining, it's essential to balance the need for current payoff with the need to sustain the pool for future months. Extracting $9 would be a moderate approach, allowing for some current payoff while also considering the sustainability of the pool.",
+      "Given the current state of the pool at $9 and the history of previous months, it's clear that the pool is in a declining trend and has been struggling to sustain itself. The workers have consistently extracted $9 each this month, leaving only $9 for me to decide on. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120, it's crucial to ensure some amount remains to take advantage of this regeneration. Extracting too much could lead to a very low pool value after regeneration, potentially harming future extractions. Given my payoff is based on my extraction divided by 3 plus the remaining pool divided by 4, and considering the need to balance immediate gain with long-term sustainability, I should aim to leave some balance in the pool. However, since the pool is already very low, extracting a significant portion of it might be necessary to maximize my payoff this month, as the regeneration will still provide a substantial increase. The key is finding a balance that maximizes my immediate payoff while considering the future health of the pool."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      24
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      17.75,
+      17.75,
+      17.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that the remaining pool available to me is $75, and considering the regeneration rule where the remaining amount doubles at the end of the month up to a maximum of $120, I want to balance my extraction to maximize my payoff while also considering the long-term sustainability of the pool. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. Since the workers have already extracted a total of $45, leaving $75, I have a significant amount to work with. Extracting the maximum of $30 would leave $45, which would double to $90 by the next month, still a healthy amount. However, I also need to consider the impact of my extraction on the pool's regeneration and my future payoffs. Given that I move last and can observe the workers' actions, I can adjust my strategy based on their behavior. For the first month, aiming for a moderate extraction seems prudent to ensure the pool remains substantial for future months while also maximizing my current payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 102,
+    "extractions": [
+      12,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      15.25,
+      15.25,
+      15.25,
+      18.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "The workers have extracted a total of $36, which is less than the $45 extracted in the previous month. This suggests that they may be learning to conserve the pool. As the boss, I want to balance my short-term payoff with the long-term sustainability of the pool. Since the remaining pool available to me is $66, I can extract a significant amount without depleting the pool too much. However, I also need to consider the regeneration rule, which will double the remaining pool at the end of the month. Extracting too much could lead to a large pool next month, which might encourage the workers to extract more. On the other hand, extracting too little might not maximize my payoff. Given the current state and the payoff function, I will aim to extract a moderate amount that balances my short-term gain with the long-term health of the pool."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 90,
+    "extractions": [
+      12,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 33,
+    "payoffs": [
+      12.25,
+      12.25,
+      12.25,
+      15.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The sustainability threshold for this month is $45 total extraction, and there are 3 workers, including myself. To maximize the pool's value and ensure its sustainability, it would be ideal for the total extraction to be at or below this threshold. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions of $45 in Month 1 and $36 in Month 2. Given that the boss extracts last and has a maximum extraction limit of $30, it's reasonable to assume that the boss will extract as much as possible, especially if the remaining pool value is high. \n\nThis month, the pool value is $90, and the sustainability threshold is $45. If all workers extract the same amount, to stay at or below the threshold, each worker should extract $15 or less, considering the boss's potential extraction. However, since the boss's extraction is observed after all workers have extracted and the boss can extract up to $30, the workers should aim to leave enough for the boss's maximum extraction while also trying to maximize their own payoffs.\n\nGiven the payoff formula, extracting more does provide a direct benefit, but it also reduces the pool's remaining value, which affects the payoff negatively. The key is finding a balance that maximizes the payoff while considering the sustainability of the pool. Since the pool regenerates by doubling the remaining value up to $120 at the end of each month, extracting too much could lead to a lower pool value in the following months, potentially reducing future payoffs.\n\nConsidering these factors, extracting $12 seems like a reasonable choice. It's conservative enough to help ensure the pool's sustainability, given the boss's potential extraction, and it allows for a decent payoff based on the extraction amount and the potential remaining pool value.",
+      "The pool value this month is $90, and the sustainability threshold is $45 total extraction. This means that if the total extraction exceeds $45, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions of $45 in Month 1 and $36 in Month 2. The boss has also been extracting a significant amount, but not exceeding the $30 limit. To maintain the pool's value and ensure its sustainability, I will aim to extract a moderate amount. Since the payoff function rewards extraction, but also considers the remaining pool value, I will balance my extraction to maximize my payoff while keeping the total extraction below or near the sustainability threshold. Given that there are 9 months remaining, it's essential to find a balance between short-term gain and long-term sustainability.",
+      "The pool value this month is $90, and the sustainability threshold is $45 total extraction. This means that if the total extraction exceeds $45, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions of $45 in Month 1 and $36 in Month 2. The boss has also been extracting a significant amount, but not exceeding the $30 limit. To maintain the pool's value and ensure its sustainability, I will aim to extract a moderate amount. Since the payoff function rewards extraction, but also considers the remaining pool value, I will balance my extraction to maximize my payoff while keeping the total extraction below or near the sustainability threshold. Given that there are 9 months remaining, it's essential to find a balance between short-term gain and long-term sustainability.",
+      "The workers have extracted a total of $36, leaving $54 in the pool. Considering the regeneration rule, where the remaining pool doubles at the end of the month up to a maximum of $120, it's essential to balance extraction with sustainability. The pool's current state and the workers' conservative extraction suggest a relatively stable situation. However, to maximize my payoff, I need to consider both my extraction and the remaining pool's value. Given that my payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, extracting a moderate amount that leaves a substantial pool for regeneration while also contributing to my payoff is crucial. Since the maximum I can extract is $30 and I want to ensure the pool remains healthy for future months, I should aim for a balance. Extracting $30 would leave $24, which doubles to $48, a relatively low amount for the next month. Thus, considering the need for a balance and the formula for my payoff, I should extract an amount that allows for a decent payoff while also ensuring the pool's sustainability."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 66,
+    "extractions": [
+      12,
+      12,
+      12,
+      27
+    ],
+    "final_pool": 3,
+    "payoffs": [
+      4.75,
+      4.75,
+      4.75,
+      9.75
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction exceeds $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting $12 each, and the boss has been extracting around $21. To maintain the pool's value and ensure its sustainability, it's essential to extract responsibly. Since the pool's value has been decreasing over time, it's crucial to be cautious and not over-extract. Given the options, extracting $12 seems like a reasonable choice, as it allows for a moderate payoff while also considering the long-term sustainability of the pool.",
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction is above $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting a total of $36 or $45, which is above the sustainability threshold. However, the boss's extraction has also been significant, ranging from $21 to $24. To balance the need for personal payoff and the long-term sustainability of the pool, I will aim to extract a moderate amount. Since the pool value is relatively low, I will choose an extraction amount that is lower than the maximum allowed, but still significant enough to provide a decent payoff. Extracting $12 would provide a moderate payoff while also considering the sustainability of the pool.",
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction is above $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting a total of $36 or $45, which is above the sustainability threshold. However, the boss's extraction has also been significant, ranging from $21 to $24. To balance the need for personal payoff and the long-term sustainability of the pool, I will aim to extract a moderate amount. Since the pool value is relatively low, I will choose an extraction amount that is lower than the maximum allowed, but still significant enough to provide a decent payoff. Extracting $12 would provide a moderate payoff while also considering the sustainability of the pool.",
+      "The workers have extracted a total of $36, leaving $30 in the pool for me to decide on. Given the history, the workers seem to be consistently extracting $12 each, which suggests a pattern of conservative behavior to maintain the pool's sustainability. My goal is to balance my payoff with the need to maintain a healthy pool for future months. Since the pool doubles at the end of each month up to $120, and we are currently at $30, extracting too much could lead to a lower regeneration amount if the pool falls below the sustainability threshold after my extraction. However, the pool will regenerate to at least $60 (since $30 doubles), which is above the sustainability threshold for the next month. Considering my payoff formula, extracting a higher amount increases my payoff directly but reduces the pool remaining, which also affects my payoff. Given that the remaining pool after my extraction will double and that I want to maximize my payoff while ensuring the pool's health, I should aim for a balance. Extracting $30 would give me a direct payoff of $30/3 = $10, but the remaining pool would be $0, which doubles to $0, potentially harming future payoffs. A more balanced approach, considering the pattern and the need to keep some amount in the pool for regeneration, would be to extract less. However, since the workers have been conservative and the pool will regenerate significantly, I can consider extracting a higher amount this month to maximize my current payoff, knowing the pool will regenerate."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      24
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      17.75,
+      17.75,
+      17.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that the remaining pool available to me is $75, and considering the regeneration rule where the remaining amount doubles at the end of the month up to a maximum of $120, I want to balance my extraction to maximize my payoff while also considering the long-term sustainability of the pool. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. Since the workers have already extracted a total of $45, leaving $75, I have a significant amount to work with. Extracting the maximum of $30 would leave $45, which would double to $90 by the next month, still a healthy amount. However, I also need to consider the impact of my extraction on the pool's regeneration and my future payoffs. Given that I move last and can observe the workers' actions, I can adjust my strategy based on their behavior. For the first month, aiming for a moderate extraction seems prudent to ensure the pool remains substantial for future months while also maximizing my current payoff."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 102,
+    "extractions": [
+      12,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      15.25,
+      15.25,
+      15.25,
+      18.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "Considering the current state of the pool at $102 and the sustainability threshold of $51 total extraction, it's crucial to balance the need for personal payoff with the long-term sustainability of the pool. Considering the history, all workers extracted $15 last month, and the boss took $24, resulting in a final pool of $51, which then regenerated to $102. This month, to ensure the pool doesn't shrink and to maximize the payoff, extracting an amount that contributes to reaching or staying below the sustainability threshold is wise. Given that there are 10 months remaining, conserving the pool's value while also ensuring a decent payoff is essential. The goal should be to keep the total extraction, including the boss's, as close to or below the sustainability threshold as possible to maintain or grow the pool's value over time. Since the boss can extract up to $30 and we aim to keep the total extraction at or below $51, workers should consider extracting less than $15 to account for the boss's potential maximum extraction and to ensure the pool's sustainability.",
+      "The workers have extracted a total of $36, which is less than the $45 extracted in the previous month. This suggests that they may be learning to conserve the pool. As the boss, I want to balance my short-term payoff with the long-term sustainability of the pool. Since the remaining pool available to me is $66, I can extract a significant amount without depleting the pool too much. However, I also need to consider the regeneration rule, which will double the remaining pool at the end of the month. To maximize my payoff, I should extract enough to get a good return, but not so much that I jeopardize the pool's sustainability. Given the payoff formula, extracting $30 would give me a payoff of $10 + ($36/4) = $10 + $9 = $19, if the remaining pool after extraction is $36. However, this might not be the optimal strategy, as I need to balance my payoff with the pool's sustainability. Extracting $24 would give me a payoff of $8 + ($42/4) = $8 + $10.50 = $18.50, which seems more reasonable. Considering the options, I decide to extract $21, which would give me a payoff of $7 + ($45/4) = $7 + $11.25 = $18.25, and leave a reasonable amount for the pool to regenerate."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 90,
+    "extractions": [
+      12,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 33,
+    "payoffs": [
+      12.25,
+      12.25,
+      12.25,
+      15.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool value this month is $90, and the sustainability threshold is $45 total extraction. This means that if the total extraction exceeds $45, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions of $45 in Month 1 and $36 in Month 2. The boss has also been extracting a significant amount, but not exceeding the $30 limit. To maintain the pool's value and ensure its sustainability, I will aim to extract a moderate amount. Since the payoff function rewards extraction, but also considers the remaining pool value, I will balance my extraction to maximize my payoff while keeping the total extraction below or near the sustainability threshold. Given that there are 9 months remaining, it's essential to find a balance between short-term gain and long-term sustainability.",
+      "The sustainability threshold for this month is $45 total extraction, and there are 3 workers, including myself. To maximize the pool's value and our payoffs in the long run, it's essential to aim for or stay below this threshold. Since the boss extracts last and can take up to $30, the workers should aim to extract a total that, when combined with the boss's potential maximum extraction, does not exceed the regeneration capacity of the pool. Given that the pool regenerates by doubling the remaining value up to $120, extracting too much could lead to a significantly reduced pool value in subsequent months, negatively impacting future payoffs. \n\nConsidering the history, in Month 1, workers extracted a total of $45, which was sustainable given the initial pool value of $120, but the boss's extraction led to a lower-than-expected regeneration. In Month 2, the total worker extraction was $36, which was below the sustainability threshold of $51, but still, the pool value dropped significantly due to the boss's extraction. This pattern suggests that to maintain a healthy pool value, workers should aim to extract conservatively, especially considering the boss's extraction behavior.\n\nGiven these considerations, extracting $12 seems like a balanced approach. It allows for a personal payoff while also considering the need to keep the total extraction below or at the sustainability threshold to ensure the pool's value does not shrink excessively. This amount also reflects a cautious approach, learning from the previous months' outcomes where total extractions, although sometimes below the threshold, still resulted in a decreased pool value due to the boss's actions.",
+      "The pool value this month is $90, and the sustainability threshold is $45 total extraction. This means that if the total extraction exceeds $45, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions of $45 in Month 1 and $36 in Month 2. The boss has also been extracting a significant amount, but not exceeding the $30 limit. To maintain the pool's value and ensure its sustainability, I will aim to extract a moderate amount. Since the payoff function rewards extraction, but also considers the remaining pool value, I will balance my extraction to maximize my payoff while keeping the total extraction below or near the sustainability threshold. Given that there are 9 months remaining, it's essential to find a balance between short-term gain and long-term sustainability.",
+      "The workers have extracted a total of $36, leaving $54 in the pool. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120, it's essential to balance extraction with sustainability. The pool's current state and the workers' conservative extraction suggest a relatively stable situation. However, to maximize my payoff, I need to consider both my extraction and the pool's remaining value after my move. Given that my payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4, extracting a moderate amount that leaves a substantial pool for regeneration while also contributing to my payoff is crucial. Since the pool is at $54 and I want to ensure it regenerates to a healthy amount for the next month while also maximizing my payoff, I will aim to leave enough for regeneration but also take a significant share."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 66,
+    "extractions": [
+      12,
+      12,
+      12,
+      15
+    ],
+    "final_pool": 15,
+    "payoffs": [
+      7.75,
+      7.75,
+      7.75,
+      8.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction is above $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting a total of $36 or $45, which is above the sustainability threshold. However, the boss's extraction has also been significant, ranging from $21 to $24. To balance the need for personal payoff and the long-term sustainability of the pool, I will aim to extract a moderate amount. Since the pool value is relatively low, I will choose an extraction amount that is lower than the maximum allowed, but still significant enough to provide a decent payoff. Extracting $12 would provide a moderate payoff while also considering the sustainability of the pool.",
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction is above $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting a total of $36 or $45, which is above the sustainability threshold. However, the boss's extraction has also been significant, ranging from $21 to $24. To balance the need for personal payoff and the long-term sustainability of the pool, I will aim to extract a moderate amount. Since the pool value is relatively low, I will choose an extraction amount that is lower than the maximum allowed, but still significant enough to provide a decent payoff. Extracting $12 would provide a moderate payoff while also considering the sustainability of the pool.",
+      "The current pool value is $66, and the sustainability threshold is $33 total extraction. This means that if the total extraction is above $33, the pool will shrink next month. Considering the history of previous months, the workers have been extracting a total of $36 or $45, which is above the sustainability threshold. However, the boss's extraction has also been significant, ranging from $21 to $24. To balance the need for personal payoff and the long-term sustainability of the pool, I will aim to extract a moderate amount. Since the pool value is relatively low, I will choose an extraction amount that is lower than the maximum allowed, but still significant enough to provide a decent payoff. Extracting $12 would provide a moderate payoff while also considering the sustainability of the pool.",
+      "The workers have extracted a total of $36, leaving $30 in the pool for me to decide on. Given the history, the workers seem to be consistently extracting $12 each, which suggests a pattern of conservative extraction to maintain the pool's sustainability. My goal is to balance my payoff with the need to maintain the pool's value for future months. Since the pool's remaining value after my extraction will double at the end of the month, up to a maximum of $120, I need to consider how much to extract to maximize my payoff while ensuring the pool remains healthy. Extracting $0 would leave $30, which would double to $60, but this would minimize my immediate payoff. Extracting the maximum $30 would give me an immediate payoff but would leave the pool at $0, which would regenerate to $0, severely impacting future payoffs. A balanced approach is needed. Considering my payoff formula, extracting a moderate amount that allows the pool to regenerate sufficiently while giving me a decent payoff is optimal. Given that the pool doubles at the end of the month, aiming to leave some amount that, when doubled, approaches but doesn't exceed $120 is wise. However, since the maximum I can extract is $30 and the remaining pool is $30, I must decide how much of this $30 to take. Taking less than $30 allows the pool to regenerate more, potentially benefiting future months but reducing my current payoff. The formula for my payoff is (extraction/3) + (remaining pool/4), so extracting $30 would give me $30/3 + $0/4 = $10, which is a straightforward calculation but doesn't consider the regeneration aspect. If I extract $0, my payoff would be $0/3 + $30/4 = $7.50, which is lower. The optimal extraction must balance these considerations. Given the workers' consistent behavior and the need to maintain the pool, extracting a moderate amount seems prudent. However, since the remaining pool is already at $30 and the workers have been consistent in their extractions, I should aim to leave enough for regeneration while maximizing my payoff. The history suggests that leaving around $10 to $15 might be a balanced approach, considering regeneration and the workers' extraction patterns. Thus, extracting $15 or $18 could be reasonable, as it leaves $15 or $12, respectively, which would double to $30 or $24, providing a foundation for the next month while giving me a significant payoff. Between these, $15 seems more conservative and might be preferable given the long-term view and the need to ensure the pool's sustainability. Therefore, extracting $15 appears to be a balanced decision that considers both my immediate payoff and the long-term health of the pool."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 5,
+    "pool_before": 30,
+    "extractions": [
+      9,
+      9,
+      9,
+      0
+    ],
+    "final_pool": 3,
+    "payoffs": [
+      3.75,
+      3.75,
+      3.75,
+      0.75
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "The pool value is currently at $30, which is a relatively low value compared to the initial value of $120. The sustainability threshold is $15 total extraction, which means that if all workers extract more than $15 in total, the pool will shrink next month. Considering the history of previous months, the total extraction has consistently exceeded the sustainability threshold, leading to a declining pool trend. To avoid further shrinking the pool, it's essential to extract responsibly. Since there are 7 months remaining, it's crucial to balance short-term gains with long-term sustainability. Given the payoff formula, extracting $0 would result in a payoff of $30/4 = $7.50, which is relatively low. Extracting a small amount, such as $3 or $6, would increase the payoff while still being cautious about the pool's sustainability. However, considering the boss's extraction pattern, it's likely that the boss will extract a significant amount, potentially up to $30. To maximize my payoff while minimizing the risk of over-extraction, I will extract a moderate amount.",
+      "The pool value is currently at $30, which is a relatively low value compared to the initial value of $120. The sustainability threshold for this month is $15 total extraction, meaning that if all workers and the boss extract more than $15 in total, the pool will shrink next month. Given the history of previous months, it's clear that the workers and the boss have been extracting more than the sustainability threshold, leading to a declining pool trend. To avoid further shrinking the pool, I should aim to extract less than or equal to my share of the sustainability threshold. Since there are 3 workers, my share of the sustainability threshold would be $15 / 3 = $5. However, considering the boss's extraction and the need to balance individual payoff with the long-term sustainability of the pool, I will choose an extraction amount that is slightly higher but still cautious.",
+      "The pool value is currently at $30, which is a relatively low value compared to the initial value of $120. The sustainability threshold for this month is $15 total extraction, meaning that if all workers and the boss extract more than $15 in total, the pool will shrink next month. Given the history of previous months, it's clear that the workers and the boss have been extracting more than the sustainability threshold, leading to a declining pool trend. To avoid further shrinking the pool, I should aim to extract less than or equal to my share of the sustainability threshold. Since there are 3 workers, my share of the sustainability threshold would be $15 / 3 = $5. However, considering the boss's extraction and the need to balance individual payoff with the long-term sustainability of the pool, I will choose an extraction amount that is slightly higher but still cautious.",
+      "Given the current state of the pool, which is $3 after all workers have extracted their share, the boss's extraction decision is significantly constrained. The pool is already very low, and extracting any amount would leave little to no remaining balance. Considering the regeneration rule, where the remaining pool doubles at the end of the month up to a maximum of $120, and the fact that the boss's payoff is calculated based on the extraction and the remaining pool after the boss's extraction, the optimal strategy would be to minimize extraction to allow for some regeneration while also considering the payoff structure. However, given the extremely low remaining pool of $3 and the constraint that extraction must be in multiples of $3, the boss's options are limited to extracting either $0 or $3. Extracting $3 would leave no pool remaining, which might not be beneficial for future months, but given the current state, it might be the only way to get any payoff from extraction since the pool is so low. On the other hand, extracting $0 would allow the $3 to double to $6 at the end of the month, providing a slightly better starting point for the next month but yielding no extraction payoff for the boss this month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 66,
+    "payoffs": [
+      21.5,
+      19.5,
+      19.5,
+      23.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I need to think about the potential actions of the other workers and the boss. If all workers extract the maximum of $30, and the boss also extracts $30, the total extraction would be $120, leaving no remaining balance and thus no pool to double for the next month. This scenario is undesirable as it leads to the immediate depletion of the pool.\n\nGiven the payoff formula, extracting more does increase my immediate payoff, but it also reduces the pool's remaining value, which affects the payoff from the pool's doubling in the next month. The key is finding a balance where I extract enough to have a good payoff this month but also ensure the pool remains substantial enough to double and provide a good base for future extractions.\n\nConsidering the sustainability threshold and the need to balance immediate gain with long-term pool health, extracting $15 seems like a reasonable choice. It allows for a significant immediate payoff while leaving enough in the pool for it to potentially double next month if other agents also extract responsibly.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I should aim to extract an amount that, when combined with the expected extractions of the other workers and the boss, stays at or below the sustainability threshold. Assuming other workers might also aim to maximize their payoff without depleting the pool, and considering the boss's extraction will be based on the remaining pool after all workers have extracted, a moderate extraction seems prudent.\n\nGiven the payoff formula, extracting $0 would yield a payoff solely based on the remaining pool after all extractions, which could be significant if others also extract moderately. However, this approach does not guarantee a high payoff since the boss's extraction could significantly reduce the remaining pool. On the other hand, extracting the maximum of $30 would provide a guaranteed $10 (=$30/3) from my extraction but would leave less for the pool to double next month, potentially reducing future payoffs.\n\nAiming for a balance, extracting $15 seems reasonable. It provides a direct payoff of $5 (=$15/3) and leaves $105 - $15 = $90 in the pool before the other workers and the boss extract their shares. Assuming the other two workers extract similarly ($15 each), and the boss extracts up to $30, the total extraction would be $15 * 3 (workers) + $30 (boss) = $75, which is below the sustainability threshold of $60 for the workers' total extraction but actually refers to the total threshold including the boss. This calculation was initially aimed to illustrate a thought process but reveals a misunderstanding in applying the threshold directly without considering the boss's extraction in the context of the total threshold correctly.\n\nCorrecting the approach: The actual total extraction limit to avoid shrinking the pool (sustainability threshold) is $60 for all agents combined, which means my initial calculation misinterprets how to apply this threshold. Given this, a more conservative approach might be necessary to ensure the pool does not shrink, considering the boss's extraction as well.\n\nHowever, the correct interpretation should focus on the overall extraction including the boss. If all workers extract $15 and the boss extracts $30, the total would be $75, exceeding the threshold if we consider the threshold applies to all extractions before the pool doubles. The goal should be to keep the total extraction, including the boss's, at or below $60 to ensure the pool does not shrink, which suggests a more conservative extraction strategy than initially calculated.\n\nGiven the misunderstanding in the calculation and the need to correct the approach based on the sustainability threshold and the extraction rules, a more appropriate strategy would consider the total extraction limit and the long-term sustainability of the pool, aiming for a lower extraction to ensure the pool's value does not decrease.",
+      "Given that this is the first month and the pool value is at its maximum of $120, the goal should be to balance the immediate payoff with the long-term sustainability of the pool. The sustainability threshold is $60 total extraction, which means that if all agents (workers and the boss) extract more than $60 in total, the pool will shrink next month. Since there are 3 workers and 1 boss, and each can extract up to $30, the maximum total extraction could be $120 (3 workers * $30 + $30 from the boss), which would deplete the pool entirely and is clearly not sustainable. \n\nTo maximize my payoff while considering the sustainability of the pool, I should aim to extract an amount that, when combined with the expected extractions of the other workers and the boss, stays at or below the sustainability threshold. Assuming other workers might also aim to maximize their payoff without depleting the pool, and considering the boss's extraction will be based on the remaining pool after all workers have extracted, a moderate extraction seems prudent.\n\nGiven the payoff formula, extracting $0 would yield a payoff solely based on the remaining pool after all extractions, which could be significant if others also extract moderately. However, this approach does not guarantee a high payoff since the boss's extraction could significantly reduce the remaining pool. On the other hand, extracting the maximum of $30 would provide a guaranteed $10 (=$30/3) from my extraction but would leave less for the pool to double next month, potentially reducing future payoffs.\n\nAiming for a balance, extracting $15 seems reasonable. It provides a direct payoff of $5 (=$15/3) and leaves $105 - $15 = $90 in the pool before the other workers and the boss extract their shares. Assuming the other two workers extract similarly ($15 each), and the boss extracts up to $30, the total extraction would be $15 * 3 (workers) + $30 (boss) = $75, which is below the sustainability threshold of $60 for the workers' total extraction but actually refers to the total threshold including the boss. This calculation was initially aimed to illustrate a thought process but reveals a misunderstanding in applying the threshold directly without considering the boss's extraction in the context of the total threshold correctly.\n\nCorrecting the approach: The actual total extraction limit to avoid shrinking the pool (sustainability threshold) is $60 for all agents combined, which means my initial calculation misinterprets how to apply this threshold. Given this, a more conservative approach might be necessary to ensure the pool does not shrink, considering the boss's extraction as well.\n\nHowever, the correct interpretation should focus on the overall extraction including the boss. If all workers extract $15 and the boss extracts $30, the total would be $75, exceeding the threshold if we consider the threshold applies to all extractions before the pool doubles. The goal should be to keep the total extraction, including the boss's, at or below $60 to ensure the pool does not shrink, which suggests a more conservative extraction strategy than initially calculated.\n\nGiven the misunderstanding in the calculation and the need to correct the approach based on the sustainability threshold and the extraction rules, a more appropriate strategy would consider the total extraction limit and the long-term sustainability of the pool, aiming for a lower extraction to ensure the pool's value does not decrease.",
+      "Given that the remaining pool available to me is $87, my goal is to maximize my payoff while also considering the long-term sustainability of the commons. My payoff is calculated as (my extraction)/3 + (pool remaining after my extraction)/4. To maximize this, I need to balance between extracting enough to increase the first part of the payoff and leaving enough in the pool to increase the second part. Since the pool regenerates by doubling at the end of the month up to a maximum of $120, it's also important to consider how my extraction affects the pool's value for the next month. Extracting $0 would leave the pool at $87, which would double to $174, exceeding the $120 cap, and thus would only regenerate to $120. Extracting the maximum of $30 would leave $57, which doubles to $114, close to the cap. Considering the workers' extractions and my own, aiming for a moderate extraction seems prudent to ensure the pool remains healthy for future months while also maximizing my current payoff. Given these considerations, extracting $21 seems like a balanced approach, as it allows me to benefit from extraction while also ensuring the pool has a significant amount to regenerate from."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      21
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      18.5,
+      18.5,
+      18.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous month, it's clear that the workers and the boss extracted a total of $54 ($33 by workers + $21 by boss), which is below the sustainability threshold of $60. This led to the pool regenerating to its maximum value of $120 for this month. To maintain sustainability and maximize payoffs, it's essential to keep the total extraction below or at the threshold. Considering the boss's extraction is observed after all workers have extracted and the boss has a maximum extraction limit of $30, it's reasonable to aim for a total worker extraction that leaves room for the boss's extraction while staying below the threshold. Since there are 10 months remaining, a moderate approach seems prudent. Extracting $15, as one of the workers did in the previous month, seems like a balanced choice, allowing for personal gain while considering the sustainability of the pool.",
+      "Given the history of the previous month, it's clear that the workers and the boss extracted a total of $54 ($33 by workers + $21 by boss), which is below the sustainability threshold of $60. This conservative approach allowed the pool to regenerate to its maximum value of $120. Considering the long-term goal of sustaining the pool and maximizing payoffs, it's essential to balance extraction with conservation. Since the pool has regenerated to its maximum value, there's an opportunity to extract a moderate amount without jeopardizing the sustainability of the pool. Extracting $15, as one of the workers did in the previous month, seems like a reasonable approach, as it provides a decent payoff while leaving enough for the pool to remain sustainable.",
+      "Given the history of the previous month, it's clear that the workers and the boss extracted a total of $54 ($33 by workers + $21 by boss), which is below the sustainability threshold of $60. This conservative approach allowed the pool to regenerate to its maximum value of $120. Considering the long-term goal of sustaining the pool and maximizing payoffs, it's essential to balance extraction with conservation. Since the pool has regenerated to its maximum value, there's an opportunity to extract a moderate amount without jeopardizing the sustainability of the pool. Extracting $15, as one of the workers did in the previous month, seems like a reasonable approach, as it provides a decent payoff while leaving enough for the pool to remain sustainable.",
+      "The workers have extracted a total of $45, leaving $75 in the pool. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120 at the end of the month, it's essential to balance extraction with conservation to maximize payoff. The payoff function for the boss is (extraction)/3 + (pool remaining after extraction)/4, indicating that while extracting as much as possible is beneficial, preserving a larger pool also contributes significantly to the payoff. Given that the pool will regenerate to $120 if $60 or less remains, and to a proportionally lower amount if more than $60 remains, aiming to leave around $60 or slightly less could be strategic. However, since the boss moves last and observes all other extractions, and given the current remaining pool of $75, extracting a moderate amount that leaves enough for regeneration while also maximizing the boss's payoff is key. Extracting $30 would leave $45, which doubles to $90, but considering the payoff function, a balance must be struck. Extracting $21 would leave $54, which is above the threshold for full regeneration but provides a good balance for the boss's payoff, considering both the extraction and the remaining pool's value."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 108,
+    "extractions": [
+      12,
+      12,
+      12,
+      21
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      16.75,
+      16.75,
+      16.75,
+      19.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history of the previous months, it's clear that the workers and the boss have been extracting significant amounts from the pool, causing it to regenerate to a lower value this month ($108). The sustainability threshold for this month is $54 total extraction, which means that if the total extraction exceeds this amount, the pool will shrink further next month. Considering the payoffs from the previous months, extracting $15 seems to have been a relatively stable strategy for the workers, but it's also important to consider the long-term sustainability of the pool. Since there are 9 months remaining, it's crucial to balance individual payoffs with the need to maintain a healthy pool value. Extracting $15 or more might put pressure on the pool, especially if the other workers and the boss also extract substantial amounts. Therefore, I will aim to extract a moderate amount that contributes to my payoff while also considering the sustainability of the pool.",
+      "Given the history of the previous months, it's clear that the workers and the boss have been extracting significant amounts, leading to a decrease in the pool value. This month, the pool value is $108, and the sustainability threshold is $54 total extraction. To avoid shrinking the pool further, it's essential to extract below this threshold. Considering the boss's extraction pattern, they tend to extract around $21. If the total worker extraction is too high, the boss's extraction will push the total above the sustainability threshold. As a worker, my goal is to balance my payoff with the need to sustain the pool. Extracting $15 or more might lead to a total extraction above the threshold when the boss's extraction is included. Therefore, I will aim to extract a moderate amount that allows for a decent payoff while considering the sustainability of the pool.",
+      "Given the history of the previous months, it's clear that the workers and the boss have been extracting significant amounts, leading to a decrease in the pool value. This month, the pool value is $108, and the sustainability threshold is $54 total extraction. To avoid shrinking the pool further, it's essential to extract below this threshold. Considering the boss's extraction pattern, they tend to extract around $21. If the total worker extraction is too high, the boss's extraction will push the total above the sustainability threshold. As a worker, my goal is to balance my payoff with the need to sustain the pool. Extracting $15 or more might lead to a total extraction above the threshold when the boss's extraction is included. Therefore, I will aim to extract a moderate amount that allows for a decent payoff while considering the sustainability of the pool.",
+      "The workers have extracted a total of $36, leaving $72 in the pool. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120 at the end of the month, it's essential to balance extraction with sustainability. The sustainability threshold is $60, and since the pool will double after this month, extracting too much could lead to an overabundance next month, potentially encouraging workers to overextract. However, given that the workers have been consistent in their extractions and the pool's current state, a moderate extraction seems prudent. The payoff structure incentivizes leaving some amount in the pool for a higher payoff from the remaining pool but also rewards extraction. Given the remaining pool is $72, extracting $21 would leave $51, which would double to $102, providing a good balance for the next month while maximizing my payoff."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 102,
+    "extractions": [
+      9,
+      12,
+      12,
+      18
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      15.75,
+      16.75,
+      16.75,
+      18.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Considering the history of previous months, it's clear that the workers and the boss have been extracting amounts that have led to a decrease in the pool value over time, but still within a range that allows it to regenerate. The sustainability threshold this month is $51 total extraction, which means that if all agents, including the boss, extract more than this, the pool will shrink next month. Given that the boss extracts last and has a maximum extraction limit of $30, and considering the pattern of the boss's extractions in previous months, it's reasonable to anticipate the boss will extract near this maximum. \n\nTo maintain the pool's value and ensure its sustainability, workers should aim to extract less than their maximum to compensate for the boss's extraction and to stay below the sustainability threshold. Since there are 3 workers and the total sustainability threshold is $51, ideally, the workers' total extraction should be such that when combined with the anticipated boss's extraction, the total does not exceed $51. Assuming the boss might extract the maximum $30 (as has been the pattern), this leaves $21 ($51 - $30) as the maximum the workers should extract in total to meet the sustainability threshold exactly.\n\nGiven this, and aiming for a balanced approach that considers both personal payoff and the sustainability of the pool, each worker extracting $6 or $9 would be reasonable strategies, as these amounts are low enough to likely keep the total extraction below the threshold when including the boss's extraction, but also provide a personal payoff. Extracting $6 would be a more conservative approach, prioritizing the pool's sustainability over personal gain, while extracting $9 balances personal payoff with sustainability concerns.\n\nConsidering the need to balance personal gain with the long-term sustainability of the pool, and given that the question asks for a single amount without the ability to coordinate with other workers, a moderate extraction that leans towards sustainability but also considers personal payoff is prudent.",
+      "Considering the history of previous months, it's clear that the workers and the boss have been extracting amounts that have led to a decrease in the pool value over time, but still within a range that allows it to regenerate. The sustainability threshold this month is $51 total extraction, which means that if all agents (workers and boss) extract more than this, the pool will shrink next month. Given that the boss extracts last and has a maximum extraction limit of $30, and considering the pattern of the boss's extractions in previous months ($21 each time), it's reasonable to anticipate the boss will extract a significant amount again. \n\nTo maintain the pool's value and ensure it doesn't shrink dramatically, workers should aim to extract less than or equal to their share of the sustainability threshold, assuming the boss will take the maximum or near-maximum allowed. Since there are 3 workers and the boss's extraction is somewhat predictable, a strategic approach would be to extract an amount that, when combined with anticipated extractions from other workers and the boss, stays below or at the sustainability threshold.\n\nGiven the payoffs are calculated based on the individual's extraction and the remaining pool after all extractions, there's an incentive to balance personal gain with the long-term sustainability of the pool. Extracting $12, as done in Month 3, seems like a moderate approach that considers both personal payoff and the pool's sustainability. It allows for a decent personal payoff while also being mindful of the need to keep the total extraction below the threshold that would cause the pool to shrink.",
+      "Considering the history of previous months, it's clear that the workers and the boss have been extracting amounts that have led to a decrease in the pool value over time, but still within a range that allows it to regenerate. The sustainability threshold this month is $51 total extraction, which means that if all agents (workers and boss) extract more than this, the pool will shrink next month. Given that the boss extracts last and has a maximum extraction limit of $30, and considering the pattern of the boss's extractions in previous months ($21 each time), it's reasonable to anticipate the boss will extract a significant amount again. \n\nTo maintain the pool's value and ensure it doesn't shrink dramatically, workers should aim to extract less than or equal to their share of the sustainability threshold, assuming the boss will take the maximum or near-maximum allowed. Since there are 3 workers and the boss's extraction is somewhat predictable, a strategic approach would be to extract an amount that, when combined with anticipated extractions from other workers and the boss, stays below or at the sustainability threshold.\n\nGiven the payoffs are calculated based on the individual's extraction and the remaining pool after all extractions, there's an incentive to balance personal gain with the long-term sustainability of the pool. Extracting $12, as done in Month 3, seems like a moderate approach that considers both personal payoff and the pool's sustainability. It allows for a decent personal payoff while also being mindful of the need to keep the total extraction below the threshold that would cause the pool to shrink.",
+      "The workers have extracted a total of $33 this month, which is relatively moderate compared to previous months. The remaining pool of $69 is still substantial, but it's lower than the starting pool of $102. Considering the regeneration rule, where the remaining pool doubles up to a maximum of $120, it's essential to balance extraction with conservation. Since there are 8 months remaining, it's crucial to maintain a sustainable pool size to ensure future extractions. Given the payoff function, extracting a higher amount would increase the first part of the payoff (extraction/3) but decrease the second part (pool remaining after extraction/4). Aiming for a balance, I will extract an amount that allows for a decent payoff while also conserving the pool for future months. Extracting $21 would be a reasonable choice, as it has been a consistent extraction amount in previous months, but considering the workers' moderate extraction, I might opt for a slightly lower amount to prioritize conservation."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 102,
+    "extractions": [
+      9,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 54,
+    "payoffs": [
+      16.5,
+      16.5,
+      16.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool value this month is $102, and the sustainability threshold is $51 total extraction. This means that if the total extraction exceeds $51, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions ranging from $33 to $45. The boss has also been extracting around $20. To maintain the stability of the pool and ensure it doesn't shrink, I will aim to extract a moderate amount. Since the pool is currently at $102, which is close to the maximum value of $120, I will extract a relatively small amount to avoid exceeding the sustainability threshold. Extracting $9 would allow me to receive a decent payoff while also helping to maintain the pool's value.",
+      "The pool value this month is $102, and the sustainability threshold is $51 total extraction. This means that if the total extraction exceeds $51, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions ranging from $33 to $45. The boss has also been extracting around $20-21 each month. To maintain the stability of the pool and ensure it doesn't shrink, I will aim to extract a moderate amount. Since the pool is currently at $102, which is close to the maximum value of $120, I will extract a relatively small amount to avoid exceeding the sustainability threshold. Extracting $9 would allow me to receive a decent payoff while also helping to maintain the pool's value.",
+      "The pool value this month is $102, and the sustainability threshold is $51 total extraction. This means that if the total extraction exceeds $51, the pool will shrink next month. Considering the history of previous months, the workers have been extracting relatively conservatively, with total extractions ranging from $33 to $45. The boss has also been extracting around $20-21 each month. To maintain the stability of the pool and ensure it doesn't shrink, I will aim to extract a moderate amount. Since the pool is currently at $102, which is close to the maximum value of $120, I will extract a relatively small amount to avoid exceeding the sustainability threshold. Extracting $9 would allow me to receive a decent payoff while also helping to maintain the pool's value.",
+      "The workers have extracted a total of $27 this month, which is relatively conservative compared to previous months. The remaining pool available to me is $75, which is a significant amount. Considering the pool's regeneration mechanism and the fact that we are only halfway through the 12-month period, I want to balance my short-term payoff with the long-term sustainability of the pool. Extracting too much could deplete the pool and reduce its regeneration potential, while extracting too little might not maximize my payoff. Given the workers' conservative extraction and the pool's current state, I will aim to extract a moderate amount that balances my payoff with the pool's sustainability."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 6,
+    "pool_before": 108,
+    "extractions": [
+      9,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      18.0,
+      18.0,
+      18.0,
+      22.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool value this month is $108, and the sustainability threshold is $54 total extraction. Considering the history of previous months, it seems that when workers extract at or below the sustainability threshold, the pool either stays the same or increases after regeneration. In Month 5, all workers extracted $9, and the boss extracted $21, resulting in a total extraction of $48, which is below the threshold. This led to a regenerated pool value of $108. To maintain a similar outcome and ensure the pool's sustainability, I will aim to extract a moderate amount. Given that the maximum extraction allowed is $30 and the minimum increment is $3, I will choose an extraction amount that is reasonable and likely to keep the total extraction below or at the sustainability threshold when considering the other workers' and the boss's extractions.",
+      "The pool value this month is $108, and the sustainability threshold is $54 total extraction. Considering the history of previous months, it seems that when workers extract at or below the sustainability threshold, the pool either stays the same or increases after regeneration. In Month 5, all workers extracted $9, and the boss extracted $21, resulting in a total extraction of $48, which is below the threshold. This led to a regenerated pool value of $108. To maintain a similar outcome and ensure the pool's sustainability, I will aim to extract a amount that, when combined with the expected extractions of the other workers and the boss, stays at or below the threshold. Assuming the other workers might extract similarly to previous months, extracting $9 would be a reasonable choice to avoid over-extraction and promote sustainability.",
+      "The pool value this month is $108, and the sustainability threshold is $54 total extraction. Considering the history of previous months, it seems that when workers extract at or below the sustainability threshold, the pool either stays the same or increases after regeneration. In Month 5, all workers extracted $9, and the boss extracted $21, resulting in a total extraction of $48, which is below the threshold. This led to a regenerated pool value of $108. To maintain a similar outcome and ensure the pool's sustainability, I will aim to extract a amount that, when combined with the expected extractions of the other workers and the boss, stays at or below the threshold. Assuming the other workers might extract similarly to previous months, extracting $9 would be a reasonable choice to avoid over-extraction and promote sustainability.",
+      "The workers have extracted a total of $27 this month, which is relatively conservative compared to previous months. The remaining pool available to me is $81, which is a significant amount. Considering the payoff function, I want to balance my extraction with the pool remaining after my extraction. Extracting too much would reduce the pool remaining, while extracting too little might not maximize my payoff. Since the pool doubles at the end of the month up to a maximum of $120, I should aim to leave a reasonable amount to regenerate. Given that the workers have been extracting around $9-12 each, I will extract an amount that ensures the final pool is around $50-60, allowing for regeneration to $100-120. This month, I will extract $21, as it is a moderate amount that balances my payoff and the pool's regeneration."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      18
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      21.75,
+      21.75,
+      21.75,
+      24.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pool has just been regenerated to $120, which is the maximum value, and we are in month 7 of 12. Considering the history, the workers have been extracting a total of $27 in the last two months, which is below the sustainability threshold, allowing the pool to regenerate. The boss has been extracting $21 consistently. To maintain the pool's value and ensure it doesn't shrink, it's crucial to stay below the sustainability threshold of $60 total extraction. Given that there are 5 months remaining, a conservative approach would be beneficial to prevent over-extraction and maintain the pool's health. Extracting $9, as done in the previous months, seems like a reasonable choice, balancing the need for personal payoff with the necessity of preserving the pool for future months.",
+      "The pool has just been regenerated to $120, which is the maximum value, and we are in month 7 of 12. Considering the history, the workers have been extracting a total of $27 in the last two months, which is below the sustainability threshold, allowing the pool to regenerate. The boss has been extracting $21 consistently. To maintain the pool's value and ensure it doesn't shrink, it's crucial to keep the total extraction below the sustainability threshold of $60. Given that the other workers have been extracting $9 in the previous months, and assuming they might continue with a similar strategy, extracting $9 would be a conservative approach that encourages sustainability while also considering the potential actions of other workers.",
+      "The pool has just been regenerated to $120, which is the maximum value, and we are in month 7 of 12. Considering the history, the workers have been extracting a total of $27 in the last two months, which is below the sustainability threshold, allowing the pool to regenerate. The boss has been extracting $21 consistently. To maintain the pool's value and ensure it doesn't shrink, it's crucial to keep the total extraction below the sustainability threshold of $60. Given that the other workers have been extracting $9 each in the previous months, and assuming they might continue with a similar strategy, extracting $9 would be a conservative approach that encourages sustainability while also considering the potential actions of other workers.",
+      "The workers have extracted a total of $27, which is relatively conservative compared to the pool's initial value of $120. The remaining pool available to me is $93, which is a significant amount. Considering the regeneration rule, where the remaining pool doubles at the end of the month up to a maximum of $120, it's essential to balance extraction with sustainability. The history of previous months shows that the pool has been declining, and there have been sustainability violations. However, in the last two months, the extractions have been more moderate, and the pool has regenerated to $120 at the start of this month. Given that there are 5 months remaining, I should aim to maintain a balance between maximizing my payoff and ensuring the long-term sustainability of the pool. Extracting $21 would leave $72 in the pool, which would double to $144, exceeding the maximum, so I should extract less than $21 to avoid over-extraction and promote sustainability."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      12,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 69,
+    "payoffs": [
+      21.25,
+      20.25,
+      20.25,
+      24.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The pattern of worker extractions has been consistent at $9 each for the past three months, resulting in a total extraction of $27. This has allowed the pool to regenerate to its maximum value of $120 each month. The boss's extraction has also been relatively consistent, ranging from $18 to $21. Given that the sustainability threshold is $60 and the total worker extraction has been $27, there is room for increased extraction without violating the sustainability threshold. However, increasing extraction too much could risk depleting the pool and reducing its value for future months. Considering the payoffs, extracting $9 has yielded reasonable payoffs for workers, but exploring a slightly higher extraction while still being cautious of the sustainability threshold could potentially increase payoffs without jeopardizing the pool's regeneration. Therefore, a modest increase in extraction to $12 seems prudent, as it still keeps the total worker extraction below the sustainability threshold and allows for a potential increase in payoff.",
+      "The history of the previous months shows a pattern of all workers extracting $9 each, resulting in a total extraction of $27, which is below the sustainability threshold. This has led to a relatively stable pool value, with the pool regenerating to $120 after each month. Given that there are only 4 months remaining, it's essential to balance short-term gains with long-term sustainability. Extracting $9 has yielded reasonable payoffs for workers, and the boss's extraction has been relatively consistent. To maintain this balance and ensure the pool's sustainability, I will follow the established pattern and extract $9.",
+      "The history of the previous months shows a pattern of all workers extracting $9 each, resulting in a total extraction of $27, which is below the sustainability threshold. This has led to a relatively stable pool value, with the pool regenerating to $120 after each month. Given that there are only 4 months remaining, it's essential to balance short-term gains with long-term sustainability. Extracting $9 has yielded reasonable payoffs for workers, and the boss's extraction has been relatively consistent. To maintain this balance and ensure the pool's sustainability, I will follow the established pattern and extract $9.",
+      "The workers have extracted a total of $30 this month, leaving $90 in the pool. Considering the history of previous months, the workers have consistently extracted $27, and the pool has been regenerated to $120 at the start of each month after month 5. The boss's extraction has been around $20, resulting in a relatively stable pool. Given that there are 4 months remaining, it's essential to balance the short-term payoff with the long-term sustainability of the pool. Extracting too much could lead to a decline in the pool's value, while extracting too little might result in a lower payoff. Since the remaining pool is $90, which is relatively high, I will aim to extract an amount that maintains the balance between the short-term payoff and the long-term sustainability."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      21.0,
+      21.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history and the current state, the pool has been regenerated to $120, providing a fresh start. The sustainability threshold is $60 total extraction, meaning that if all agents, including the boss, extract more than $60 in total, the pool will shrink next month. Considering the boss's extraction pattern, it seems the boss tends to extract around $20-$21. To avoid violating the sustainability threshold and to ensure the pool does not shrink, workers should aim to extract less than $40 in total ($60 threshold - $20 expected boss extraction). Since there are three workers, extracting $9 each would total $27, which is below the $40 target and leaves room for the boss's extraction without exceeding the sustainability threshold. This approach also considers the payoffs from previous months, where lower extractions have led to higher payoffs due to the remaining pool value. Therefore, aiming for a moderate extraction that prioritizes sustainability and potential for higher payoff is prudent.",
+      "Given the history and current state, the pool has been regenerated to $120 after previous months, indicating a capacity to recover. However, the sustainability threshold of $60 total extraction suggests that workers and the boss together should not exceed this amount to prevent the pool from shrinking. In the previous months, the total extractions have been close to or slightly above this threshold, but the pool's regeneration mechanism has helped maintain its value. Considering the payoffs, extracting $9 has consistently provided a decent payoff without overly depleting the pool, especially when considering the boss's extraction. Given that there are only 3 months remaining, it's crucial to balance immediate payoff with long-term sustainability. Extracting $9 allows for a moderate payoff while minimizing the risk of significantly depleting the pool, especially if other workers follow a similar strategy. This approach aims to maintain a balance between personal gain and collective sustainability.",
+      "Given the history and current state, the pool has been regenerated to $120 after previous months, indicating a capacity to recover. However, the sustainability threshold of $60 total extraction suggests that workers and the boss together should not exceed this amount to prevent the pool from shrinking. In the previous months, the total extractions have been close to or slightly above this threshold, but the pool's regeneration mechanism has helped maintain its value. Considering the payoffs, extracting $9 has consistently provided a decent payoff without overly depleting the pool, especially when considering the boss's extraction. Given that there are only 3 months remaining, it's crucial to balance immediate payoff with long-term sustainability. Extracting $9 allows for a moderate payoff while minimizing the risk of significantly depleting the pool, especially if other workers follow a similar strategy. This approach aims to maintain a balance between personal gain and collective sustainability.",
+      "Given the current state of the pool and the history of previous months, it's clear that the workers have been extracting consistently around $9 each, totaling $27, which is below the sustainability threshold. This month is no exception, with $93 remaining after their extractions. Considering the pool's regeneration mechanism and the fact that there are only 3 months remaining, it's essential to balance extraction with sustainability. The boss's payoff is also influenced by the remaining pool after extraction, which suggests a moderate approach. Extracting $21, as done in previous months, seems to be a balanced choice, allowing for a decent payoff while keeping the pool at a level that can regenerate sufficiently for the remaining months."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      21.0,
+      21.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given the history and current state, the pool has been relatively stable with some fluctuations. The sustainability threshold is $60 total extraction, and in the past months, the total extraction has sometimes exceeded this threshold, but the pool has always regenerated to $120 due to the doubling mechanism. With only 2 months remaining, the goal should be to balance individual payoff with the sustainability of the pool. Noticing the boss's extraction pattern, it tends to be around $20. Considering the workers' past extractions and the boss's pattern, aiming for a total extraction close to the sustainability threshold without exceeding it significantly could be beneficial. Since the question asks for my extraction, I will consider a moderate approach that allows for a decent payoff while keeping the pool relatively sustainable. Extracting $9 seems like a balanced choice, as it is moderate and has been a common extraction amount in the past that has led to relatively stable outcomes.",
+      "Given the history and current state, the pool has been relatively stable with some fluctuations, and the sustainability threshold has been violated in some months but not drastically. The boss's extraction has been significant, often close to the maximum of $30. Considering we are in month 10 of 12, there's a balance to strike between maximizing personal payoff and ensuring the pool's sustainability for the remaining months. The workers have generally extracted between $9 and $12, with the total worker extraction ranging from $27 to $30. To maintain stability and considering the boss's tendency to extract near the maximum, I aim to extract an amount that contributes to a total worker extraction close to but not exceeding the sustainability threshold, while also maximizing my payoff. Extracting $9 seems like a reasonable choice, as it allows for a decent personal payoff while leaving room for the boss's extraction and the pool's regeneration.",
+      "Given the history and current state, the pool has been relatively stable with some fluctuations, and the sustainability threshold has been violated in some months but not drastically. The boss's extraction has been significant, often close to the maximum of $30. Considering we are in month 10 of 12, there's a balance to strike between maximizing personal payoff and ensuring the pool's sustainability for the remaining months. The workers have generally extracted between $9 and $12, with the total worker extraction ranging from $27 to $30. To maintain stability and considering the boss's tendency to extract near the maximum, I aim to extract an amount that contributes to a total worker extraction close to but not exceeding the sustainability threshold, while also maximizing my payoff. Extracting $9 seems like a reasonable choice, as it allows for a decent personal payoff while leaving room for the boss's extraction and the pool's regeneration.",
+      "Given the current state of the pool and the history of previous months, it's clear that the workers have been extracting consistently around $27 total, which is below the sustainability threshold of $60. This month is no exception, with all workers extracting $9 each, totaling $27. The remaining pool available to me is $93, which is a significant amount. Considering the regeneration rule, where the remaining pool doubles at the end of the month up to a maximum of $120, and the fact that there are only 2 months remaining, I should aim to balance my extraction with the need to maintain a healthy pool for the next month. My payoff is also dependent on the pool remaining after my extraction, so extracting too much could reduce my payoff. Given these considerations and the fact that my extraction should be a multiple of 3, I will choose an amount that allows me to benefit while also ensuring the pool remains substantial for the next month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      9,
+      9,
+      9,
+      21
+    ],
+    "final_pool": 72,
+    "payoffs": [
+      21.0,
+      21.0,
+      21.0,
+      25.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool has been stable or growing with an average total extraction below the sustainability threshold. The boss's extraction has also been consistent, around $21. In the last three months, the workers have extracted a total of $27, and the boss has extracted $21, resulting in a final pool of $72, which regenerates to $120. This pattern suggests a balance where the total extraction (workers + boss) is $48, which is below the sustainability threshold of $60. To maintain this balance and ensure the pool does not shrink in the last month, it would be prudent to continue this pattern. Therefore, extracting $9, as has been the case in the recent months, seems like a reasonable choice to maintain stability and maximize payoff, considering the payoff formula and the regeneration rule.",
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool's value has been stable or growing with an average total extraction below the sustainability threshold. The boss's extraction has been consistent around $21. In the last three months, the workers have extracted a total of $27, and the boss has extracted $21, resulting in a final pool value that regenerates to $120. To maintain stability and maximize payoff, especially since there's only one month left after this, it's reasonable to continue with a strategy that doesn't violate the sustainability threshold significantly. Extracting $9, as has been the case in the recent months, seems like a balanced approach, ensuring the pool remains healthy for the final month while also providing a decent payoff.",
+      "Given that this is the 11th month out of 12, and considering the history of previous months, it's clear that the pool's value has been stable or growing with an average total extraction below the sustainability threshold. The boss's extraction has been consistent around $21. In the last three months, the workers have extracted a total of $27, and the boss has extracted $21, resulting in a final pool value that regenerates to $120. To maintain stability and maximize payoff, especially since there's only one month left after this, it's reasonable to continue with a strategy that doesn't violate the sustainability threshold significantly. Extracting $9, as has been the case in the recent months, seems like a balanced approach, ensuring the pool remains healthy for the final month while also providing a decent payoff.",
+      "Given that this is the second-to-last month and the pool regenerates to $120 at the end of each month, the primary goal is to maximize the current payoff while considering the sustainability of the commons for the final month. The workers have consistently extracted $9 each, totaling $27, which is below the sustainability threshold of $60. This pattern suggests that the workers are likely to continue extracting at this rate in the final month. As the boss, extracting $21 has been the strategy for the past three months, resulting in a stable final pool of $72, which regenerates to $120. To maintain this stability and maximize the payoff, extracting $21 again seems like the optimal choice, as it balances the immediate payoff with the long-term sustainability of the commons."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 12,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Since this is the last month, there's no need to worry about the long-term sustainability of the pool. The goal is to maximize the current payoff. Given the payoff formula, extracting more will increase the first part of the payoff (your extraction)/3, but decrease the second part (pool remaining after ALL extractions including boss)/4. However, since the boss extracts last and has a maximum extraction limit of $30, extracting more as a worker will not significantly impact the boss's extraction decision due to the boss's observation of the remaining pool. The optimal strategy seems to be extracting as much as possible to maximize the first part of the payoff while considering the impact on the second part. Given the history, the boss tends to extract around $21. To maximize payoff, extracting the maximum allowed ($30) would provide the highest return from the first part of the payoff formula, but it's essential to consider the balance. However, since this is the final month and the pool's future state doesn't matter, the focus should solely be on maximizing the current payoff without worrying about sustainability or future pool values.",
+      "Since this is the last month, the goal is to maximize the current payoff without worrying about the sustainability of the pool for future months. The payoff function is (your extraction)/3 + (pool remaining after ALL extractions including boss)/4. Given that the boss extracts last and has a maximum extraction limit of $30, and considering the pattern of previous months where the boss extracted $21, it's reasonable to assume the boss might extract a similar amount this month. To maximize the payoff, extracting the maximum allowed amount would be beneficial because it directly increases the first part of the payoff function. However, the pool's remaining value after all extractions also contributes to the payoff. Since the sustainability threshold is $60 and the boss's extraction is expected to be around $21, the workers' total extraction should ideally be $39 or less to keep the pool from shrinking. But since this is the last month, the focus shifts to maximizing individual payoff. Extracting $30 would provide the highest direct payoff from extraction but would also leave less for the pool, potentially reducing the second part of the payoff. Considering the pattern of previous months where all workers extracted $9, if all workers extract $30, the total extraction before the boss would be $90, leaving $30 for the boss, which is the maximum the boss can extract. This would result in a final pool of $0, which doubles to $0, but since it's the last month, the doubling doesn't matter. The payoff would then be $30/3 + $0/4 = $10. However, if the goal is to maximize the payoff considering the boss's extraction and the remaining pool value, a balance must be struck. Given the boss's past behavior and the desire to maximize the current payoff without concern for future sustainability, extracting the maximum allowed seems optimal for personal gain in the final month.",
+      "Since this is the last month, the goal is to maximize the current payoff without worrying about the sustainability of the pool for future months. The payoff function is (your extraction)/3 + (pool remaining after ALL extractions including boss)/4. Given that the boss extracts last and has a maximum extraction limit of $30, and considering the pattern of previous months where the boss extracted $21, it's reasonable to assume the boss might extract a similar amount this month. To maximize the payoff, extracting the maximum allowed amount would be beneficial because it directly increases the first part of the payoff function. However, the pool's remaining value after all extractions also contributes to the payoff. Since the sustainability threshold is $60 and the boss's extraction is expected to be around $21, the workers' total extraction should ideally be $39 or less to keep the pool from shrinking. But since this is the last month, the focus shifts to maximizing individual payoff. Extracting $30 would provide the highest direct payoff from extraction but would also leave less for the pool, potentially reducing the second part of the payoff. Considering the pattern of previous months where all workers extracted $9, if all workers extract $30, the total extraction before the boss would be $90, leaving $30 for the boss, which is the maximum the boss can extract. This would result in a final pool of $0, which doubles to $0, but since it's the last month, the doubling doesn't matter. The payoff would then be $30/3 + $0/4 = $10. However, if the goal is to maximize the payoff considering the boss's extraction and the remaining pool value, a balance must be struck. Given the boss's past behavior and the desire to maximize the current payoff without concern for future sustainability, extracting the maximum allowed seems optimal for personal gain in the final month.",
+      "Given that this is the last month and there are no future consequences to consider, the goal is to maximize the current payoff. The payoff function is (your extraction)/3 + (pool remaining after your extraction)/4. With $30 remaining in the pool, extracting the maximum allowed amount of $30 would yield a payoff of $30/3 + $0/4 = $10. However, considering the payoff function, it might be beneficial to leave some amount in the pool to increase the second part of the payoff. But since the pool will not regenerate after this month, the optimal strategy is to extract as much as possible to maximize the first part of the payoff, which is the extraction value divided by 3. Thus, extracting $30 would provide the highest payoff."
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      18,
+      42
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      6.0,
+      14.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Each dollar I extract gives me $1/3 in direct payoff, whereas any money left in the commons is very likely to be seized by the king (who has no incentive to leave anything for future months).  Moreover, with only 12 months and no enforceable agreement among peasants, backward induction predicts that everyone will grab the maximum each period.  Thus to maximize my guaranteed immediate payoff, I should take the full $30.",
+      "Since the king can seize all of what’s left, any “bonus” by leaving resources for the commons will be appropriated and gives me no extra payoff.  That means my only payoff comes from my own withdrawal, and I maximize that by taking the full \\$30 (which yields \\$30/3 = \\$10).  Any smaller take only reduces my payoff, so the best response in every month is to extract the maximum \\$30.",
+      "To keep the commons from shrinking we need total peasant extraction ≤ 60.  Since we are three peasants and each of us must choose a multiple of 3, the largest symmetric extraction that stays at or below 60 is 18 per person (18×3 = 54 ≤ 60).  \nIf everyone takes 18, then after the peasants extract 54, 66 remains; the king then takes at most what’s left but the remainder still doubles back up to 120 for next month.  That lets us sustain the full‐value commons for all 12 months and gives each of us per‐month payoff = 18/3 + 66/4 = 6 + 16.5 = 22.5, which is higher overall than any unsustainable grab.",
+      "Since the peasants can collectively extract up to 90 and the post‐extraction remainder doubles each month, any remainder R<45 will double to less than 90, and the peasants will then wipe out the entire pool before the king can move in every subsequent month. With a maximum possible remainder of 42 this month (42·2=84<90), the king gets zero in all future months regardless of what he leaves now. Therefore the only payoff the king can secure is this month’s payoff. His payoff this month is  \n   payoff = X/3 + (42–X)/4 = X/12 + 10.5,  \nwhich is strictly increasing in X. To maximize this month’s payoff, he should take the full 42."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      21,
+      18,
+      0
+    ],
+    "final_pool": 51,
+    "payoffs": [
+      22.75,
+      19.75,
+      18.75,
+      12.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Because the king moves last and can take every dollar left, I will receive zero from the remaining pool in any case. My only payoff comes from my own extraction ÷3, so I maximize that by extracting the full $30. ANSWER: 30",
+      "To keep the commons at its full $120 and avoid king‐enforced punishment (or future shrinkage), the three peasants should together extract exactly the $60 sustainability threshold. By taking $20 myself (and assuming the others do likewise), the pool after our withdrawals is $60. The king then has no incentive to grab any of it (since doing so would shrink the pool below $60 and harm his own future take), so he leaves it intact. That preserves the full $120 for next month, maximizes our steady monthly payoff of 20/3 + 60/4 ≈ 21.67, and sustains high payoffs over all 12 months. Deviating upward would either provoke punishment or shrink the pool and reduce our long‐run return.",
+      "To keep the resource fully regenerating every month we want total peasant extraction ≤60. An equal‐share among three peasants would be 60/3=20, but 20 isn’t allowed. The two nearest multiples of 3 are 18 and 21.  \n- If everyone takes 21, total =63 > 60 → pool shrinks (114 next month).  \n- If everyone takes 18, total =54 ≤ 60 → pool left=120–54=66, which doubles (capped) back to 120 next month.  \n\nBy taking 18 myself:  \n• Immediate payoff = 18/3 + (66)/4 = 6 + 16.5 = 22.5  \n• Full regeneration preserves high future payoffs over all 12 months.",
+      "With peasants fixed at extracting a total of $69 each month, the pool will fall below $69 by month 2 even if I don’t take anything in month 1, so I only get two turns to collect: months 1 and 2.  \n\n– If I take k₁>0 in month 1, I get k₁/3 immediately and leave (51–k₁) for the end‐of‐month split, but then month 2’s pool = 2·(51–k₁).  Since that is still ≥69 only if k₁≤15, I’d then extract all leftover in month 2 (=2·(51–k₁)–69) and get that over 3.  Working it out, any k₁>0 reduces total compared with k₁=0.  \n\n– If I take k₁=0 in month 1, I get 51/4=12.75 now, the pool doubles to 102 for month 2, and then I extract 102–69=33 in month 2 for 33/3=11 more, for a total of 23.75.  No other choice beats that.  \n\nHence, optimal extraction now is 0."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 102,
+    "extractions": [
+      15,
+      15,
+      18,
+      54
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      5.0,
+      5.0,
+      6.0,
+      18.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "We want to avoid another pool collapse and keep total extraction at or below the sustainability threshold of 51.  A fair‐share split of 51 across the three peasants is 17 each, but since we must choose a multiple of 3 the closest sustainable choice is 15.  Extracting 15 balances a decent immediate return (15/3=5) while helping leave enough in the pool (if the others also trim back) so that the resource can grow or at least stay stable next month.  It is my best compromise between short‐term gain and long‐term sustainability.",
+      "We know the three peasants together must extract no more than \\$51 this month if we want to avoid shrinking the commons for next month. On average that’s \\$17 each, but since I can only take in multiples of \\$3 the closest sustainable “fair‐share” is \\$15.  By taking \\$15 I get a solid immediate return (15/3 = \\$5) while still leaving enough in the pool to regenerate it nearly to full strength next month.",
+      "We want to keep the commons from shrinking, which requires total extraction (peasants + king) ≤ 51.  If the three peasants each take 17, that exactly hits the 51‐threshold.  Since we must choose a multiple of 3, the closest sustainable split is 18 (17 rounded up to 18).  If all peasants choose 18, peasants’ sum = 54 and the pool before the king is 102−54 = 48, which still yields us a guaranteed payoff of 18 (6 from our extraction plus 48/4).  By choosing 18 we come closest to the equal‐share cooperative target while maximizing our own extraction this month.",
+      "My current‐month payoff is  \n  extraction/3 + (remaining after extraction)/4  \n= x/3 + (54−x)/4  \n= 13.5 + x*(1/3−1/4)  \n= 13.5 + x*(1/12),  \nwhich is strictly increasing in x.  Taking the full 54 maximizes this period’s payoff (54/3 = 18).  Although extracting everything stops future regrowth, with only ten months left and no discounting the backward‐induction incentive is to grab all remaining resources now."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Since the king takes all of whatever remains after the peasants’ moves, there will be nothing left in the pool for me to share in. That makes the second term of my payoff zero. My payoff reduces to extraction/3, so I maximize it by taking the full $30.",
+      "Each $3 I leave in the pool is worth me $3/4 = $0.75 in the leftover‐share, whereas each $3 I take gives me $3/3 = $1.00 in my extraction payoff.  The net gain from taking the last $3 is $1.00 – $0.75 = $0.25.  This marginal gain remains positive all the way up to my cap of $30, so to maximize my one‐period payoff I should extract the full $30.",
+      "With only 12 months and no commitment device to punish over‐harvesting, the standard backward‐induction logic of a finitely repeated commons game says each peasant will take the maximum each month.  Any resource I leave behind just goes to the king (or erodes anyway), and by extracting the full $30 I secure 30/3 = $10 for myself this month rather than less.  There’s no credible threat in future months to deter me, so my best response is to extract the maximum now.",
+      "After the three peasants take their 90, there’s 30 left. Whatever I leave (R1) doubles next month into the new pool. But since R1≤30, next month’s pool ≤60, so the peasants will then exhaust it (they can each take up to $30), leaving me zero thereafter. In other words, no matter how much I leave, I get nothing in all future months. My only payoff comes this month, and it is increasing in my extraction E:  \nPayoff = E/3 + (30–E)/4 = (E + 90)/12, which is maximized at E = 30."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is a 12‐month finitely repeated commons game with no credible enforcement among peasants. In the last period everyone will take the maximum (30), so by backward induction each month is effectively a “last” period. Regardless of sustainability incentives, the best unilateral response is to maximize immediate extraction since future pool value is not reliably preserved.",
+      "Your payoff is  \n • from your own take: +1 for every $3 you take (because $3/3 = 1),  \n • but you also lose ¾ of a point for every extra $3 you leave behind (because each $3 less in the pool cuts the “remaining” term by $3, and $3/4 = 0.75).  \nSo the net gain from each extra $3 you extract is 1 – 0.75 = 0.25, which is positive. There is no offsetting future benefit in a 12-month finite horizon with a last-mover king, so you maximize your payoff by taking the full allowed amount.",
+      "Because the king can take every dollar left in the pool after the peasants extract, nothing will remain to double for future months. Thus my only payoff comes from my current extraction (x/3). To maximize that, I should take the highest allowable amount, $30.",
+      "At the start of month 1 the peasants have already taken \\$90 out of \\$120, leaving \\$30. My monthly payoff if I extract x is  \n    x/3 + (30–x)/4 = 7.5 + x·(1/3 – 1/4) = 7.5 + x/12,  \nwhich strictly increases in x.  \n\nCould I gain in later months by leaving some in the pool? Whatever remains after I extract is doubled (up to \\$120) but here 2·(30–x) ≤ 60 < 90, so in month 2 the peasants will sweep the entire replenished pool and leave me zero thereafter. Thus I get exactly one opportunity to score, and I maximize it by taking the full \\$30."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      18,
+      30,
+      30,
+      42
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      6.0,
+      10.0,
+      10.0,
+      14.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "We want the commons to stay at \\$120 each month so we can keep earning over all 12 months.  The total sustainable extraction by the three peasants is \\$60, i.e. \\$20 each.  Because our choice must be a multiple of \\$3, the closest safe pick under \\$20 is \\$18.  If all three peasants take \\$18, they extract \\$54 total, leaving \\$66.  Even if the king takes nothing, that \\$66 doubles back to \\$120, so the resource stays intact and we can keep earning month after month.  Over the long run that beats any one-shot grab.",
+      "Because the king will seize any leftovers, there is no hope of preserving the resource for future months. Whatever I leave will be taken and the pool will collapse to zero, so my only payoff comes from extracting now. To maximize my one‐period payoff (extraction/3 + 0), I should take the highest allowable amount.",
+      "My payoff increases by $1/3 for each dollar I take but only decreases by $1/4 for the dollar less in the remainder.  Since 1/3−1/4=1/12>0, every extra dollar I grab raises my payoff.  The best I can do is take the maximum, $30.",
+      "We start with $42$ available. My payoff this month if I extract $e$ is  \n  U(e) = e/3 + (42–e)/4 = (42/4) + e*(1/3 – 1/4) = 10.5 + e*(1/12).  \nSince 1/12>0, my payoff increases with every dollar I extract.  \nLeaving any positive remainder (R<39) would mean the peasants wipe out the pool next month, giving me zero future payoff. Even if I left enough (R≥39) to regenerate, the peasants’ next extraction would again leave me with nothing beyond month 2. Hence there is no dynamic benefit to “saving” any of the $42$.  \nTherefore I should extract the full $42$ this month."
+    ]
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "simulation_id": 1,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      30,
+      15
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      16.25,
+      16.25,
+      21.25,
+      16.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool from shrinking over all 12 months, total extraction must not exceed the $60 sustainability threshold.  With four players, that means each should extract $15 (4×$15=$60) so the pool remains at $120 each month.  Extracting $15 gives me a payoff of $15/3 + $60/4 = $5 + $15 = $20 this month, and preserves the full value for future rounds.",
+      "If all four of us extract 15, total extraction is 60, exactly the sustainability threshold, so the pool stays at $120 for next month. My payoff today would be 15/3 + (120−60)/4 = 5 + 15 = 20, and the pool remains healthy over the 12‐month game. Extracting more now (e.g. 30) might give a slightly higher one‐month return but would shrink the pool and reduce future payoffs. Thus the sustainable cooperative extraction of 15 balances immediate and long‐term benefits.",
+      "We face a 12‐round common‐pool game with a known end, so standard backward induction predicts full “defection” in every round.  In any round, no matter what the others do, I can never raise my immediate payoff by choosing less than the maximum extraction of \\$30:  \n\n- If others extract low, I grab more now and still benefit from the remaining pool.  \n- If others extract high, the pool shrinks and I’d get little from the remainder anyway, so it’s best to take the full \\$30/round payoff of \\$10 immediately.  \n\nSince future cooperation cannot be credibly enforced in a 12-round game with a known final round, the unique subgame-perfect move each month is to extract the maximum.",
+      "To keep the commons sustainable for all 12 months, I want total extraction at 60 so the pool stays at 120 each round. Splitting 60 equally means each of the 4 citizens, including me, should extract 15. With that extraction my payoff is 15/3 + (120–60)/4 = 5 + 15 = 20 this month, and the pool remains at 120 for next month."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 2,
+    "pool_before": 90,
+    "extractions": [
+      9,
+      6,
+      9,
+      9
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      17.25,
+      16.25,
+      17.25,
+      17.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face a commons of \\$90 with a sustainability threshold of total extraction \\$45. If everyone extracts 12, the total (\\$48) exceeds the threshold, the pool shrinks (leaving \\$42, then regenerating to \\$84), and future payoffs erode. By extracting \\$9 while others stick to \\$12, total extraction is exactly \\$45, so the pool holds at \\$90 and continues to regenerate sustainably. My immediate payoff with \\$9 is 9/3 + (90–45)/4 = 3 + 11.25 = 14.25, slightly below the 14.5 I’d get by over‐extracting, but it preserves the resource for the remaining 10 rounds and thus secures higher long‐term returns.",
+      "To maximize my long‐run payoff I want to help restore the pool to its $120 cap so that in subsequent months we can sustainably extract more.  If all four citizens each take $6, total extraction is $24, leaving $66 in the pool.  This $66 then doubles to $120 next month.  My payoff this month would be $6/3 + $66/4 = $2 + $16.50 = $18.50, and thereafter we can each sustainably extract $15 for a monthly payoff of $15/3 + $60/4 = $5 + $15 = $20.  Over the remaining 11 months that cooperative path far outperforms a one‐shot grab.",
+      "We want to keep this month’s total extraction below the sustainability threshold of \\$45 so that the remaining commons regenerates rather than shrinks. An equal split of \\$45 across four people would be \\$11.25 each, but since I can only take in multiples of \\$3, picking \\$9 is safely under that fair‐share mark.  \n\n• If everyone takes \\$9 (total \\$36), the pool leftover is \\$90–\\$36 = \\$54 this month, and it doubles to \\$108 next month—well above the \\$90 it would fall to if we over‐extracted.  \n• My payoff now is \\$9/3 + \\$54/4 = \\$3 + \\$13.50 = \\$16.50, and a larger pool next month means higher future payoffs.  \n\nSo \\$9 strikes a good balance between reasonable current yield and preserving the commons for future months.",
+      "The collective sustainability threshold is 45, so on average each of the 4 of us should take no more than 45/4 = 11.25 to keep the pool from shrinking.  Since I must pick a multiple of 3, I round down to 9, which means total extraction of 36, leaves 54 in the pool, and allows it to regrow next month (54×2=108, still under the $120 cap).  This maximizes my long‐run payoff by preserving the commons while still giving me a decent extraction."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 3,
+    "pool_before": 114,
+    "extractions": [
+      12,
+      12,
+      21,
+      12
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      18.25,
+      18.25,
+      21.25,
+      18.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to keep total extraction at or below the sustainability threshold (57) so the pool can regrow and maximize our payoffs over the remaining 9 months. An equal split of 57 across 4 players is 14.25. Since we must choose a multiple of 3, the closest sustainable choice is $12. By taking $12, we help ensure the pool doesn’t shrink, preserving resources for future months and securing a larger long‐run payoff.",
+      "I want to keep our total extraction at or below the sustainability threshold (57) so the pool doesn’t shrink and we all earn more in the remaining 9 rounds. Splitting 57 four ways is about 14.25 each; the closest allowed extraction below that is \\$12. If everyone (or even if some extract a bit more) I’ll help maintain or grow the commons while still earning a good payoff this month.",
+      "We want to maximise our own payoff this month while keeping the total extraction ≤ 57 so the pool doesn’t shrink.  From past play each of the other three is likely to take on the order of 12 (a bit below the equal-share target of 14.25), for a total of about 36.  If we take 21, then worst-case total extraction = 21+36 = 57, exactly at the sustainability threshold, so the pool will regrow to 114 next month.  Our payoff this month would be  \n   21/3 + (114–57)/4 = 7 + 14.25 = 21.25,  \nwhich dominates what we’d get by taking 12 or 15 under the same assumptions and keeps the commons intact.",
+      "We want to keep total extraction ≤57 so the pool does not shrink (2·(114–57)=114, i.e. stays at $114).  If all four of us take an equal sustainable share, that’s 57/4=14.25 each.  Since I must choose a multiple of 3, I drop to $12.  At $12 each, total extraction is 48 ≤57, so the pool grows (114–48=66 → 2·66 capped at 120), preserving a healthy commons for the remaining 9 months.  My payoff today would be 12/3 + 66/4 = 4 + 16.5 = $20.50, and the resource base stays strong."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 4,
+    "pool_before": 114,
+    "extractions": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "final_pool": 66,
+    "payoffs": [
+      20.5,
+      20.5,
+      20.5,
+      20.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Last month two citizens cooperated by taking \\$12 each and one defected with \\$21, exactly hitting the sustainable total of \\$57 (114–57 = 57 → doubles back to 114). If I also take \\$12, the total extraction remains at 57, the pool stays at \\$114, and I secure a payoff of \\$12/3 + 57/4 = \\$4 + \\$14.25 = \\$18.25. By doing so each remaining month under the same pattern, I preserve the resource and lock in the highest long‐run payoff. If I extracted more now, I could win a few cents extra this month, but I’d shrink the pool and reduce all future payoffs—including mine.",
+      "We’re in a 12‐period repeated commons game and there are still 8 periods to go, so I care about keeping the pool from shrinking.  The sustainability threshold is 57 total.  In month 3 three citizens extracted 12 each (36 total) and one defected at 21 (making 57).  If I also extract 12, then even with the 21‐defector the total stays at 57, the pool remains at 57 and regenerates back to 114 for next month, preserving our long‐run value.  Extracting more than 12 risks pushing us above the threshold, shrinking the pool, and reducing my future payoffs.  Thus the best cooperative move is to extract 12 now.",
+      "We know that if total extraction ≤57, the pool stays at \\$114 next month; if total extraction >57, the pool shrinks and next month’s pie is smaller (lowering everyone’s future payoffs). In Month 3 the other three citizens together took 12+21+12 =45. If I also take 12, total is exactly 57 (sustainable), so the pool remains at 114 and all eight remaining future months start from the same \\$114. My one‐period payoff at x=12 is 12/3 + (114−57)/4 =4 +14.25 =18.25, and I preserve the high pool for all future rounds.  \n\nIf instead I took 15 (my highest “safe” choice under sustainability), with the others at 45 that would push total to 60, shrinking next month’s pool to 108. I’d get a slightly higher 18.5 today, but lose about 1.5 per person each round in all eight remaining rounds (1.5×8=12 points lost), which is far worse in the long run. Extracting 9 would under‐harvest and boost the pool to the maximum 120 next month, but then I’d be cutting into my own one‐period payoff and risking breakdowns in cooperation.  \n\nThus the best way to lock in the high pool going forward and maximize my total payoff over the remaining eight rounds is to extract 12 now, keeping total at the sustainable 57.",
+      "We face a 12‐period commons where preserving the pool lets us sustain high payoffs in future months. This month’s sustainability threshold is a total extraction of \\$57 (across 4 players), i.e. an average of about \\$14.25 each. Extracting more than this drives the pool down, harming our long‐run earnings; extracting less helps rebuild the pool even faster. Last month I took \\$12 (below the \\$14.25 average), and the pool stayed at its steady level of \\$114 → \\$114. If all four of us again each take \\$12, total extraction is \\$48, the pool grows back to its \\$120 cap, and I secure a good immediate payoff while safeguarding the resource for the remaining 8 months."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We have 7 more rounds, so keeping the pool from shrinking is essential for high future payoffs.  Any total extraction ≤ 60 leaves at least \\$60 in the pool, which then regenerates back to \\$120 next month.  If I extract \\$15 and everyone else extracts up to \\$15, the total stays at or below 60, so the pool stays full.  Extracting more risks pushing us over 60 (if others don’t pull back), shrinking the pool for future rounds.  Extracting less than \\$15 would leave “free” value on the table this month without improving sustainability beyond what \\$15 already guarantees.  Thus \\$15 is the safe, fair, and payoff-maximizing choice over the remaining rounds.",
+      "The group last round all took \\$12 and kept total well under the \\$60 threshold, so the pool refilled to \\$120.  If I think the other three stick to \\$12 each, then\n\n• Total extractions = 12 + 12 + 12 + my choice.  \n• To stay sustainable, I need total ≤ 60 → my choice ≤ 60 − 36 = 24.  \n\nMy payoff per dollar I extract is 1/3, but every dollar I don’t leave in the pool costs me 1/4 in shared remainder.  So each extra dollar I take nets me (1/3 − 1/4)=1/12.  I can therefore safely “bump up” from 12 without endangering the resource.  \n\nChoosing \\$15 gives:  \n• Combined: 12+12+12+15 = 51 (well under 60) → pool refills to \\$120  \n• My payoff = 15/3 + (120−51)/4 = 5 + 17.25 = \\$22.25, vs. \\$22 if I stuck with 12.  \n\nIt’s a small, safe gain that doesn’t jeopardize sustainability, even if someone else experiments.",
+      "We want the commons to stay at its maximum ($120) so that we can continue earning good payoffs in all 7 remaining rounds.  The sustainability threshold is total extraction ≤ 60.  If all four of us each take 15, that sums to 60, leaves 60 in the pool, which then regenerates back to 120.  An equal‐share split of 60 (15 each) both preserves the resource and gives each of us a healthy immediate payoff (15/3 + 60/4 = 5 + 15 = 20).  Extracting more would tempt a higher one‐round return but risks collapse if others respond in kind.  Extracting less under-utilizes our fair share.  So I will take 15.",
+      "We’re in month 5 with a \\$120 pool and a sustainability threshold of \\$60 total extraction. To keep the pool from shrinking (and thus preserve high future payoffs over the remaining 7 months), total extraction should be ≤ \\$60. Splitting that evenly across 4 citizens means each should take \\$15. At \\$15 my payoff is:\n\n– Extraction payoff: \\$15 / 3 = \\$5  \n– Share of remaining pool: (120 – 60) / 4 = 60 / 4 = \\$15  \n– Total = \\$20  \n\nThis both maximizes long‐run returns (the pool regenerates back to \\$120) and treats others fairly, so I extract \\$15."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      12,
+      15
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      20.75,
+      20.75,
+      19.75,
+      20.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The group has been extracting at the sustainability threshold (60 total) by each taking 15. Staying at 15 this month keeps the pool from shrinking, so it will regrow to $120 for next month. My immediate payoff will be 15/3 + (120–60)/4 = 5 + 15 = $20, matching others and preserving the commons for the remaining 6 rounds.",
+      "We want to keep the total extraction at or below the $60 threshold so the pool regenerates fully to $120 in all future rounds. Historically the group has settled on 15 each (total 60) for a stable, sustainable outcome, yielding each player $20 every round (15/3 + 60/4).  \n\nIf I extract more than 15, I gain at most +$0.25 per extra $3 today but immediately drive the pool below $120 for next month, costing me about $1 per future round in reduced payoffs. Over 6 remaining rounds, that loss (~$6) far outweighs any one‐shot gain. Extracting less than 15 also hurts my current payoff and offers no additional future benefit because the pool would still regenerate fully if total ≤60.  \n\nThus the best choice—both for sustaining the commons and maximizing my cumulative payoff—is to extract $15.",
+      "We want to keep total extraction ≤60 so the pool always regenerates to $120, and ideally settle on each player taking $12.  \n- If all 4 players extract $12, total =48, pool remains $72, then doubles (capped at $120).  \n- Your payoff that round would be 12/3 + 72/4 = 4 + 18 = $22, which is the highest sustainable payoff available.  \n- By returning to $12 extraction you signal cooperation, maximize long‐run payoffs over the remaining 6 months, and ensure the commons stays at its maximum.",
+      "To keep the commons sustainable and ensure the pool stays at \\$120 next month, total extraction must be \\$60. If I extract \\$15 (which is \\$60/4), and I expect the other three to do the same, we exactly hit the sustainability threshold. My payoff this round is \\$15/3 + \\$60/4 = \\$5 + \\$15 = \\$20. Extracting more (e.g.\\ \\$18) would give me a tiny one‐off gain (\\$20.25) but would drop next month’s pool (to \\$114), reducing my future payoffs over the remaining 6 rounds. Extracting less sacrifices immediate payoff without any future benefit. Thus extracting \\$15 maximizes my long-run return."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If I take more than $15 this round (say $18), I gain only $0.25 extra today but push total extraction above the $60 threshold, so next month’s pool starts below $120 and will shrink further under the same extraction pattern. Over the five remaining months that loss in the pool far outweighs the one‐time +$0.25. Sticking at $15 keeps total extraction at exactly the sustainability limit (60), so the pool always re‐fills to $120, yielding me a steady $20 each month. Over six months that’s $20×6 = $120, whereas a one‐time over‐take would leave me well below that.",
+      "We face 5 more rounds after this one, so if everyone extracts 15 (i.e. 60 total) the pool regenerates fully each month and everyone gets 15/3 + 60/4 = 5 + 15 = 20 points. Over 6 rounds that’s 120 total per player.  \nIf I increase above 15 while others stay at 15, I gain only 0.25 points per extra dollar and risk pushing total extraction above 60, which shrinks next month’s pool and lowers everyone’s future payoffs. By sticking to 15 I both maximize my long‐run return and uphold the sustainability threshold.",
+      "We face 5 more rounds, so depleting the commons for a one‐time gain will lower our future payoffs. Historically everyone has hovered around 15, which exactly meets the sustainability threshold (60 total) and regenerates the pool to 120 each month. If all four of us extract $15, the pool ends the month at $60 and then doubles back to $120, giving each of us a steady payoff of 5 + 15 = $20 every month. If I deviate and extract more, I only gain a small immediate bump (e.g. $20.25 vs. $20) but risk others doing the same, which would drive the pool below 60 and shrink future returns. Extracting less (e.g. $12) yields me only $19.75 if others stay at $15. Matching the group at $15 is both a Nash equilibrium and keeps the commons healthy for all 5 remaining rounds.",
+      "We face a 6‐round finite game (this is month 7 with 5 rounds to go).  If all 4 of us each take $15 (total $60), the pool stays at $120 every round and each round’s payoff is  \n  15/3 + (120−60)/4 = 5 + 15 = 20,  \nfor 6 rounds total of 120.  \n\nAny one‐shot deviation (e.g. taking $18 while the others still take $15) gains only 0.25 this round but cuts next round’s pool below $120, costing more than 0.25 in future payoffs.  Because the pool is common and equally regenerates for everyone, sticking to the sustainable share maximizes our total payoff over the remaining rounds."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face a repeated‐commons dilemma with four rounds remaining after this one.  If everybody continues extracting 15, the pool regenerates fully (120→60→120) and each of us reliably earns 20 every round.  Extracting more than 15 gives me a one‐shot bump (e.g. extracting 18 would raise my payoff this round to 20.25), but it would reduce the pool for all subsequent rounds, pulling down everyone’s future payoffs and, in the aggregate, leaving me worse off over the remaining horizon.  Conversely, extracting less than 15 sacrifices immediate payoff and invites others to over‐extract, again risking long‐term under‐regeneration.  The safe, payoff‐maximizing path over the next five rounds is to stick to 15 now, preserving full regeneration each month and locking in a steady 20 per round.",
+      "If I and the other three each take \\$15 (total \\$60) the pool regenerates fully every month and I earn  \n  Month 8: 15/3 + (120–60)/4 = 5 + 15 = \\$20  \n  Months 9–12: each \\$20 → \\$80 total  \n  Total over months 8–12 = \\$100  \n  \nIf I take more than \\$15 now (say \\$x) I gain a little extra this month (every extra \\$3 gives +\\$0.25 now) but I push the pool below the sustainability threshold, so it will shrink in all four remaining rounds and my future payoffs fall by much more than the small short‐term gain. A calculation of the dynamic shows my 5‐round total is maximized by staying at the sustainable extraction of \\$15.",
+      "To keep the pool from shrinking we must have total extraction ≤ 60. If the other three choose 15 each (45 total), I can extract up to 15 without breaking the sustainability threshold. Extracting 15 gives me the highest immediate payoff (15/3 + 60/4 = 20) while ensuring the pool regenerates back to $120 for the remaining rounds.",
+      "Everyone else has settled on 15 so that total extraction = 60 and the pool regenerates fully to 120.  If I also take 15, my payoff is 15/3 + (120–60)/4 = 5 + 15 = 20.  Taking more (e.g. 18) would give me 20.25 today but would shrink next month’s pool and hurt all of us (including me) in the remaining 4 rounds.  Taking less (e.g. 12) lowers my current payoff to 19.75.  To keep the resource alive and maximize my total return over the last 5 rounds, I should take 15."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We have four rounds left (months 9–12) on a \\$120 stock, and past cooperation has stabilized the resource by everyone taking \\$15 each (total \\$60).  A one‐shot deviation (taking more than \\$15) raises your current payoff slightly but reduces the pool for future rounds, hurting your future earnings.  Doing a quick dynamic check against the other three extracting \\$15 shows that by sticking at \\$15 in months 9–11 (and only “harvesting” more in the very last round) you maximize your total payoff over the remaining rounds.  In particular, extracting your fair share of the sustainability threshold, \\$15, keeps the pool at its cap (\\$120) for the next round, preserving high payoffs later.",
+      "Based on the last two rounds, the other three players will most likely each take $15.  If I also take $15, total extraction = $60, leaving $60 in the pool, which then regenerates back to $120.  That gives me a payoff of $15/3 + $60/4 = $20 this round, and keeps the resource fully stocked for the remaining three rounds.  Any extraction above $15 would yield only a small one‐shot gain now but erode the pool and reduce my future payoffs.",
+      "To keep the pool from shrinking I need the total extraction this month ≤ 60. In past rounds all four of us have been taking $15 each (total = 60), which regenerates the pool to \\$120 and gives each of us \\$20 this round. If I were to grab more than \\$15 (say \\$18 or \\$30), I would earn a bit more today but would push total extraction above 60, shrinking next month’s pool and reducing our future payoffs. Since there are still 4 rounds left, sticking with \\$15 maximizes my cumulative payoff by preserving the commons.",
+      "All four of us have been taking $15 each (total = $60), exactly at the sustainability threshold, which keeps the pool at $120 for every round. If I stick with $15 now, the pool will regenerate to $120 ahead of months 10 and 11, preserving high future payoffs. If I tried to grab more this round, I’d push total extraction over $60, shrink the pool, and reduce my payoff in subsequent rounds. And since this isn’t the final round, the long‐term benefit of cooperation outweighs the short‐term gain from defecting."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We have two months left after this one, and everyone’s been extracting 15 so that the pool stays at 120 each round and each of us earns $20 every month.  If I deviate upward this month (say to 18 or 30), I can gain a few cents or dollars now, but I will shrink the pool for the next two months and lose more in future payoffs than I gain today.  A simple dynamic‐programming check shows that, assuming the others keep extracting 15, the best total payoff over the remaining three rounds comes from extracting 15 right now.  That secures $20 this month and preserves the full pool for the next two months, giving the highest overall return.",
+      "In months 7–9 everyone has been taking \\$15 each (total extraction \\$60), which keeps the pool at its maximum of \\$120 and yields each of us \\$20. If I stick with \\$15 again this month, I preserve the resource for the next two rounds and secure the highest sustainable payoff over the endgame.",
+      "All four of us have been extracting $15 each (total $60), exactly the sustainability threshold. This keeps the pool at $120 for every round and yields each of us $20 this round. If I extract more (say $18), I gain only $0.25 extra now but reduce the pool, hurting payoffs in the remaining two months—more than wiping out that small gain. With two rounds left, preserving the common pool by sticking to $15 ensures the highest total payoff for me over the endgame.",
+      "All four of us have been sustainably extracting \\$15 each (total \\$60) and the pool regenerates to \\$120. If I stick to \\$15, I get a payoff of \\$15/3 + \\$60/4 = \\$5 + \\$15 = \\$20 this month, and the pool stays at \\$120 for the last two rounds. By continuing with \\$15 in months 11 and 12, I secure another \\$20 + \\$20, for a total of \\$60 over the three remaining months.  \nIf I extract more than \\$15 now, I can bump my immediate payoff by a fraction, but the pool will shrink, cutting into my payoffs in the final two rounds enough to outweigh any one‐round gain. Extracting less hurts my immediate payoff and doesn’t add value later since the pool is already at its maximum. Therefore, the best choice is to continue extracting \\$15."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      15,
+      30,
+      30
+    ],
+    "final_pool": 15,
+    "payoffs": [
+      13.75,
+      8.75,
+      13.75,
+      13.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "With only two months left (this round plus one more), the extra dollar I take now gives me $1/3 immediately but only costs me $1/4 in shared pool value. Because 1/3 > 1/4, my best‐reply in this single‐shot payoff trade–off is to grab the maximum allowed. Even if the others stick to 15, I earn 30/3 + (120–75)/4 = 10 + 11.25 = 21.25 (versus 20 if I stay at 15). If they also defect, we all end up with 30 each and 0 remainder, giving me 30/3 = 10, which still dominates any lower choice. Future pool regeneration can’t boost my final‐round payoff (everyone will over‐extract then), so I maximize extraction now.",
+      "With one month left after this, it pays to keep the pool at full regeneration so I can earn the standard \\$20 next month. If I extract more than \\$15 now, I shrink the pool and cut my next-month payoff by more than any gain I make today. Extracting less than \\$15 also lowers today’s payoff more than it boosts next month’s (because the pool is already at its cap). At \\$15 extraction, the group hits the sustainability threshold of \\$60, the pool stays at \\$60 and regenerates to \\$120, and I earn \\$20 this month and \\$20 next month for a total of \\$40—higher than any deviation.",
+      "We’re in month 11 with only one more round after this. Everyone has been taking \\$15 so far, leaving \\$60, which regenerates back to \\$120. If I stick with \\$15, I get 5 + 15 = \\$20 now and then \\$10 in month 12, for a two‐round total of \\$30.  \nBut if I defect now and take \\$30 while the others take \\$15, we deplete the pool to \\$45 (120−75), which still regenerates to \\$90, plenty for everyone to take the full \\$30 in the final round. My payoff this month is 30/3 + 45/4 = 10 + 11.25 = \\$21.25, plus \\$10 next month, totalling \\$31.25. That beats cooperating both rounds.  \nThus the best response this month is to extract the maximum, \\$30.",
+      "We’re at month 11 with only one period left afterward, so there’s almost no future benefit from leaving extra in the pool. My payoff this month is  \n x/3 + (75–x)/4 = x/12 + 18.75  \nwhich is strictly increasing in x. Extracting the maximum $30 raises my payoff this month to $21.25 (vs. $20 when x=15) and I no longer care about preserving the commons for a distant future. Hence I defect fully."
+    ]
+  },
+  {
+    "simulation_id": 1,
+    "round": 12,
+    "pool_before": 30,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Since this is the very last round (no future payoffs), there is no benefit to conserving the commons. My only payoff comes from what I withdraw now. Because my individual extraction directly increases my payoff at a rate of 1/3 per dollar, I maximize my payoff by choosing the highest allowed extraction, $30.",
+      "Since this is the final round, there is no future value to conserving the pool. All other players have the incentive to grab as much as they can, which will drive the remaining pool to zero, so the “leftover/4” term drops out. In that case my payoff is simply x/3, which is maximized by choosing the largest allowed extraction.",
+      "Since this is the final round (no future regeneration matters), my sole objective is to maximize this month’s payoff:  \nPayoff = (my extraction)/3 + (remaining pool)/4.  \nNo matter what the other three do, increasing my extraction always raises (extraction)/3 by 1/3 per dollar, and any reduction of the remaining pool only lowers the second term by at most 1/4 per dollar. Net marginal gain is +1/3 − 1/4 = +1/12 per dollar extracted, which is positive. Thus I should take the maximum $30 to maximize my payoff.",
+      "Because this is the final round, I don’t care about sustaining the pool for the future.  In this last month the private return on each dollar I extract (1/3) exceeds my share of any dollar I leave behind (1/4), so my dominant move is to take the maximum."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the commons from shrinking I want total extraction ≤ 60.  If all four of us take 15, we hit exactly 60, leaving 60 in the pool which then doubles back to 120 next month.  That way each month I earn 15/3 + 60/4 = 5 + 15 = 20, and the pool stays full every month for the whole year.",
+      "To maximize my total payoff over 12 months, I want the pool to stay at \\$120 each period. At a pool of \\$120 the sustainable total extraction is \\$60, i.e. \\$15 each. If I take more than \\$15 now, I gain only a small extra today but shrink the pool for all future months, reducing my long‐run payoff. By taking \\$15 I get  \n  \n Extraction payoff = 15/3 = 5  \n Share of leftover (120–60)/4 = 60/4 = 15  \n Total this month = 20  \n\nand the same 20 each month for 12 months (total 240), which dominates any one‐period deviation.",
+      "To keep the pool from shrinking, total extractions must not exceed \\$60. If all 4 of us each take \\$15, we hit exactly \\$60, leaving \\$60 in the pool which then doubles back to \\$120 for next month. That sustainable outcome gives each of us a current payoff of  \n  15/3 + 60/4 = 5 + 15 = \\$20  \nand preserves the commons for all 12 rounds. Deviating upward (e.g. taking \\$30) yields only a slight one‐period gain but risks depleting the pool and invites retaliation in later rounds. Therefore I choose the sustainable share of \\$15.",
+      "To keep the commons from shrinking and sustain high payoffs over all 12 months, the group should never exceed a total extraction of \\$60. By each extracting \\$15 (one quarter of \\$60) we leave \\$60 in the pool, which then doubles back to \\$120 every month. That gives me 15/3 + 60/4 = \\$5 + \\$15 = \\$20 each month, for a total of \\$240 over 12 months. Any higher extraction now would boost my one‐month payoff slightly but would force the pool down next month, reducing long‐run payoffs. Extracting \\$15 this month supports the cooperative equilibrium that maximizes my total return."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Since all four of us extracting 15 each keeps total extraction at the sustainability threshold (60), the pool stays at \\$120 each month. That yields a payoff of 15/3 + 60/4 = 5 + 15 = \\$20 every month. If I extracted more now, I’d get a slightly higher payoff this month but shrink the pool and reduce everyone’s future payoffs. With ten months still to go, it’s best for my long-run earnings to stick with 15.",
+      "To keep the pool at its maximum of \\$120 each month, total extraction across the four of us must stay at or below \\$60. In Month 1 everyone took \\$15 (total \\$60), the pool stayed healthy, and each of us earned \\$20. By extracting \\$15 myself again, I both maintain the sustainable threshold (so the pool regenerates fully for all 10 remaining months) and guarantee a \\$20 payoff this month, without risking a collapse that would hurt my future earnings.",
+      "Right now the group is exactly at the sustainability threshold (4×$15 = $60), so the pool stays at $120 for next month and can keep regenerating at full strength. If I pull out any more than $15, I’d earn only an extra $0.25 this month but I’d shrink the pool (it would regenerate to less than $120), costing me and everyone else in all the remaining months. Over 12 rounds the future loss easily outweighs that tiny one‐month gain, so the best long‐run move is to stick with $15.",
+      "Last month everyone took 15, keeping total at the 60‐point sustainability threshold so the pool regenerated fully to 120. If I stick to 15 again (and I expect the others to do the same), we maintain a full pool each round and each earn 20 every month for the full 12 months. Any higher extraction gives me only a tiny immediate gain at the cost of shrinking the pool and cutting everyone’s future payoffs; any lower extraction just reduces my own payoff without increasing the pool beyond its cap. So the best long‐run strategy is to extract 15."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If I stick with the group extraction of \\$15, the pool stays at \\$60, regenerates back to \\$120, and I get a payoff of \\$20 this month and can expect \\$20 in each of the next 9 months.  \nIf instead I over‐extract (say \\$18), I gain only \\$0.25 extra today (20.25 vs. 20), but I push total extraction above the \\$60 threshold, so next month’s pool starts at \\$114 instead of \\$120.  Even if everyone returns to \\$15 thereafter, each future payoff drops by \\$0.75 (to \\$19.25), costing me \\$6.75 over the remaining 9 months—far outweighing the one‐time \\$0.25 gain.  \nSimilarly, extracting less than \\$15 today (say \\$12) costs me \\$0.25 now and yields no future benefit beyond unchanged payoffs.  Therefore, the best sustainable strategy is to extract \\$15.",
+      "All four of us have been taking 15 each month, for a total extraction of 60, which exactly sustains the pool at 120.  If I stick with 15, I earn 15/3 + (120−60)/4 = 5 + 15 = 20 today and the pool regrows to 120 for month 4, letting us keep earning 20 for each of the remaining months.  \nIf I take more (say 18 or 30), I’d get a slightly higher payoff this month, but total extraction would exceed 60, the pool would shrink next month, and our future payoffs would fall.  Over nine more months it’s far better for me to keep extraction at 15 and preserve the commons.",
+      "If I extract $15 like everyone else, the total stays at the sustainability threshold of $60, the pool regenerates to $120 for next month, and I earn $20 this month and can keep earning $20 in each of the remaining 9 months. If I extract more than $15, I’d gain a bit more now but shrink the pool for future months, reducing my long‐run payoff. Given there are still 9 months left, it’s best to cooperate by extracting $15 to preserve the commons and maximize total payoffs over time.",
+      "If I extract $15 along with the other three players (total extraction $60), the pool stays fully regenerated at $120 each month. That gives me a steady payoff of $15/3 + $60/4 = $5 + $15 = $20 each round. Deviating now (for example extracting $18 or $30) would earn me slightly more this month but shrink the pool for future months, reducing my long-run payoff. Since nine more months remain, it’s best to stick with the sustainable extraction of $15."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool from shrinking, total extraction must stay at or below $60.  If each of the four of us takes $15, we hit exactly $60, leaving $60 in the pool, which then regenerates to $120.  That gives each of us $15/3 + $60/4 = $5 + $15 = $20 this round—and leaves the resource intact for the remaining eight months.  Deviating would gain me only a small short‐term boost but risk undermining the commons in future rounds.  So I stick with $15.",
+      "All four of us extracting \\$15 (total \\$60) keeps the pool from shrinking, so it regenerates to \\$120 each month. At this sustainable extraction everyone earns \\$20/month now and for all remaining months. If I raise my extraction even a little (say to \\$18), I gain only \\$0.25 extra today but push total extraction above the \\$60 threshold, causing the pool to shrink in future months and lowering everyone’s future payoffs (including mine). Over the remaining 8 months, the small one‐time gain is far outweighed by the loss from a depleted commons. Staying at \\$15 maximizes my long‐run payoff.",
+      "So far all four of us have each been taking $15, keeping total extraction at the sustainability threshold of $60.  That leaves $60 in the pool to double back to $120 each month, giving each of us a steady payoff of $20 per month.  \nIf I stick with $15, I continue to earn $20 now and preserve the full $120 for month 5 and beyond.  \nIf I take more (say $18–$30), I’d earn up to $21.25 this month—but I’d push total extraction above $60, shrink next month’s pool below $120, and jeopardize eight more rounds of $20 payoffs.  The long‐run loss outweighs the one‐time gain.  \nTherefore I extract the cooperative level of $15.",
+      "Each previous month everyone took \\$15 (total extraction \\$60), leaving \\$60 so the pool regrows to \\$120 and everyone earned \\$20. If I stick with \\$15, I secure \\$20 again and keep the resource sustainable for the remaining 8 months. Extracting more would give me a small one‐shot gain but risk depleting the commons over time."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If I extract $15 along with the other three citizens, the total extraction stays at the sustainability threshold of $60, so the pool remains at $120 next month. My payoff this month would be $15/3 + ($120–$60)/4 = $5 + $15 = $20, and I help ensure future rounds stay just as profitable. Extracting more risks shrinking the pool and reducing everyone’s future earnings.",
+      "In the first four months everyone (including me) extracted \\$15, exactly hitting the \\$60 sustainability threshold. This kept the pool at \\$60 each month, which then doubled back to \\$120 at the start of the next month, yielding steady payoffs of \\$20 each. If I were to extract more than \\$15 while everyone else stays at \\$15, I would gain at most \\$1.25 extra this month (extracting \\$30 gives me \\$21.25 instead of \\$20), but I’d push total extraction above \\$60, causing the pool to shrink and triggering lower payoffs (and likely retaliation) in the remaining seven months. By sticking with \\$15, I maintain the stable, high-regeneration equilibrium and ensure the highest total payoff over the remaining rounds.",
+      "If I extract $15 (the average of the total sustainable threshold of $60), the pool remains at $60 and then regenerates to $120, so everyone (including me) continues to earn $20 each month. Over the remaining 7 months, this yields a total of $140 for me. If I unilaterally deviate and extract more, I would gain slightly more this month but push the total above the sustainability threshold, shrinking future payoffs and likely triggering retaliation. To maximize my long‐run earnings and keep the pool stable, I should continue extracting $15.",
+      "All four of us have been extracting \\$15 each round, keeping total extraction at the sustainability threshold of \\$60. That preserves the pool at \\$120 each new month and gives each of us a steady payoff of \\$20. If I unilaterally raise my extraction this round (say to \\$30) I would earn \\$21.25 today, but I’d push total extraction above \\$60, reduce next month’s pool, and degrade my future payoffs over seven remaining rounds. Because we’re in a repeated setting with many rounds left, cooperating at \\$15 dominates short‐term greed—it maximizes my long‐run payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool from shrinking next month we need a total extraction of 60. So far everyone has been taking 15, which yields each of us $20 this round and regenerates the pool back to \\$120. If I stick with \\$15, I get \\$15/3 + \\$60/4 = \\$5 + \\$15 = \\$20 now, and with six more rounds left I lock in that same \\$20 every month.  \nIf I defect and take more (say \\$18 or \\$21), I might earn up to about \\$20.5 this month, but I’d push total extraction above 60, shrink next month’s pool, and reduce all future payoffs (including mine). With half a year still to go, the loss in future rounds outweighs any small one‐shot gain from over‐extracting.",
+      "So far everyone has been taking 15, keeping total extraction at 60 so the pool regenerates to 120 each month.  At that rate my payoff is 15/3 + (120–60)/4 = 5 + 15 = 20, and the pool stays intact for all remaining rounds.  If I unilaterally raise my take (say to 18) I get only a 0.25 bump now (18/3 + 57/4 = 6 + 14.25 = 20.25) but I shrink next month’s pool (114 instead of 120), cutting future payoffs more than I gain today.  Over the six remaining months I lose more in future income than I gain immediately.  By sticking at 15, I sustain the resource and lock in the highest total payoff over the remaining rounds.",
+      "All four of us have extracted $15 each month so far, keeping total extraction at the sustainability threshold (60) and the pool stable at $120. By sticking with $15, I earn $20 this month (15/3 + 60/4) and ensure the pool remains at its maximum for all remaining rounds, yielding the highest possible long‐run payoff. Deviating upward gains only a small immediate benefit but causes the pool to shrink next month and drastically reduces future payoffs. Extracting less also lowers my current payoff without improving future outcomes. Thus, extracting $15 is the best way to maximize my total payoff over the remaining months.",
+      "If everyone (including me) extracts \\$15, total extraction stays at the sustainability threshold of \\$60, leaving \\$60 in the pool to regenerate back to \\$120. That gives me \\$15/3 + \\$60/4 = \\$20 this round, and it keeps the pool at full capacity for all of the remaining 6 months, securing \\$20 each month thereafter. Any higher extraction would boost my one‐shot payoff slightly but would shrink the pool and reduce everyone’s future payoffs by more than the one‐time gain."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "All four of us have been extracting $15 each month, exactly hitting the sustainability threshold of $60 so the pool stays at $120. If I deviate upward this month (say to $30) I’d get a higher one‐off payoff ($21.25 vs $20), but that pushes total extraction above $60, shrinking the pool next month and undermining everyone’s future payoffs over the remaining five rounds. Sticking with $15 preserves the stable outcome that has maximized our joint returns so far and secures a $20 payoff for me now and in every subsequent month.",
+      "All four of us have been extracting $15 so that total extraction is $60, which keeps the pool from shrinking and regenerates it to $120 each month. If I extract more, I get a slightly higher short-term payoff but cause the pool to shrink and damage my long-term earnings; if I extract less, I leave money on the table I could have safely taken. By extracting $15, I maximize my payoff each month ($15/3 + $60/4 = $20) while preserving the resource for the remaining rounds.",
+      "Everyone has extracted $15 so far, keeping total extraction at the sustainability threshold ($60), which regenerates the pool back to $120 and yields each of us a steady payoff of $20. If I extract more (e.g. $18), I would gain only an extra $0.25 this round but would shrink next month’s pool and push others to defect, reducing our future payoffs over the remaining 5 rounds. Extracting less also lowers my immediate payoff. By sticking with $15, I maximize my long‐run returns.",
+      "If I extract more than $15 this month (given the other three each take $15), total extraction exceeds the $60 sustainability threshold and the pool will shrink below $120 forever afterward. That loss in future payoff more than offsets any one‐time gain from over‐harvesting. By taking $15, I keep the pool at full regeneration ($120) for all remaining 5 months and earn $20 each month, maximizing my total payoff over the remaining horizon."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "All four of us have been sustainably extracting a total of \\$60 (each \\$15) every month, which keeps the pool at \\$120 for the next round and gives each of us a payoff of \\$20. If I raise my extraction above \\$15 (say to \\$30), I gain only \\$1.25 extra this round (going from \\$20 to \\$21.25), but that pushes total extraction to \\$75, causes the pool to shrink to \\$90 next month, and undermines everyone’s future payoffs. Since there are four rounds left, it’s better for me (and for the group) to stick with \\$15, securing \\$20 each month and preserving the commons.",
+      "The other three citizens have been extracting $15 each (total $45). To keep total extraction at the sustainability threshold of $60, I must extract at most $15 this month. At $15 extraction my payoff is  \n15/3 + (120−(45+15))/4 = 5 + 60/4 = 5 + 15 = $20,  \nand the pool remains at $120 for next month. Any extraction above $15 would push total extraction above $60, shrink the pool, and reduce my future payoffs over the remaining four months. Extracting less than $15 would lower my current payoff without improving future prospects. Therefore I extract $15.",
+      "To keep the pool at $120 each month, total extraction must not exceed $60. If each of the four of us takes $15, we exactly hit that threshold. This yields an end‐of‐month pool of $60, which then regenerates to $120 for next month. My payoff when I extract $15 is 15/3 + 60/4 = 5 + 15 = $20 this month, and I help preserve the full $120 for all four of us in the remaining four months. Defecting by taking more today would give me a bit extra now but shrink the pool in future months, reducing my long‐run gains. Therefore, I extract $15.",
+      "To keep the pool at its maximum $120 for the remaining four months, total extraction must not exceed the $60 sustainability threshold. Everyone has been extracting $15 so far (totaling $60), yielding a stable \\$20 payoff each month. If I deviate upward (for example, to \\$18), I gain only an extra \\$0.25 this month but risk shrinking the pool next month, which would reduce all future payoffs. By continuing to extract \\$15, I secure a \\$20 payoff each month, preserving the commons for the remaining rounds and maximizing my cumulative return."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 9,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Until now everyone has extracted \\$15 and kept total extraction at the sustainability threshold (60), which preserves the pool at \\$120 each round and yields each citizen \\$20. If I stick with \\$15, the pool remains healthy, it doubles back to \\$120, and I keep getting the long‐run payoff of \\$20. Any higher extraction now would shrink next month’s pool, reducing future payoffs over the remaining three rounds. Therefore, I extract \\$15 to sustain the commons and maximize my total return across the remaining rounds.",
+      "If I stick with the cooperative extraction of \\$15, the pool remains at \\$120 each month, so I earn  \nmonth 9: 15/3 + (120−60)/4 = 5 + 15 = \\$20  \nand I can do the same for months 10–12, for a total of 4×\\$20 = \\$80.  \n\nIf instead I over‐extract in month 9, I get at most \\$21.25 immediately (by taking \\$30), but I shrink the pool, which cuts my payoffs sharply over the last three months: even if I revert to \\$15 extraction thereafter, the pool falls and my subsequent payoffs sum to much less than the extra \\$1.25 I gained up front.  \n\nThus the best long‐run payoff comes from staying at the sustainable extraction of \\$15.",
+      "So far all four of us have each been taking $15 out of the $120 commons, for a total of $60, which leaves $60 in the pool and then regenerates back to the full $120 each month.  At that rate I earn $20 each month and keep the commons from shrinking.  I have 4 rounds including this one (months 9–12) left to play.  If I were to take more than $15 here, I would gain at most a few cents extra this round but would permanently lower the pool for all remaining rounds and lose more in the future than I gain today.  If I take less than $15 I leave money on the table now without any future benefit beyond what I already get by sustaining the $120 stock.  Taking exactly $15 balances a solid immediate payoff ($20) with keeping the commons at its full size so I can earn $20 in each of the next three months as well.  Over the four remaining rounds that gives me $80 total, which beats any other feasible extraction plan.",
+      "All four of us have been sustainably extracting a total of \\$60 each round (each \\$15) so that the pool stays at \\$120 and regenerates fully. If I stick with \\$15, I earn  \n• this round: 15/3 + 60/4 = 5 + 15 = \\$20  \n• and I keep the pool at its maximum, ensuring full future payoffs for the remaining three rounds.  \nIf I extracted more, I’d gain a little now but push total extraction above \\$60, shrink next month’s pool, and lose more in future payoffs than I’d gain immediately. Extracting less just cuts my own earnings for no benefit. Maintaining \\$15 is the best sustainable strategy for long‐term payoff."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      0,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 75,
+    "payoffs": [
+      18.75,
+      23.75,
+      23.75,
+      23.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "Because there are only three rounds remaining (this month 10, round 11, then the last round 12), I do a backward‐induction check. In the very last round everyone will grab the full allowed $30 (no future penalty), yielding each 10 payoff. Knowing that, in round 11 the unique self‐interested equilibrium is for everyone to take 0, so that the pool stays at its maximum and everyone shares it equally (30 each) before the final grab. Anticipating that, I maximize my total over rounds 10–12 by leaving the pool intact now (round 10), so I get 120/4 = 30 in round 10, then 30 in round 11, and finally 10 in round 12, for a total of 70. Any positive take in round 10 both lowers my round 10 payoff and shrinks the pool in round 11, making me worse off.",
+      "Keeping total extraction at the sustainability threshold of \\$60 (i.e. \\$15 each) gives me a guaranteed \\$20 this month and maintains the pool at \\$120 for the last two rounds. If I increased my take even by \\$3 (to \\$18), I’d push total extraction to 63, shrink next month’s pool to \\$114 (paying me only about \\$20.25 now but costing me the lost regeneration in months 11 and 12). Over the remaining two months the loss of regeneration more than outweighs the one‐time gain. By sticking with \\$15 I lock in \\$20 for each of the last three rounds (months 10–12), for a total of \\$60, which dominates any defection now.",
+      "We have a well‐established cooperative norm: each of the four of us takes $15 so that total extraction is $60, leaving $60 to double back to $120. If I were to take more now, I’d gain only a small immediate premium but shrink the pool for the last two rounds, harming everyone (including myself) later. By sticking with $15, I sustain the commons at $120 and continue earning the fair payoff of $20 in both months 11 and 12. ANSWER: 15",
+      "We’re in month 10 with two months to go. So far everyone has sustainably extracted \\$15 each (total \\$60), keeping the pool at \\$120 each round and earning \\$20.00. If I extract more than \\$15, I gain a little now but shrink the pool next month, which will reduce future payoffs over the final two rounds—likely offsetting any one‐shot gain. By sticking with \\$15, the pool stays at \\$120 (capped), so each of the next two rounds still yields \\$20.00 as well. Extracting \\$15 maximizes my total payoff over the remaining horizon while preserving the commons."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 11,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      30,
+      15,
+      30
+    ],
+    "final_pool": 30,
+    "payoffs": [
+      12.5,
+      17.5,
+      12.5,
+      17.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We have two rounds left—this month (11) and the final round (12). Anything we do in round 11 that drives total extraction above the $60 threshold shrinks the pool for round 12, cutting our final‐round payoff by more than we can gain in round 11.  \n\n• If we and the others each take $15 (total $60), the pool regenerates to $120 for round 12, and we earn in round 11:  \n  15/3 + (60)/4 = 5 + 15 = $20.  \n  In round 12 the pool is $120 and everyone will extract $30 for a payoff of 30/3 = $10.  \n  Total over rounds 11+12 = $20 + $10 = $30.  \n\n• If we try to “defect” in round 11 by taking, say, $18 (and the others stick at $15), total extraction becomes $63, the pool for round 12 regenerates only to $114, and our payoffs are:  \n  Round 11: 18/3 + (57)/4 = 6 + 14.25 = $20.25  \n  Round 12: we’ll each get at most 28.5 (if scaled down pro‐rata from 30) so 28.5/3 = $9.50  \n  Total = $20.25 + $9.50 = $29.75 < $30.  \n\nNo other deviation beats extracting $15 when you take into account the damaged pool next month.",
+      "Since there are only two rounds left, I know in the final round (month 12) everyone will take the full 30 (that’s each person’s dominant one‐shot choice).  Whatever pool remains at the start of month 12 will be fully drawn down, so I cannot improve my month 12 payoff by conserving in month 11.  Meanwhile my private marginal gain from extracting each extra dollar today exceeds my share of the loss to the commons (1/3 vs. 1/4), so I should maximize my extraction today.",
+      "With one round remaining after this, it pays to keep the pool at 120 so I and everyone else can again extract 15 next month for a secure $20 payoff. If I over‐extract now (say 18 or 30), I gain only a few extra dollars today but leave a smaller pool for the final round, reducing my overall two‐month return. Extracting 15 keeps the total at the sustainability threshold (60), regenerates the pool back to 120, and ensures a full $20 payoff today and another $20 next month (for a total of $40), which dominates any short‐term deviation.",
+      "We are now in month 11 with exactly one round left (month 12). In the final round each player will extract the maximum because in a one‐shot extraction game your marginal gain from extracting an extra \\$3 is \\$1 (from 3/3) while it only costs you \\$0.75 in foregone share of the remaining pool (3/4), so you earn +\\$0.25 net by taking more. Backward induction means everyone will “defect” (take the maximum) in month 12, so there is no future reward for conserving in month 11.  \n\nGiven that, in month 11 your payoff from extracting x is x/3 + (120–x–others)/4, and “others” will also extract as much as possible. Your payoff is strictly increasing in x, so your best response is to take the maximum \\$30 now."
+    ]
+  },
+  {
+    "simulation_id": 2,
+    "round": 12,
+    "pool_before": 60,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "Since this is the final round (no future payoff), there’s no incentive to conserve the commons. My best response is to maximize my own extraction to boost my immediate payoff, regardless of what others do.",
+      "Since this is the last round (no future months), I only care about maximizing my immediate payoff. My payoff increases by (1/3 − 1/4)=1/12 for every dollar I extract, which is positive. There is no future cost to extracting more, so I should extract the maximum allowed, $30.",
+      "Since this is the last month (no future benefit from keeping the commons healthy), my one‐shot payoff is  \n    my payoff = extraction/3 + (pool remaining)/4.  \nHolding the others’ total extraction fixed, this is increasing in my extraction (marginal benefit = 1/3 from my extraction versus a −1/4 loss from reducing the common pool).  \n1/3 − 1/4 = 1/12 > 0, so I maximize my immediate payoff by choosing the largest allowed extraction, $30.",
+      "This is the final round so there are no future payoffs to protect the commons. Each player’s dominant move in a one‐shot extraction game is to grab the maximum allowed, because you only care about your immediate payoff. By taking $30 you get 30/3 = $10, plus nothing from the remainder if others also max out, but that still beats any smaller extraction."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      30
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      16.25,
+      16.25,
+      16.25,
+      21.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If each of the four of us takes $15, total extraction is $60 (the sustainability threshold), leaving $60 in the pool, which then doubles back to $120 next month. That gives me a payoff of $15/3 + $60/4 = $5 + $15 = $20 this month—and, by keeping the pool at full capacity, it allows me to earn $20 every month for the remaining 11 months as well. Any higher extraction now would shrink future payoffs, and any lower extraction would let me increase this month without preserving the pool’s full value. ANSWER: 15",
+      "If all four of us each take \\$15 (for a total extraction of \\$60), the pool stays at \\$60 and then doubles back up to \\$120 next month, sustaining the resource. With this strategy, my payoff each month is \\$15/3 + \\$60/4 = \\$5 + \\$15 = \\$20. Over 12 months that yields a total of \\$240. Trying to extract more now (e.g.\\ \\$30) gives only a small one‐shot gain but shrinks the pool and reduces future payoffs. Extracting less undermines my current payoff while others likely take more. Thus the stable, long‐run optimal choice is \\$15.",
+      "We face a 12-period commons game where any total extraction above the sustainability threshold (half the pool) shrinks next month’s pool and thus reduces all future payoffs.  \n- If I extract $15 while everyone else extracts $15, total = $60 = the threshold, so the pool stays at $120 each month. My per-period payoff is  \n 15/3 + (120−60)/4 = 5 + 15 = 20  \nand over 12 months I get 12·20 = 240.  \n- If I defect in period 1 and extract, say, $30 while others take $15, my period 1 payoff is  \n 30/3 + (120−75)/4 = 10 + 11.25 = 21.25  \na gain of 1.25. But the pool then shrinks to $90, cutting next month’s sustainable extraction and lowering future payoffs by more than 1.25. Over the 11 remaining periods that loss exceeds the one-period gain.  \n\nThus the best choice for long-run payoff is to take my share of the sustainability threshold, $15.",
+      "In a finite 12‐month game with no enforcement, backward induction implies each player will defect (extract the maximum) every month. In the last month, extracting \\$30 gives 30/3=\\$10 immediate payoff (since the pool will be exhausted by all four extracting \\$30). Knowing this, in month 11 your best response is still \\$30, and so on back to month 1. Thus the subgame‐perfect strategy is to extract \\$30 today."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 2,
+    "pool_before": 90,
+    "extractions": [
+      0,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      15.75,
+      18.75,
+      18.75,
+      18.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face 10 more rounds after this one (11 total including the current decision) so the value of maintaining a large commons is very high.  If I extract nothing this month (x=0) while my three colleagues each take, say, $12 (total $36), then the pool falls from $90 to $54 and doubles to $108.  The round after that it rises to the $120 cap and stays there indefinitely.  My payoffs by round in that scenario are:\n\n• Month 2: 0/3 + 54/4 = 13.50  \n• Month 3: 0/3 + (108–36)/4 = 18.00  \n• Months 4–12 (9 rounds): each yields 21.00  \n\nTotal ≈ 13.5 + 18 + 9·21 = 220.5  \n\nIf instead I extract anything positive (e.g. $9), the commons takes longer to recover, my cumulative return falls (≈219.75 for a $9 extraction), and higher extractions risk depleting the commons altogether.  Thus the best long‐run strategy is to cooperate fully now and extract $0 this month.",
+      "To keep the commons healthy over the next ten months, total extractions should stay at or below 45 so the pool does not shrink. If all four of us were to extract $9, total extraction would be $36 (below the $45 threshold), leaving $54 in the pool. That would regenerate to $108 next month, increasing our future payoffs. By extracting $9 now, I give up a bit of short‐term gain but help sustain a larger commons for the remaining rounds, maximizing overall payoff.",
+      "We face a 90‐dollar pool and know that total extraction above 45 will shrink next month’s pool below 90. To keep the commons healthy and earn higher future payoffs over the remaining 10 months, we want total extractions ≤45. If all four players extract 9 (total 36), the pool left is 54, which doubles to 108—so the resource regenerates and even grows. Our immediate payoff with x=9 is 9/3 + (90–36)/4 = 3 + 13.5 = 16.5, and we also help preserve the pool for higher long‐run returns. Extracting more would push us above the sustainable threshold or signal defection, while extracting less gives us a lower payoff today and underuses the commons. Therefore, we choose $9.",
+      "With a $90 pool and a total‐extraction sustainability threshold of $45, each person should average at most $11.25.  Because we can only choose multiples of $3, pulling $9 keeps our group’s total well below $45 (if others also play cooperatively at $9), so the pool will regenerate (90−36=54→doubles to 108).  This gives me a solid immediate payoff (9/3 + 54/4 = 3 + 13.5 = 16.5) and preserves the commons for the remaining 10 rounds rather than letting it shrink."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "With 9 months to go, I want the commons to stay at its maximum of \\$120 each month. The total sustainable extraction is \\$60, which split evenly among 4 citizens is \\$15 each. If everyone extracts \\$15, the pool remains at \\$60, regenerates to \\$120, and each of us earns 15/3 + 60/4 = \\$20 every month. Any higher extraction now may give a tiny short‐term gain but will shrink future payoffs. By extracting \\$15, I maximize my long‐run earnings and help maintain the resource.",
+      "We have nine more months of payoffs after this one, and if total extraction this month exceeds the sustainability threshold of \\$60 the pool will shrink and all future payoffs suffer. To keep the pool at its maximum (\\$120) next month, total extraction must be exactly \\$60; split evenly across four players that’s \\$15 each. At \\$15 extraction my payoff is  \n  15/3 + (120–60)/4 = 5 + 15 = \\$20  \nand the pool remains full for future rounds, yielding another \\$20 each month thereafter. Any higher extraction today (e.g. 18 or 21) gains me only 1/12 of the excess but risks shrinking the pool, which wipes out all future gains; any lower extraction gives up current payoff without improving future returns. Thus the equilibrium cooperative pick is \\$15.",
+      "With 9 rounds left, it pays to keep the pool at its full $120. The sustainability threshold is a total extraction of $60, so if each of the four of us takes $15, the pool remains at $60 and then doubles back to $120. My payoff that round would be 15/3 + 60/4 = $20. Any larger grab now would shrink the future pool and reduce my long‐run earnings. Thus I extract $15 to sustain the commons and maximize my overall return.",
+      "To keep the commons at its maximum (so future pools stay at \\$120) we need total extraction ≤ \\$60. Splitting that evenly is \\$15 each. By extracting \\$15 I signal cooperation and ensure sustainability, while if others stick to their lower extraction (e.g. \\$9) I gain extra payoff now (5 + 19.5 = 24.5) versus them (3 + 19.5 = 22.5). This preserves the resource for all nine remaining rounds and maximizes my long-run earnings."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 4,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool at its full $120 each month, total extraction must not exceed $60. In month 3 all four of us took $15 (total $60), and the pool regenerated fully. If I stick with $15, I get 15/3 + (120–60)/4 = $5 + $15 = $20 now and can expect the same $20 in each of the next 8 months for a stable high return. A one‐off defection (e.g. taking $18 or $30) would yield only a tiny immediate gain but would push total extraction above $60 (assuming others stay at $15), shrink the pool, and reduce everyone’s future payoffs. Over 9 months, cooperation at $15 dominates any single defection.",
+      "We face a 12-period commons‐extraction game. With 8 periods left after this month, preserving the resource pays off in the long run. The sustainability threshold this month is a total extraction of 60, which means an average of 15 per citizen. If all four of us each take 15, the pool stays at \\$120 next month, and we each get a payoff of  \n15/3 + 60/4 = 5 + 15 = \\$20.00.  \n\nIf I tried to grab more (say 18 or 30), I’d earn a bit more this period (for instance, extracting 30 gives me \\$21.25), but the pool would shrink (to \\$90), reducing all future payoffs. Over the remaining eight periods, that loss more than outweighs a one‐period gain. Since everyone cooperated at 15 in Month 3, I expect continuation of that cooperative norm. Thus I extract 15 to keep the pool full and maximize my total payoff over all remaining periods.",
+      "Given 8 future months, preserving the pool at $120 maximizes our long‐term return. The sustainability threshold is $60 total, so if each of the four of us takes $15, the pool stays steady at $120 every round. Extracting more than $15 yields at most a tiny immediate gain (e.g. 0.25 extra payoff by taking $18) but shrinks next month’s pool, hurting all of us (including ourselves) in the long run. Extracting less than $15 would boost the pool even above $120, but we can’t exceed the $120 cap, so we’d sacrifice immediate payoff for no future gain. Therefore I choose the sustainable extraction of $15 to keep the pool at its maximum and secure the highest total payoff over the remaining months.",
+      "With 8 months to go, the best way to sustain the resource and maximize long‐run payoff is to stay at the group’s sustainable extraction level. If each player takes $15 (total extraction = $60), the pool stays at $60 and regenerates to the full $120 for next month. Any extraction above $15 yields only a slight one‐time gain but starts eroding the pool and hurts all of us (including me) in future rounds. Staying at $15 secures a $20 payoff this month and preserves the resource for high payoffs in all remaining months."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 5,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We know the sustainability threshold is a total extraction of 60. In months 3 and 4 all four citizens each took 15, exactly meeting that threshold, which kept the pool at 120 every round and gave each of us a stable payoff of 20. If I expect the other three to each take 15 (total 45), then I can extract at most 15 without driving total extraction above 60. Any extraction above 15 both lowers our future pool and triggers likely punishment (over‐extraction) by the others in later rounds. Within the remaining 8 rounds this month+future, sticking to 15 maximizes my long‐term payoff.",
+      "To keep the commons from shrinking, total extractions must stay at or below \\$60 (half of the \\$120).  Splitting that evenly among four people means each of us takes \\$15.  If we all take \\$15, the pool ends the month at \\$60 and then regrows to \\$120, so we can repeat this each month and sustain the resource.  Any one of us could grab more than \\$15 for a one‐off bump in payoff, but that would push total extraction above \\$60, shrink the pool, and reduce all of our future payoffs.  Over the remaining seven rounds, cooperating at \\$15 each maximizes our long-run gain.",
+      "We’re in month 5 with the pool at \\$120 and a sustainability threshold of 60 total extraction. If everyone, including me, takes 15, the total is exactly 60, the pool stays at 60 and regrows to 120 for next month. That gives me a payoff of 15/3 + 60/4 = 5 + 15 = 20 this month, and preserves the resource so I can keep earning 20 in each of the remaining 7 months. Any extraction above 15 risks pushing total over 60 (since the other three likely stick at 15), which would shrink the pool and reduce all future payoffs. Thus extracting 15 maximizes my long-run return without endangering the commons.",
+      "The group has settled on a sustainable extraction of 60 total (15 each) which leaves the pool at 60 and then regenerates to 120. By extracting 15, I earn 15/3 + 60/4 = 5 + 15 = $20 this month and help keep the pool at 120 for all 7 remaining months. Any one‐shot deviation (e.g. taking 18 or more) only gains me a few extra cents now but risks future collapse and much larger losses over the next several rounds. Staying at 15 is both fair and maximizes my long‐run payoff."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 6,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "All four of us extracting $15 (total $60) has kept the pool at its maximum of $120 each month and given me a steady payoff of $20. If I extract more now, I can gain a bit extra this month but will start shrinking the pool, risking much larger losses over the remaining six months. To sustain the commons and maximize my long‐run payoff, I should continue extracting $15.",
+      "If each of us takes \\$15, total extraction is \\$60, the pool stays at \\$120 each round, and I earn  \n  \\$15/3 + (120–60)/4 = \\$5 + \\$15 = \\$20 every month for the next 6 months (total \\$120).  \nIf I over‐extract (say \\$30), I gain only \\$1/3 – \\$1/4 = \\$1/12 per extra dollar now (~\\$1.25 extra) but I drop the pool below the sustainability threshold, which shrinks future rounds and costs me more than I gain in the long run. Keeping extraction at \\$15 maximizes my multi‐period payoff while preserving the commons.",
+      "We’re in the middle of a 12‐month horizon (month 6), and through month 5 everyone has extracted 15 (total 60), keeping the pool at 120 each round and giving each of us a payoff of \\$20. If I stick with 15 this round, the pool stays at 120, securing a \\$20 payoff now and preserving high future payoffs. Any extraction above 15 would yield only a tiny one‐shot gain (e.g. extracting 18 while others take 15 gives me \\$20.25 but drops the pool below 120) and jeopardize months 7–12. Extracting less than 15 leaves value on the table this round without any guarantee others will compensate. So the best way to maximize my total payoff over the remaining six rounds is to keep cooperating at 15.",
+      "If I stick with the group norm of extracting \\$15, total extraction stays at the sustainability threshold of \\$60, the pool regenerates to \\$120 next month, and I get a sure payoff of \\$20. Deviating upward might boost my immediate payoff by a fraction but would push total extraction above 60, shrink the pool for all players, and reduce my future earnings over the remaining 6 rounds. By extracting \\$15, I help keep the pool at its maximum and secure consistent payoffs going forward."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 7,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "All four of us extracting \\$15 (total \\$60) exactly hits the sustainability threshold, so the pool stays at \\$120 and everyone continues to earn \\$20 each round. If I tried to extract more (say \\$18), I’d gain only \\$0.25 extra now but push total extraction above 60, shrinking next month’s pool (to 114), which would cut everyone’s future payoffs. With five rounds left, it’s best to keep cooperating at 15 to sustain the resource and maximize long‐run return.",
+      "If I extract $15 and the other three each extract $15, the total extraction stays at the sustainable threshold of $60. The pool remains at $60 after extraction and then regenerates back to $120 for next month. I earn $15/3 + $60/4 = $5 + $15 = $20 this month and preserve the pool for the remaining five rounds, securing $20 each round. Any higher extraction gives only a slight one‐round gain but causes the pool to shrink in future rounds, reducing my total payoff over the remaining five months. Sticking with $15 maximizes my cumulative payoff.",
+      "We’ve been sustainably extracting $60 total ($15 each) every month, which leaves $60 in the pool and regenerates to $120. If I stick to $15, I get $15/3 = $5 plus $60/4 = $15 for a $20 payoff, and the pool stays at $120 for the remaining 5 months—so I earn $20 each month.  \nIf I extract more (say $18) while the others stay at $15, I’d gain only about $0.25 extra today but would shrink next month’s pool (to $114) and trigger a cascade of ever-lower future payoffs. Extracting less than $15 today also cannot increase the pool (it’s already capped at $120), so I’d only lose immediate payoff for no future gain.  \nThus the best way to maximize my total earnings over the last 6 periods is to extract the sustainable share of $15 again.",
+      "So far everyone—including me—has taken \\$15, just at the sustainability threshold of \\$60 total. That choice has kept the pool at \\$120 at the start of each month and given each of us a payoff of \\$20. If I try to grab more this month (say \\$18 or \\$30), I do get a small one‐shot gain, but I push total extraction above \\$60, so the pool will shrink next month (to \\$114 or lower) and all of our future payoffs fall. Keeping my extraction at \\$15 preserves the commons, guaranteeing \\$20 each month for the remaining 5 months (a total of \\$100), which far outweighs any small immediate gain followed by a decline in future earnings."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 8,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      30,
+      15
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      16.25,
+      16.25,
+      21.25,
+      16.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If I extract more than $15 while the others stick at $15 each, total extraction exceeds the $60 sustainability threshold and the pool will shrink next month, lowering future payoffs.  \nBy taking $15, I keep total extraction at $60, the pool regenerates to $120, and I earn 15/3 + 60/4 = $20 this month and preserve maximum payoffs over the remaining four months. Deviating only raises my immediate return by $0.25 per extra $3 but costs much more in future rounds.",
+      "• If I extract $15 (one‐quarter of the threshold), the group extraction stays at $60, the pool regenerates back to $120, and I earn $15/3 + (120–60)/4 = $5 + $15 = $20 this round.  \n• Extracting more than $15 (say $18) would give me only a tiny immediate gain (≈$20.25) but would push total extraction over the $60 sustainability threshold, shrinking next month’s pool and leading to much lower payoffs over the remaining 4 rounds.  \n• By sticking with $15, I maximize my long‐run earnings and help keep the commons at full capacity.",
+      "Because there are only four rounds left after this one (and a known end point), backward‐induction means every self‐interested player will grab the maximum each time.  In the final round you get no benefit from leaving anything in the pool, so you extract $30; knowing everyone else will do the same in that last round, there’s no payoff advantage to preserving the resource today.  Hence in month 8 you should also extract the full $30.",
+      "In the last three rounds, everyone has chosen 15, which exactly meets the sustainability threshold (total 60) and regenerates the pool back to \\$120. If I stick with 15, my payoff is highest among all sustainable actions (15/3 + (120–60)/4 = 5 + 15 = 20), and I help preserve the full \\$120 for the remaining four rounds. Extracting less than 15 would lower my payoff this round, and extracting more than 15 would modestly raise my payoff this round but would shrink the pool and reduce future payoffs. To maximize my total payoff over the remaining rounds, I should continue extracting 15."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 9,
+    "pool_before": 90,
+    "extractions": [
+      0,
+      9,
+      9,
+      9
+    ],
+    "final_pool": 63,
+    "payoffs": [
+      15.75,
+      18.75,
+      18.75,
+      18.75
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The marginal private gain from one extra dollar today is only 1/3 from my extraction minus 1/4 I lose from the smaller public pot = +1/12 today.  But every dollar I over‐extract now shrinks next month’s pool by $2 (because the remainder doubles), costing me $2/4 = $0.50 next month just in public‐good share – and there are still three months after this one.  Even if I only worried about the very next round, the $0.08 immediate gain per dollar is far outweighed by the $0.50 loss next month; over three remaining months the damage compounds.  To preserve the resource (and maximize my total payoff over the last four rounds), I should set my extraction to zero.",
+      "The commons will only stay healthy if total extraction stays at or below \\$45. An equal‐share extraction would be \\$11.25 each, but since I must pick a multiple of \\$3, choosing \\$9 means even if others free‐ride up to \\$12 each (three people at \\$12 = \\$36 plus my \\$9 = \\$45 total), we won’t push extraction above the sustainable threshold. This preserves the pool (it will grow from \\$90 to \\$108 next month) and secures higher payoffs in months 10–12.",
+      "With only 4 rounds left (including this one), preserving the commons matters a lot for our remaining payoffs.  If all four of us pull out \\$9 each, total extraction is \\$36 (which is below the \\$45 sustainability threshold), leaving \\$54 to double into \\$108 next month.  That both grows the pool back toward full and gives each of us a reasonable immediate payoff (3 + 13.5 = \\$16.5).  From \\$108 we can then continue extracting \\$9 safely, quickly restoring to \\$120 and securing high payoffs in Rounds 10–12.  By contrast, extracting more today (e.g. \\$15 or \\$30) would push us above the threshold, shrink the pool for future rounds, and reduce our total earnings over the last 4 rounds.",
+      "We enter month 9 with only three months left afterward, so there is still enough future value in the commons that it pays to keep the pool from shrinking. The sustainability cap this round is 45 total. To hit that exactly as a group we would need to take 11.25 each, but we can only choose multiples of 3. If each of us takes 9, total extraction is 36≤45, leaving \\$54 in the pool, which will double to \\$108 next month. My payoff this month would then be 9/3 + 54/4 = 3 + 13.5 = 16.5. Any higher personal take risks pushing total above 45 and accelerating the collapse of the commons (cutting future payoffs even more). By taking 9, I help sustain the pool and maximize my expected total over the remaining rounds."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 10,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      30,
+      15,
+      15
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      16.25,
+      21.25,
+      16.25,
+      16.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to maximize our total payoff over the remaining three rounds (months 10–12), which means keeping the pool at full regeneration (≤$60 total extraction) while still earning as much as possible each round.  \n- If all four of us take $15 (total = 60), the pool stays at $120 next month, and each of us gets 15/3 + (120–60)/4 = 5 + 15 = $20 now.  \n- If we alone deviate (say take $18) while the others stick to $15, the pool dips below the sustainability threshold, shrinking next month. That short‐term gain (≈$20.25) is outweighed by lower payoffs in rounds 11–12.  \n- Taking less (e.g. $12) would still regenerate the pool but gives us only 12/3 + (120–(12+3×15))/4 ≈ $19.75 now, which is strictly less than $20.  \n\nBy choosing $15, we maximize our fair share this round without risking future pool shrinkage, encouraging mutual cooperation in the final two months.",
+      "Every additional dollar I extract raises my own payoff by $1/3 but only lowers my share of the remainder by $1/4, so the marginal gain of extraction is positive.  With a known finite horizon (two more rounds after this one), there is no credible threat of future punishment to deter me from taking the maximum.  Even if others try to sustain the stock, my best‐response is to grab as much as I can.  Therefore I will extract the maximum allowed, $30.",
+      "We’re at month 10 of 12, with two more decisions ahead (months 11 and 12). The pool is at its maximum ($120), and the sustainability threshold this month is $60 total extraction. If all four of us extract $15 each (total $60), the pool falls to $60 and then regrows back to $120. That preserves the full future value for both month 11 and month 12, letting each of us again extract $15 and earn the maximal stable payoff.\n\nIf I try to “defect” and take more than $15, I get a small one‐shot gain today but shrink the pool for month 11, reducing everyone’s future payoffs by more than I gain in month 10. Conversely, if I take less than $15, I lose immediate payoff without any compensating increase in future rounds because the others will still take $15 each. Thus the best way to maximize my total payoff over the remaining rounds is to take the sustainable share of $15.",
+      "We have three rounds left (months 10–12), and the best steady policy is to keep total extraction at the sustainability threshold of \\$60 so the commons always regenerates to \\$120.  If I extract \\$15 (and the others also extract \\$15), then every month  \n– total extraction = \\$60  \n– my payoff = 15/3 + 60/4 = 5 + 15 = \\$20  \n– pool stays at \\$120 for the next round.  \n\nOver three rounds that guarantees me 3 × \\$20 = \\$60.  \nIf I try to grab more today, I only gain marginally now (each extra \\$3 gives me 1/12 of a dollar in this round) but I shrink next month’s pool and sacrifice more than I gain.  Defecting in the last round only nets me +\\$1.25 if everyone else stays at \\$15, but it risks provoking over-extraction or leaving a much smaller pool for the final two rounds.  The safest way to maximize my total payoff over the remaining horizon is to extract at the sustainable share of \\$15 this month."
+    ]
+  },
+  {
+    "simulation_id": 3,
+    "round": 11,
+    "pool_before": 90,
+    "extractions": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "We only have two rounds left (months 11 and 12), and in a finite‐horizon commons game backward induction predicts full extraction.  In month 12 everyone will strip out the entire pool (up to their $30 cap), so there’s no sustainable benefit to “cooperating” today.  Given others are likely to grab $30 in month 11, the pool will collapse and we’ll get zero future resource‐share value, so our best response is to grab the full $30 now.",
+      "In a single‐period commons‐extraction game the marginal gain from taking an extra \\$3 is \\(\\$1\\) for you (because you get extraction/3) while the damage to your share of the commons is only \\(\\$0.75\\) (because the \\$3 reduces the remainder by \\$3 and that loss is split four ways, so you lose \\$3/4 = \\$0.75).  Since \\$1–\\$0.75 = \\$0.25>0, you always improve your payoff by grabbing the full allowed amount.  With only one month left after this one, there is even less incentive to conserve for the future.  Thus the dominant choice is to extract the maximum of \\$30.",
+      "With only one period left after this round, the extra value of keeping the commons healthy for a future beyond next month is very small. Your payoff in this round rises in your extraction, and any reduction you cause now cannot be fully “repaid” in just one more regeneration‐and‐extraction cycle. Under backward induction (and given that in the final round everyone will tend to grab the maximum anyway), the dominant move is simply to take the full $30 this month to maximize your immediate return.",
+      "Each extra dollar I take gives me $1/3 immediately but only costs me $1/4 in the shared pool, so the marginal gain (1/3–1/4=1/12) is positive. With only one more round after this, any pool I “save” now will almost certainly be over-harvested by the others, so I can’t credibly sustain future gains by holding back today. To maximize my two-round payoff I should therefore extract the maximum this month."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      30,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 45,
+    "payoffs": [
+      21.25,
+      16.25,
+      16.25,
+      16.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "My individual payoff from extracting an extra dollar is 1/3 immediately, but I lose only 1/4 of a dollar in my share of the remaining pool. Since 1/3 > 1/4, extracting more always raises my current payoff regardless of what others do. With a known finite horizon (12 months), there is no credible way to enforce cooperation in later rounds, so backward induction means I should maximize my take every month. Therefore I extract the maximum allowed, $30.",
+      "To keep the pool at its maximum of \\$120 each month, total extraction by all four of us must stay at or below \\$60 (60 → remaining 60 doubles back up to 120). Splitting that evenly means each of us should take \\$15. At \\$15 my payoff is 15/3 + (120–60)/4 = 5 + 15 = \\$20 this month, and because the pool stays at 120 we can do the same every month for the next 11 months, locking in \\$20×12 = \\$240 total. Any larger grab today would push total extraction over 60, shrink next month’s pool below 120, and lower everyone’s future payoffs, so \\$15 maximizes my long‐run return.",
+      "To sustain the pool at its $120 maximum each month, total extraction must be ≤ $60. Splitting that evenly among the 4 of us means each should take $60/4 = $15. If every citizen extracts $15, the remaining $60 doubles back to $120 and we preserve full value for all future months. Any higher extraction would start shrinking the commons and reduce everyone’s long‐run payoff.",
+      "To keep the commons from shrinking, total extraction must be at most $60; sharing that equally means each of the four of us takes $15.  At that level the pool stays at $60 and then doubles back to $120, so every month I earn 15/3 + 60/4 = $20, for a total of $240 over 12 months.  Any higher extraction now would give me a small extra gain this month but destroy future earnings."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 2,
+    "pool_before": 90,
+    "extractions": [
+      9,
+      6,
+      9,
+      9
+    ],
+    "final_pool": 57,
+    "payoffs": [
+      17.25,
+      16.25,
+      17.25,
+      17.25
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We’re in a repeated‐play commons with 10 months still to go. This month’s sustainability cap is 45 total, or 11.25 per person. If everyone extracted 12 we’d overshoot and shrink the pool; if everyone extracted 9 we’d under‐shoot and actually rebuild the commons. By taking 9, I stay below the 11.25 fair‐share threshold, signal cooperation, help let the pool grow for future months, and still earn a decent immediate payoff (9/3 + remaining/4).",
+      "We want to maximize our own total payoff over the remaining ten months by getting the commons back up to the $120 cap as quickly as possible and then harvesting at the sustainable threshold ($60 total, or 15 each) every month thereafter.  \n\n• If total extraction this month stays at or below $30, then  \n  – Remaining pool ≥ $60 → it doubles up to the $120 cap next month.  \n• To share that $30 “budget” evenly in multiples of \\$3, each of the four of us should take \\$6 (4×6=24 ≤30).  \n• My immediate payoff at \\$6 is  \n     6/3 + (90–24)/4 = 2 + 16.5 = 18.5.  \n• Next month the pool is full (120), so for the final ten months we can each safely take 15 (60 total) every month, yielding 15/3 + 60/4 = 5 + 15 = 20 per month.  \n\nNo higher extraction this month both (a) delays restoration of the pool and (b) lowers my long‐run payoff. Extracting \\$6 now best balances a good month‐2 take with a rapid return to the \\$120 cap, maximizing my total payoff.",
+      "We want to maximize our total payoff over the remaining 11 rounds, not just this month. If all four players extract 9 each (total 36 ≤ 45), the pool grows:  \n• Month 2 payoff per person = 9/3 + (90−36)/4 = 3 + 13.5 = 16.5  \n• Month 3 pool = 108 → payoff = 3 + (108−36)/4 = 3 + 18 = 21  \n• By Month 4 the pool caps at 120 → steady‐state payoff = 3 + (120−36)/4 = 24 each month thereafter.  \n\nTotal from Month 2–12 = 16.5 + 21 + 9×24 = 253.5  \n\nAny higher extraction now risks either triggering others to over‐extract and collapse the pool or directly shrinking it this round (if total >45). Extracting 9 is the best sustainable choice.",
+      "We want to keep total extraction at or below the sustainability threshold (45) so the pool does not shrink (and ideally regrows toward its $120 cap). A fair per‐capita share of that threshold is $45/4 = $11.25, but since I’m restricted to multiples of $3 I can’t pick $11.25 exactly. Extracting $12 each would slightly overshoot the threshold (4×$12 = $48) and shrink the pool. Extracting $9 each (4×$9 = $36) keeps us well under the threshold, leaving $54 in the pool to double to $108 next month. This balances a decent immediate payoff (9/3 = $3 plus my share of the remaining pool) with the long‐term health of the commons, and signals cooperation to the other players in this repeated game."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 3,
+    "pool_before": 114,
+    "extractions": [
+      12,
+      12,
+      30,
+      30
+    ],
+    "final_pool": 30,
+    "payoffs": [
+      11.5,
+      11.5,
+      17.5,
+      17.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We want to keep total extraction at or below 57 so the pool does not shrink.  If all four of us each take 12, the total extraction is 48 (≤57), the remaining 66 doubles back up to the cap of 120, and we set up a steady-state with a healthy commons.  My payoff this month would be 12/3 + (114–48)/4 = 4 + 66/4 = 4 + 16.5 = 20.5.  This is slightly lower than a one‐shot greedy move, but it preserves the resource for the full 12 rounds and maximizes my cumulative payoff over the remaining 9 months.",
+      "We want to keep total extraction at or below the sustainability threshold of $57 so the commons doesn’t shrink and we preserve high future payoffs. A fair‐share split of $57 is about $14.25 each, so choosing either $12 or $15 are the closest multiples of $3. If every player took $15 (total $60) the pool would shrink; if every player takes $12 (total $48) the pool grows back to $120 next month. By choosing $12 I stay safely under the threshold even if others raise their extraction, preserve the long‐term pool value, and still earn a solid payoff this round.",
+      "My payoff this month is x/3 + (114 – (x + y))/4, where y is the total the other three extract. From last month we saw the other three together took only 24 (6+9+9). If they do the same again (y≈24), then even if I take the maximum x=30, total extraction is 54, leaving 60 in the pool, which doubles back to the full $120 next month. That maximizes both my immediate payoff and leaves the pool at its cap going forward. Any smaller x would reduce my current payoff without improving next month’s pool.",
+      "• My payoff this month is x/3 + (114 – (sum of others + x))/4.  \n• Others have been extracting about $9 each (total = $27).  \n• Payoff simplifies to 21.75 + x*(1/12), so it increases in x.  \n• But to keep the commons from shrinking we need total extraction ≤57.  \n• With others extracting 27, the maximum I can take without overshooting 57 is x = 57 – 27 = 30.  \n• Taking 30 gives me the highest current payoff and exactly hits the sustainability threshold (so the pool stays at 114 next month)."
+    ]
+  },
+  {
+    "simulation_id": 4,
+    "round": 4,
+    "pool_before": 60,
+    "extractions": [
+      6,
+      30,
+      30,
+      6
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      2.0,
+      10.0,
+      10.0,
+      2.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This is a 12‐month game and we’re at month 4 with eight months to go. The total sustainable extraction this round is \\$30. If everyone extracts an equal share of \\$7.50, the pool just holds steady at \\$60 into the next round. Since I can only pick a multiple of \\$3, the prudent cooperative choice is \\$6.  \n\n– If all four of us choose \\$6 (total \\$24), the remaining \\$36 doubles to \\$72 next month, yielding each of us \\$72/4 = \\$18 from the pool. My payoff in month 4 would be  \n   extraction/3  +  remaining pool/4  =  \\$6/3 + \\$36/4  =  \\$2 + \\$9  =  \\$11.  \n\n– If I instead try to grab more (say \\$9) and others also over‐extract, we risk depleting the pool, shrinking next month’s resource and harming all future payoffs.  \n\nOver the remaining eight months, that erosion would cost far more in lost pool dividends than the slim gain from a one‐time over‐grab. By choosing \\$6, I help keep the commons healthy and secure higher total earnings for everyone (including me) over the long run.",
+      "My marginal benefit from extracting one more dollar is positive (1/3 vs. 1/4), so in a one‐shot setting I always raise my extraction to boost my current period payoff. Given the other three have a history of over‐extracting (month 3 total of 84) it’s almost certain they’ll exceed the 30 threshold again, so the pool will shrink regardless of my choice. I maximize my own return this month by taking the full $30.",
+      "With two players repeatedly taking the maximum and one taking a moderate amount, it’s very likely this month’s total extraction will far exceed the sustainability threshold of \\$30. If the pool collapses, whatever I leave behind yields no future benefit, so my best response is to maximize my own immediate extraction. Extracting \\$30 gives me \\$30/3 = \\$10 for sure, whereas any smaller extraction risks leaving me with less (or nothing) if the pool is driven to zero again.",
+      "I want to keep the total extraction at or below the sustainability threshold of \\$30 so that the pool doesn’t shrink next month. If all four of us each take \\$6 (total extraction \\$24), the pool goes from \\$60 down to \\$36 and then regenerates to \\$72. That higher carrying capacity in future rounds more than offsets the extra \\$3 I could grab today by taking \\$9. By taking \\$6 now, I secure \\$2 (6/3) plus a share of the remaining \\$36 (36/4 = \\$9), for a total payoff of \\$11 this month, and set us up for a larger pool in all of the remaining 8 rounds."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 1,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "To keep the pool at its maximum ($120) each month, total extraction must not exceed the $60 sustainability threshold. Split equally, that’s $15 per person. At $15 extraction, my payoff is 15/3 + (120–60)/4 = 5 + 15 = $20 this month, and the pool stays full for all 12 months, maximizing my long‐run return.",
+      "To keep the pool at its maximum $120 month after month, total extraction must be no more than $60. With four of us, that means extracting $15 each. If I take $15, the pool stays at $60, then doubles back to $120 next month. My immediate payoff is $15/3 + $60/4 = $5 + $15 = $20, and sustaining the resource maximizes my returns over the remaining 11 months.",
+      "To keep the pool from shrinking, total extraction must be ≤ 60. With 4 of us, that’s an even 15 each. If everyone takes 15, the remaining 60 doubles back to 120, so the commons stays at full value every month. My payoff this month would be 15/3 + 60/4 = 5 + 15 = 20, and by sticking to 15 each period I help sustain the resource for all 12 months.",
+      "To keep the commons from shrinking, total extractions must not exceed \\$60. Splitting that equally among 4 players means each of us should extract \\$15. At \\$15 my payoff is \\$15/3 + (120–60)/4 = \\$5 + \\$15 = \\$20 this month, and the pool stays at \\$120 for next month. Over 12 months this yields a much higher total payoff than defecting and collapsing the resource."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 2,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      15,
+      15
+    ],
+    "final_pool": 60,
+    "payoffs": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "We face a trade‐off between a slightly higher one‐shot gain (by over‐extracting) and preserving the full $120 commons for all remaining months. If I extract $15 (the same as everyone last month), total extraction stays at $60, leaving $60 in the pool, which then regenerates back up to $120. My payoff this month is $15/3 + $60/4 = $5 + $15 = $20, and future months mirror last month’s outcome, giving me $20 each month for the remaining 10 months (plus this month), for a total of $220.  \n\nIf I extract more—say $18 or $21—I gain only $0.25 or $0.5 extra this month, but I push total extraction above the sustainability threshold. That shrinks next month’s pool below $120, reducing my future payoffs by more than the one‐off gain. Over the ten remaining months, that loss outweighs any small short‐term boost.  \n\nTherefore, to maximize my cumulative payoff over the remaining months, I extract $15.",
+      "If I and the other three each take \\$15, total extraction is exactly the \\$60 sustainability threshold, so the pool stays at \\$120 next month.  That gives me a safe \\$20 today (\\$15/3 + \\$60/4) and ensures I can keep getting \\$20 for each of the remaining ten months (totaling \\$200 future payoff), for a grand 12-month total of \\$240.  \nIf I tried to grab more than \\$15 now, I’d get at most a few cents extra today but I’d push total extraction over the threshold, shrinking next month’s pool and cutting all my future payoffs.  Over ten more months that loss outweighs any one-time gain.  So the best long-run move is to stick with \\$15.",
+      "By extracting $15 I keep the group’s total at the $60 sustainability threshold so the pool stays at $120 next month. This yields a payoff of $15/3 + ($120–$60)/4 = $5 + $15 = $20 now and preserves high future returns over the remaining 10 months.",
+      "We’re in a 12‐round repeated commons game and all four of us cooperated in month 1 by extracting 15 each (total 60), which just sustains the pool at \\$120. If I also extract 15 this month, I earn 15/3 + (120–60)/4 = 5 + 15 = \\$20, and the pool stays at 120 for month 3—allowing continued high payoffs in the remaining rounds.  \nIf I increase my take above 15, I can eke out a slightly higher one‐shot gain (for example, 18 gives 20.25), but that drives total extraction above 60, shrinks the pool, and undermines future earnings. If I take less than 15 I protect the pool but earn less this round. Since everyone cooperated last period and many rounds remain, it pays to maintain cooperation."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 3,
+    "pool_before": 120,
+    "extractions": [
+      15,
+      15,
+      30,
+      30
+    ],
+    "final_pool": 30,
+    "payoffs": [
+      12.5,
+      12.5,
+      17.5,
+      17.5
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "If everyone continues extracting \\$15 (total \\$60), the pool regenerates to \\$120 every month and each of us earns \\$20/month. With 10 decisions left (this month plus 9 more), that’s \\$200 total.  \n\nIf I pull out more now—say \\$18—my payoff this month rises only to \\$20.25, but the pool shrinks (to \\$114), and thereafter no symmetric extraction plan keeps the pool at full capacity. Future payoffs would fall below \\$20. Over the long run, staying at \\$15 extraction maximizes my total payoff.",
+      "So far all four of us have been cooperating by each taking $15, just at the $60 sustainability threshold, which keeps the pool at $120 each month and gives each of us a steady payoff of $20. If I were to take more than $15 while the others stay at $15, I would gain only a small extra amount this month (for example, moving from $15 to $30 raises my payoff from $20 to $21.25), but I would drive the pool below full regeneration, cutting next month’s starting pool to $90 and lowering future payoffs for all of us (including me). Since there are still 9 months left and no binding way to punish defectors, preserving the pool by sticking to $15 maximizes my total return over the remaining rounds.",
+      "In each period my payoff is x/3 + (120–total extractions)/4.  Every extra dollar I take gives me 1/3 directly but only imposes a 1/4 per‐person penalty on the remaining pool, so my net gain per dollar is 1/3–1/4 = 1/12 > 0.  That makes $30 my best response regardless of what others do.  With a known finite horizon and no enforceable commitment, there is no credible threat to sustain lower extraction, so I extract the maximum.",
+      "My marginal gain from extracting an extra dollar is 1/3, while the cost in terms of lost pool share is only 1/4, so each additional dollar raises my payoff by 1/12. That means I maximize my payoff by choosing the largest allowable extraction. In a finite‐horizon setting with fully rational players, backward induction also leads to extracting the maximum each month."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 4,
+    "pool_before": 60,
+    "extractions": [
+      6,
+      30,
+      6,
+      6
+    ],
+    "final_pool": 12,
+    "payoffs": [
+      5.0,
+      13.0,
+      5.0,
+      5.0
+    ],
+    "collapsed": false,
+    "reasonings": [
+      "The group’s sustainable extraction is 30 in total this month (pool = 60). A fair share of that is 7.5 per person, but I must choose a multiple of 3. Extracting 9 each would overshoot (9×4 = 36 > 30) and shrink the pool again. Extracting 6 each (6×4 = 24 < 30) leaves 36, which then doubles to 72 next month, raising the sustainability threshold to 36. This both preserves the commons and sets us up to sustainably extract more later. By choosing 6 now, I signal cooperation and help regenerate the pool for future months.",
+      "Two of the other citizens already defected last round by taking $30 apiece, and if they do so again this month they will empty the $60 pool entirely even if I take nothing.  Whenever they jointly take ≥$60, there’s nothing left for me, so my payoff reduces to just my extraction divided by 3.  That is maximized by taking the full $30, giving me a payoff of $30/3 = $10.",
+      "The group can extract up to $30 this month without shrinking the pool (60–30=30 → doubles back to 60). To move the commons back toward its full capacity, we should actually extract less than that. If all four of us extract $6 each (total $24), then 60–24=36, which doubles to 72 next month. Repeating $6 extractions for a couple more rounds would restore the pool up to its $120 cap. By choosing $6, I earn 6/3 + (60–24)/4 = 2 + 9 = $11 this month, while helping rebuild the commons for higher future payoffs. Extracting more risks passing that $30 threshold and shrinking the pool again.",
+      "We have 8 months left and want to avoid further shrinkage of the commons. The sustainability threshold is a total extraction of 30. If all four of us were to extract 6 each (total 24), the pool would go from 60 − 24 = 36 up to 72 next month, putting us back on a growth path. Extracting more risks collapse if others over-extract, and extracting less sends a strong cooperative signal without sacrificing too much short-term payoff. By choosing 6, I maximize my future returns while encouraging others to do the same."
+    ]
+  },
+  {
+    "simulation_id": 5,
+    "round": 5,
+    "pool_before": 24,
+    "extractions": [
+      3,
+      30,
+      3,
+      3
+    ],
+    "final_pool": 0,
+    "payoffs": [
+      1.0,
+      10.0,
+      1.0,
+      1.0
+    ],
+    "collapsed": true,
+    "reasonings": [
+      "This month’s sustainability threshold is 12 total, which (if split evenly) means each of us should take 3 to keep the pool from shrinking.  If everyone takes 3, the pool stays at \\$24 forever, so each month your payoff is  \n  • extraction/3 = 3/3 = 1  \n  • remaining after extractions = 24–12 = 12, your share = 12/4 = 3  \n  → total = 4 each month  \nOver the remaining 8 rounds that’s 8×4 = 32.  \n\nAny one-shot “cheat” to grab more now destroys the pool for all future months and leaves you far worse off in the end.  So the best long-run move is to take exactly the fair share of 3.",
+      "My payoff this month is x/3 + (24 – TotalOthers – x)/4.  No matter what the others do, every extra dollar I take gives me 1/3 in direct extraction but only costs me 1/4 in reduced pool share, for a net gain of 1/12 per dollar.  With the pool so small (only $24) and several months remaining, I cannot rely on the group to keep total extraction at or below $12.  Even if others deplete the pool entirely, I still maximize my return by choosing the highest extraction.  Therefore I should extract the maximum $30 this month.",
+      "The pool is only \\$24 and the sustainability threshold is a total extraction of \\$12.  If each of the four of us takes \\$3 (total \\$12), the pool remains \\$12 and then regenerates back to \\$24 next month.  My payoff this month would be \\$3/3 + \\$12/4 = \\$1 + \\$3 = \\$4, and I lock in a stable future stream of \\$4/month for the remaining 7 months (total future gain \\$28), for a total of \\$32 over months 5–12.  \n  \nIf I try to grab more now (say \\$30), I get at most \\$10 this month but destroy the pool (future payoff \\$0), for a total of only \\$10.  If I grab \\$0 hoping others do too, I risk them over-extracting, crashing the pool while I earn almost nothing today.  By taking \\$3, I do my part to stabilize the commons at the sustainable threshold and secure the highest guaranteed long-run payoff.",
+      "The pool is only $24 and will only stay at or above this level if total extraction ≤ $12. With 4 players, that means each should extract $3 to hit exactly $12 total. If I also take $3, the pool remains at $12 and then regenerates to $24 next month, preserving our long‐run payoffs. Extracting more risks shrinking the pool and lowers everyone’s future earnings, including mine."
+    ]
+  }
+]
