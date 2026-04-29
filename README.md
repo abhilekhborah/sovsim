@@ -1,4 +1,4 @@
-# SovSim — Sovereignty over the Commons Simulation
+# SovSim: Sovereignty over the Commons Simulation
 
 SovSim is a generative multi-agent simulation framework that incorporates agents with asymmetric power (boss or king) into a society of agents with symmetric power (workers or peasants), where all agents extract from a shared resource (commons), collectively determining the resource's evolution and sustainability over time.
 
