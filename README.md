@@ -2,7 +2,7 @@
 
 SovSim is a generative multi-agent simulation framework that incorporates agents with asymmetric power (boss or king) into a society of agents with symmetric power (workers or peasants), where all agents extract from a shared resource (commons), collectively determining the resource's evolution and sustainability over time.
 
-Paper: *Bosses, Kings, and the Commons: The Collapse of Cooperation in LLM Societies*.
+Paper: *Bosses, Kings, and the Commons: Cooperation Under Power Asymmetry in LLM Societies*.
 
 The framework draws on the "bosses and kings" (Cox, Ostrom & Walker, 2011) experimental paradigm, adapting it to a multi-agent setting where LLM agents interact over a shared renewable resource.
 
