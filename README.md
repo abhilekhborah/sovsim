@@ -4,7 +4,7 @@ SovSim is a generative multi-agent simulation framework that incorporates agents
 
 Paper: *Bosses, Kings, and the Commons: The Collapse of Cooperation in LLM Societies*.
 
-The framework draws on the "bosses and kings" experimental paradigm, adapting it to a multi-agent setting where LLM agents interact over a shared renewable resource.
+The framework draws on the "bosses and kings" (Cox, Ostrom & Walker, 2011) experimental paradigm, adapting it to a multi-agent setting where LLM agents interact over a shared renewable resource.
 
 ## Conditions
 
