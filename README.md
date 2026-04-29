@@ -64,8 +64,8 @@ export OPENAI_BASE_URL="https://your-endpoint.openai.azure.com/v1"
 ### Run Simulations
 
 ```bash
-# Run KCPR condition with GPT-4o (10 simulations)
-python run.py --model gpt-4o --conditions kcpr --sims 10
+# Run KCPR condition with GPT-4o (5 simulations)
+python run.py --model gpt-4o --conditions kcpr --sims 5
 
 # Run all four conditions
 python run.py --model gpt-4o --conditions cpr,bcpr,kcpr,kcpr_m
