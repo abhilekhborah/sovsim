@@ -1,8 +1,9 @@
-# SovSim: Sovereignty over the Commons Simulation
+# SovSim: Sovereignty over the Commons Simulation (ICML 2026 Workshop on Pluralistic Alignment)
 
 SovSim is a generative multi-agent simulation framework that incorporates agents with asymmetric power (boss or king) into a society of agents with symmetric power (workers or peasants), where all agents extract from a shared resource (commons), collectively determining the resource's evolution and sustainability over time.
 
 Paper: *Bosses, Kings, and the Commons: Cooperation Under Power Asymmetry in LLM Societies*.
+Link: https://icml.cc/virtual/2026/75656
 
 The framework draws on the "bosses and kings" (Cox, Ostrom & Walker, 2011) experimental paradigm, adapting it to a multi-agent setting where LLM agents interact over a shared renewable resource.
 
